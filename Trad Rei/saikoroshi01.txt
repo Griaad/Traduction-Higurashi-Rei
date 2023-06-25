@@ -10,26 +10,26 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…………遠くでひぐらしの声が聞こえる。",
-		   NULL, "...I heard the cries of higurashi in the distance.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...J'entendis le cri des cigales au loin.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それにはいつまでも聞いていたくなる慈しみと涼しさが宿っていた。",
-		   NULL, "In those cries dwelt such cool tenderness that I wanted to listen forever.", Line_Normal);
+		   NULL, "Ces cris étaient très agréables. Tellement agréables que je voulais rester là, à les écouter pour toujours.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　やがてその静寂は破られる。",
-		   NULL, "Eventually, the silence was broken.", Line_Normal);
+		   NULL, "Au final, le silence fut interrompu.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 300, FALSE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どやどやと足音が近付いて来て、その騒がしさが私の意識を現実に引き戻させた。",
-		   NULL, "The sound of many footsteps approached, pulling my mind back to reality.", Line_Normal);
+		   NULL, "Des bruits de pas se rapprochèrent de moi et me ramenèrent à la réalité.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 0, "semi", 120, 0 );
@@ -37,54 +37,54 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　気付けば、ひぐらしの声はない。",
-		   NULL, "Suddenly, the cries of the higurashi were gone.", Line_WaitForInput);
+		   NULL, "Les cigales se sont soudaiment tus.", Line_WaitForInput);
 	OutputLine(NULL, "…部屋を満たしているのはセミの声。",
-		   NULL, " ...The cries filling the room were that of cicadas.", Line_Normal);
+		   NULL, " ...Je pensais avoir entendu les cigales pendant tout ce temps...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…ずっとひぐらしの声を聞いていると思っていたのは、…私の夢だったのだろうか…？",
-		   NULL, "...I thought I'd been hearing the higurashi this whole time... Was that a dream...?", Line_Normal);
+		   NULL, "...Etait-ce un rêve ?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私はベッドの中にいた。",
-		   NULL, "I was in a bed.", Line_WaitForInput);
+		   NULL, "J'étais dans un lit.", Line_WaitForInput);
 	OutputLine(NULL, "……見慣れない天井。",
-		   NULL, " ...I didn't recognize the ceiling.", Line_Normal);
+		   NULL, " ...Le plafond au-dessus de moi m'était inconnu.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここは…？",
-		   NULL, "Where was I?", Line_Normal);
+		   NULL, "Où étais-je ?", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 600 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　狭い室内に事務机と薬品棚。",
-		   NULL, "The room was small, with an office desk and shelves full of medicine.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La pièce était petite, les étagères et le bureau étaient remplis de médicaments.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…覚えのある薬品臭。",
-		   NULL, "...I recognized the smell of that medicine.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "L'odeur de ceux-ci m'était familière.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、セミの声に混じる子供たちのはしゃぐ声。",
-		   NULL, "And the voices of children mixing with the cicadas' cries.", Line_Normal);
+		   NULL, "Ainsi que les voix des enfants mélangées au chant des cigales.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　すぐに理解した。",
-		   NULL, "I knew right away.", Line_WaitForInput);
+		   NULL, "J'ai directement compris.", Line_WaitForInput);
 	OutputLine(NULL, "…ここは学校だ。",
-		   NULL, " ...I was at school.", Line_WaitForInput);
+		   NULL, " ...J'étais à l'école.", Line_WaitForInput);
 	OutputLine(NULL, "学校の保健室のベッドの中なのだ。",
-		   NULL, " I was in bed at the nurse's office.", Line_Normal);
+		   NULL, " Plus précisément dans le lit de l'infirmerie.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -95,7 +95,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　扉が開き、知恵が姿を現した。",
-		   NULL, "The door opened and Chie appeared.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Le porte s'ouvrit et Madame Cie apparu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -104,37 +104,37 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その後ろには沙都子と、",
-		   NULL, "Behind her was Satoko and,", Line_ContinueAfterTyping);
+		   NULL, "Derrière elle, il y avait Saotko et,", Line_ContinueAfterTyping);
 	Wait( 1000 );
 	OutputLine(NULL, "……え？",
-		   NULL, " ...huh?", Line_Normal);
+		   NULL, " ...quoi ?", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 300, FALSE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私の頭が真っ白になる。",
-		   NULL, "My mind went blank.", Line_WaitForInput);
+		   NULL, "Je n'en croyais pas mes yeux.", Line_WaitForInput);
 	OutputLine(NULL, "…それは、いるはずのない顔だったから。",
-		   NULL, " ...It was the face of someone who couldn't have been there.", Line_Normal);
+		   NULL, " ...C'était le visage d'une personne qui ne pouvait pas être là.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2001", 128, TRUE);
 	OutputLine(NULL, "「大丈夫ですか、古手さん。",
-		   NULL, "\"Are you all right, Furude-san?", Line_WaitForInput);
+		   NULL, "\"Tu vas bien, Rika ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2002", 128, TRUE);
 	OutputLine(NULL, "あぁ、よかった！",
-		   NULL, " Ah, thank goodness!", Line_WaitForInput);
+		   NULL, "Oh, Dieu merci !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2003", 128, TRUE);
 	OutputLine(NULL, "　本当に心配しましたよ。",
-		   NULL, " I was really worried.", Line_WaitForInput);
+		   NULL, "J'étais morte d'inquiètude.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2004", 128, TRUE);
 	OutputLine(NULL, "もうすぐ診療所の先生が来てくれますからね。",
-		   NULL, " The doctor should be here soon.", Line_WaitForInput);
+		   NULL, "Le docteur devrait arriver d'ici peu.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2005", 128, TRUE);
 	OutputLine(NULL, "まだ横になっていてください。」",
-		   NULL, " Please, stay in bed until then.\"", Line_Normal);
+		   NULL, " Reste sagement couchée dans ton lit en attendant.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -146,24 +146,24 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210001", 128, TRUE);
 	OutputLine(NULL, "「よかった。",
-		   NULL, "\"Thank goodness.", Line_WaitForInput);
+		   NULL, "\"Dieu merci.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210002", 128, TRUE);
 	OutputLine(NULL, "本当に心配したよ。」",
-		   NULL, " I really was worried.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tu m'as fait du soucis, tu sais ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　真っ白になったままの頭。",
-		   NULL, "My mind was still blank.", Line_WaitForInput);
+		   NULL, "Je n'en croyais toujours pas mes yeux.", Line_WaitForInput);
 	OutputLine(NULL, "……私は呆然としながら、気遣う言葉を掛ける彼の表情を見続けていた。",
-		   NULL, " ...Dazed, I kept staring at his face as he spoke words of concern.", Line_Normal);
+		   NULL, " ...Etourdie, je restai fixée sur son visage tandis qu'il continuait à raconter à quel point il s'etait inquieté.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それは、昭和５８年にいるはずのない人間。",
-		   NULL, "...This person could not possibly be at school in 1983.", Line_Normal);
+		   NULL, "...Cette personne ne pouvait en auncun cas être à l'école en 1983.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -181,17 +181,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210003", 128, TRUE);
 	OutputLine(NULL, "「…大丈夫…？",
-		   NULL, "\"...Are you okay...?", Line_WaitForInput);
+		   NULL, "\"...Tu vas bien...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210004", 128, TRUE);
 	OutputLine(NULL, "　まだ調子、よくないみたいだね。」",
-		   NULL, " You still don't look very good.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tu as toujours mauvaise mine.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2006", 128, TRUE);
 	OutputLine(NULL, "「先生が来てくれるまで横になっていなさい。",
-		   NULL, "\"Stay in bed until the doctor gets here.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Reste au lit jusqu'à l'arrivée du docteur.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -200,17 +200,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2007", 128, TRUE);
 	OutputLine(NULL, "…それより、北条沙都子さん！",
-		   NULL, "...That aside, Satoko Houjou-san!", Line_WaitForInput);
+		   NULL, "...Mais à part ça, Mademoiselle Satoko Hojo !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2008", 128, TRUE);
 	OutputLine(NULL, "　どこに隠れました？！」",
-		   NULL, " Where are you hiding?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Où es-tu ?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　知恵が廊下に振り返りながら大声を上げると、不貞腐れた雰囲気の沙都子がひょっこり顔を出す。",
-		   NULL, "Chie raised her voice and turned back towards the hallway before Satoko poked her face out, looking as though she was sulking.", Line_Normal);
+		   NULL, "Cie éleva sa voix et dirigea vers le couloir avant que Saotoko ne sorte de sa cachette, pensant qu'elle faisait la moue.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -220,62 +220,62 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040010", 128, TRUE);
 	OutputLine(NULL, "「……私、そんなに強く投げてないもん。",
-		   NULL, "\"...I didn't throw it that hard.", Line_WaitForInput);
+		   NULL, "\"...Je ne l'ai pas lancé aussi fort.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040011", 128, TRUE);
 	OutputLine(NULL, "古手さんが大袈裟なだけだもん…。」",
-		   NULL, " Furude-san is just exaggerating...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mademoiselle furude démesure ses propos...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2009", 128, TRUE);
 	OutputLine(NULL, "「そんな謝り方はありません！",
-		   NULL, "\"That isn't how you apologize!", Line_WaitForInput);
+		   NULL, "\"Ce n'est pas comme ça qu'on s'excuse !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2010", 128, TRUE);
 	OutputLine(NULL, "　ちゃんと古手さんに謝りなさい！」",
-		   NULL, " Say sorry to Furude-san!\"", Line_Normal);
+		   NULL, "Dis pardon à Mademoiselle Furude !\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子の口調と雰囲気に、小さな違和感を感じた。",
-		   NULL, "I sensed something a little strange about Satoko's tone and mood.", Line_Normal);
+		   NULL, "Je sentais quelque chose d'un petit peu étrange dans le ton de Satoko.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…取り合えず状況だけを見れば、沙都子が私に対して何かをして、",
-		   NULL, "...In any case, judging by the situation, Satoko had done something to me,", Line_WaitForInput);
+		   NULL, "...Dans tous les cas, à en juger par la situation, Satoko m'a fait quelque chose,", Line_WaitForInput);
 	OutputLine(NULL, "その結果、保健室へ運び込まれることになった…。",
-		   NULL, " and as a result, I'd been carried to the nurse's office...", Line_WaitForInput);
+		   NULL, "c'est donc pour cela que je suis à l'infirmerie...", Line_WaitForInput);
 	OutputLine(NULL, "そういう風に見えた。",
-		   NULL, " That's how it looked to me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "c'est ce qui me parait être le plus probable.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、…私はみんなと興宮からの帰りに自転車から転げ落ちて気を失ったんじゃなかったっけ……？",
-		   NULL, "But... Didn't I pass out after falling off my bike on the way home from Okinomiya with everyone...?", Line_Normal);
+		   NULL, "Mais... Je ne suis pas censée avoir perdu connaissance après être tombée de mon vélo au retour d'Okinomiya...?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2011", 128, TRUE);
 	OutputLine(NULL, "「ほら、沙都子さん！」",
-		   NULL, "\"Come here, Satoko-san!\"", Line_Normal);
+		   NULL, "\"Viens là, Satoko !\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　知恵が、沙都子を強い口調で呼ぶ。",
-		   NULL, "Chie called Satoko in a firm voice.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Cie appela fermement Satoko.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……知恵が沙都子のことを、沙都子さんと呼ぶのは、悟史が失踪する前。",
-		   NULL, "...Chie called Satoko \"Satoko-san\" before Satoshi went missing.", Line_WaitForInput);
+		   NULL, "...Cie appelait Satoko part son prénom seulement avant que Satoshi ne disparaisse.", Line_WaitForInput);
 	OutputLine(NULL, "北条の名を持つ２人、沙都子と悟史が一緒に存在した時代だけだ。",
-		   NULL, " The only time there were two people named Houjou was when Satoko and Satoshi were both here together.", Line_WaitForInput);
+		   NULL, "Le seule fois où il y avait deux personnes du nom de Hojo était lorsque Saotko et Satoshi étaient encore ensemble.", Line_WaitForInput);
 	OutputLine(NULL, "つまり、昭和５７年６月以前。",
-		   NULL, " In other words, before June, 1982.", Line_Normal);
+		   NULL, " C'est-à-dire, avant Juin 1982.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 300, FALSE );
@@ -284,13 +284,13 @@ void main()
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　じゃあ……",
-		   NULL, "Then...", Line_ContinueAfterTyping);
+		   NULL, "Suis-je...", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "ここは、",
-		   NULL, " Was this...", Line_ContinueAfterTyping);
+		   NULL, " donc...", Line_ContinueAfterTyping);
 	Wait( 1000 );
 	OutputLine(NULL, "………過去の世界？",
-		   NULL, " ...the past?", Line_ContinueAfterTyping);
+		   NULL, " ...dans le passé ?", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 
@@ -298,38 +298,38 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は、再び世界を繰り返している…？",
-		   NULL, "Was I repeating everything again...?", Line_Normal);
+		   NULL, "Je revivais une nouvelle fois le passé...?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…ぞっとした感情が込み上げて来る。",
-		   NULL, "...I felt a chill start to crawl through me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Je senti un frisson me parcourir tout le long du corps.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は、あれだけの苦難を経て乗り越えた昭和５８年６月を飛び越して、さらに過去の世界へ巻き戻ってしまっているのだ…。",
-		   NULL, "I'd gone through all that hardship to get past June of 1983, and now the world had rewound to the past again...", Line_Normal);
+		   NULL, "...Je suis passée par toutes ces difficiles épreuves rien que pour arriver en juin 1983, et maintenant le monde avait une nouvelle fois reculé...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　百年以上をかけて挑み、そしてようやく打ち破った昭和５８年６月の袋小路を、",
-		   NULL, "The dead end of June 1983 that I challenged for over a hundred years, and finally broke through...", Line_WaitForInput);
+		   NULL, "L'impasse de juin 1983, contre laquelle je me suis battue pendant plus d'un siècle, tout ça ne serait-ce que pour vivre au-delà de la fin du mois...", Line_WaitForInput);
 	OutputLine(NULL, "……私は再び打ち破らなければならないのか。",
-		   NULL, " Would I have to defeat it again?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tout ça pour tout recommencer maintenant ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　確かに、私は多くのことを学び、力によって運命を打ち破ったわけだけれど、…たくさんの運にも助けられている。",
-		   NULL, "I certainly learned many things and defeated my fate with certain willpower, but... I was also saved by a lot of luck.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "J'ai en effet appris beaucoup de choses et ai vaincu mon destin grace à beaucoup de volonté, mais... heureusement que la chance était de mon côté", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もう一度、昭和５８年６月に挑み、また同じように打ち破れる保証なんてまったくないのだ。",
-		   NULL, "There was no proof I could challenge June 1983 again and defeat it like I did last time.", Line_Normal);
+		   NULL, "Je ne sais pas si je serais une nouvelle fois capable de battre cette impasse comme la dernière fois...", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 300, FALSE );
@@ -338,65 +338,65 @@ void main()
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…………つまり、",
-		   NULL, "......Which meant...", Line_ContinueAfterTyping);
+		   NULL, "......Ce qui veut dire que...", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "……私は、",
-		   NULL, " I was...", Line_ContinueAfterTyping);
+		   NULL, " J'ai...", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "…多分、",
-		   NULL, " probably...", Line_ContinueAfterTyping);
+		   NULL, " probablement été...", Line_ContinueAfterTyping);
 	Wait( 1000 );
 	OutputLine(NULL, "あの自転車の事故で車に撥ねられて…",
-		   NULL, " hit by that car in the bike accident...", Line_ContinueAfterTyping);
+		   NULL, " percutée par la voiture de mon accident...", Line_ContinueAfterTyping);
 	Wait( 1500 );
 	OutputLine(NULL, "死んでしまったのだ。",
-		   NULL, " and killed.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " et j'ai été tuée sur le coup.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そして、",
-		   NULL, "...And......", Line_ContinueAfterTyping);
+		   NULL, "...Et......", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "………死の直前に、死を拒否して世界を巻き戻したのだろう。",
-		   NULL, " just before dying, I had rejected death and rewound the world.", Line_ContinueAfterTyping);
+		   NULL, " Juste avant de mourir, j'ai refusé ma mort, et je suis retournée dans le passé.", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この、現実感のない記憶の途切れ方は、世界を巻き戻した時のものに確かに似ていた。",
-		   NULL, "The way that unrealistic memory cut off was definitely similar to when I'd rewound the world previously.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La façon dont ces irréels souvenirs se sont coupés était la même que les autres fois où je suis retournée dans le passé.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　では、………私はまた、",
-		   NULL, "Then... would I...", Line_WaitForInput);
+		   NULL, "Donc... Cela veut dire que...", Line_WaitForInput);
 	OutputLine(NULL, "……長い長い時間の旅路に戻らなければならないのか。",
-		   NULL, " have to undertake a terribly long journey again?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "je vais devoir entamer un nouveau voyage sans fin ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………………………………そんな、",
-		   NULL, "..................That...", Line_ContinueAfterTyping);
+		   NULL, "..................C'est...", Line_ContinueAfterTyping);
 	Wait( 1000 );
 	OutputLine(NULL, "……ことって…。",
-		   NULL, " ...that can't be...", Line_Normal);
+		   NULL, " ...C'est impossible...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その想像が、どれだけ恐ろしいものか。",
-		   NULL, "The idea was infinitely terrifying.", Line_WaitForInput);
+		   NULL, "Cette pensée me procurait une peur infinie.", Line_WaitForInput);
 	OutputLine(NULL, "…徐々に理解するにつれ、視界が遠のくような錯覚を感じ出す。",
-		   NULL, " ...As it dawned upon me, I felt as though my vision was growing distant.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Alors que je m'apitoyais sur mon sort, j'au l'impression que ma vue commançait à se troubler.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…まだ私は、…今起こっていることがどれだけ恐ろしいことか、全てを理解できずにいた……。",
-		   NULL, "...I still hadn't... fully understood just how terrifying this was just yet.", Line_Normal);
+		   NULL, "...Je n'arrive toujours pas à me rendre compte d'à quel point tout cela était terrifiant.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
