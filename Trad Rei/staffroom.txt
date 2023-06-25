@@ -33,7 +33,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「お疲れ様です、竜騎士07です。",
-		   NULL, "\"Salut, c'est Kina ! Ceci est un test de GitHub.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Salut, c'est Kinariha ! Ceci est un test de GitHub.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	DisableWindow();
 
