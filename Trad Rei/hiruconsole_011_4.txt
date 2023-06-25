@@ -16,7 +16,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100305", 256, TRUE);
 	OutputLine(NULL, "「よし、…任せた沙都子！",
-			NULL, "\"All right... I'll leave it to you, Satoko!", Line_WaitForInput);
+			NULL, "\"All right... I'll leave it to you, Satoko!Quoicoubeh", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100306", 256, TRUE);
 	OutputLine(NULL, "　あ、でも途中交替はできるのかな？」",
 			NULL, " Oh, but are we allowed to switch hitters in the middle of the game?\"", Line_Normal);
