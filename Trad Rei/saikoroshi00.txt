@@ -268,7 +268,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから私も負けないくらいの笑顔を返し、今日一日のどたばたがいかに楽しかったかを示すのだった。",
-		   NULL, "Je lui ai donc renvoyé magnifique sourire illustrant à quel point la journée d'aujourd'hui était amusante.", Line_Normal);
+		   NULL, "Je lui ai donc renvoyé un magnifique sourire illustrant à quel point la journée d'aujourd'hui était amusante.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 1300, FALSE );
