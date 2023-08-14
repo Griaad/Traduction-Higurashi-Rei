@@ -125,16 +125,16 @@ void main()
 		   NULL, "\"Tu vas bien, Rika ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2002", 128, TRUE);
 	OutputLine(NULL, "あぁ、よかった！",
-		   NULL, "Oh, Dieu merci !", Line_WaitForInput);
+		   NULL, " Oh, Dieu merci !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2003", 128, TRUE);
 	OutputLine(NULL, "　本当に心配しましたよ。",
-		   NULL, "J'étais morte d'inquiètude.", Line_WaitForInput);
+		   NULL, " J'étais morte d'inquiètude.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2004", 128, TRUE);
 	OutputLine(NULL, "もうすぐ診療所の先生が来てくれますからね。",
-		   NULL, "Le docteur devrait arriver d'ici peu.", Line_WaitForInput);
+		   NULL, " Le docteur devrait arriver d'ici peu.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2005", 128, TRUE);
 	OutputLine(NULL, "まだ横になっていてください。」",
-		   NULL, "Restes sagement couchée sur ton lit en attendant.\"", Line_Normal);
+		   NULL, " Restes sagement couchée sur ton lit en attendant.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -149,7 +149,7 @@ void main()
 		   NULL, "\"Dieu merci.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210002", 128, TRUE);
 	OutputLine(NULL, "本当に心配したよ。」",
-		   NULL, "Tu m'as fait du soucis, tu sais ?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu m'as fait du soucis, tu sais ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
