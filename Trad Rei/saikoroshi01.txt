@@ -39,7 +39,7 @@ void main()
 	OutputLine(NULL, "　気付けば、ひぐらしの声はない。",
 		   NULL, "Les cigales se sont soudaiment tus.", Line_WaitForInput);
 	OutputLine(NULL, "…部屋を満たしているのはセミの声。",
-		   NULL, " ...Je pensais avoir entendu les cigales pendant tout ce temps...", Line_Normal);
+		   NULL, "...Je pensais avoir entendu les cigales pendant tout ce temps...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -116,7 +116,7 @@ void main()
 	OutputLine(NULL, "　私の頭が真っ白になる。",
 		   NULL, "Je n'en croyais pas mes yeux.", Line_WaitForInput);
 	OutputLine(NULL, "…それは、いるはずのない顔だったから。",
-		   NULL, " ...C'était le visage d'une personne qui ne pouvait pas être là.", Line_Normal);
+		   NULL, "...C'était le visage d'une personne qui ne pouvait pas être là.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
@@ -134,7 +134,7 @@ void main()
 		   NULL, "Le docteur devrait arriver d'ici peu.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2005", 128, TRUE);
 	OutputLine(NULL, "まだ横になっていてください。」",
-		   NULL, " Reste sagement couchée dans ton lit en attendant.\"", Line_Normal);
+		   NULL, "Restes sagement couchée sur ton lit en attendant.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -158,7 +158,7 @@ void main()
 	OutputLine(NULL, "　真っ白になったままの頭。",
 		   NULL, "Je n'en croyais toujours pas mes yeux.", Line_WaitForInput);
 	OutputLine(NULL, "……私は呆然としながら、気遣う言葉を掛ける彼の表情を見続けていた。",
-		   NULL, " ...Etourdie, je restai fixée sur son visage tandis qu'il continuait à raconter à quel point il s'etait inquieté.", Line_Normal);
+		   NULL, "...Etourdie, je restai fixée sur son visage tandis qu'il continuait à raconter à quel point il s'etait inquieté.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -172,7 +172,7 @@ void main()
 		   NULL, "\".........Sa...", Line_Continue);
 	Wait( 1000 );
 	OutputLine(NULL, "……悟史……。」",
-		   NULL, " ...Satoshi...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Satoshi...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -273,7 +273,7 @@ void main()
 	OutputLine(NULL, "　……知恵が沙都子のことを、沙都子さんと呼ぶのは、悟史が失踪する前。",
 		   NULL, "...Cie appelait Satoko part son prénom seulement avant que Satoshi ne disparaisse.", Line_WaitForInput);
 	OutputLine(NULL, "北条の名を持つ２人、沙都子と悟史が一緒に存在した時代だけだ。",
-		   NULL, "Le seule fois où il y avait deux personnes du nom de Hojo était lorsque Saotko et Satoshi étaient encore ensemble.", Line_WaitForInput);
+		   NULL, "La seule fois où il y avait deux personnes du nom de Hojo était lorsque Saotko et Satoshi étaient encore ensemble.", Line_WaitForInput);
 	OutputLine(NULL, "つまり、昭和５７年６月以前。",
 		   NULL, " C'est-à-dire, avant Juin 1982.", Line_Normal);
 	ClearMessage();
@@ -1434,7 +1434,7 @@ void main()
 	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 6 ); }
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "“月初めの診察には必ず保険証をお持ち下さい。",
-		   NULL, "\""Veuillez apporter votre carte d'assurance maladie lors de votre premier contrôle du mois.", Line_WaitForInput);
+		   NULL, "\"Veuillez apporter votre carte d'assurance maladie lors de votre premier contrôle du mois.", Line_WaitForInput);
 	OutputLine(NULL, "タカノクリニック”",
 		   NULL, " Clinique Takano.\"", Line_Normal);
 	ClearMessage();
