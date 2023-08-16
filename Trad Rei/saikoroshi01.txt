@@ -4159,52 +4159,52 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここまで来て、私は何となく理解する。",
-		   NULL, "At this point, I had a vague idea about something.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "À ce moment-là, j’eus une vague idée à propos d'une chose.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…この世界は、私がよく知る世界と、サイコロの目が正反対になっているのではないだろうか。",
-		   NULL, "...Weren't these dice rolls the exact opposite of the ones for the world I knew well?", Line_Normal);
+		   NULL, "Ces jets de dès ne donnait-il pas un résultat exactement opposé à celui du monde que je connaissais si bien ? ", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人自体は何も変わっていない。",
-		   NULL, "The people themselves hadn't changed at all.", Line_WaitForInput);
+		   NULL, "Les personnes en elles même n'ont pas changé du tout.", Line_WaitForInput);
 	OutputLine(NULL, "でも、その人のために振られる神のサイコロの目が、全て逆なのだ。",
-		   NULL, " But the dice God had cast for these people were all reversed.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mais les dès que Dieu avait lancés pour ces personnes étaient tous différent.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……なるほど、それはこういう奇妙な世界となって表されるのか。",
-		   NULL, "...So it made sense that it had turned into such a strange world for me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...C’était alors normal que ce monde me semblait si étrange.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、礼奈と話す内にもうひとつわかったことがある。",
-		   NULL, "I learned one more thing from talking to Reina, too.", Line_Normal);
+		   NULL, "J'ai appris encore une chose de plus durant ma conversation avec Reina.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 600 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…この世界における私には友達がいなくて、…ひとりぼっちだということだった。",
-		   NULL, "...In this world, I had no friends. I was all alone.", Line_Normal);
+		   NULL, "...Dans ce monde, je n'avais aucuns amis. J’étais seule.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　圭一が転校してこなくて、部活もなく、沙都子も私に関心がないとなれば、",
-		   NULL, "Keiichi never transferred to our school, we didn't have a club, and Satoko had no connection to me...", Line_WaitForInput);
+		   NULL, "Keiichi n'a jamais été transféré dans notre école, il n'y avait plus de club, et Satoko n'avait aucune affinité avec moi...", Line_WaitForInput);
 	OutputLine(NULL, "……それは当然のことなのかもしれない。",
-		   NULL, " so maybe it was only natural.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " peut-être que c’était tout naturel....", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこまで至ってようやく私は、礼奈が私のひとりぼっちの下校を憐れんで一緒に「帰宅部の部活動」に付き合ってくれたことの意味を理解する。",
-		   NULL, "At that point, I finally realized why Reina had sympathized with me going home alone and done her \"going-home club activities\" with me.", Line_Normal);
+		   NULL, "Au final, j'ai compris pourquoi Reina avait sympathisé avec moi et m'avait accompagnée durant les activités du club \"rentrer à la maison\".", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(1, 2, "sprite/re1a_def_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
@@ -4214,74 +4214,74 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020052", 128, TRUE);
 	OutputLine(NULL, "「じゃ、また明日ね。」",
-		   NULL, "\"Okay, I'll see you tomorrow.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Bon, on se voit demain.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050058", 128, TRUE);
 	OutputLine(NULL, "「…え？",
-		   NULL, "\"...Huh?", Line_WaitForInput);
+		   NULL, "\"....Hein ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050059", 128, TRUE);
 	OutputLine(NULL, "　……………あ、…そうか。」",
-		   NULL, " ............Oh... I see.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ............Oh.... je vois.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　神社の前でないところで、礼奈にまた明日と告げられ一瞬だけ混乱したが、…すぐに理解した。",
-		   NULL, "For a moment, I was confused when she said good-bye, since we weren't in front of the temple... but I quickly understood.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pendant un moment, j’étais confuse qu'elle me dise au revoir avant d’être devant le temple... mais j'ai vite compris.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここは、古手本家の前なのだ。",
-		   NULL, "We were in front of the Furude main house.", Line_Normal);
+		   NULL, "Nous étions devant la maison principale des Furude.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鷹野が現れない以上、入江機関もなく、雛見沢症候群の研究もないならば、………私の両親が死ぬこともない。",
-		   NULL, "Since Takano never appeared, there was no Irie Institute, nor any research into Hinamizawa Syndrome...... and so, my parents never died.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Comme Takano n'est jamais apparu, il n'y a donc pas d'institut Irie, aucune recherche sur le syndrome d'Hinamizawa... et enfin, mes parent ne sont jamais mort.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…私の両親は初め、研究に協力的だったが、",
-		   NULL, "...At first, my parents cooperated with the researchers...", Line_WaitForInput);
+		   NULL, "....En premier lieu, mes parent ont coopérer avec les chercheurs...", Line_WaitForInput);
 	OutputLine(NULL, "私が高熱で寝込んだのを境に、非協力的になり、…何らかのトラブルを経て暗殺される。",
-		   NULL, " but when I fell ill with a high fever one day, they stopped cooperating... had some kind of trouble, and were assassinated.", Line_Normal);
+		   NULL, " mais lorsque j'ai attrapé une forte fièvre, ils stoppèrent la coopération.. puis ils ont commencé a avoir des problèmes, et se sont fait assassiné.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　母は騒ぎ出すとなかなか鎮まらないヒステリックなタイプだった。",
-		   NULL, "My mother was the hysterical type; when she made a fuss, settling her down took a while.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ma mère était la femme hystérique par excellence; quand elle faisait des siennes, il lui fallait beaucoup de temps pour se calmer.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それが騒ぎ出すのだから、隠密に研究を進めたい入江機関にとって口封じをしたくなるのは当然だ。",
-		   NULL, "And because she made a fuss, the Irie Institute, which wanted to do its research in secret, naturally wanted to make sure she didn't talk.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Et parce qu'elle en faisant tout un plat, l'institut Irie, qui voulait faire leur recherche secrètement, a naturellement voulu faire en sorte qu'elle ne puisse pas parler.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江機関がまともな存在じゃないことを知っていてなおそういう態度を取ったのだから、",
-		   NULL, "She'd held such an attitude even knowing how shady the Institute was...", Line_WaitForInput);
+		   NULL, "Elle gardait sa mauvaise attitude même en sachant à que l'institut était louche...", Line_WaitForInput);
 	OutputLine(NULL, "ある意味、自業自得と言えないこともない。",
-		   NULL, " so in a sense, I couldn't deny that she reaped what she sowed.", Line_Normal);
+		   NULL, " donc dans un sens, je ne pouvais pas nier qu'elle a seulement récolté ce qu'elle avait semé.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何しろ、何度やり直しても、何度忠告しても覆せなかったから、私はもう両親を、昭和５６年にリタイアする存在だと諦めてしまっていたのだ。",
-		   NULL, "In any case, no matter how many times I did this over, no matter how many times I warned her, it never worked, and I had resigned myself to the fact that I'd no longer have parents by 1981.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Dans tout les cas, peu importe le nombre de fois ou je l'ai mise en garde, cela n'a jamais fonctionné et j'ai du me résigner à vivre sans parents à partir de 1981.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……それに、何度も繰り返している。",
-		   NULL, "...And I'd repeated it many times.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Et je lui ai répété un nombre incalculable de fois.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
