@@ -99,7 +99,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　多くの人々にとって何気ない一日であっても、その一日を得るために放浪した気の遠くなるような日々。",
-		   NULL, "Pour beaucoup de gens, c’était une journée tout à fait ordinaire, mais pour moi, la sensation d'enfin pouvoir être ici après tant d'années de vagabondage était toute autre.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pour beaucoup de monde, c’était une journée tout à fait ordinaire, mais pour moi, la sensation d'enfin pouvoir être ici après avoir vagabondé tant d'années durant était toute autre.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -133,7 +133,7 @@ void main()
 		   NULL, "\"Hau, je n'ai pas besoin de caméra~.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020002", 128, TRUE);
 	OutputLine(NULL, "しっかりこの目に焼き付けちゃったもん。",
-		   NULL, " J'ai déjà gravé ça dans ma mémoire.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Je l'ai déjà gravé dans ma mémoire.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -384,7 +384,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、地元に長く暮らす人間だから、この時間にはほとんど車が来ないのを知っていた。",
-		   NULL, "Mais depuis le temps que nous vivions ici, nous savions qu'il n'y avait que très peu de voiture qui prenaient ce chemin à cette heure ci.", Line_Normal);
+		   NULL, "Mais depuis le temps que nous vivions ici, nous savions qu'il n'y avait que très peu de véhicules qui prenaient ce chemin à cette heure ci.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "scene/411a", 600 );
@@ -409,7 +409,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから沙都子がそう言った時、それは私の注意を逸らそうという罠だと思った。",
-		   NULL, "Je pensais que Satoko voulait seulement pour me distraire.", Line_Normal);
+		   NULL, "À mes yeux, Satoko voulait seulement me distraire.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "tr018b", 128, 64 );
@@ -427,7 +427,7 @@ void main()
 	OutputLine(NULL, "　それを聞いて、私は沙都子の警告が冗談でないことを知る。",
 		   NULL, "Lorsque je l'ai entendue, j'ai tout de suite compris que l'avertissement de Satoko était bel et bien réel.", Line_WaitForInput);
 	OutputLine(NULL, "…でも、あまりに唐突なことだったので驚き混乱した。",
-		   NULL, " ... Mais c’était si soudain que j'ai été prise de court.", Line_Normal);
+		   NULL, " ... Mais c’était si inopiné que j'ai été prise de court.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -437,7 +437,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　正面を見れば、車はすぐそこだった。",
-		   NULL, "J'ai regardé en face de moi, la  voiture était là, sous mes yeux.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "J'ai regardé en face de moi, la voiture était là, sous mes yeux.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -453,14 +453,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それはとても乱暴で急で、私の姿勢を崩すのに十分だった。",
-		   NULL, "Le mouvement était si soudain et agressif que je perdis l'équilibre.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Le mouvement était si brusque et agressif que je perdis l'équilibre.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　体が前のめりになりながら、宙に浮くのがわかる。",
-		   NULL, "Quand mon corps s'est penché en avant, j'ai réalisé que j'étais entrain de voler dans les airs.", Line_WaitForInput);
+		   NULL, "Quand mon corps s'est penché en avant, j'ai réalisée que j'étais entrain de voler dans les airs.", Line_WaitForInput);
 	OutputLine(NULL, "…怪我をする直前を察知させる火薬の臭いが鼻を突いた。",
 		   NULL, " ...J'ai su que je n'étais pas loin de m'écraser lorsque mon nez sentit l'odeur de l'asphalte.", Line_Normal);
 	ClearMessage();
