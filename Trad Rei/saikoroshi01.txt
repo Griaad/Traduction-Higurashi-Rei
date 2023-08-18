@@ -119,7 +119,7 @@ void main()
 		   NULL, "...C'était le visage d'une personne qui ne pouvait pas être là.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2001", 128, TRUE);
 	OutputLine(NULL, "「大丈夫ですか、古手さん。",
 		   NULL, "\"Tu vas bien, Rika ?", Line_WaitForInput);
@@ -4531,7 +4531,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人目がないことを確認してから、私は祭具殿の裏に生えている木によじ登る。",
-		   NULL, "After making sure nobody was looking, I climbed up a tree growing behind the storehouse.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Après m’être assuré d’être vu par personne, je grimpai sur un arbre derrière la réserve.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4689,12 +4689,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もう、こんな屋根の上から首を突っ込んでいても仕方なかった。",
-		   NULL, "I couldn't help poking my head through the roof.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je ne pouvais pas rester ainsi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私はぶら下がっている鎖の束を伝って、中に降りる。",
-		   NULL, "I climbed down a bundle of hanging chains and entered.", Line_Normal);
+		   NULL, "Je descendis en m'agrippant un ensemble de chaînes suspendu et entrais.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "bg/jsa7_01", 600 );
@@ -4703,13 +4703,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050069", 128, TRUE);
 	OutputLine(NULL, "「……羽入、羽入！",
-		   NULL, "\"...Hanyuu, Hanyuu!", Line_WaitForInput);
+		   NULL, "\"...Hanyû Hanyû !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050070", 128, TRUE);
 	OutputLine(NULL, "　どこなの！",
-		   NULL, " Where are you?", Line_WaitForInput);
+		   NULL, " Tu es ou ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050071", 128, TRUE);
 	OutputLine(NULL, "　返事をして…！！」",
-		   NULL, " Answer me...!!\"", Line_Normal);
+		   NULL, " Réponds...!!\"", Line_Normal);
 	ClearMessage();
 
 	SetSpeedOfMessage( TRUE, 128 );
@@ -4722,7 +4722,7 @@ void main()
 		   NULL, " .........Rika......", Line_Continue);
 	Wait( 1100 );
 	OutputLine(NULL, "どこなのですか……。",
-		   NULL, " Where are you...", Line_Continue);
+		   NULL, " Où es-tu......", Line_Continue);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
@@ -4731,24 +4731,24 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今度ははっきりと聞こえた。",
-		   NULL, "This time, I heard her for sure.", Line_WaitForInput);
+		   NULL, "Cette fois-ci, je l'ai entendu pour sûr.", Line_WaitForInput);
 	OutputLine(NULL, "間違いない！",
-		   NULL, " There was no doubt!", Line_Normal);
+		   NULL, " Il n'y avait aucun doute !", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050072", 128, TRUE);
 	OutputLine(NULL, "「羽入！",
-		   NULL, "\"Hanyuu!", Line_WaitForInput);
+		   NULL, "\"Hanyû !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050073", 128, TRUE);
 	OutputLine(NULL, "　私はここよ！",
-		   NULL, " I'm right here!", Line_WaitForInput);
+		   NULL, " Je suis juste là!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050074", 128, TRUE);
 	OutputLine(NULL, "　どこなの？！",
-		   NULL, " Where are you?!", Line_WaitForInput);
+		   NULL, " T'es où ?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050075", 128, TRUE);
 	OutputLine(NULL, "　あなたの姿が全然見えない…！」",
-		   NULL, " I can't see you at all...!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Je n'arrive pas à te voir...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4762,7 +4762,7 @@ void main()
 		   NULL, " Rika...", Line_Continue);
 	Wait( 900 );
 	OutputLine(NULL, "返事をして……。",
-		   NULL, " Answer me......", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Reponds-moi......", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4771,46 +4771,46 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そのか細い羽入の声は、まるで私の方の声こそ聞こえないという風だった。",
-		   NULL, "Hanyuu's feeble words implied she was actually the one who couldn't hear my voice.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Les faibles mots d'Hanyû signifiait que c’était elle qui ne pouvait pas entendre ma voix.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入の声が少しでもよく聞こえる場所を探す。",
-		   NULL, "I looked for a place where I could hear her better.", Line_Normal);
+		   NULL, "Je cherchais un endroit où je pourrai mieux l'entendre", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　すると、いつの間にか自分は御神体の前の祭壇のところへ来ていた。",
-		   NULL, "Before I realized it, I went to the altar in front of the holy vessel.", Line_Normal);
+		   NULL, "Sans m'en rendre compte, je me suis approché de l'autel, juste en face du vase sacré.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　祭壇の上に飾られた小さな水晶球のようなものが、ほのかに光を放っているように感じる。",
-		   NULL, "Something that looked like a small crystal ball was on the altar, and I sensed it giving off a faint light.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quelque chose ressemblant à une petite boule de cristal était posé sur l'autel, on dirait qu'elle émanait un faible faisceau lumineux.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……羽入の声はそこから聞こえるようだった。",
-		   NULL, "......That was where Hanyuu's voice seemed to be coming from.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "..........La voix d'Hanyû semblait provenir de là", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その水晶球の大きさは、大き目のビー玉くらい。",
-		   NULL, "The ball was about the size of a large toy marble.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La boule faisait la taille d'une grosse bille.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、うやうやしく小さな座布団の上に鎮座し、ただのビー玉とは違うことを教えてくれていた。",
-		   NULL, "But it was seated respectfully on a small cushion, which told me it was no ordinary stone.", Line_Normal);
+		   NULL, "Elle demeurait respectueusement sur un petit coussin, ce petit détail me laissait penser que ce n’était probablement pas un simple caillou.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私はその水晶球を手に取り、耳に押し当ててみる。",
-		   NULL, "I took the crystal ball in my hand and pressed it to my ear.", Line_Normal);
+		   NULL, "Je pris la boule de cristal dans le creux de ma main et l'approcha de mon oreille.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 600, FALSE );
@@ -4819,7 +4819,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070001", 128, TRUE);
 	OutputLine(NULL, "「……梨花、聞こえたらもう一度返事をしてください…。",
-		   NULL, "\"...Rika, if you can hear me, please answer again...", Line_WaitForInput);
+		   NULL, "\"...Rika, si tu peux m'entendre, s'il te plaît réponds moi une nouvelle fois...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070002", 128, TRUE);
 	OutputLine(NULL, "梨花……、梨花……、」",
 		   NULL, " Rika... Rika...\"", Line_Normal);
@@ -4829,26 +4829,26 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　間違いない。",
-		   NULL, "There was no doubt.", Line_WaitForInput);
+		   NULL, "Il n'y avait plus aucun doute.", Line_WaitForInput);
 	OutputLine(NULL, "羽入の声は水晶球の中から聞こえているのだ。",
-		   NULL, " I was hearing Hanyuu's voice from this crystal ball.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " J'ai véritablement entendu la voix d'Hanyû s’échapper de cette boule de cristal.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかも、その声は私を求めて、次第に遠のいていくようでもある…。",
-		   NULL, "And it sounded like it was searching for me, growing more distant all the while...", Line_Normal);
+		   NULL, "Et il semblait qu'elle me recherchait, tout en s’éloignait de plus en plus...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050076", 128, TRUE);
 	OutputLine(NULL, "「羽入！",
-		   NULL, "\"Hanyuu!", Line_WaitForInput);
+		   NULL, "\"Hanyû !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050077", 128, TRUE);
 	OutputLine(NULL, "　聞こえるわ、私よ、梨花よ！！",
-		   NULL, " I can hear you! It's me, Rika!!", Line_WaitForInput);
+		   NULL, " Je peux t'entendre ! C'est moi, Rika !!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050078", 128, TRUE);
 	OutputLine(NULL, "　私はここにいるわ…！！」",
-		   NULL, " I'm right here...!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Je suis là...!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
@@ -4857,37 +4857,37 @@ void main()
 		   NULL, "\"...Rika...... Rika...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070004", 128, TRUE);
 	OutputLine(NULL, "あなたの声が聞こえますです。",
-		   NULL, " I can hear your voice.", Line_WaitForInput);
+		   NULL, "j'arrive à entendre ta voix.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070005", 128, TRUE);
 	OutputLine(NULL, "…どこにいるのですか、あなたが見つけられない。",
-		   NULL, " ...Where are you? I can't find you.", Line_WaitForInput);
+		   NULL, " Où est-ce que tu es ? Je n'arrive pas à te trouver.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070006", 128, TRUE);
 	OutputLine(NULL, "声が遠くてわからない…。",
-		   NULL, " Your voice is so distant, I don't understand...", Line_WaitForInput);
+		   NULL, " Ta voix est si éloignée, je ne te comprends pas...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070007", 128, TRUE);
 	OutputLine(NULL, "もっと強く呼び掛けてくださいです……。」",
-		   NULL, " Please, call louder...\"", Line_Normal);
+		   NULL, " S'il te plaît, appelle moi plus fort...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050079", 128, TRUE);
 	OutputLine(NULL, "「ここよ！！",
-		   NULL, "\"I'm here!!", Line_WaitForInput);
+		   NULL, "\"Je suis ici !!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050080", 128, TRUE);
 	OutputLine(NULL, "　私はここよ！！",
-		   NULL, " I'm right here!!", Line_WaitForInput);
+		   NULL, " Juste là !!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050081", 128, TRUE);
 	OutputLine(NULL, "　どうしてあなたの声が水晶球から聞こえるの？",
-		   NULL, " Why can I hear your voice from this crystal ball?", Line_WaitForInput);
+		   NULL, " Pourquoi je peux entendre ta voix à travers cette boule de cristal ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050082", 128, TRUE);
 	OutputLine(NULL, "　ううん、そんなことはどうでもいい！",
-		   NULL, " Wait, no, that's not important!", Line_WaitForInput);
+		   NULL, " Attends, non, ce n'est pas important !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050083", 128, TRUE);
 	OutputLine(NULL, "　私はここよ、祭具殿の祭壇の前にいるわ！！",
-		   NULL, " I'm right here, right in front of the altar in the storehouse!!", Line_WaitForInput);
+		   NULL, " Je suis juste en face de l'autel dans la réserve !! ", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050084", 128, TRUE);
 	OutputLine(NULL, "　羽入、羽入！！」",
-		   NULL, " Hanyuu, Hanyuu!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Hanyû, Hanyû!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
