@@ -56,12 +56,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　セミたちの合唱は、ますますにぎやかになっていく。",
-		   NULL, "Le chant des cigales devenait de plus en plus animé.", Line_Normal);
+		   NULL, "On pouvait entendre le chant des cigales s'animer de plus en plus.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの永遠の６月は異常気象とかで、６月にもかかわらず夏の到来を思わせる暑さだった。",
-		   NULL, "L'interminable mois de juin était si chaud qu'on eu l'impression que l'été était arrivé plus rapidement.", Line_Normal);
+		   NULL, "L'interminable mois de juin fut si chaud qu'on eu l'impression que l'été était arrivé en un rien de temps.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -89,17 +89,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一見、ささやかな夢に思えるが、それを得るための旅が百年にも及んだことを、ここでもう一度振り返る必要はない。",
-		   NULL, "Mon rêve pouvait sembler modeste au premier coup d’œil, mais il m'a fallut un voyage de plus de 100 ans avant de le réaliser.", Line_Normal);
+		   NULL, "Ce rêve pouvait sembler modeste au premier coup d’œil, mais il m'a fallu un voyage long de cents ans avant de le réaliser.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、忘れてはならないと思う。",
-		   NULL, "J'ai donc décidé que je ne devrais jamais l'oublier.", Line_Normal);
+		   NULL, "J'ai alors décidé que je ne devrais jamais l'oublier.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　多くの人々にとって何気ない一日であっても、その一日を得るために放浪した気の遠くなるような日々。",
-		   NULL, "Pour beaucoup de gens, c’était une journée tout à fait ordinaire, mais pour moi, la sensation d'enfin pouvoir être ici après tant d'années à vagabonder était toute autre.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pour beaucoup de gens, c’était une journée tout à fait ordinaire, mais pour moi, la sensation d'enfin pouvoir être ici après tant d'années de vagabondage était toute autre.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -120,7 +120,7 @@ void main()
 		   NULL, "\"Wow, ha ha ha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030002", 128, TRUE);
 	OutputLine(NULL, "　カメラを持ってこなかったのは、この園崎魅音、一生の不覚だねぇ。」",
-		   NULL, " Ne pas apporter de caméra aujourd'hui doit bien être la pire erreur que Mion Sonozaki ait jamais commise !\"", Line_Normal);
+		   NULL, " N'apportez pas de caméra, aujourd'hui doit bien être la pire erreur que Mion Sonozaki ait jamais commise !\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -207,7 +207,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030005", 128, TRUE);
 	OutputLine(NULL, "今日のプールは、特に何も予定してなかったんで、たまには静かにお水遊びができるかな〜なんて思ってたら、くっくっく！",
-		   NULL, "J'avais rien prévu de spécial pour aujourd'hui, et juste quand j'me suis dit qu'on pourrait faire quelques galipettes dans l'eau... hé hé hé !", GetGlobalFlag(GLinemodeSp));
+		   NULL, "J'avais rien prévu de spécial pour aujourd'hui, et pile quand j'me suis dit qu'on pourrait faire quelques galipettes dans l'eau... hé hé hé !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -268,7 +268,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから私も負けないくらいの笑顔を返し、今日一日のどたばたがいかに楽しかったかを示すのだった。",
-		   NULL, "Je lui ai donc renvoyé magnifique sourire illustrant à quel point la journée d'aujourd'hui était amusante.", Line_Normal);
+		   NULL, "Je lui ai répondu avec un magnifique sourire illustrant à quel point la journée d'aujourd'hui fut plaisante.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 1300, FALSE );
@@ -283,12 +283,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　みんなで、今日のプールのどたばたを振り返りながら自転車で帰路に着く。",
-		   NULL, "Nous avons pris nos vélos et nous commencions donc à rentrer chez nous avec tout les bons souvenirs de notre folie à la piscine d'aujourd'hui.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tous les bons souvenirs de notre folie à la piscine en tête, nous prenions nos vélos afin de rentrer chez nous", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢にはプールがないので、市民プールのある興宮まで来ていたのだ。",
-		   NULL, "Hinamizawa n'a aucune piscine, nous sommes donc allés à la piscine publique d'Okinomiya.", Line_Normal);
+		   NULL, "Hinamizawa n'a aucune piscine, par conséquent nous sommes allés à la piscine publique d'Okinomiya.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "white", "effect/right", 0, 0, 500 );
@@ -296,12 +296,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢と興宮の間には標高差があるため、興宮へ行くときは下りでとても快適だが、帰りは長い上りになる。",
-		   NULL, "Il y a une différence d'altitude entre les deux communes, ce qui fait que la route pour aller à Okinomiya était une paisible descente mais lorsqu'il fallait rentrer à Hinamizawa une longue montée nous attendait.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il y a une différence d'altitude entre les deux communes, la route pour aller à Okinomiya était une paisible descente mais lorsqu'il fallait rentrer à Hinamizawa une longue montée nous attendait.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　元気盛りの雛見沢っ子にとってそれは大した苦にはならないが、それでも長い上り坂は、自然と無口になり、黙々とペダルを漕がせるのだった。",
-		   NULL, "Pour les enfants d'Hinamizawa qui était au summum de leur énergie, ce n’était pas grand chose donc nous pédalions naturellement en silence.", Line_Normal);
+		   NULL, "Pour les enfants d'Hinamizawa qui était au summum de leur énergie, ce n’était pas grand chose, mais même ainsi, la longue montée les a naturellement rendu muets, ils pédalèrent alors en silence", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -311,7 +311,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こんな時に沙都子にちょっかいを出すのは、私にとってはライフワークと言ってもいいくらいに楽しいこと。",
-		   NULL, "Châtier Satoko de temps à autres comme ça était pour moi si distrayant qu'on pourrait dire avec certitude que c'est ma raison de vivre.", Line_Normal);
+		   NULL, "Châtier Satoko de temps à autres comme cela était pour moi si distrayant qu'on pourrait dire avec certitude que c'est ma raison de vivre.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 2, "addse15", 120, 0 );
@@ -354,7 +354,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私たちの速度は自然に上がり、他のメンバーたちをぐんぐん追い抜いていった。",
-		   NULL, "Notre vitesse ne faisait qu'augmenter, nous commencions donc à dépasser les autres membres du groupes petit à petit.", Line_Normal);
+		   NULL, "Notre vitesse augmentait progressivement, nous commencions donc à dépasser les autres membres du groupes petit à petit.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -379,12 +379,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここは公道だから、時には車の往来もある。",
-		   NULL, "C'était une route publique, des voitures passaient donc de temps en temps.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nous roulions sur une route publique, des voitures passaient par moments.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、地元に長く暮らす人間だから、この時間にはほとんど車が来ないのを知っていた。",
-		   NULL, "Mais cela faisait longtemps que nous vivions ici, nous savions donc qu'il n'y avait que très peu de voiture qui prenaient ce chemin à cette heure ci.", Line_Normal);
+		   NULL, "Mais depuis le temps que nous vivions ici, nous savions qu'il n'y avait que très peu de voiture qui prenaient ce chemin à cette heure ci.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "scene/411a", 600 );
@@ -409,7 +409,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから沙都子がそう言った時、それは私の注意を逸らそうという罠だと思った。",
-		   NULL, "Je pensais que Satoko avait dit cela seulement pour me distraire.", Line_Normal);
+		   NULL, "Je pensais que Satoko voulait seulement pour me distraire.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "tr018b", 128, 64 );
@@ -427,7 +427,7 @@ void main()
 	OutputLine(NULL, "　それを聞いて、私は沙都子の警告が冗談でないことを知る。",
 		   NULL, "Lorsque je l'ai entendue, j'ai tout de suite compris que l'avertissement de Satoko était bel et bien réel.", Line_WaitForInput);
 	OutputLine(NULL, "…でも、あまりに唐突なことだったので驚き混乱した。",
-		   NULL, " ... Mais cela était si soudain que j'ai été prise de court.", Line_Normal);
+		   NULL, " ... Mais c’était si soudain que j'ai été prise de court.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -437,12 +437,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　正面を見れば、車はすぐそこだった。",
-		   NULL, "Lorsque j'ai regardé en face de moi, la voiture était là, devant moi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "J'ai regardé en face de moi, la  voiture était là, sous mes yeux.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は慌てて乱暴にハンドルを切る。",
-		   NULL, "Dans la panique j'ai violemment tourné mon guidon.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Dans la panique, j'ai violemment tourné mon guidon.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -496,7 +496,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私には、あ、と口にする時間さえ与えられなかった。",
-		   NULL, "C'est arrivé sans même que j'eu le temps de dire "oups".", Line_Normal);
+		   NULL, "Je n'ai meme pas eu le temps de dire "oups".", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
