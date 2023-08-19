@@ -5394,7 +5394,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050125", 128, TRUE);
 	OutputLine(NULL, "「………それを愚痴ったら、…結局、道路でふざけてた私の不注意が悪いってことになるのよね…？」",
-		   NULL, "\"......But if I'm going to complain about that... in the end, it's my own fault for not being careful on the road, isn't it...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......Mais pourquoi je me plains... au final, tout était de ma faute, je n'avais qu'à faire plus attention sur la route, n’es-ce pas..?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
@@ -5413,71 +5413,71 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自転車がバランスを崩して、私は投げ出され、……そこに車が飛び込んできた。",
-		   NULL, "I lost my balance on my bicycle, got thrown off... and then fell into the car there.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "J'ai perdu l’équilibre sur mon vélo, ai été éjecté... puis ai percuté un véhicule qui passait par là.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　よくある交通事故。",
-		   NULL, "A common traffic accident.", Line_WaitForInput);
+		   NULL, "Un accident de la route tout ce qu'il y a de plus normal.", Line_WaitForInput);
 	OutputLine(NULL, "よくある子供の死。",
-		   NULL, " A common death of a child.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Une mort banale pour un enfant.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それが、私だったというだけの話。",
-		   NULL, "...It just happened to be me this time.", Line_Normal);
+		   NULL, "...Et il se trouve que ce fut à mon tour cette fois.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　百年以上もかけて掴み取った未来が、…それっぽっちのことで、粉々になってしまうなんて……。",
-		   NULL, "The future I'd won after over a hundred years... Now, just because of that, everything was in pieces...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Le futur dont j'avais tant rêvé durant cent ans... désormais en pièce, juste à cause de cela...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どう嘆いたって、…私の不注意としか言えない。",
-		   NULL, "I could wail all I want... but the only thing at fault was my own carelessness.", Line_Normal);
+		   NULL, "Je pouvais pester autant que je le voulais... mais le seul fautif était mon propre égoïsme.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　むしろ、咄嗟の事故を助けて、とりあえず私を生かしてくれた羽入に感謝しなくてはならないのだ。",
-		   NULL, "In fact, I should be thankful to Hanyuu for letting me live.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sur le papier, je devrais être reconnaissante envers Hanyû pour m'avoir sauvé la vie.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………でも、こんな妙な世界に飛ばすなんて、あんまりにひどい…。",
-		   NULL, "......But sending me to a world like this... It's too cruel...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "....Toutefois m'emmener dans un monde comme celui ci... C’est trop cruel...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いや、羽入が望んで飛ばしたわけじゃない…。",
-		   NULL, "No, it wasn't as though Hanyuu sent me here because she wanted to...", Line_WaitForInput);
+		   NULL, "Non, ce n'est pas comme si Hanyû m'avait envoyé ici de son plein gré...", Line_WaitForInput);
 	OutputLine(NULL, "わかってる…、わかってる…。",
-		   NULL, " I know that... I know that...", Line_Normal);
+		   NULL, " Je sais ça.. je le sais......", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070050", 128, TRUE);
 	OutputLine(NULL, "「……梨花も覚えている通りなのです。",
-		   NULL, "\"...It's like you remember, Rika.", Line_WaitForInput);
+		   NULL, "\"...Souviens toi, Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070051", 128, TRUE);
 	OutputLine(NULL, "…僕たちの力はどんどん痩せ衰えていった。",
-		   NULL, " ...Our power has been wearing away.", Line_WaitForInput);
+		   NULL, " ...Notre pouvoir s’affaiblit.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070052", 128, TRUE);
 	OutputLine(NULL, "そして、その力の最後の挑戦で、勝利を勝ち取ったのです。",
-		   NULL, " And with the last of that power, we reached our victory.", Line_WaitForInput);
+		   NULL, " Et avec nos dernières forces, nous avions finalement gagnées.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070053", 128, TRUE);
 	OutputLine(NULL, "……だから、この力はもう二度と使えないはずでした…。」",
-		   NULL, " ...So we were never supposed to be able to use it again...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Nous n’étions pas supposé être capable de l'utiliser une fois de plus...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050126", 128, TRUE);
 	OutputLine(NULL, "「その、使えないはずの力で、私を助けてくれたということ…？」",
-		   NULL, "\"You mean you used that power to save me...?\"", Line_Normal);
+		   NULL, "\"Tu veux dire que tu as utiliser ce pouvoir pour me sauver...?\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "effect/ryuuketu1", 600 );
@@ -5485,26 +5485,26 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070054", 128, TRUE);
 	OutputLine(NULL, "「……はい。",
-		   NULL, "\"...Yes.", Line_WaitForInput);
+		   NULL, "\"...Oui.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070055", 128, TRUE);
 	OutputLine(NULL, "もう、どうしようもありませんでしたのです。",
-		   NULL, " There was nothing else I could do.", Line_WaitForInput);
+		   NULL, " Et il n'y a rien d'autre que je puisse faire.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070056", 128, TRUE);
 	OutputLine(NULL, "……梨花の体は自転車から投げ出され、",
-		   NULL, " ...Rika, your body flew off your bike.........", Line_Continue);
+		   NULL, " ..Rika, si le lancer de dés était meilleur........", Line_Continue);
 	OutputLine(NULL, "…………サイコロの目次第では、車の上を転がって、怪我くらいで済んだかもしれません。",
-		   NULL, " and if the dice had come up better, you might have fallen on the car and made it out injured, but alive.", Line_WaitForInput);
+		   NULL, " ..ton corps aurait décollé de ton vélo de la même façon, tu serais probablement blessé, mais en vie..... ", Line_WaitForInput);
 	SetSpeedOfMessage( TRUE, 128 );
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070057", 128, TRUE);
 	OutputLine(NULL, "…でも、",
-		   NULL, " ...But...", Line_Continue);
+		   NULL, " ...Or...", Line_Continue);
 	Wait( 1200 );
 	OutputLine(NULL, "……運悪く、",
-		   NULL, " ......You were unlucky...", Line_Continue);
+		   NULL, " .....Tu n'as pas eu de chance...", Line_Continue);
 	OutputLine(NULL, "…投げ出された梨花は、",
-		   NULL, " and when you flew off...", Line_Continue);
+		   NULL, " et lorsque tu t'es envolée...", Line_Continue);
 	OutputLine(NULL, "…車のタイヤの前に………。」",
-		   NULL, " you landed... right in front of the car's tires......\"", Line_Continue);
+		   NULL, " tu as atterri... juste sous les pneus du véhicule......\"", Line_Continue);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 
@@ -5512,60 +5512,60 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入の悲しみに彩られた言葉からは、…私が投げ出され、車に轢かれて死んだ後までを見届けたように感じられた…。",
-		   NULL, "From Hanyuu's words colored with sadness... it felt like she'd watched me fly off, get run over by the car, and die...", Line_Normal);
+		   NULL, "Les mots teintés de tristesse d'Hanyu.. donnait l'impression qu'elle m'avait vu m'envoler, me faire écraser sous le poids du véhicule, puis mourir...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070058", 128, TRUE);
 	OutputLine(NULL, "「………みんなが、",
-		   NULL, "\"......Everyone...", Line_Continue);
+		   NULL, "\".....Tous le monde...", Line_Continue);
 	OutputLine(NULL, "…あ、",
-		   NULL, " had...", Line_Continue);
+		   NULL, "  était...", Line_Continue);
 	OutputLine(NULL, "って絶句して……。",
-		   NULL, " their mouths wide open...", Line_WaitForInput);
+		   NULL, " bouche bée...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070059", 128, TRUE);
 	OutputLine(NULL, "呆然として……。",
-		   NULL, " in a daze...", Line_WaitForInput);
+		   NULL, " sans voix...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070060", 128, TRUE);
 	OutputLine(NULL, "車は急ブレーキでガードレールにぶつかってすごい音がしましたが、誰の耳にも入りませんでした。",
-		   NULL, " The car's brakes screeched as it crashed into the guard rail, but nobody was listening.", Line_WaitForInput);
+		   NULL, " Personne ne prêtait attention au bruit strident des freins de la voiture s'écrasant sur le garde fou.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070061", 128, TRUE);
 	OutputLine(NULL, "……そして、",
-		   NULL, " ...And then...", Line_Continue);
+		   NULL, " ...Et c'est ce moment là......", Line_Continue);
 	OutputLine(NULL, "……沙都子が、梨花の体に駆け寄るのですが、",
-		   NULL, " Satoko...", Line_Continue);
+		   NULL, " Que Satoko...", Line_Continue);
 	Wait( 1900 );
 	OutputLine(NULL, "………………、",
-		   NULL, " She ran over to you...", Line_Continue);
+		   NULL, " a accouru vers toi...", Line_Continue);
 	OutputLine(NULL, "あなたの、……面影が、",
-		   NULL, " but you... you looked...", Line_Continue);
+		   NULL, " Alors que... tu...tu ressemblait...", Line_Continue);
 	OutputLine(NULL, "………ぁぅ、",
-		   NULL, " ......au...", Line_Continue);
+		   NULL, " ......ouu...", Line_Continue);
 	OutputLine(NULL, "……………ぅ……。",
 		   NULL, " ............u... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "………顔が、",
-		   NULL, "......your face...", Line_Continue);
+		   NULL, "......ton visage...", Line_Continue);
 	Wait( 800 );
 	OutputLine(NULL, "………なくて……、",
-		   NULL, " was gone...", Line_Continue);
+		   NULL, " avait disparu...", Line_Continue);
 	Wait( 700 );
 	OutputLine(NULL, "…ぅううぅう！！」",
-		   NULL, " ...uuuuu!!\"", Line_Normal);
+		   NULL, " ...uuuuuuiiiiin!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……車に潰されて、……頭がぺしゃんこだったってわけね……。",
-		   NULL, "\"...The car... crushed my head flat...", Line_WaitForInput);
+		   NULL, "\"...La voiture... m'a arraché le visage...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050128", 128, TRUE);
 	OutputLine(NULL, "ははは、…はは。",
 		   NULL, " Ha ha ha... ha ha.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050129", 128, TRUE);
 	OutputLine(NULL, "……知恵がいつも言ってたっけ。",
-		   NULL, " ...Chie was always talking about this, wasn't she?", Line_WaitForInput);
+		   NULL, " ...Cie le répétait souvent, non ? ", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050130", 128, TRUE);
 	OutputLine(NULL, "…道路でふざけちゃいけませんって。",
-		   NULL, " ...Never to play in the road.", Line_WaitForInput);
+		   NULL, " ...Ne jamais jouer sur la route.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050131", 128, TRUE);
 	OutputLine(NULL, "………ははははははは。」",
 		   NULL, " ......Ha ha ha ha ha ha ha.\"", Line_Normal);
@@ -5575,82 +5575,82 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…もう後は、羽入が話してくれなくても想像がついた。",
-		   NULL, "...I could imagine the rest of the story without Hanyuu telling me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...J'ai pu m'imaginer le reste de l'histoire sans qu'Hanyû me le raconte.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　楽しかった一日が、…ふざけた私の不注意で、一瞬で掻き消えてしまったのだ。",
-		   NULL, "That fun day we had... was wiped out in an instant by my careless fooling around.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La charmante journée passée en leur compagnie... détruite en un instant par mes bêtises irréfléchies.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この百年で一番長かった、あの昭和５８年６月１９日を共に潜り、",
-		   NULL, "We dove together into the longest June 19, 1983 of these past hundred years...", Line_WaitForInput);
+		   NULL, "Nous plongions ensemble dans le plus long 19 juin 1983 de ces cents dernières années...", Line_WaitForInput);
 	OutputLine(NULL, "数々の奇跡を共有してようやく辿り着いた平和な未来が、",
-		   NULL, " and the peaceful future we finally reached through the sharing of countless miracles...", Line_WaitForInput);
+		   NULL, " et le paisible futur que nous avions obtenu après avoir partagé un nombre incalculable de miracles...", Line_WaitForInput);
 	OutputLine(NULL, "……一瞬で掻き消えたのだ。",
-		   NULL, " was wiped out in an instant.", Line_Normal);
+		   NULL, " s’était envolé en un instant.", Line_Normal);
 	ClearMessage();
 
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　見るも無惨な私の死体に、",
-		   NULL, "My corpse was too horrible to look at...", Line_ContinueAfterTyping);
+		   NULL, "Mon corps était trop odieux à regarder...", Line_ContinueAfterTyping);
 	Wait( 900 );
 	OutputLine(NULL, "……まず最初に沙都子が駆け寄り、",
-		   NULL, " Satoko came running over first...", Line_ContinueAfterTyping);
+		   NULL, " Satoko fut la première à accourir...", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "…それから、みんなが駆け寄って、",
-		   NULL, " and then everyone else came......", Line_ContinueAfterTyping);
+		   NULL, " par la suite tout le monde s’était approché......", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "………これが夢なら覚めてくれと懇願し、",
-		   NULL, " and they all wished they'd wake up from that nightmare...", Line_ContinueAfterTyping);
+		   NULL, " à cet instant, tous ont souhaité se réveiller de ce cauchemar...", Line_ContinueAfterTyping);
 	Wait( 600 );
 	OutputLine(NULL, "…絶望し、",
-		   NULL, " until they lost all hope......", Line_ContinueAfterTyping);
+		   NULL, " jusqu’à qu'ils s'effondrent dans le désespoir......", Line_ContinueAfterTyping);
 	Wait( 900 );
 	OutputLine(NULL, "………泣き叫ぶ…。",
-		   NULL, " broke down, and wept...", Line_ContinueAfterTyping);
+		   NULL, " n'ayant plus que leurs yeux pour pleurer...", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その、胸が張り裂けるような悲しみに比べたら、",
-		   NULL, "Compared to that heart-splitting sadness...", Line_WaitForInput);
+		   NULL, "Comparé à cette tristesse déchirante... ...", Line_WaitForInput);
 	OutputLine(NULL, "…不注意を起こしたその当の本人が、居心地の悪い世界だから早く帰りたいとぼやく程度、取るにも足らないに違いない。",
-		   NULL, " the one who was actually careless grumbling about wanting to go home since this world was uncomfortable counted for nothing.", Line_Normal);
+		   NULL, " celle qui grommelait insoucieusement qu'elle voulait rentrer chez elle car ce monde était trop inconfortable comptait pour du beurre.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…………つまり、……結局のところ、全て自業自得なのか。",
-		   NULL, "......Did that mean... in the end, it was all my own fault?", Line_Normal);
+		   NULL, ".......Ce qui en conclusion... suggérait que tout était de ma faute ?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あれだけの長い年月をかけて潜り抜け、ようやく手にした未来を、不注意で失ってしまった私の自己責任。",
-		   NULL, "I'd struggled through so many years to reach that future, and I'd carelessly lost it by nobody's fault but my own.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "J'ai lutté toutes ces années pour atteindre ce futur, puis l'ai négligemment perdu de mes propres mains.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……私には羽入がいてくれたのだから、恵まれていたと感謝するべきなのだ。",
-		   NULL, "...And I was blessed since Hanyuu was here for me, so I should be thankful.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "..Subséquemment j'ai eu la chance qu'Hanyû soit présente pour moi, je dois lui être reconnaissante.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私でない人間が同じ目にあったなら、………何の言い訳もなく、ただ命を失っておしまいだったのだから。",
-		   NULL, "Because if that had happened to someone other than me... they'd just lose their life, and nothing more.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Car si cela arrivait à une autre personne que moi... il perdrait juste la vie, rien de plus.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一縷とはいえ、元の世界に戻る望みが残されている分だけ、私は幸運に違いなかった。",
-		   NULL, "Just the fact that there was hope, even if it was only a single, tiny ray, surely meant I was fortunate.", Line_Normal);
+		   NULL, "Rien que le fait qu'il restait encore ne serait-ce qu'une toute petite lueur d'espoir, sous entendait sûrement que j’étais chanceuse.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "bg/jsa7_01", 600 );
@@ -5658,37 +5658,37 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050132", 128, TRUE);
 	OutputLine(NULL, "「……………ありがと。」",
-		   NULL, "\".........Thanks.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\".........Merci.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070063", 128, TRUE);
 	OutputLine(NULL, "「……ぁぅ…？」",
-		   NULL, "\"...Au...?\"", Line_Normal);
+		   NULL, "\"...Hmm...?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050133", 128, TRUE);
 	OutputLine(NULL, "「…馬鹿が不注意で事故死なんて、日本中にいくらでも溢れてる。",
-		   NULL, "\"...Idiots die in accidents from carelessness all the time in Japan.", Line_WaitForInput);
+		   NULL, "\"...Des cons qui meurent dans des accidents à cause de leur imprudence ça arrive tout les jours au japon.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050134", 128, TRUE);
 	OutputLine(NULL, "……私もその内のひとりだった。",
-		   NULL, " ...And I was one of them.", Line_WaitForInput);
+		   NULL, " ...Et j'en faisais parti.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050135", 128, TRUE);
 	OutputLine(NULL, "だから四の五の言わずに死ねばいいものを、……こうしてあなたのお陰で、妙なことにはなりつつも、生き残っている。",
-		   NULL, " I should have just died without complaints... but thanks to you, even though things have gotten strange, I'm alive. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " J'aurais juste dû mourir comme eux....... mais grâce à toi, bien que certaines chose soit devenu étrange, je suis en vie. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050136", 128, TRUE);
 	OutputLine(NULL, "……そして、とてもとても難しいことには違いないけど、",
-		   NULL, "...And I'm sure it will be really, really hard...", Line_Continue);
+		   NULL, "...Et je suis certaine qu'il y a encore un moyen de retourner dans notre monde...", Line_Continue);
 	OutputLine(NULL, "…元の世界に戻る方法が、ゼロなわけじゃない。」",
-		   NULL, " but there is still a way to return to that world.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " malgré que ce sera probablement très très compliqué.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070064", 128, TRUE);
 	OutputLine(NULL, "「………ぁぅ。」",
-		   NULL, "\"......Au.\"", Line_Normal);
+		   NULL, "\"......Oui.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
