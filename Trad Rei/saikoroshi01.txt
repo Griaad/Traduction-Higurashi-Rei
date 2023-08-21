@@ -5694,56 +5694,56 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050137", 128, TRUE);
 	OutputLine(NULL, "「おさらいするわね。",
-		   NULL, "\"Let's review.", Line_WaitForInput);
+		   NULL, "\"Résumons.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050138", 128, TRUE);
 	OutputLine(NULL, "………私を元の世界に連れ戻すには、羽入がここにやって来なくてはならない。",
-		   NULL, " ......To bring me back to the original world, Hanyuu, you need to come here.", Line_WaitForInput);
+		   NULL, " ...Pour retourner dans notre monde originel, Hanyû, tu dois venir ici.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050139", 128, TRUE);
 	OutputLine(NULL, "……そうね？」",
-		   NULL, " ...Right?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...c'est ça ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070065", 128, TRUE);
 	OutputLine(NULL, "「はい。",
-		   NULL, "\"Yes.", Line_WaitForInput);
+		   NULL, "\"Oui.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070066", 128, TRUE);
 	OutputLine(NULL, "もちろんです。",
-		   NULL, " Of course.", Line_WaitForInput);
+		   NULL, " Tout a fait.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070067", 128, TRUE);
 	OutputLine(NULL, "僕も早く、梨花と一緒に元の世界に戻りたいのです…。」",
-		   NULL, " I want to return to the original world with you, Rika...\"", Line_Normal);
+		   NULL, " Je veux retourner dans notre monde avec toi, Rika...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050140", 128, TRUE);
 	OutputLine(NULL, "「…当然よ。",
-		   NULL, "\"...Naturally.", Line_WaitForInput);
+		   NULL, "\"...Évidemment,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050141", 128, TRUE);
 	OutputLine(NULL, "百年を超える日々を経て勝ち取ったあの世界へ、戻るのよ。",
-		   NULL, " We won that world after over a hundred years of struggle. We're going back.", Line_WaitForInput);
+		   NULL, " Nous avons gagné ce monde ensemble, après un siècle de lutte acharnées. On va y retourner t'en fais pas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050142", 128, TRUE);
 	OutputLine(NULL, "…そのために、私はさらに百年の年月を経てもいい。",
-		   NULL, " ...I would spend another hundred years to do it.", Line_WaitForInput);
+		   NULL, " ...Je dépenserai cents ans de ma vie à nouveau si il le faut.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050143", 128, TRUE);
 	OutputLine(NULL, "……負けるもんか。",
-		   NULL, " ...I won't lose.", Line_WaitForInput);
+		   NULL, " ...Je ne perdrai pas. ", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050144", 128, TRUE);
 	OutputLine(NULL, "…挫けるもんか…。",
-		   NULL, " ...I won't lose heart...", Line_WaitForInput);
+		   NULL, " .....Je garderai espoir...", Line_WaitForInput);
 	SetSpeedOfMessage( TRUE, 128 );
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050145", 128, TRUE);
 	OutputLine(NULL, "………ほんのちょっと、",
-		   NULL, " ...Just for...", Line_Continue);
+		   NULL, " ...Juste parce que...", Line_Continue);
 	OutputLine(NULL, "…道路でふざけただけで、",
-		   NULL, " fooling around a little on the road...", Line_Continue);
+		   NULL, " je me suis un tout petit peu amusée sur la route...", Line_Continue);
 	OutputLine(NULL, "……もう百年の懲役を追加されても、",
-		   NULL, " and being sentenced to another hundred years...", Line_Continue);
+		   NULL, " je me retrouve condamné à cent ans de plus...", Line_Continue);
 	Wait( 5600 );
 	OutputLine(NULL, "……泣くもんか…………、",
-		   NULL, " That won't make me cry......", Line_Continue);
+		   NULL, " Je ne dois plus pleurer......", Line_Continue);
 	OutputLine(NULL, "……ぅうぅ…。」",
-		   NULL, " ...Uuu...\"", Line_Continue);
+		   NULL, " ...Uuuuu...\"", Line_Continue);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
 
@@ -5755,18 +5755,18 @@ void main()
 		   NULL, "\"......Rika...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070069", 128, TRUE);
 	OutputLine(NULL, "…元の世界でも、",
-		   NULL, " ...Even in the world beyond...", Line_Continue);
+		   NULL, " ...dans le monde de l'au delà......", Line_Continue);
 	OutputLine(NULL, "……みんなが祈ってます。",
-		   NULL, " everyone is praying for you.", Line_WaitForInput);
+		   NULL, " tous le monde prie pour toi", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070070", 128, TRUE);
 	OutputLine(NULL, "自分の命を捧げても、時間を巻き戻して、事故をなかったことにしてほしいって、…みんなが祈ってます…。",
-		   NULL, " They're praying that... even if it costs them their lives, that you turn back time and make it so the accident never happened... ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ils prient pour que...même si ça leur en coûte la vie, tu puisses retourner dans le temps et faire de cet accident une ineptie.. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070071", 128, TRUE);
 	OutputLine(NULL, "………その祈りがあったから、",
-		   NULL, "......I think those prayers...", Line_Continue);
+		   NULL, "...Je pense que c'est grâce à leurs prières...", Line_Continue);
 	OutputLine(NULL, "……僕はきっと、梨花を見つけることができたのですよ……。」",
-		   NULL, " were why I was able to find you, Rika...\"", Line_Normal);
+		   NULL, "  que j'ai pu te trouver, Rika...\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 600 );
