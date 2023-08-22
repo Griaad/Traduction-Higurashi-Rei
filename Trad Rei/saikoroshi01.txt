@@ -10,7 +10,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…………遠くでひぐらしの声が聞こえる。",
-		   NULL, "...J'entendis le cri des cigales au loin.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Le cri des cigales se faisait entendre au loin.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4345,7 +4345,7 @@ void main()
 	DrawScene( "bg/hu_engawa_01", 600 );
 	FadeOutBGM( 0, 300, FALSE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220001", 128, TRUE);
 	OutputLine(NULL, "「梨花なの？",
 		   NULL, "\"C'est toi Rika ? ", Line_WaitForInput);
@@ -4363,7 +4363,7 @@ void main()
 		   NULL, " Je suis rentrée.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220003", 128, TRUE);
 	OutputLine(NULL, "「手を洗ってうがいをしなさい。",
 		   NULL, "\"Rentres te laver les mains et te brosser les dents.", Line_WaitForInput);
@@ -6269,7 +6269,7 @@ void main()
 	PlayBGM( 1, "semi_r", 120, 0 );
 	PlaySE( 0, "dageki", 128, 64 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の父</color>", NULL, "<color=#f5e6d3>Rika's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の父</color>", NULL, "<color=#f5e6d3>Père de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_rikaf2001", 128, TRUE);
 	OutputLine(NULL, "「梨花ッ！！",
 		   NULL, "\"Rika !!", Line_Continue);
