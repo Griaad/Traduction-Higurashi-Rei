@@ -994,7 +994,7 @@ void main()
 
 
 	SetSpeedOfMessage( TRUE, 128 );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男の子</color>", NULL, "<color=#f5e6d3>Boy</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男の子</color>", NULL, "<color=#f5e6d3>Garçon</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_boya2001", 128, TRUE);
 	OutputLine(NULL, "「ふぎゃッ！！",
 		   NULL, "\"Argh !!", Line_Continue);
