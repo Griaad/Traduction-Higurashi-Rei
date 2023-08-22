@@ -1329,7 +1329,7 @@ void main()
 		   NULL, "...Les seuls personnes que je connaissais étaient des vieux villageois qui discutaient entre eux devant la télé de la salle d'attente.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old person</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Vieillard</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_eldera2001", 128, TRUE);
 	OutputLine(NULL, "「…あんれ、梨花ちゃんじゃねぇの！",
 		   NULL, "\"...Oh, hum, c'est toi ma petite Rika ?", Line_WaitForInput);
@@ -1350,7 +1350,7 @@ void main()
 		   NULL, " J'ai donc pensé que nous devions lui faire un scan pour s'assurer qu'elle n'a rien !\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old person</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Vieillard</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_elderb2001", 128, TRUE);
 	OutputLine(NULL, "「うーん、頭は怖いからねぇ！",
 		   NULL, "\"Hm oui, les blessures à la tête ça fait peur !", Line_WaitForInput);
