@@ -39,7 +39,7 @@ void main()
 	OutputLine(NULL, "　気付けば、ひぐらしの声はない。",
 		   NULL, "Les cigales se sont soudaiment tus.", Line_WaitForInput);
 	OutputLine(NULL, "…部屋を満たしているのはセミの声。",
-		   NULL, "...Je pensais avoir entendu les cigales pendant tout ce temps...", Line_Normal);
+		   NULL, "...Je pensais les avoir entendu pendant tout ce temps...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -75,7 +75,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、セミの声に混じる子供たちのはしゃぐ声。",
-		   NULL, "Ainsi que les voix des enfants mélangées au chant des cigales.", Line_Normal);
+		   NULL, "Les voix des enfants mélangées au chant des cigales aussi.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -146,7 +146,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210001", 128, TRUE);
 	OutputLine(NULL, "「よかった。",
-		   NULL, "\"Dieu merci.", Line_WaitForInput);
+		   NULL, "\"Heureusement que tu n'as rien.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210002", 128, TRUE);
 	OutputLine(NULL, "本当に心配したよ。」",
 		   NULL, " Tu m'as fait du soucis, tu sais ?\"", GetGlobalFlag(GLinemodeSp));
@@ -220,7 +220,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040010", 128, TRUE);
 	OutputLine(NULL, "「……私、そんなに強く投げてないもん。",
-		   NULL, "\"...Je ne l'ai pas lancé aussi fort.", Line_WaitForInput);
+		   NULL, "\"...Je l'ai pas lancé aussi fort.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040011", 128, TRUE);
 	OutputLine(NULL, "古手さんが大袈裟なだけだもん…。」",
 		   NULL, " Elle exagère...\"", GetGlobalFlag(GLinemodeSp));
@@ -271,9 +271,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……知恵が沙都子のことを、沙都子さんと呼ぶのは、悟史が失踪する前。",
-		   NULL, "...Elle appelait Satoko part son prénom seulement avant que Satoshi ne disparaisse.", Line_WaitForInput);
+		   NULL, "...Elle l'appelait par son prénom seulement avant que Satoshi ne disparaisse.", Line_WaitForInput);
 	OutputLine(NULL, "北条の名を持つ２人、沙都子と悟史が一緒に存在した時代だけだ。",
-		   NULL, " La seule fois où il y avait deux personnes du nom de Hojo était lorsque Satoko et Satoshi étaient encore ensemble.", Line_WaitForInput);
+		   NULL, " La seule fois où il y avait deux personnes du nom de Hojo.", Line_WaitForInput);
 	OutputLine(NULL, "つまり、昭和５７年６月以前。",
 		   NULL, " Autrement dit, avant Juin 1982.", Line_Normal);
 	ClearMessage();
@@ -450,7 +450,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子の中には、私という存在が、…いない。",
-		   NULL, "On aurait dit que je ne faisais même pas partie de ce monde.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "On aurait dit que je ne faisais pas partie de ce monde.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1062,14 +1062,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの、長く辛い戦いの日々をもう一度こなさなければならないのか…。",
-		   NULL, "Est-ce que je dois encore passer ces longs mois de lutte, encore une fois..?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Est-ce que je dois passer ces longs mois à lutter, encore une fois..?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　仲間と結束し、信じ合い、互いの疑いの目を摘み合い、奇跡を信じ、…全員で戦う。",
 		   NULL, "Faire équipe avec mes amis, avoir confiance les uns en les autres, affronter nos méfiances mutuelles, croire aux miracles...Se battre tous ensemble.", Line_WaitForInput);
 	OutputLine(NULL, "いくつもの偶然に助けられながら。",
-		   NULL, " Ainsi que toutes les coïncidences qui nous ont sauver.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ainsi que toutes les coïncidences qui nous ont sauver les miches.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1079,7 +1079,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……一度は抜けた袋小路だ。",
-		   NULL, "...J'avais réussi à ressembler tout ces éléments par le passé.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...J'avais réussi à rassembler tout ces éléments par le passé.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1164,7 +1164,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　さっき保健室で気遣う言葉を掛けてくれたが、心の奥は拭えない闇に支配され始めていて、逃れられぬ末期発症の足音に怯えている…。",
-		   NULL, "Il était plutôt doux et gentil à l'infirmerie, mais son coeur était déjà en train de sombrer dans la noirceur... le pas en trop derrière lui, synonyme de sa maladie, devait le terrifier...", Line_Normal);
+		   NULL, "Il était plutôt doux et gentil à l'infirmerie, mais son coeur sombrait déjà dans la noirceur... le pas en trop derrière lui, synonyme de sa maladie, devait le terrifier...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1307,7 +1307,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私の知っている診療所と間取りは確かに同じだったが、",
-		   NULL, "L'intérieur était identique que celui de la clinique que je connaissais...", Line_WaitForInput);
+		   NULL, "L'intérieur était identique à la clinique que je connaissais...", Line_WaitForInput);
 	OutputLine(NULL, "……どこか雰囲気が違うのだ。",
 		   NULL, "Mais quelque chose différait.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1380,7 +1380,7 @@ void main()
 	OutputLine(NULL, "　若いんだからボールのひとつやふたつ平気、…なんて言い方は普通の子には言われるかもしれないが、",
 		   NULL, "Ils auraient bel et bien dit qu'une ou deux balles ne me feraient pas grand-chose car je suis encore jeune... Si j'étais une enfant normale..", Line_WaitForInput);
 	OutputLine(NULL, "私に限っては、この雛見沢では特にありえないことだった。",
-		   NULL, " Cependant, pour moi, c'était possible, à Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Cependant, pour moi, c'était impossible, à Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1463,7 +1463,7 @@ void main()
 	OutputLine(NULL, "　…そのどれにも末尾にタカノクリニックと書かれている。",
 		   NULL, "...Elles étaient toutes signées \"Clinique Takano\".", Line_WaitForInput);
 	OutputLine(NULL, "入江診療所と書かれたものはひとつもない。",
-		   NULL, " Aucune ne faisait référence à la\"Clinque Irie.\"", Line_Normal);
+		   NULL, " Aucune ne faisait référence à la \"Clinque Irie.\"", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "kaze", 120, 0 );
@@ -1927,7 +1927,7 @@ void main()
 		   NULL, " J'peux pas te le dire !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2050", 128, TRUE);
 	OutputLine(NULL, "　造園屋さんにご縁があったことはないからね。",
-		   NULL, " Je n'ai jamais eu besoin d'en appelé.", Line_WaitForInput);
+		   NULL, " Je n'ai jamais eu besoin d'en appeler.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2051", 128, TRUE);
 	OutputLine(NULL, "ちょっとわかりかねるけど。",
 		   NULL, " Je ne sais pas vraiment.", Line_WaitForInput);
@@ -2384,7 +2384,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…こんな真昼間に老人と出会ったら、大抵は風邪でもひいて休んだのかと問い詰められ、数珠を揉まれて変に有難がられるのだが。",
-		   NULL, "...Normalement quand je rencontre une vieille personne dans le milieu de la journée comme maintenant, cette dernière me demande si je suis restée à la maison car j'avais attrapée froid, ou sort ses talismans pour prier tout en disant des choses bizarres.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Normalement quand je rencontre une vieille personne dans le milieu de la journée comme maintenant, cette dernière me demande si je suis restée à la maison car j'avais attrapée froid, ou sort ses talismans pour prier tout marmonnant des mots bizarres.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……それがない。",
 		   NULL, "...Mais il n’y avait rien de tout cela.", Line_WaitForInput);
