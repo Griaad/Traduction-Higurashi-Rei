@@ -170,7 +170,7 @@ void main()
 		   NULL, "\"Voilà ce qu'il se passe lorsque vous oubliez d'emmener votre maillot à la piscine.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040002", 128, TRUE);
 	OutputLine(NULL, "そして、胡散臭い海パンを履いて大騒ぎなんて、始めから終わりまで全部、自業自得でございましてよ！」",
-		   NULL, " Ajoutez à cela tout le grabuge que vous avez fait avant d'enfin porter l'un de ces maillots douteux, du début à la fin, vous n'avez fait que récolter ce que vous avez semé !\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ajoutez à cela tout le grabuge que vous avez commis avant d'enfin porter l'un de ces maillots douteux, du début à la fin, vous n'avez fait que récolter ce que vous avez semé !\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -198,7 +198,7 @@ void main()
 		   NULL, "\"Héhéhé !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030004", 128, TRUE);
 	OutputLine(NULL, "　いやいや、実に愉快だったよ。",
-		   NULL, " Tu nous en as mis plein les yeux.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu nous en as mis plein les mirettes.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -256,7 +256,7 @@ void main()
 		   NULL, "\"Évidemment que ce fût amusant !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040004", 128, TRUE);
 	OutputLine(NULL, "　その点につきましては同感でございましてよ！」",
-		   NULL, " Sur ce point, je ne peux qu'être d'accord !\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sur ce point, je ne peux qu'être en accord !\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -268,7 +268,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから私も負けないくらいの笑顔を返し、今日一日のどたばたがいかに楽しかったかを示すのだった。",
-		   NULL, "Je lui ai répondu avec un magnifique sourire illustrant à quel point la journée d'aujourd'hui fut plaisante.", Line_Normal);
+		   NULL, "Je lui ai rétorqué avec un sourire radieux illustrant l'agréable journée d'aujourd'hui.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 1300, FALSE );
@@ -379,7 +379,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここは公道だから、時には車の往来もある。",
-		   NULL, "Nous roulions sur une route publique, des voitures passaient par moments.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nous roulions sur une voie publique, des voitures passaient par moments.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -460,7 +460,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　体が前のめりになりながら、宙に浮くのがわかる。",
-		   NULL, "Quand mon corps s'est penché en avant, j'ai réalisée que j'étais entrain de voler dans les airs.", Line_WaitForInput);
+		   NULL, "Quand mon corps s'est penché en avant, j'ai réalisée que je volais dans les airs.", Line_WaitForInput);
 	OutputLine(NULL, "…怪我をする直前を察知させる火薬の臭いが鼻を突いた。",
 		   NULL, " ...J'ai su que je n'étais pas loin de m'écraser lorsque mon nez sentit l'odeur de l'asphalte.", Line_Normal);
 	ClearMessage();
