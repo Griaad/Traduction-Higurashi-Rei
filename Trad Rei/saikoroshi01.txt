@@ -4545,7 +4545,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　とにかく、意地で這い上がり、そこから祭具殿の屋根に飛び降りる。",
-		   NULL, "Dans tout les cas, je continuais à grimpé avec ténacité et sautai sur le toit de la réserve.", Line_Normal);
+		   NULL, "Dans tout les cas, je continuais à grimper avec ténacité et sautai sur le toit de la réserve.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4819,7 +4819,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf></color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070001", 128, TRUE);
 	OutputLine(NULL, "「……梨花、聞こえたらもう一度返事をしてください…。",
-		   NULL, "\"...Rika, si tu peux m'entendre, s'il te plaît réponds moi une nouvelle fois...", Line_WaitForInput);
+		   NULL, "\"...Rika, si tu peux m'entendre, s'il te plaît réponds-moi une nouvelle fois...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070002", 128, TRUE);
 	OutputLine(NULL, "梨花……、梨花……、」",
 		   NULL, " Rika... Rika...\"", Line_Normal);
@@ -5024,7 +5024,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は半狂乱になりながら、何とかしろ何とかしろと喚き続けるしかなかった。",
-		   NULL, "Tout ce que je pouvais faire c’était de hurler à tout rompre jusqu'a qu'elle fasse quelque chose, n'importe quoi.", Line_Normal);
+		   NULL, "Tout ce que je pouvais faire c’était de hurler à tout rompre jusqu'à qu'elle fasse quelque chose, n'importe quoi.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "bg/kamunomikotori", 1000 );
