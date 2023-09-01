@@ -104,7 +104,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その後ろには沙都子と、",
-		   NULL, "Derrière elle, il y avait Saotko et,", Line_ContinueAfterTyping);
+		   NULL, "Derrière elle, il y avait Satoko et,", Line_ContinueAfterTyping);
 	Wait( 1000 );
 	OutputLine(NULL, "……え？",
 		   NULL, " ...quoi ?", Line_Normal);
@@ -134,7 +134,7 @@ void main()
 		   NULL, " Le docteur devrait arriver d'ici peu.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2005", 128, TRUE);
 	OutputLine(NULL, "まだ横になっていてください。」",
-		   NULL, " Restes sagement couchée sur ton lit en attendant.\"", Line_Normal);
+		   NULL, " Reste sagement couchée sur ton lit en attendant.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -210,7 +210,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　知恵が廊下に振り返りながら大声を上げると、不貞腐れた雰囲気の沙都子がひょっこり顔を出す。",
-		   NULL, "Cie éleva sa voix et se dirigea vers le couloir avant que Saotoko ne sorte de sa cachette, pensant qu'elle faisait la moue.", Line_Normal);
+		   NULL, "Cie éleva sa voix et se dirigea vers le couloir avant que Satoko ne sorte de sa cachette, pensant qu'elle faisait la moue.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1981,12 +1981,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……いや、そもそもおかしいのはサイコロの目なのか。",
-		   NULL, "...Ou peut-être que la partie la plus étrange était les dès eux même ?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Ou peut-être que la partie la plus étrange était les dés eux même ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そもそも私というコマが乗っているゲーム盤が、私が知っているゲーム盤とは、違ウノデハナイカ。",
-		   NULL, "Le plateau de jeu sur lequel j’étais désormais une pièce, et le plateau que je connaissait...étaient-ils différents ? ", Line_Normal);
+		   NULL, "Le plateau de jeu sur lequel j’étais désormais une pièce, et le plateau que je connaissais...étaient-ils différents ? ", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2795,7 +2795,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そもそも、サイコロの出目だけで説明できる世界なのだろうか。",
-		   NULL, "Ce monde peut t-il être expliqué par les résultats d'un simple lancer de dès ?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ce monde peut t-il être expliqué par les résultats d'un simple lancer de dés ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4003,7 +4003,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、……この世界には、沙都子を脅かすサイコロの目は、ひとつたりとも１を出していないということ。",
-		   NULL, "Ce qui signifie... que dans ce monde, aucun des dès menaçant Satoko n'est tombé sur un.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ce qui signifie... que dans ce monde, aucun des dés menaçant Satoko n'est tombé sur un.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4164,14 +4164,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…この世界は、私がよく知る世界と、サイコロの目が正反対になっているのではないだろうか。",
-		   NULL, "Ces jets de dès ne donnait-il pas un résultat exactement opposé à celui du monde que je connaissais si bien ? ", Line_Normal);
+		   NULL, "Ces jets de dés ne donnait-il pas un résultat exactement opposé à celui du monde que je connaissais si bien ? ", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人自体は何も変わっていない。",
 		   NULL, "Les personnes en elles même n'ont pas changé d'un poil.", Line_WaitForInput);
 	OutputLine(NULL, "でも、その人のために振られる神のサイコロの目が、全て逆なのだ。",
-		   NULL, " Mais les dès lancés pour eux étaient tous différent.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mais les dés lancés pour eux étaient tous différent.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
