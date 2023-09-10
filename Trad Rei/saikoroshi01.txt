@@ -905,7 +905,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そしてその世界がどうなっているのかを教えてくれる。",
-		   NULL, "Et elle m'explique tous les tenants et aboutissants sur ce monde..", Line_WaitForInput);
+		   NULL, "Et elle m'explique tous les tenants et aboutissants à son propos..", Line_WaitForInput);
 	OutputLine(NULL, "…でも、この世界ではまだ羽入の姿がない。",
 		   NULL, " ...Mais dans celui-ci, je ne l'ai pas vue ne serait-ce qu'une seule fois.", Line_Normal);
 	ClearMessage();
@@ -1356,7 +1356,7 @@ void main()
 		   NULL, "\"Hm oui, les blessures à la tête ça fait peur !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_elderb2002", 128, TRUE);
 	OutputLine(NULL, "　でも若いんだからボールのひとつやふたつ、平気平気！」",
-		   NULL, " Mais tu es encore jeune, je suis sûre qu'une ou deux balles dans la tête ne te feront pas grand-chose !\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mais ce n'est pas la mer à boire, tu es encore jeune, je suis sûre qu'une ou deux balles sur la tête ne te feront pas grand-chose !\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
