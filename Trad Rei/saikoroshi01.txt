@@ -163,7 +163,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それは、昭和５８年にいるはずのない人間。",
-		   NULL, " ...Il ne pouvait en aucun cas être à l'école en 1983.", Line_Normal);
+		   NULL, " ...Il ne pouvait en aucun cas être à l'école aujourd'hui.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2242,23 +2242,23 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　１９８３年、６月。",
-		   NULL, "Juin 1983.", Line_Normal);
+		   NULL, "Juin, an 58 de l'ère Showa.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……１９８３年って、…昭和の何年だっけ…。",
-		   NULL, "...1983... c'est quelle année de l'ère Showa déjà ? ", Line_Normal);
+		   NULL, "...58 de l'ère Showa... ça donne quoi en A.D déjà ? ", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　太平洋戦争が終わったのが１９４５年で、昭和２０年だから、",
-		   NULL, "La guerre du Pacifique s'est terminée en 1945, ce qui correspond à l'an 20...", Line_ContinueAfterTyping);
+		   NULL, "La guerre du Pacifique s'est terminée en l'an 20, ce qui correspond à 1945...", Line_ContinueAfterTyping);
 	Wait( 900 );
 	OutputLine(NULL, "…………８３から４５を引くと、",
-		   NULL, " 83 moins 45......", Line_ContinueAfterTyping);
+		   NULL, " 58 moins 20......", Line_ContinueAfterTyping);
 	Wait( 1000 );
 	OutputLine(NULL, "……繰り下がりの引き算は苦手……。",
-		   NULL, " Je suis mauvaise en calcul avec retenu...", Line_Normal);
+		   NULL, " Je suis mauvaise en calcul avec retenu, mais heureusement je n'en ai pas besoin...", Line_Normal);
 	ClearMessage();
 
 	SetSpeedOfMessage( TRUE, 128 );
@@ -2273,7 +2273,7 @@ void main()
 		   NULL, " Hmm...", Line_ContinueAfterTyping);
 	Wait( 600 );
 	OutputLine(NULL, "…８３−４５＝３８？",
-		   NULL, " 83-45=38?", Line_ContinueAfterTyping);
+		   NULL, " 58-20=38 ?", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
 
@@ -2281,17 +2281,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　確め算で８３になるから３８で間違いない。",
-		   NULL, "Oui, 38 + 45 fait effectivement 83.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Oui, 38 + 20 fait effectivement 58.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それに、昭和２０年の２０を足すから、",
-		   NULL, "...Donc, si j'ajoute 38 à 20...", Line_ContinueAfterTyping);
+		   NULL, "...Donc, si j'ajoute 38 à 1945...", Line_ContinueAfterTyping);
 	Wait( 500 );
 	OutputLine(NULL, "………３８＋２０＝…。",
-		   NULL, " ...38+20...", Line_WaitForInput);
+		   NULL, " ...45+38...", Line_WaitForInput);
 	OutputLine(NULL, "……５８？",
-		   NULL, " ...ça fait 58 ?", Line_Normal);
+		   NULL, " ...ça fait 83 ?", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 600, FALSE );
@@ -2299,7 +2299,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和、…５８年？",
-		   NULL, "Nous sommes en... l'an 58 ?", Line_WaitForInput);
+		   NULL, "Nous sommes en... 1983 ?", Line_WaitForInput);
 	OutputLine(NULL, "　６月？",
 		   NULL, " En juin ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
