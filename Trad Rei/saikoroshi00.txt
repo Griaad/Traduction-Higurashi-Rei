@@ -89,7 +89,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一見、ささやかな夢に思えるが、それを得るための旅が百年にも及んだことを、ここでもう一度振り返る必要はない。",
-		   NULL, "Ce rêve pouvait sembler modeste au premier coup d’œil, mais il m'a fallu un voyage long de cents ans avant de le réaliser.", Line_Normal);
+		   NULL, "Ce rêve pouvait sembler modeste au premier coup d’œil, mais il m'a fallu un voyage long de cent ans avant de le réaliser.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -120,7 +120,7 @@ void main()
 		   NULL, "\"Wow, ha ha ha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030002", 128, TRUE);
 	OutputLine(NULL, "　カメラを持ってこなかったのは、この園崎魅音、一生の不覚だねぇ。」",
-		   NULL, " N'apportez pas de caméra, aujourd'hui doit bien être la pire erreur que Mion Sonozaki ait jamais commise !\"", Line_Normal);
+		   NULL, " Ne pas prendre de caméra aujourd'hui doit bien être la pire erreur que Mion Sonozaki ait jamais commise !\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -372,14 +372,14 @@ void main()
 		   NULL, "\"Vous ne devriez pas faire les imbéciles sur la route !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020006", 128, TRUE);
 	OutputLine(NULL, "　梨花ちゃん沙都子ちゃん、危ないよー！」",
-		   NULL, " Rika, Satoko, faites attentions !\"", Line_Normal);
+		   NULL, " Rika, Satoko, faites attention !\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "bg/sora2", 600 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここは公道だから、時には車の往来もある。",
-		   NULL, "Nous roulions sur une voie publique, des voitures passaient par moments.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nous roulions sur une voie publique, des voitures passaient par moment.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -425,7 +425,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを聞いて、私は沙都子の警告が冗談でないことを知る。",
-		   NULL, "Lorsque je l'ai entendue, j'ai tout de suite compris que l'avertissement de Satoko était bel et bien réel.", Line_WaitForInput);
+		   NULL, "Lorsque je l'ai entendu, j'ai tout de suite compris que l'avertissement de Satoko était bel et bien réel.", Line_WaitForInput);
 	OutputLine(NULL, "…でも、あまりに唐突なことだったので驚き混乱した。",
 		   NULL, " ... Mais c’était si inopiné que j'ai été prise de court.", Line_Normal);
 	ClearMessage();
@@ -486,7 +486,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　宙に投げ出される自分に向かって、車が迫ってくる光景すら、それが自分に突きつけられている現実なのか理解できない。",
-		   NULL, "Je ne savais même pas si la vue de la voiture se dirigeant vers moi tandis que je volais dans les airs était bien vraie.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je ne savais même pas si la vue de la voiture se dirigeant vers moi pendant mon vol-plané était bien vraie.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
