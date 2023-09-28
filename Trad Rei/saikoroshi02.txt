@@ -98,17 +98,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　おそらく、私が探さなければならない何かも、これと同じ気配を持っているに違いない。",
-		   NULL, "J'étais convaincu qu'importe ce que je devais découvrir, je ressentirais la même sensation que ce dernier.", Line_Normal);
+		   NULL, "J'étais convaincu qu'importe ce que je devais découvrir, je ressentirais la même sensation avec ce dernier.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、それも多分、この水晶球と同じで、額に当ててようやくほのかに感じられる程度のものなのだろう。",
-		   NULL, "But again, like the crystal ball, I'd probably have to hold it to my forehead to sense anything.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Cependant, tout comme avec la boule de cristal, il est probable que je dois la placer sur mon front pour éprouver une quelconque sensation.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……適当にうろつけば気配を感知できるほど、甘くはないらしい。",
-		   NULL, "...It didn't seem like things would be as simple as wandering about until I felt something.", Line_Normal);
+		   NULL, "...Bien entendu, je n'envisage pas de mettre la main dessus simplement en me baladant jusqu’à sentir quelque chose.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
