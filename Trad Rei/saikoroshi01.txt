@@ -317,7 +317,7 @@ void main()
 	OutputLine(NULL, "　百年以上をかけて挑み、そしてようやく打ち破った昭和５８年６月の袋小路を、",
 		   NULL, "L'impasse de juin 1983, contre laquelle je me suis battue pendant plus d'un siècle, ne serait-ce que pour vivre au-delà de la fin du mois...", Line_WaitForInput);
 	OutputLine(NULL, "……私は再び打ち破らなければならないのか。",
-		   NULL, " Tout ces efforts pour tout recommencer maintenant ?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tous ces efforts pour tout recommencer maintenant ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -983,7 +983,7 @@ void main()
 		   NULL, " La règle la plus importante de la balle au prisonnier, c'est de viser les plus faibles d'abord !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030012", 128, TRUE);
 	OutputLine(NULL, "　私を狙うのは戦略ミスだよ！",
-		   NULL, " Essayer de me viser était une erreur tactique !", Line_WaitForInput);
+		   NULL, " Essayer de m'atteindre était une erreur tactique !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030013", 128, TRUE);
 	OutputLine(NULL, "　そぉれ次にトロいヤツはお前さ！！」",
 		   NULL, " Et le prochain... C'est toi !!\"", GetGlobalFlag(GLinemodeSp));
@@ -2384,7 +2384,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…こんな真昼間に老人と出会ったら、大抵は風邪でもひいて休んだのかと問い詰められ、数珠を揉まれて変に有難がられるのだが。",
-		   NULL, "...Normalement quand je croise une vieille personne dans le milieu de la journée comme maintenant, cette dernière me demande si je suis restée à la maison car j'avais attrapée froid, ou sort ses talismans pour prier tout marmonnant des mots bizarres.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Normalement quand je croise une vieille personne dans le milieu de la journée comme maintenant, cette dernière me demande si j'ai attrapée froid, ou sort ses talismans pour prier tout marmonnant des mots bizarres.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……それがない。",
 		   NULL, "...Mais il n’y avait rien de tout cela.", Line_WaitForInput);
@@ -2652,7 +2652,13 @@ void main()
 	OutputLine(NULL, "　悟史と一緒にいる時の沙都子は、家族問題や叔母のいじめなどで暗そうにしていることが少なくなかったから、",
 		   NULL, "Lorsque Satoko et Satoshi étaient ensemble , Satoko était souvent d'humeur maussade à cause de ses problèmes familiaux, alors...", Line_WaitForInput);
 	OutputLine(NULL, "普通の兄妹に見える関係は、…沙都子には不謹慎だが、違和感を感じるものだった。",
-		   NULL, " Ils doivent faire semblant d’être comme des frères et sœur lambda... ceci dit, même en sachant cela, je ne pouvais pas m’empêcher de me sentir mal.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ils doivent faire semblant d’être comme des frères et sœur lambda...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	OutputLine(NULL, "普通の兄妹に見える関係は、…沙都子には不謹慎だが、違和感を感じるものだった。",
+		   NULL, "...ceci dit, même en sachant cela, je ne pouvais pas m’empêcher de me sentir mal.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3603,6 +3609,9 @@ void main()
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020029", 128, TRUE);
 	OutputLine(NULL, "来るお客さんだって減る一方だし。",
 		   NULL, " Ils ont aussi de moins en moins de clients.", Line_WaitForInput);
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020030", 128, TRUE);
 	OutputLine(NULL, "早めにお店を畳んじゃう人がいてもおかしくないよ。」",
 		   NULL, " Il n'y a rien de bizarre à ce que certain ferment définitivement leur boutique avant la date limite.\"", GetGlobalFlag(GLinemodeSp));
@@ -3687,6 +3696,9 @@ void main()
 	OutputLine(NULL, "…水没にはかなり日数がかかるそうだけど、私は見たくないな。",
 		   NULL, " ...À mon avis cela prendra quelques jours pour que tout soit submergé, franchement je n'ai pas trop envie d'y assister.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020036", 128, TRUE);
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	
 	OutputLine(NULL, "湖になった後ならともかく、…沈んでる最中を見るのは、悲しいかな…。」",
 		   NULL, " Ce ne sera peut-être plus qu'un simple lac après, mais... Je serais triste de voir le village dans cet état.\"", Line_Normal);
 	ClearMessage();
