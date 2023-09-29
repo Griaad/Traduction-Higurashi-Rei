@@ -14,19 +14,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　朝、目覚めたら沙都子がいてくれるのに期待した。",
-		   NULL, "I'd hoped Satoko would be there when I woke up that morning.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "J'eus espéré qu'à mon réveil Satoko soit là à mes côtés.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この訳のわからない世界が、実は寝ぼけた私の夢であることを期待していた。",
-		   NULL, "I'd hoped this baffling world was just a half-awake dream of mine.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "J'eus aussi espéré que ce monde déroutant ne fut qu'un rêve à moitié éveillé.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、見慣れた天井でなく、古手本家の天井で、…がっかりする。",
-		   NULL, "So when I awoke, not to a familiar ceiling, but to the one in the Furude main house... I could feel nothing but disappointment.", Line_Normal);
+		   NULL, "Lorsque la première chose que je vis en me levant n'était pas le plafond habituel, mais celui de la maison principale des Furude... ma déception fut inévitable.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 300, FALSE );
@@ -34,81 +34,81 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　寝起きのぼんやりした頭に、私が今置かれている状況が蘇ってくる…。",
-		   NULL, "My mind hazy, I recalled the situation I'd been put into...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La tête encore pleine, je me souvins de ma situation actuelle...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は、自らの不注意で、この妙な世界に迷い込んでしまった。",
-		   NULL, "Thanks to my own carelessness, I'd gotten lost in this strange world.", Line_Normal);
+		   NULL, "Je remercie mon manque d'attention de m'avoir embarquée dans ce monde absurde.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入の力が及ばないため、この世界から抜け出すのは非常に困難だ。",
-		   NULL, "Hanyuu's power couldn't reach here, so it would be incredibly difficult to escape.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il sera encore plus ardu de s'échapper d'ici sans le pouvoir d'Hanyû.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それはまるで、蜘蛛の糸を伝って極楽を目指すようなもの。",
-		   NULL, "...It was like trying to climb up the spider's thread to paradise.", Line_Normal);
+		   NULL, "...C'était comme tenter de quitter l'enfer en grimpant le fil d'araignée menant au paradis.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、蜘蛛の糸は垂れている。",
-		   NULL, "But the spider's thread was still there.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mais ce fil subsistait toujours.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どんなにか細くとも、…まだチャンスはあるわけで。",
-		   NULL, "No matter how thin it was... its presence meant there was still a chance.", Line_Normal);
+		   NULL, "Peu importe sa finesse... sa présence signifiait qu'il nous restait encore une chance, aussi infime soit-elle.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入を拒む、何かを見つけ出すこと。",
-		   NULL, "To discover what was blocking Hanyuu's power.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il me fallait déterminer ce qui entravait le pouvoir d'Hanyû.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…しかも、それがどんな形をしているのかもわからないときている。",
-		   NULL, "...And I didn't even know what it looked like.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Cependant, je n'avais aucune information sur son apparence.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　せいぜいヒントがあるとすれば、羽入は雛見沢の神さまなのだから、雛見沢のどこかにあるだろう、という程度。",
-		   NULL, "The only possible clue was that Hanyuu was the deity of Hinamizawa, so it was probably in the village somewhere.", Line_Normal);
+		   NULL, "Hanyu était la déesse d'Hinamizawa, alors il était très probable que le fragment se cachait quelque part dans le village. C'était la seule piste viable..", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "bg/kamunomikotori", 600 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は祭具殿から持ち出した、あの水晶球を取り出す。",
-		   NULL, "I picked up the crystal ball, which I'd snuck out of the ritual implement storehouse.", Line_Normal);
+		   NULL, "Je saisis la boule de cristal que j'avais secrètement empruntée dans la réserve des outils rituels.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…水晶球には、自然光とは違う何か弱々しい光が宿っていた。",
-		   NULL, "...The ball gave off a weak and somehow unnatural light.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Elle émettait une lumière faible et non naturelle.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを額に当てると、……魔女である私にだけ察知できる、うっすらとした気配を感じることができた。",
-		   NULL, "I pressed it to my forehead... and I could sense a faint presence that only I, as a witch, could feel.", Line_Normal);
+		   NULL, "Je la plaquai contre mon front... dès lors, une faible présence, perceptible uniquement par une sorcière comme moi, se manifesta.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　おそらく、私が探さなければならない何かも、これと同じ気配を持っているに違いない。",
-		   NULL, "I was sure that whatever I needed to find, I would get the same feeling from it as this.", Line_Normal);
+		   NULL, "J'étais convaincu qu'importe ce que je devais découvrir, je ressentirais la même sensation avec ce dernier.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、それも多分、この水晶球と同じで、額に当ててようやくほのかに感じられる程度のものなのだろう。",
-		   NULL, "But again, like the crystal ball, I'd probably have to hold it to my forehead to sense anything.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Cependant, tout comme avec la boule de cristal, il est probable que je dois la placer sur mon front pour éprouver une quelconque sensation.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……適当にうろつけば気配を感知できるほど、甘くはないらしい。",
-		   NULL, "...It didn't seem like things would be as simple as wandering about until I felt something.", Line_Normal);
+		   NULL, "...Bien entendu, je n'envisage pas de mettre la main dessus simplement en me baladant jusqu’à sentir quelque chose.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
