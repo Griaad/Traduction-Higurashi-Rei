@@ -3613,7 +3613,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020030", 128, TRUE);
 	OutputLine(NULL, "「仕方ないよ。立ち退きだし。」",
-		   NULL, "\"Il n'y a rien de bizarre à ce que certains ferment définitivement leur boutique avant la date limite.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Il n'y a rien de bizarre à ce que certains mettent définitivement la clé sous la porte avant la date limite.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -3751,7 +3751,7 @@ void main()
 
     if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "泥沼のダム戦争へと雪崩れ込んでいく。",
-		   NULL, " Puis, de fil en aiguille, cela s'est transformé en grave conflit autour du barrage.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ensuite, de fil en aiguille, cela s'est transformé en grave conflit autour du barrage.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3781,7 +3781,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこからは御三家と村人の話し合いになった。",
-		   NULL, "Ensuite, les discussions se sont faites entre les 3 grandes familles et les villageois.", Line_Normal);
+		   NULL, "Par la suite, les discussions se sont faites entre les 3 grandes familles et les villageois.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3867,14 +3867,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、来年４月末が立ち退き期限に定められており、期限を待たずに引越しを始めている家も少なくないという。",
-		   NULL, "La limite avant l'expulsion générale fut établie à la fin d'Avril de l'an prochain. Une poignée de familles a naturellement commencé à déménager en avance.", Line_Normal);
+		   NULL, "La limite avant l'expulsion générale fut établie à la fin d'Avril de l'an prochain. Une poignée de familles a inévitablement commencé à déménager en avance.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/m_hi3_01", "effect/up", 0, 0, 500 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　閉店している店のシャッターに煤けた張り紙がされている。",
-		   NULL, "Un message écrit sur une feuille de papier était accroché sur la grille de fermeture d'un des nombreux magasins fermés", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Un message écrit sur une feuille de papier était accroché sur la grille de fermeture d'un des nombreux magasins clos", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3886,7 +3886,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　時折、ダム反対と書かれた張り紙も見つけたが、",
-		   NULL, "Je remarquai plusieurs autres papiers avec écrit \"contre le barrage\" dessus...", Line_WaitForInput);
+		   NULL, "Je remarquai plusieurs autres papiers avec \"contre le barrage\" inscrit dessus...", Line_WaitForInput);
 	OutputLine(NULL, "それはかなりの経年劣化を経ており、すでにダム戦争は過ぎ去った過去のものであることを、無言で物語っている…。",
 		   NULL, " mais ils s'étaient détériorés avec le temps, prouvant que le conflit faisait dorénavant partie du passé....", Line_Normal);
 	ClearMessage();
@@ -3982,7 +3982,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、Ｌ５を発症させ…、公園の展望台から突き落とし、…その結果、意地悪な叔父叔母のもとへ預けられ……。",
-		   NULL, "Ajouté à cela les symptômes de niveau 5 qui surgissent... elle le poussera alors du balcon au parc... et sera transférée sous la protection de son affreu oncle et sa tante atroce...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ajouté à cela les symptômes de niveau 5 qui surgissent... elle le poussera alors du balcon au parc... et sera transférée sous la protection de son affreux oncle et sa tante atroce...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4071,7 +4071,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　父親は営業に転向し、妻がデザインしたものを売り込む役割だった。",
-		   NULL, "Son père changea de métier, il vendait désormais les designs de sa femme.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Son père changea de métier, il vendait dorénavant les designs de sa femme.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4875,7 +4875,7 @@ void main()
 		   NULL, "\"...Rika...... Rika...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070004", 128, TRUE);
 	OutputLine(NULL, "あなたの声が聞こえますです。",
-		   NULL, "j'arrive à entendre ta voix.", Line_WaitForInput);
+		   NULL, "j'arrive à percevoir ta voix.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070005", 128, TRUE);
 	OutputLine(NULL, "…どこにいるのですか、あなたが見つけられない。",
 		   NULL, " Où est-ce que tu es ? Je ne parviens pas à te repérer.", Line_WaitForInput);
@@ -4998,7 +4998,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf></color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070012", 128, TRUE);
 	OutputLine(NULL, "「…………梨花、…どういうことですか…！",
-		   NULL, "\".........Rika.... Qu'es-ce qui se passe ?!", Line_WaitForInput);
+		   NULL, "\".........Rika.... Qu'est-ce qui se passe ?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070013", 128, TRUE);
 	OutputLine(NULL, "　あなたのいる世界に入れない…！」",
 		   NULL, " Je ne peux pas entrer dans le monde où tu te trouves... !\"", GetGlobalFlag(GLinemodeSp));
@@ -5077,7 +5077,7 @@ void main()
 		   NULL, "\"Je.. Je ne peux pas, Rika...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070022", 128, TRUE);
 	OutputLine(NULL, "あなたの世界が、僕を拒絶する力を放っているのです。",
-		   NULL, " Ton monde dégage un pouvoir qui me rejette.", Line_WaitForInput);
+		   NULL, " Ton monde dégage un pouvoir qui me repousse.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070023", 128, TRUE);
 	OutputLine(NULL, "それを何とかしないと、僕にはどうしようもないのです…！」",
 		   NULL, " Si tu ne règles pas le problème, je ne pourrai rien y faire..!\"", GetGlobalFlag(GLinemodeSp));
@@ -5089,7 +5089,7 @@ void main()
 		   NULL, "\"T'en as pas marre de dire des choses aussi insensées ?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050096", 128, TRUE);
 	OutputLine(NULL, "　神さまのあんたを拒む力って何よ、そんなのあるわけないでしょ？！」",
-		   NULL, " T'as dis quoi ? Un pouvoir qui te rejette ? Mais t'es une déesse ! Comment c'est possible ?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " T'as dis quoi ? Un pouvoir qui te repousse ? Mais t'es une déesse ! Comment c'est possible ?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf></color>", NULL, Line_ContinueAfterTyping); }
@@ -5622,7 +5622,7 @@ void main()
 	OutputLine(NULL, "数々の奇跡を共有してようやく辿り着いた平和な未来が、",
 		   NULL, " et le paisible futur que nous avions obtenu après avoir partagé un nombre incalculable de miracles...", Line_WaitForInput);
 	OutputLine(NULL, "……一瞬で掻き消えたのだ。",
-		   NULL, " s’était envolé en un instant.", Line_Normal);
+		   NULL, " s’était volatilisé en un clin d'oeil.", Line_Normal);
 	ClearMessage();
 
 	SetSpeedOfMessage( TRUE, 128 );
@@ -5677,7 +5677,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私でない人間が同じ目にあったなら、………何の言い訳もなく、ただ命を失っておしまいだったのだから。",
-		   NULL, "Car si cela arrivait à une autre personne que moi... il perdrait juste la vie, rien de plus.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Car si cela arrivait à une autre personne que moi... elle perdrait juste la vie, rien de plus.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -5830,7 +5830,7 @@ void main()
 		   NULL, " et j'avais l'impression d'entendre...", Line_ContinueAfterTyping);
 	Wait( 700 );
 	OutputLine(NULL, "……わかる気がする…。",
-		   NULL, " mes amis faire mon deuil devant mon cercueil, le cœur en miette......", GetGlobalFlag(GLinemodeSp));
+		   NULL, " mes amis faire mon deuil devant mon cercueil, le cœur en mille morceaux......", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -5868,9 +5868,9 @@ void main()
 	OutputLine(NULL, "…ぅうぅ、それがどんなにか細い道でも、……絶対、",
 		   NULL, " ...Ouuu, l'échec n'est pas une option......", Line_Continue);
 	OutputLine(NULL, "……絶対に帰る……！",
-		   NULL, " Peu importe à quel point le chemin sera étroit... je triompherai c'est sûr et certain...!", Line_WaitForInput);
+		   NULL, " Peu importe à quel point le chemin sera étroit...", Line_WaitForInput);
 	OutputLine(NULL, "……絶対に帰る……！",
-		   NULL, " je rentrerai chez moi c'est sûr et certain...!", Line_WaitForInput);
+		   NULL, " Je triompherai c'est sûr et certain...!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050150", 128, TRUE);
 	OutputLine(NULL, "　ううぅうう！！」",
 		   NULL, " uuuuiiinnnnnnn !!\"", GetGlobalFlag(GLinemodeSp));
@@ -5952,7 +5952,7 @@ void main()
 		   NULL, "\"...Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070079", 128, TRUE);
 	OutputLine(NULL, "…何とかして、僕を拒むカケラを探し出してほしいのです。",
-		   NULL, " ...Il est indispensable que tu mettes la main sur le fragment qui me repousse.", Line_WaitForInput);
+		   NULL, " ...Il est indispensable que tu mettes la main sur le fragment qui me rejette.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070080", 128, TRUE);
 	OutputLine(NULL, "僕も、こちら側の世界から、何かわからないか探してみます。」",
 		   NULL, " De mon côté, je vais tâcher de trouver une piste là où je suis.\"", GetGlobalFlag(GLinemodeSp));
