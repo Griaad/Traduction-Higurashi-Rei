@@ -122,7 +122,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2001", 128, TRUE);
 	OutputLine(NULL, "「大丈夫ですか、古手さん。",
-		   NULL, "\"Tu vas bien, Rika ?", Line_WaitForInput);
+		   NULL, "\"Tu vas bien, Furude ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2002", 128, TRUE);
 	OutputLine(NULL, "あぁ、よかった！",
 		   NULL, " Oh, Dieu merci !", Line_WaitForInput);
@@ -2500,7 +2500,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2018", 128, TRUE);
 	OutputLine(NULL, "「古手さん、着席してください。",
-		   NULL, "\"Rika, tu peux aller t'asseoir à ta place.", Line_WaitForInput);
+		   NULL, "\"Furude, tu peux aller t'asseoir à ta place.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2019", 128, TRUE);
 	OutputLine(NULL, "ハイハイ、皆さん！",
 		   NULL, " Bien, écoutez-moi tous !", Line_WaitForInput);
