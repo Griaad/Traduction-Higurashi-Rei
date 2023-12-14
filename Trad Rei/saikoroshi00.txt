@@ -61,7 +61,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの永遠の６月は異常気象とかで、６月にもかかわらず夏の到来を思わせる暑さだった。",
-		   NULL, "L'interminable mois de juin fut si chaud qu'on eu l'impression que l'été était arrivé en un rien de temps.", Line_Normal);
+		   NULL, "L'interminable mois de juin fut si chaud qu'on eut l'impression que l'été était arrivé en un rien de temps.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -182,7 +182,7 @@ void main()
 		   NULL, "\"...Keiichi, tu devrais remercier Mii.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050002", 128, TRUE);
 	OutputLine(NULL, "もし魅ぃが白鳥さんのパンツを持ってきてなかったら、きっとオットセイさんがゆらゆらで大変なことになっていたのですよ。",
-		   NULL, " Si elle ne t'avais pas amené ce slip à tête de cygne, tu aurais dû nager avec ton 'cygne' à l'air.", Line_WaitForInput);
+		   NULL, " Si elle ne t'avait pas apporté ce slip à tête de cygne, tu aurais dû nager avec ton 'cygne' à l'air.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050003", 128, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
 		   NULL, " Nipah~☆\"", Line_Normal);
@@ -284,7 +284,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　みんなで、今日のプールのどたばたを振り返りながら自転車で帰路に着く。",
-		   NULL, "Tous les bons souvenirs de notre folie à la piscine en tête, nous prenions nos vélos afin de rentrer chez nous", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tous les bons souvenirs de notre folie à la piscine en tête, nous prenions nos vélos afin de rentrer chez nous.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -297,12 +297,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢と興宮の間には標高差があるため、興宮へ行くときは下りでとても快適だが、帰りは長い上りになる。",
-		   NULL, "Il y a une différence d'altitude entre les deux communes, la route pour aller à Okinomiya était une paisible descente mais lorsqu'il fallait rentrer à Hinamizawa une longue montée nous attendait.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il y a une différence d'altitude entre les deux communes. La route pour aller à Okinomiya était une paisible descente mais lorsqu'il fallait rentrer à Hinamizawa une longue montée nous attendait.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　元気盛りの雛見沢っ子にとってそれは大した苦にはならないが、それでも長い上り坂は、自然と無口になり、黙々とペダルを漕がせるのだった。",
-		   NULL, "Pour les enfants d'Hinamizawa qui était au summum de leur énergie, ce n’était pas grand chose, mais même ainsi, la longue montée les a naturellement rendu muets, ils pédalèrent alors en silence", Line_Normal);
+		   NULL, "Pour les enfants d'Hinamizawa qui étaient au summum de leur énergie, ce n’était pas grand chose, mais même ainsi, la longue montée les a naturellement rendus muets.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -320,7 +320,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私はペダルを強く漕いで、沙都子の自転車に追いつくと、黙々とペダルを漕ぐ沙都子の肩を小突いてやった。",
-		   NULL, "Je pédalais plus fort, Satoko me rattrapait en silence, puis en passant, je lui ai mis une petite tape sur son épaule. ", Line_Normal);
+		   NULL, "Je pédalais plus fort, Satoko me rattrapait en silence, puis en passant, je lui ai donné une petite tape sur l'épaule. ", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
@@ -355,7 +355,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私たちの速度は自然に上がり、他のメンバーたちをぐんぐん追い抜いていった。",
-		   NULL, "Notre vitesse augmentait progressivement, nous commencions donc à dépasser les autres membres du groupes petit à petit.", Line_Normal);
+		   NULL, "Notre vitesse augmentait progressivement, nous commencions donc à dépasser les autres membres du groupe petit à petit.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -385,7 +385,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、地元に長く暮らす人間だから、この時間にはほとんど車が来ないのを知っていた。",
-		   NULL, "Mais depuis le temps que nous vivions ici, nous savions qu'il n'y avait que très peu de véhicules qui prenaient ce chemin à cette heure ci.", Line_Normal);
+		   NULL, "Mais depuis le temps que nous vivions ici, nous savions qu'il n'y avait que très peu de véhicules qui prenaient ce chemin à cette heure-ci.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "scene/411a", 600 );
@@ -461,9 +461,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　体が前のめりになりながら、宙に浮くのがわかる。",
-		   NULL, "Quand mon corps s'est penché en avant, j'ai réalisée que je volais dans les airs.", Line_WaitForInput);
+		   NULL, "Quand mon corps s'est penché en avant, j'ai réalisé que je volais dans les airs.", Line_WaitForInput);
 	OutputLine(NULL, "…怪我をする直前を察知させる火薬の臭いが鼻を突いた。",
-		   NULL, " ...J'ai su que je n'étais pas loin de m'écraser lorsque mon nez sentit l'odeur de l'asphalte.", Line_Normal);
+		   NULL, " ...Je sus que je n'étais pas loin de m'écraser lorsque mon nez sentit l'odeur de l'asphalte.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 300, FALSE );

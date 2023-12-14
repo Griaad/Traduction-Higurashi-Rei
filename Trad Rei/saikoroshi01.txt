@@ -3354,7 +3354,7 @@ void main()
 	OutputLine(NULL, "　そして、今の会話でわかったのはそれだけではない。",
 		   NULL, "Ce n'est en outre pas la seule chose que j'ai découverte durant cette conversation.", Line_WaitForInput);
 	OutputLine(NULL, "クラスの人数についてだ。",
-		   NULL, " En prêtant attention au nombre de d'élèves...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " En prêtant attention au nombre d'élèves...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
