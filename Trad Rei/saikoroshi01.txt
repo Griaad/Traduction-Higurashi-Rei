@@ -6246,21 +6246,21 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　元の世界へ戻るために、…延々と石を積み続けよう。",
-		   NULL, "Pour retourner chez moi... j'empilerai autant de pierres qu'il le faudra.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pour retourner chez moi... j'empilerai autant de fragments qu'il le faudra.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そう、ここは三途の川原。",
-		   NULL, "...J’étais dans le rivage de la rivière Sanzu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Oh, c'est ici la rivière Sanzu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　元の世界で命を落とした私から見れば、彼岸。",
-		   NULL, "Pour une personne qui avait perdu sa vie dans son monde d'origine, c’était l'au-delà.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Là où je suis j'apperçois l'autre rive", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
