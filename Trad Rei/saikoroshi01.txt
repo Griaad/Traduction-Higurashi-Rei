@@ -122,7 +122,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2001", 128, TRUE);
 	OutputLine(NULL, "「大丈夫ですか、古手さん。",
-		   NULL, "\"Tu vas bien, Rika ?", Line_WaitForInput);
+		   NULL, "\"Tu vas bien, Furude ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2002", 128, TRUE);
 	OutputLine(NULL, "あぁ、よかった！",
 		   NULL, " Oh, Dieu merci !", Line_WaitForInput);
@@ -2500,7 +2500,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2018", 128, TRUE);
 	OutputLine(NULL, "「古手さん、着席してください。",
-		   NULL, "\"Rika, tu peux aller t'asseoir à ta place.", Line_WaitForInput);
+		   NULL, "\"Furude, tu peux aller t'asseoir à ta place.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2019", 128, TRUE);
 	OutputLine(NULL, "ハイハイ、皆さん！",
 		   NULL, " Bien, écoutez-moi tous !", Line_WaitForInput);
@@ -3354,7 +3354,7 @@ void main()
 	OutputLine(NULL, "　そして、今の会話でわかったのはそれだけではない。",
 		   NULL, "Ce n'est en outre pas la seule chose que j'ai découverte durant cette conversation.", Line_WaitForInput);
 	OutputLine(NULL, "クラスの人数についてだ。",
-		   NULL, " En prêtant attention au nombre de d'élèves...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " En prêtant attention au nombre d'élèves...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -6246,21 +6246,21 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　元の世界へ戻るために、…延々と石を積み続けよう。",
-		   NULL, "Pour retourner chez moi... j'empilerai autant de pierres qu'il le faudra.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pour retourner chez moi... j'empilerai autant de fragments qu'il le faudra.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そう、ここは三途の川原。",
-		   NULL, "...J’étais dans le rivage de la rivière Sanzu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Oh, c'est ici la rivière Sanzu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　元の世界で命を落とした私から見れば、彼岸。",
-		   NULL, "Pour une personne qui avait perdu sa vie dans son monde d'origine, c’était l'au-delà.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Là où je suis j'apperçois l'autre rive", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
