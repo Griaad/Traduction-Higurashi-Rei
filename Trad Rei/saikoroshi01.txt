@@ -1601,10 +1601,10 @@ void main()
 		   NULL, "\"...Mii.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050019", 128, TRUE);
 	OutputLine(NULL, "本当に何でもないのです。",
-		   NULL, " Ce n'est vraiment rien.", Line_WaitForInput);
+		   NULL, " Ce n'est pas grand-chose.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050020", 128, TRUE);
 	OutputLine(NULL, "面倒臭そうだったので逃げちゃおうと思ったら転んでしまっただけなのですよ。」",
-		   NULL, " Je pensais que le scan serait barbant, alors j'ai essayeé de m’échapper mais j'ai trébuché et suis tombée.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Je pensais que le scan serait barbant, alors j'ai essayée de m’échapper mais j'ai trébuché et suis tombée.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
@@ -1613,7 +1613,7 @@ void main()
 		   NULL, "\"C'est le travail du docteur de décider si oui ou non ce n'est rien.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2029", 128, TRUE);
 	OutputLine(NULL, "ワシがいいというまでそこに横になっていなさい。",
-		   NULL, " Allonge toi jusqu'à ce que je te dise que c'est bon.", Line_WaitForInput);
+		   NULL, " Allonge-toi pour le moment, je te ferai signe quand tu pourras y aller.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2030", 128, TRUE);
 	OutputLine(NULL, "いいかね？」",
 		   NULL, " D'accord ?\"", GetGlobalFlag(GLinemodeSp));
@@ -1638,7 +1638,7 @@ void main()
 		   NULL, "\"...Docteur.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050023", 128, TRUE);
 	OutputLine(NULL, "入江というお医者はいますか？」",
-		   NULL, " Est-ce qu'il y a un docteur du nom d'Irie ici ?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Y a-t-il un docteur du nom d'Irie ici ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
@@ -1912,7 +1912,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050029", 128, TRUE);
 	OutputLine(NULL, "「……小此木造園という造園屋さんはありますですか？」",
-		   NULL, "\"...Y a-t-il une compagnie nommée le Jardin Okonogi ? \"", Line_Normal);
+		   NULL, "\"...Vous savez s'il existe une compagnie nommée le Jardin Okonogi ? \"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
@@ -2056,7 +2056,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　高野一二三の研究を受け継いだという記念的な意味でタカノの名を診療所に冠した可能性もある…。",
-		   NULL, "Il était aussi possible qu'il ait couronné la clinique avec le nom de Takano en commémoration à ses recherches qui font suite à celles de Hifumi Takano...", Line_Normal);
+		   NULL, "Il était aussi possible qu'il ait baptisé la clinique du nom de Takano en hommage aux recherches héritées de Hifumi Takano....", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2074,7 +2074,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050033", 128, TRUE);
 	OutputLine(NULL, "「……ボクが女王感染者だとか、わかりますか…？」",
-		   NULL, "\"...Vous savez si je suis la reine mère, ou quelque chose d'autre ? \"", Line_Normal);
+		   NULL, "\"...Vous savez si je suis la reine mère, ou quelque chose dans ce genre ? \"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
@@ -2396,7 +2396,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今はそんな気持ちではないのだから絡まれないのはむしろ有難いが、",
-		   NULL, "Je n'avais pas la tête à ça de toute manière, je les remerciai de n'avoir rien fait de tout cela.", Line_WaitForInput);
+		   NULL, "Je n'avais pas la tête à ça de toute manière, je les remerciai de n'avoir rien fait.", Line_WaitForInput);
 	OutputLine(NULL, "……すでに層を成すほどに降り積もった違和感の上に、さらに降り積もるのを感じずにはいられない。",
 		   NULL, " Les bizarreries s'accumulaient.", Line_Normal);
 	ClearMessage();
