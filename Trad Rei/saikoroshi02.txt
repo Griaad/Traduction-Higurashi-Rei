@@ -113,22 +113,22 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただ、この水晶球がそうであるように、羽入の力と関係あるような代物なら恐らくは祭具殿にあるに違いない。",
-		   NULL, "But, if it was related to Hanyuu's power like the crystal ball was, it was almost certainly in that storehouse.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Cependant, si ce que je recherchais était lié au pouvoir d'Hanyû comme l’était la boule de cristal, il devrait se trouver dans la réserve.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただ、祭具殿の中は大昔の拷問道具から、古文書の山、用途もわからないようなガラクタの山などがごっちゃりだ。",
-		   NULL, "Unfortunately, the storehouse was a complete mess of everything from ancient torture devices, to piles of old documents, to mountains of trash I didn't even know how to use.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Malheureusement, la réserve était un vrai bric-à-brac. On y trouvait de tout, des vieux outils de torture en passant par des tas de vieux documents et d'objets dont j'ignorais l'utilité.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　かろうじて片付いているのは御神体の周りと祭壇くらい。",
-		   NULL, "The only place with any semblance of cleanliness was the space around the vessel and the altar.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Le seul endroit un minimum en ordre était l'espace autour de l'autel.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その中から、……下手をしたら、この水晶球と同サイズの小さな何かを探し出すのは生半可なことではない。",
-		   NULL, "Finding anything, especially an object as small as this crystal ball, would be no simple matter.", Line_Normal);
+		   NULL, "Trouver un objet aussi petit que la boule de cristal dans tout ce désordre ne sera pas une partie de plaisir.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/hu_rika", "effect/up", 0, 0, 500 );
@@ -137,10 +137,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220006", 128, TRUE);
 	OutputLine(NULL, "「梨花！",
-		   NULL, "\"Rika!", Line_WaitForInput);
+		   NULL, "\"Rika !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220007", 128, TRUE);
 	OutputLine(NULL, "　早く食事を済ませて学校に行きなさい！」",
-		   NULL, " Eat your breakfast and hurry on to school!\"", Line_Normal);
+		   NULL, " Mange ton petit déjeuner et dépêches-toi d'aller à l'école !\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -150,7 +150,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…この世界の学校は、私の通う学校ではない。",
-		   NULL, "...The school in this world wasn't the one I went to.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...L'école dans ce monde n’était pas celle ou je me rendais d'habitude.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
