@@ -150,24 +150,24 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…この世界の学校は、私の通う学校ではない。",
-		   NULL, "...L'école dans ce monde n’était pas celle ou je me rendais d'habitude.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...L'école dans ce monde n’était pas celle où je me rendais d'habitude.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんなとこへ通う時間があったら、私は祭具殿の中を漁るべきだと思った。",
-		   NULL, "If I had the time to go somewhere I didn't belong, then I should be using it to search the storehouse.", Line_Normal);
+		   NULL, "Pour être honnête, j'aurais préféré utiliser ce temps pour continuer mes recherches dans la réserve, plutôt que d'aller à l'école où je n'avais, de toute évidence, pas ma place.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただ、私の探し物が一日二日で終わる保証はない。",
-		   NULL, "But there was no proof my search would only take one or two days.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Toutefois rien ne prouvait que mes fouilles dureront un ou deux jours.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……とても嫌な話だが、",
-		   NULL, "...I really hated to say it...", Line_ContinueAfterTyping);
+		   NULL, "...Je détestais vraiment dire ça...", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "……私はこの、探し物の形すらわからない探索に、",
 		   NULL, " but since I didn't even know what it looked like...", Line_ContinueAfterTyping);
