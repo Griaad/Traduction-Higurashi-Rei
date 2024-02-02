@@ -167,34 +167,34 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……とても嫌な話だが、",
-		   NULL, "...Je détestais vraiment dire ça...", Line_ContinueAfterTyping);
+		   NULL, "...Je devais me rendre à l'évidence...", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "……私はこの、探し物の形すらわからない探索に、",
-		   NULL, " but since I didn't even know what it looked like...", Line_ContinueAfterTyping);
+		   NULL, " Mes recherches dureront sans doute plusieurs années...", Line_ContinueAfterTyping);
 	Wait( 600 );
 	OutputLine(NULL, "……数年をかける覚悟さえ必要になるかもしれない。",
-		   NULL, " maybe I needed to prepare myself for the search to take years.", Line_Normal);
+		   NULL, " Du moins, jusqu'à que je sache quelle forme a pris ce fragment.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　学校を休めば、律儀な知恵のこと、今日は休みかと自宅に電話をするに違いない。",
-		   NULL, "If I didn't go to school, Chie, ever-conscientious, would call the house to see if I was staying home that day.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Si je fais l'école buissonnière, Cie, soucieuse comme elle est, appellera chez moi pour être sûre que je sois restée à la maison.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そうなれば、学校とか両親とかが色々面倒になる。",
-		   NULL, "...If that happened, it would cause trouble with both the school and my parents.", Line_WaitForInput);
+		   NULL, "...Si ça arrivait, cela causerait beaucoup de problèmes avec l’école ainsi qu'avec mes parents.", Line_WaitForInput);
 	OutputLine(NULL, "どれだけ時間がかかるか想像もつかないのだ。",
-		   NULL, " I couldn't imagine how much time this search would take.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Je ne pouvais prédire le temps que me prendront ces recherches.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　両親に不信感を持たれると、色々とやりにくくなる。",
-		   NULL, "If my parents grew suspicious, things would get harder.", Line_WaitForInput);
+		   NULL, "Si mes parents commencent à se douter de quelque chose, la tache ne sera que plus compliquée.", Line_WaitForInput);
 	OutputLine(NULL, "……急がば回れ、ということなのか。",
-		   NULL, " ...Slow and steady wins the race, I guess.", Line_Normal);
+		   NULL, " ...Doucement mais sûrement, je crois.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
