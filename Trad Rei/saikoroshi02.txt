@@ -199,12 +199,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…悔しいが、平日は大人しく学校へ通うふりをした方がいいだろう。",
-		   NULL, "...Although it was frustrating, for weekdays, it would be better to pretend I was going to school like normal.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Je ferai mieux de prétendre aller à l’école durant la semaine comme à l'accoutumée. Cela me frustrait, mais c'était la meilleure solution.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は気だるくため息を吐くと、起き上がり、朝食を済ませることにした。",
-		   NULL, "I let out a languid sigh, got up, and decided to eat breakfast.", Line_Normal);
+		   NULL, "J'ai poussé un langoureux soupir, me suis levée, et ai décidé de prendre mon petit-déjeuner.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/right", 0, 0, 500 );
@@ -213,14 +213,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　食事の間中、母は私に、二度と祭具殿に入ろうとしてはいけない云々と言い続け、食事の味を落とし続けるのだった。",
-		   NULL, "During mealtime, my mother's ramblings about how I was never allowed to go into the ritual storehouse again steadily made the food taste worse.", Line_Normal);
+		   NULL, "Ma mère profita du repas pour me tenir tout un discours sur le fait que je ne devais plus jamais mettre un pied dans la réserve et cetera. Ses sermons n'ont servi qu'à rendre la nourriture moins bonne.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…母はしつこく、くどい。",
-		   NULL, "...My mother was always insistent and long-winded.", Line_WaitForInput);
+		   NULL, "...Ma mère a toujours été insistante et verbeuse.", Line_WaitForInput);
 	OutputLine(NULL, "この性分が大嫌いだった。",
-		   NULL, " I hated this part of her.", Line_Normal);
+		   NULL, " Je détestais cette facette d'elle.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
