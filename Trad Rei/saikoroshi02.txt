@@ -225,41 +225,41 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　村の老人はそれを、一人娘が可愛くて可愛くて仕方ないから、そうするんだろうと笑ったが、私には迷惑なだけだった。",
-		   NULL, "The elders in the village laughed and said she couldn't help it, since she did it for her only beloved daughter, but to me, she was just a nuisance.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Les anciens du village m'expliquaient souvent en rigolant qu'elle agissait ainsi pour le bien de sa fille adoré. Mais de mon point de vue, son comportement était juste pénible à en crever.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　愛情の裏返しなんて大きなお世話だ。",
-		   NULL, "Tough love wasn't what I needed at the moment.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je n'avais aucunement besoin d'amour vache en l’état actuel des choses.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私に感謝できるのは、自分が準備せずに食事が用意されたことくらいか。",
-		   NULL, "The only thing I could be thankful for was, maybe, that I didn't have to make breakfast for myself.", Line_Normal);
+		   NULL, "La seule chose pour laquelle je pouvais éventuellement lui être reconnaissante, était que je n'avais pas à me faire à manger.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………いっそのこと、食事は自分でどうにかするから、私に構わないでもらいたいくらいだ。",
-		   NULL, "......But I could do it on my own, so I almost would have rather she left it to me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, ".........Et encore, je savais cuisiner seule, j'aurais presque préféré qu'elle me fiche la paix.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　食事を終え、登校する私の背中にも母は、遅刻するなと口やかましく言葉を浴びせるのだった。",
-		   NULL, "After I was done eating and started getting ready for school, my mother continued to nag me about making it on time.", Line_Normal);
+		   NULL, "Après avoir terminé le repas, je me préparais pour aller à l'école tandis que ma mère me pressait pour que je n'arrive pas en retard.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/down", 0, 0, 500 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あぁ、鬱陶しい…。",
-		   NULL, "Ahh, how aggravating...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ahh, c'est si déprimant...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　母の顔を半日見ないで済むなら、学校に通うのも悪くないか。",
-		   NULL, "Maybe going to school wasn't so bad—I wouldn't have to see my mother's face for half a day.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Peut-être qu'aller en cours n’était pas si terrible. Je n'aurai pas à voir le visage de ma mère pendant toute une demi-journée..", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
