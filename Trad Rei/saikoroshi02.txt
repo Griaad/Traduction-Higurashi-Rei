@@ -411,7 +411,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、それが日常の当り前な光景なのだと言わんばかりの自然さで、楽しそうに食事をしていた。",
-		   NULL, "Ils mangeait joyeusement tous ensemble, cela semblait tellement naturel, comme si ce n’était qu'une simple journée parmi tant d'autres.", Line_Normal);
+		   NULL, "Ils mangeaient joyeusement tous ensemble, cela semblait tellement naturel, comme si ce n’était qu'une simple journée parmi tant d'autres.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -428,52 +428,53 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　中身は、昨夜の焦げたハンバーグの残りと、べたべたになった海苔ご飯。",
-		   NULL, "Inside were the leftovers of last night's burned hamburg steak and white rice with nori seaweed that was now sticky.", Line_WaitForInput);
+		   NULL, "Dedans s'y trouvaient les restes de la nuit dernière, c'est-à-dire un hamburger brûlé ainsi que du riz aux algues de nori maintenant devenu tout collant.", Line_WaitForInput);
 	OutputLine(NULL, "べちゃべちゃになった海苔で巻いたほうれん草。",
-		   NULL, " Spinach wrapped with gooey nori. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "À l’intérieur se trouvait aussi du nori gluant enroulé d’épinard.
+. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あと、これまた焦げたきんぴらごぼうの残骸。",
-		   NULL, "And the remains of kinpira with chopped burdock root, also burned.", Line_Normal);
+		   NULL, "Ainsi que les reste de racine de bardane hachée cuisine à la kinpira, lui aussi brûlé.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そう言えばそうだっけ。",
-		   NULL, "...I guess I'd forgotten about that.", Line_WaitForInput);
+		   NULL, "...Ah oui, j'avais oublié.", Line_WaitForInput);
 	OutputLine(NULL, "うちの母は、どういうわけかやたらと加熱する。",
-		   NULL, " For some reason, my mother overcooked everything.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pour je ne sais quelle raison, ma mère a tendance à trop cuire ses repas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ちゃんと火を通さないと夏場は危ない、が口癖で、ハンバーグがカチンカチンになるくらい焦がすし、焼き魚だっていっつも半分は炭になってる。",
-		   NULL, "\"Summer is dangerous if you don't let the heat in\" was a favorite phrase of hers; she would cook steaks until they were rock-hard, and even when she made fish, she'd turn half their insides to ash.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "D'après elle, il est dangereux de ne pas assez cuire la nourriture en été, de fait, elle cuit les steaks jusqu'à ce qu'ils soient aussi durs que de la roche, et elle carbonise le poisson.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　火の加減だけだったら沙都子の方がまだマシだ。",
-		   NULL, "Even Satoko was better than that—at least she knew how hot to cook things.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Même Satoko était meilleure cuisinière ; au moins elle savait gérer la cuisson de ses plats.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……あぁ、だから私が羽入に料理を習って、それで母よりもおいしく作れてしまったのが、母には不愉快だったに違いない。",
-		   NULL, "...Ahh, and when I learned how to cook from Hanyuu and started to make things better than my mother, she must not have been happy.", Line_Normal);
+		   NULL, "...Aah, et grâce aux leçons de cuisine d'Hanyû, j'ai commencée à mieux cuisiner que ma mère. Cela ne devait pas vraiment lui plaire.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/gk1", "effect/up", 0, 0, 500 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　味も最低。",
-		   NULL, "It tasted terrible, too.", Line_WaitForInput);
+		   NULL, "Le goût était vraiment mauvais.", Line_WaitForInput);
 	OutputLine(NULL, "彩りもなってない。",
-		   NULL, " No presentation, either.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Aucune présentation, rien.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………もしこのお弁当で魅音が弁当対決なんて言い出したら、ビリは免れないだろう。",
-		   NULL, "......If Mion decided to have a bento contest and I only had this, I'd end up in last place.", Line_WaitForInput);
+		   NULL, "......Si Mion décidait d'organiser un concours du meilleur panier-repas, je finirais sûrement dernière en me poitant avec un plat pareil.", Line_WaitForInput);
 	OutputLine(NULL, "でも、…この世界には部活がないから、その心配をする必要はない…。",
-		   NULL, " But... there was no club in this world, so I didn't have to worry about that...", Line_Normal);
+		   NULL, "Mais bon... le club n'existait pas dans ce monde, je n'avais donc aucune raison de me soucier de ça au final...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -481,7 +482,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子が幸福そうに笑う声が、私に向けられたものでなくて、……悲しかった。",
-		   NULL, "Satoko's happy laughter not being directed at me... made me feel sad.", Line_Normal);
+		   NULL, "Voir que les rires si enjoués de Satoko ne m'étaient pas destinés... ce fut comme un poignard en plein coeur.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -489,19 +490,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…その時、ふと沙都子と目が合う。",
-		   NULL, "...Suddenly, our eyes met.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Soudain, nos regards se croisèrent.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　心が、通じた…？",
-		   NULL, "Did my feelings... get through...?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mes sentiments. l'ont atteint..?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子は、すっくと立ち上がると険しい目つきで言った。",
-		   NULL, "Satoko burst out of her seat and glared at me.", Line_Normal);
+		   NULL, "Satoko se leva brusquement de son siège et me jeta un regard noir.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -510,16 +511,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040015", 128, TRUE);
 	OutputLine(NULL, "「…さっきからジロジロと何見てんのよ。",
-		   NULL, "\"...What are you staring at?", Line_WaitForInput);
+		   NULL, "\"...Pourquoi me regardez-vous depuis tout ce temps ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040016", 128, TRUE);
 	OutputLine(NULL, "何か文句あんなら直接言ったらー？」",
-		   NULL, " If you have something to say, say it!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Si vous avez quelque chose à dire, dites-le !\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050188", 128, TRUE);
 	OutputLine(NULL, "「も、……文句なんかないです。」",
-		   NULL, "\"I... I don't have anything to say.\"", Line_Normal);
+		   NULL, "\"Je... Je n'ai rien à dire.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -528,10 +529,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210013", 128, TRUE);
 	OutputLine(NULL, "「やめなよ沙都子。",
-		   NULL, "\"Stop it, Satoko.", Line_WaitForInput);
+		   NULL, "\"Calme-toi, Satoko.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210014", 128, TRUE);
 	OutputLine(NULL, "たまたま目があっただけじゃないか。」",
-		   NULL, " You just happened to look at each other, didn't you?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Vos regards se sont juste croisés par hasard, n'est-ce pas ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -541,32 +542,32 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040017", 128, TRUE);
 	OutputLine(NULL, "「たまたまじゃないもん！",
-		   NULL, "\"It didn't 'just happen'!", Line_WaitForInput);
+		   NULL, "\"Pas le moins du monde !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040018", 128, TRUE);
 	OutputLine(NULL, "　ずーっとジロジロ見てんの！",
-		   NULL, " She was staring at me this whole time!", Line_WaitForInput);
+		   NULL, "Elle n'a pas arrêté de me fixer depuis tout ce temps !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040019", 128, TRUE);
 	OutputLine(NULL, "　気持ち悪いったらありゃしない！」",
-		   NULL, " It was getting gross, come on!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "C'est répugnant !\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子とその友人たちが、私の方を見ながらボソボソと何かを囁きあっている。",
-		   NULL, "Satoko and her friends began whispering amongst themselves while looking at me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Satoko et ses amies ont commencé à faire des messes basses tout en me regardant", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　中身は聞こえないが、聞こえなくて幸いな内容であることは容易に想像できた…。",
-		   NULL, "I couldn't hear what they said, but I could easily imagine them enjoying themselves...", Line_Normal);
+		   NULL, "Je ne pouvais pas entendre ce qu'elle racontaient, mais je pouvais facilement me douter du genre de moquerie qu'elles profanaient...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050189", 128, TRUE);
 	OutputLine(NULL, "「……ごめんなさいです。",
-		   NULL, "\"......I'm sorry.", Line_WaitForInput);
+		   NULL, "\"......Je suis désolée.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050190", 128, TRUE);
 	OutputLine(NULL, "ジロジロ見ないです。」",
-		   NULL, " I won't stare at you.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je ne te fixerai plus.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -575,10 +576,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040020", 128, TRUE);
 	OutputLine(NULL, "「そうしてよね！",
-		   NULL, "\"I hope not!", Line_WaitForInput);
+		   NULL, "\"J'espère bien !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040021", 128, TRUE);
 	OutputLine(NULL, "　せっかくのクリームコロッケの味が落ちちゃうもん！」",
-		   NULL, " You were making my cream croquettes taste worse!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Vous rendez le goût de mes croquettes au fromage bien mauvais !\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -591,26 +592,26 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は少し机を傾けて、沙都子たちが見えないように向きを変えた。",
-		   NULL, "I angled my desk a little so that I couldn't see Satoko and the others.", Line_Normal);
+		   NULL, "J'ai légèrement décalé mon bureau, juste assez pour ne plus pouvoir voir Satoko et les autres.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…私はこの世界の沙都子のことを初め、冷たいと言ったが、どうやらそれも見当違いらしい。",
-		   NULL, "...At first, I had called this world's Satoko 'cold', but it looked like I was mistaken.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Au début, j'ai fait l'erreur de décrire la Satoko de ce monde comme étant "froide".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この世界の沙都子は、私のことを好きでない、…あるいは、そもそも嫌いなようだった。",
-		   NULL, "This world's Satoko either didn't like me... or outright hated me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ce n'est pas que la Satoko de ce monde ne m'aime pas, elle me déteste carrément.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、私に歳が近い子たちは、皆、沙都子を中心にコミュニティを作っているようで、",
-		   NULL, "And the other kids close to my age seemed to have formed a community around her...", Line_WaitForInput);
+		   NULL, "Et tous les autres enfants de mon âge semblaient avoir formé un petit groupe autour d'elle...", Line_WaitForInput);
 	OutputLine(NULL, "……そこに私の居場所はなく、",
-		   NULL, " with no place for me in it...", Line_ContinueAfterTyping);
+		   NULL, "Il n'y avait aucune place pour moi...", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "…みんなに嫌われているようだった。",
 		   NULL, " so they all hated me too.", Line_Normal);
