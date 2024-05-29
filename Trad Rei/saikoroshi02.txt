@@ -390,8 +390,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……沙都子は、何人かの友人たちに兄を加えて円陣を組む。",
-		   NULL, "....Satoko faisait partie d'un grand groupe d'amis, son frère compris." ADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
+		   NULL, "....Satoko faisait partie d'un grand groupe d'amis, son frère compris.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこには、私が割り込めるような隙はなかった。",
 		   NULL, "Il n'y avait aucune place pour moi.", Line_Normal);
