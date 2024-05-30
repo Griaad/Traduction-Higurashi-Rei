@@ -2862,19 +2862,19 @@ void main()
 	OutputLine(NULL, "　…そうだ。",
 		   NULL, "...Oh.", Line_WaitForInput);
 	OutputLine(NULL, "…この世界では部活はあるのだろうか。",
-		   NULL, " ...Le club existe-il dans ce monde ?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Le club existe-il ici ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今の私のこの気持ちも、…あのハチャメチャな部活の洗礼を受ければ、少しは晴れるのかもしれない。",
-		   NULL, "Si je pouvais goûter une nouvelle fois aux jeux du club totalement dements... je me sentirais éventuellement un petit peu mieux.", Line_Normal);
+		   NULL, "Si je pouvais goûter une nouvelle fois au joli bordel du club... je me sentirais éventuellement un petit peu mieux.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…部活がある日なら、放課後すぐに全員に声が掛かるはずだ。",
-		   NULL, "..Nous faisions les activités du club la journée. Mion solicitais toujours tous les membres du club après la fin des cours.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "..Nous faisions les activités du club la journée. Mion solicitais toujours tous les membres après la fin des cours.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2924,7 +2924,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……時に煩わしく感じる部活をこれだけ切望しているのに、…この世界には部活はないのだろうか。",
-		   NULL, "...Le club pouvait être rébarbatif par moments, mais j'en avais vraiment besoin dans l'état actuel des choses... Ce monde était-il vraiment dépourvu de club ?", Line_Normal);
+		   NULL, "...Le club pouvait être rébarbatif par moments, mais il m'était précieux... Ce monde était-il vraiment dépourvu de club ?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2943,7 +2943,7 @@ void main()
 	OutputLine(NULL, "……あぁ、よかった。",
 		   NULL, " ...Dieu merci.", Line_WaitForInput);
 	OutputLine(NULL, "この世界にもちゃんと放課後に部活はあるのだ。",
-		   NULL, " Les activités du club subsistaient dans ce monde.", Line_Normal);
+		   NULL, " Les activités du club subsistaient encore.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2973,7 +2973,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この何が何だかわからない世界で、自分の期待が当たるのは、今やそれだけでとてもうれしいものだったから…。",
-		   NULL, "Je n'avais vraiment aucune idée de ce qu'il se tramait ici. De ce fait, voir un de mes espoirs devenir réalité m'a sincèrement rendue heureuse, pour le moment...", Line_Normal);
+		   NULL, "Je n'avais vraiment aucune idée de ce qu'il se tramait ici. De ce fait, voir une de mes espérances devenir réalité m'a sincèrement rendue heureuse, pour le moment...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2988,7 +2988,7 @@ void main()
 		   NULL, " Tiens, le registre.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030021", 128, TRUE);
 	OutputLine(NULL, "で、部活って、はっはははは！",
-		   NULL, " Et hein, le club ? Ha ha ha ha ha !", Line_WaitForInput);
+		   NULL, " Et hein, le club ? Ha ha ha ha !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030022", 128, TRUE);
 	OutputLine(NULL, "　何だ、梨花ちゃんも私の部に入りたいのー？」",
 		   NULL, " Tu veux entrer dans mon club, toi aussi, Rika ?\"", GetGlobalFlag(GLinemodeSp));
@@ -3073,7 +3073,7 @@ void main()
 		   NULL, "\"M'enfin,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030027", 128, TRUE);
 	OutputLine(NULL, "梨花ちゃん家と私たちん家、方向違うじゃない？」",
-		   NULL, " ta maison est totalement à l’opposé de la mienne, non ?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ta maison est plutôt loin de la mienne, non ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -3096,12 +3096,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　多分、魅音が言ってる我が部とは、部活未所属のこと、いわゆる「帰宅部」のことだろう。",
-		   NULL, "Lorsque Mion parlait de \"son club\", elle parlait sûrement du  \"club\" de ne pas avoir de club— le club \"rentrer à la maison\".", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Lorsque Mion parlait de \"son club\", elle parlait sûrement du \"club\" de ne pas avoir de club — le club \"rentrer à la maison\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それで、帰り道が違うから一緒に活動（下校）はできない、と言っているに違いなかった。",
-		   NULL, "De plus, elle venait de dire que nos chemins étaient totalement opposés. C'est la raison pour laquelle je ne pouvais pas participer aux activités du club—rentrer à la maison—avec elle.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "De plus, elle répliquait que nos maisons étaient trop éloignées. C'est la raison pour laquelle je ne pouvais pas participer aux activités du club — rentrer à la maison — avec elles.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3132,7 +3132,7 @@ void main()
 		   NULL, "\"Heeeeein ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030029", 128, TRUE);
 	OutputLine(NULL, "　逆方向じゃん？」",
-		   NULL, " Mais notre route est totalement opposée.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mais nos chemins sont totalement opposées.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -3404,7 +3404,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　名を礼奈と違えても、相変わらず彼女はこういうことを察するのに敏感だった。",
-		   NULL, "Son nom était différent, mais sa capacité à repérer ce type de détail rapidement n'avait pas changé.", Line_Normal);
+		   NULL, "Son nom était différent, mais sa capacité à repérer ce type de détail rapidement était inchangée.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3498,7 +3498,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私と沙都子が、親友と呼べる関係になるのは、……沙都子がひとりぼっちになり、私が一緒に住もうと話しかけ、同居するようになってからだ。",
-		   NULL, "Satoko et moi étions si proches car ...elle s'était retrouvée seule. Je lui ai proposé de rester chez moi, et c'est ainsi que nous avons commencé à vivre ensemble.", Line_Normal);
+		   NULL, "Satoko et moi étions si proches car ...elle s'était retrouvée seule. Je lui ai alors proposé de rester chez moi, et c'est ainsi que nous avons commencé à vivre ensemble.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3510,7 +3510,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　結局、私と沙都子の関係は、…私が悟史の空けた空席に座った形のものでしかなかったのかもしれない。",
-		   NULL, "Et si, au final, notre relation... n’était rien d'autre que moi m’asseyant sur le siège vacant de Satoshi ?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Et si, finalement, notre relation... n’était rien d'autre que moi m’asseyant sur le siège vacant de Satoshi ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
