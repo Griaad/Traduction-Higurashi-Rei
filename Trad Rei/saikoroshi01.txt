@@ -3498,7 +3498,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私と沙都子が、親友と呼べる関係になるのは、……沙都子がひとりぼっちになり、私が一緒に住もうと話しかけ、同居するようになってからだ。",
-		   NULL, "Satoko et moi étions si proches car elle s'était retrouvée seule. Je lui ai alors proposé de rester chez moi, et c'est ainsi que nous avons commencé à vivre ensemble.", Line_Normal);
+		   NULL, "Satoko et moi étions aussi proches car elle s'était retrouvée seule. Je lui ai alors proposé de rester chez moi, et c'est ainsi que nous avons commencé à vivre ensemble.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3515,7 +3515,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを思えば、……この昭和５８年６月に悟史がいるというＩＦを考えれば、…至極当然の未来なのかもしれない…。",
-		   NULL, "Lorsque j'y ai pensé.... lorsque je me suis demandée ce qui se passerait si Satoshi était présent en juin 1983... ce futur était sûrement le plus logique...", Line_Normal);
+		   NULL, "Lorsque j'y ai pensé.... lorsque je me suis demandée ce qui se passerait si Satoshi était présent en juin 1983... ce futur me semblait être le plus logique...", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/gr2", "effect/down", 0, 0, 500 );
@@ -3604,10 +3604,10 @@ void main()
 		   NULL, "\"Malheureusement, ça a du sens.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020028", 128, TRUE);
 	OutputLine(NULL, "来年までしか営業できないもんね。",
-		   NULL, " Ils ne peuvent travailler seulement jusqu'à l'année prochaine.", Line_WaitForInput);
+		   NULL, " Plus personne ne pourra travailler au village l'année prochaine.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020029", 128, TRUE);
 	OutputLine(NULL, "来るお客さんだって減る一方だし。",
-		   NULL, " Ils ont aussi de moins en moins de clients.", Line_WaitForInput);
+		   NULL, " Et les rares boutiques encore ouvertes reçoivent de moins en moins de clients.", Line_WaitForInput);
 	ClearMessage();	   
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
