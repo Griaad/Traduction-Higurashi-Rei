@@ -512,10 +512,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040015", 128, TRUE);
 	OutputLine(NULL, "「…さっきからジロジロと何見てんのよ。",
-		   NULL, "\"...Pourquoi me regardez-vous depuis tout ce temps ?", Line_WaitForInput);
+		   NULL, "\"...Pourquoi tu me regarde, tu veux ma photo ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040016", 128, TRUE);
 	OutputLine(NULL, "何か文句あんなら直接言ったらー？」",
-		   NULL, "Si vous avez quelque chose à dire, dites-le !\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Si t'as quelque chose à dire, aller dis-le !\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -546,7 +546,7 @@ void main()
 		   NULL, "\"Pas le moins du monde !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040018", 128, TRUE);
 	OutputLine(NULL, "　ずーっとジロジロ見てんの！",
-		   NULL, " Elle n'a pas arrêté de me fixer depuis tout ce temps !", Line_WaitForInput);
+		   NULL, " Elle n'a pas arrêté de me fixer !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040019", 128, TRUE);
 	OutputLine(NULL, "　気持ち悪いったらありゃしない！」",
 		   NULL, " C'est répugnant !\"", GetGlobalFlag(GLinemodeSp));
@@ -580,7 +580,7 @@ void main()
 		   NULL, "\"J'espère bien !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040021", 128, TRUE);
 	OutputLine(NULL, "　せっかくのクリームコロッケの味が落ちちゃうもん！」",
-		   NULL, " Vous rendez mes croquettes au fromage bien mauvaises !\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu rends le goût de mes croquettes au fromage très mauvais !\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
