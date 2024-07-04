@@ -497,7 +497,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私には、あ、と口にする時間さえ与えられなかった。",
-		   NULL, "Je n'ai meme pas eu le temps de dire "oups".", Line_Normal);
+		   NULL, "Je n'ai Même pas eu le temps de dire 'oups'.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
