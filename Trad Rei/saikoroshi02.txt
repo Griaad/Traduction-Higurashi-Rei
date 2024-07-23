@@ -736,7 +736,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこでは沙都子だって無二の大親友で、…お昼に私を放っておかない部活メンバーたちが待っているのだ。",
-		   NULL, "Là-bas, Satoko était mon irremplaçable meilleure amie... et tous les autres membres du club, qui ne me laissaient jamais seule pendant le déjeuner, m'y attendaient.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Là-bas, Satoko était mon irremplaçable meilleure amie... et tous les autres membres du club m'y attendaient. Au moins eux ne me laissent jamais déjeuner seule.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -898,16 +898,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昨日はこの高所を怖いと思ったが、昼休みに思い切り泣いて覚悟が出来たせいか、もうその程度のことを怖いとは思わなかった。",
-		   NULL, "La première, je fus effrayée par la hauteur, mais il n'en était rien désormais, probablement parce que j'avais pleuré toutes leslarmes de mon coprs et m'étais fait une promesse pendant le déjeuner.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La première fois, je fus effrayée par la hauteur, mais il n'en était rien désormais, probablement grâce à la promesse larmoyante que je me suis faites pendant le déjeuner.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…私が本当に恐れるべきなのは高所でも親でも冷たい沙都子でもない。",
-		   NULL, "...La chose qui me faisait le plus peur n'étais pas la hauteur, mes parents ou bien même la Satoko antipathique...", Line_WaitForInput);
+		   NULL, "...La chose qui me faisait le plus peur n'était pas la hauteur, mes parents ou bien même la Satoko antipathique...", Line_WaitForInput);
 	OutputLine(NULL, "……元の世界へ帰れなくなることなのだから。",
-		   NULL, " ...Mais bien mes chances de retourner dans monde originel.", Line_Normal);
+		   NULL, " ...Mais bien mes chances de retourner dans monde d'origine.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -938,7 +938,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　休めば、少しは力が戻るということなのかもしれない。",
-		   NULL, "Peut-être qu'elle a récupéré une faible quantité de ses pouvoirs car elle a pu se reposer.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Peut-être qu'elle a pu se reposer et récupérer une petite partie de ses pouvoirs.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
