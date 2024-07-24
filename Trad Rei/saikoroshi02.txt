@@ -1400,14 +1400,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050235", 128, TRUE);
 	OutputLine(NULL, "「…となれば、",
-		   NULL, "\"...Which means......", Line_Continue);
+		   NULL, "\"...Dans ce cas......", Line_Continue);
 	OutputLine(NULL, "……次は、古手神社神主の父か、",
-		   NULL, " next is my father, head priest of the Furude Shrine...", Line_Continue);
+		   NULL, " Le prochain sur la liste est mon père, qui est le prêtre en chef du sanctuaire Furude...", Line_Continue);
 	OutputLine(NULL, "…古手家の血を継ぐ母か。",
-		   NULL, " and my mother, carrier of the Furude lineage.", Line_WaitForInput);
+		   NULL, " Ainsi que ma mère, descendante de la lignée Furude.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050236", 128, TRUE);
 	OutputLine(NULL, "……もしそうだったら、ぶっ殺せばいいってわけね。」",
-		   NULL, " ......If it was one of them, I'd just have to kill them, right?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ......S'il s'avère que c'est l'un d'entre eux, il suffira simplement de les tuer.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
@@ -1420,12 +1420,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人間としての道徳観が、親殺しを否定する。",
-		   NULL, "My human morality refused the idea of killing my parents.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ma bonne conscience humaine refusait l'idée de tuer mes parents.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……だが、その感覚は、世界を跨ぐ魔女には必要ない。",
-		   NULL, "...But that was nothing a world-crossing witch needed to think about.", Line_Normal);
+		   NULL, "...Mais au diable la bonne conscience, j'étais une sorcière vagabonde après tout.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
