@@ -37,33 +37,33 @@ void main()
 	OutputLine(NULL, "　もちろんそれは表向きだ。",
 		   NULL, "Ce n'était qu'une mascarade, bien sûr.", Line_WaitForInput);
 	OutputLine(NULL, "………羽入と同じ力が宿っているなら、こうして触れれば、微弱であっても感じられる。",
-		   NULL, " ......Si elle possédait le même pouvoir qu'Hanyû, alors en la touchant de cette façon je le ressentirai, même si c'est faible.", Line_Normal);
+		   NULL, " ......Si elle possédait le même pouvoir qu'Hanyû, alors en la touchant de cette façon je le ressentirai, même faiblement.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……もし母からその力が感じられたなら、…私はその場で母を殺せるだろうか。",
-		   NULL, "...Si je sentais ce pouvoir émaner de ma mère... pourrais-je réellement la tuer sur le coup ?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Si c'était bien le cas alors... pourrais-je réellement la tuer sur le coup ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　殺すことに躊躇はないが、…今この場で殺すことに躊躇がないとは言い切れなかった。",
-		   NULL, "Je n'hésiterai pas à lui ôter la vie si il le faut, mais... je ne sais pas si je peux prendre la décision de le faire ici et maintenant.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je n'hésiterai pas à lui ôter la vie s'il le faut, mais... je ne sais pas si je peux prendre la décision de le faire maintenant.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、……母にその力が宿ってほしくないと思ったし、",
-		   NULL, "D'un côté... je préfère qu'elle n'ait pas ce pouvoir en elle...", Line_WaitForInput);
+		   NULL, "D'un côté... j'espérais qu'elle n'ait pas ce pouvoir en elle...", Line_WaitForInput);
 	OutputLine(NULL, "…同時に、母にその力がなかったら、次は何を疑えばいいのかわからないという不安感もあった。",
-		   NULL, " mais d'un autre, je n'ai aucune idée sur ce que je dois faire si elle ne l'a pas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " mais d'un autre, le cas échéant, je me retrouverai dans une impasse, sans savoir quoi inspecter ensuite.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　くすぐったそうに笑う母の思惑とは別に、私は殺すべき人物かどうかを念入りに確かめる。",
-		   NULL, "Ma mère rigolait car ça la chatouillait, mais contrairement à ce qu'elle pensait, je vérifiais délicatement si son heure devait sonner.", Line_Normal);
+		   NULL, "Ma mère rigolait car ça la chatouillait, mais sans qu'elle s'en doute, je vérifiais délicatement si son heure devait sonner.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/hu_tenjyou", "effect/up", 0, 0, 500 );
@@ -106,7 +106,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　オヤシロさま伝説にもっとも縁近い二人でなかった以上、人にカケラが宿っている可能性は低そうだった。",
-		   NULL, "Si ce n'était aucune des deux personnes les plus proches de la déesse Oyashiro, alors il était presque sûr que le Fragment ne se trouvait pas dans un être humain.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Si ce n'était aucune des deux personnes les plus proches de la déesse Yashiro, alors on pouvait rayer de la liste la possibilité que le Fragment se trouvait pas dans un humain.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -121,14 +121,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それと平行して、…あの祭具殿の古文書の山の解読を進めていかなければならない。",
-		   NULL, "Et de plus, je dois continuer le déchiffrement de la pile de documents dans le bâtiment des reliques sacrées.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Et de plus, le déchiffrement de la pile de documents dans le temple ne se fera pas tout seul.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの膨大な山を全て読破する労力と、人をひとり殺す罪を比べたら、どちらを選ぶべきか、私は短くない時間を必要とするに違いなかった…。",
-		   NULL, "Je ne sais pas ce qui est le pire entre lire la montagne de parchemins ou porter la croix d'avoir assassiner quelqu'un, mais en tout cas une chose est sûre, j'aurais besoin de plus de temps que prévu...", Line_Normal);
+		   NULL, "Je ne sais pas ce qui est le pire entre lire la montagne de parchemins ou porter le poids mental d'avoir commis un assassinat. En tout cas une chose était sûre, j'aurais besoin de plus de temps que prévu...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
@@ -160,9 +160,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　次の日曜日は綿流しのお祭りだという。",
-		   NULL, "On m'a dit que le festival de la purification du coton était dimanche prochain.", Line_WaitForInput);
+		   NULL, "On m'a dit que le festival de la purification du coton se tiendrait dimanche prochain.", Line_WaitForInput);
 	OutputLine(NULL, "…これほどどうでもいいと思った綿流しは初めてだった。",
-		   NULL, " ...C'était la première fois que la fête ne me faisait ni chaud ni froid.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...C'était bien la première fois que la fête ne me faisait ni chaud ni froid.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -179,14 +179,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　普段の世界だったら、古手家最後の生き残りとして奉納演舞を捧げなければならない責務もこの世界にはない。",
-		   NULL, "La tâche qui m'incombait de performer la danse en l'honneur d'Oyashiro en tant que dernière membre des Furude n'existait pas dans ce monde non plus.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je n'étais plus la dernière membre du clan Furude, par conséquent, je ne devais plus danser en l'honneur de la déesse Yashiro..", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただ、さすがに遊んでればいいというものではないらしい。",
-		   NULL, "Je n'étais pas non plus autorisée à me balader et à m'amuser.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Néanmoins ce n'est pas pour autant que j'avais le droit de m'amuser.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -216,16 +216,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　すでに日数が経っていて、心の整理がついていたこともあり、もう私は、その程度の思い出に涙することはなくなっていた。",
-		   NULL, "Après pas mal de jours passés dans ce monde et mon esprit endurci, j'ai arrêté de me lamenter pour ces petits souvenirs nostalgiques.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Après pas mal de jours passés dans ce monde, mon esprit s'était endurci, je ne pleurais plus à cause de petits souvenirs nostalgiques.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……全ては元の世界に帰るため。",
-		   NULL, "...Tout ce que je fais est pour revenir dans mon monde d'origine.", Line_WaitForInput);
+		   NULL, "...Toutes mes actions ont pour but de revenir dans mon monde d'origine.", Line_WaitForInput);
 	OutputLine(NULL, "…煩わしさに悪態をつくことはあっても、涙することは二度とない。",
-		   NULL, " ...J'aurai peut-être de la peine, mais je ne pleurerai plus jamais.", Line_Normal);
+		   NULL, " ...Je ne dis pas que je ne ressentirai plus de peine, mais c'en était fini des pleurnicheries.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/right", 0, 0, 500 );
@@ -233,7 +233,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、校門前で沙都子に会って、私が挨拶したにもかかわらず露骨に無視されても、もう悲しくはなかった。",
-		   NULL, "Même quand je verrai Satoko à l'entrée de l'école et lui dirai bonjour, tout ça pour me faire ignorer comme si j'étais invisible, je ne verserai pas une larme.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Même quand Satoko ignorera mes salutation devant l'école comme si j'étais invisible, je ne verserai pas une larme.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -245,7 +245,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……だから、偽者の沙都子に無視されたって、ちっとも心は傷つかないのだから…。",
-		   NULL, "...Même si la fausse Satoko m'ignore, ça ne me blessera plus...", Line_Normal);
+		   NULL, "...Je ne serai plus blessée si la fausse Satoko m'ignore...", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/right", 0, 0, 500 );
@@ -255,7 +255,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音は沙都子のように露骨に冷たくはなかったが、私のことを、大勢のクラスメートの内のひとり以上には思っていないようだった。",
-		   NULL, "Mion n'était pas distante comme Satoko, mais me considérait seulement comme une camarade de classe.", Line_Normal);
+		   NULL, "Mion n'était pas distante comme Satoko, elle me considérait seulement comme une camarade de classe.", Line_Normal);
 	ClearMessage();
 
 	ModSetLayerFilter(2, 256, "none");
@@ -264,12 +264,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　礼奈はむしろ私に接しようとしてくれるようだった。",
-		   NULL, "Reina semblait vraiment vouloir me parler.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Reina semblait souvent vouloir me parler.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…でも、それは私が孤立していることを前提にした、ある種の憐れみからの接触であり、それを受け入れることはむしろ悲しいように思えた。",
-		   NULL, "...Mais c'était seulement parce que j'étais isolée; elle agissait par pure pitié, et cela rendait le tout encore plus triste.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Cependant c'était seulement parce que j'étais isolée; elle agissait par pure pitié, et cela rendait le tout encore plus triste.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -285,19 +285,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そんなことをほんの何度か繰り返す内に、礼奈も私が望んでいないことを察し、私に構わなくなった。",
-		   NULL, "...Après quelques échanges, elle a compris que je ne voulais pas de ça et a arrêté de m'agacer.", Line_Normal);
+		   NULL, "...Après quelques échanges, elle a compris que je ne voulais pas de sa clémence et a arrêté de m'agacer.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/down", 0, 0, 500 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　独りぼっちは、今や寂しいことではない。",
-		   NULL, "Être seul n'était plus triste.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Être seule n'était plus pénible.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この偽りの世界では私が異邦人として孤立しているのは当然のことで、むしろ煩わしい付き合いが不要な分、気楽なくらいだった。",
-		   NULL, "C'était normal d'être solitaire en tant qu'étranger à ce faux monde. En vérité, moins j'avais de liens avec ces personnes, plus c'était facile pour moi.", Line_Normal);
+		   NULL, "Plutôt normal d'être solitaire en tant qu'étranger à ce faux monde. En vérité, moins je tissais de liens avec eux, plus c'était facile pour moi.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
