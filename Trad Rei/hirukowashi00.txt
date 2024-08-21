@@ -80,7 +80,7 @@ void main()
 	OutputLine(NULL, "「ううう、ウソですごめんなさい、宝探し万歳です！",
 		   NULL, "\"N-N-Non, désolé, j'ai menti ! Je veux faire de la chasse au trésor !", Line_WaitForInput);
 	OutputLine(NULL, "　ぜひレナさんの旅に同行させてくださいませ！！」",
-		   NULL, " S'il-vous-plaît, permettez-moi de vous accompagner durant votre aventure, Dame Rena !!\"", Line_Normal);
+		   NULL, " S'il vous plaît, permettez-moi de vous accompagner durant votre aventure, Dame Rena !!\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(1, 200, FALSE);
@@ -508,7 +508,7 @@ void main()
 	PlayBGM( 0, "u2_rika", 120, 0 );
 
 	OutputLine(NULL, "…でも、正しく使えば素晴らしい力もあると言わなかった？",
-		   NULL, " ...Mais tu as bien dit qu'il a un pouvoir incroyable si il est utilisé de la bonne manière ? ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Mais tu as bien dit qu'il a un pouvoir incroyable s'il est utilisé de la bonne manière ? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それ次第では封印する前に少し遊んでみてもいいかもね。」",
 		   NULL, "Je pourrais avoir envie de jouer un peu avec.\"", GetGlobalFlag(GLinemodeSp));

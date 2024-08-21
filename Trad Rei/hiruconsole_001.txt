@@ -92,7 +92,7 @@ void main()
 			NULL, "\"N-N-Non, désolé, j'ai menti ! Je veux faire de la chasse au trésor !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100005", 256, TRUE);
 	OutputLine(NULL, "　ぜひレナさんの旅に同行させてくださいませ！！」",
-			NULL, " S'il-vous-plaît, permettez-moi de vous accompagner durant votre aventure, Dame Rena !!\"", Line_Normal);
+			NULL, " S'il vous plaît, permettez-moi de vous accompagner durant votre aventure, Dame Rena !!\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(1, 200, FALSE);
