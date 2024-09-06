@@ -223,7 +223,7 @@ void main()
 		   NULL, "\"...Je l'ai pas lancé aussi fort.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040011", 128, TRUE);
 	OutputLine(NULL, "古手さんが大袈裟なだけだもん…。」",
-		   NULL, " Elle abuse...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Elle exagère...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
@@ -329,7 +329,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もう一度、昭和５８年６月に挑み、また同じように打ち破れる保証なんてまったくないのだ。",
-		   NULL, "Je ne sais pas si je serais une nouvelle fois capable de battre cette impasse...", Line_Normal);
+		   NULL, "Je ne sais pas si je serais une nouvelle fois capable de m'en sortir...", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 300, FALSE );
@@ -651,7 +651,7 @@ void main()
 		   NULL, "\"Ah, Docteur.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2013", 128, TRUE);
 	OutputLine(NULL, "急にお呼びしてしまってすみません。",
-		   NULL, " Je suis vraiment désolée de vous aavoir appelé si soudainement..", Line_WaitForInput);
+		   NULL, " Je suis vraiment désolée de vous avoir appelé si soudainement..", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2014", 128, TRUE);
 	OutputLine(NULL, "さっき意識が戻ったところなんです。」",
 		   NULL, " Elle s'est réveillée il y a quelques minutes à peine.\"", GetGlobalFlag(GLinemodeSp));
