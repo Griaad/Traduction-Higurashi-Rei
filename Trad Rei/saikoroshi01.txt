@@ -184,7 +184,7 @@ void main()
 		   NULL, "\"...Tu vas bien...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210004", 128, TRUE);
 	OutputLine(NULL, "　まだ調子、よくないみたいだね。」",
-		   NULL, " Tu as toujours mauvaise mine.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " On dirait que t'as vu un fantôme.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
