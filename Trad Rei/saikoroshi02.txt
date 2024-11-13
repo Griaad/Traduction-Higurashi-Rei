@@ -1430,26 +1430,26 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本当の世界を別に持つ私にとって、ここは偽りの世界。",
-		   NULL, "For someone with a true world somewhere else, this was a false world.", Line_WaitForInput);
+		   NULL, "Mon vrai monde à moi était autre part.", Line_WaitForInput);
 	OutputLine(NULL, "…つまりは夢の中も同じ。",
-		   NULL, " ...Meaning it was the same as a dream.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Ce monde-ci n'a alors pas plus d'importance qu'un rêve.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その中での殺人など、妄想や白昼夢と何も変わらないのだ。",
-		   NULL, "Murdering someone in a dream was no different from doing it in a delusion or daydream.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Si je ne suis que dans un rêve alors...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、この世界で犯す罪など、何も省みることはない…。",
-		   NULL, "There was nothing to consider about committing the sin in this world...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "l'assassinat ne serait plus un péché si grave...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は、あぅあぅと悲しそうな声を出す羽入に言ってやる。",
-		   NULL, "Hanyuu was making sad \"au au\" noises, so I told her how I felt.", Line_Normal);
+		   NULL, "Hanyu avait l'air triste, je lui ai donc exprimé le fond de ma pensée.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/jsa7_01", "effect/up", 0, 0, 500 );
@@ -1457,10 +1457,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050237", 128, TRUE);
 	OutputLine(NULL, "「…偽善者ぶるのはやめて。",
-		   NULL, "\"...Stop being such a hypocrite.", Line_WaitForInput);
+		   NULL, "\"...Tu veux bien arreter de faire l'hypocrite 2 secondes ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050238", 128, TRUE);
 	OutputLine(NULL, "……ならあんたは、元の世界へ帰るのは諦めてもいいって言うのね。」",
-		   NULL, " ...Would you rather give up on returning to our original world?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Tu préfères qu'on abandonne l'idée de retourner chez nous, c'est ça ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
@@ -1472,17 +1472,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050239", 128, TRUE);
 	OutputLine(NULL, "「あんたは卑怯よ。",
-		   NULL, "\"You're a coward.", Line_WaitForInput);
+		   NULL, "\"Tu es si lâche.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050240", 128, TRUE);
 	OutputLine(NULL, "手を汚す決断を私にだけさせて、自分の手は汚さないってつもりよね。",
-		   NULL, " You're going to force me to dirty my hands, while never dirtying yours.", Line_WaitForInput);
+		   NULL, " Tu me forces à me salir les mains, pendant que toi, tu te la coules douce.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050241", 128, TRUE);
 	OutputLine(NULL, "……罪を誰かひとりに被せれば、他はみんな罪に塗れずに済んで好都合？",
-		   NULL, " ...Convenient, isn't it? If you can blame it all on one person, nobody else will be marked with sin. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...C'est pratique, hein ? Si tu peux tout mettre sur le dos d'une seule personne, je serai la seule à pécher évidemment. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050242", 128, TRUE);
 	OutputLine(NULL, "　私はちょうどいい人柱ってわけね。」",
-		   NULL, "I'm the perfect human sacrifice.\"", Line_Normal);
+		   NULL, "Pour toi, je ne suis rien de plus que le sacrifice humain idéal.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
@@ -1495,7 +1495,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その言葉は、羽入には少し厳しいものだったと思う。",
-		   NULL, "I felt those words were a little harsh on Hanyuu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Peut-être que mes mots étaient un peu trop crus pour Hanyu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
