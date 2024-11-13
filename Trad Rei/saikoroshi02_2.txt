@@ -2609,19 +2609,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今からでも、「全部冗談。信じたのですか？　にぱ〜☆」とかいって全部、誤魔化すか？",
-		   NULL, "Est-ce que je le duperais si je lui disais, \"C'est juste une blague. Tu m'as cru ? Nipah~☆\" ?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Est-ce que je le duperais si je lui répondais, \"C'est juste une blague. Tu m'as cru ? Nipah~☆\" ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………それを奥の手にするなら、それは水晶球が回復して、山本に交信を試させて失敗した時に使えばいいだろう。",
-		   NULL, "......Si c'est ma dernière solution, je pourrais l'utiliser si la tentative de communication entre Yamamoto et Hanyû rateraient.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Si c'est ma dernière solution, je pourrais l'utiliser si la tentative de communication entre Yamamoto et Hanyû échoueraient.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　山本が私の味方になってくれるというわずかな可能性を、試す前から捨てることもない…。",
-		   NULL, "Je ne peux pas abandonner la possibilité d'avoir un allié précieux comme Yamamoto...", Line_Normal);
+		   NULL, "Je ne peux pas abandonner la possibilité d'avoir un allié aussi précieux comme Yamamoto...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
@@ -2630,10 +2630,10 @@ void main()
 		   NULL, "\"Hmm.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2167", 128, TRUE);
 	OutputLine(NULL, "じゃあ明日はちゃんと梨花ちゃんのために予定を空けておこう。",
-		   NULL, " Alors je garderai un créneau de libre demain juste pour toi, Rika.", Line_WaitForInput);
+		   NULL, " Alors je garderai un créneau de libre demain rien que pour toi, Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2168", 128, TRUE);
 	OutputLine(NULL, "それでいいかい？」",
-		   NULL, " Ça te paraît bon ?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ça te va ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
