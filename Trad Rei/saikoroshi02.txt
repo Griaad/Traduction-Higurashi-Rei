@@ -1226,7 +1226,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050216", 128, TRUE);
 	OutputLine(NULL, "「……………そうか、わかったわ。」",
-		   NULL, "\".........D'accord, j'ai comprends mieux.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\".........D'accord, je comprends mieux.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1457,7 +1457,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050237", 128, TRUE);
 	OutputLine(NULL, "「…偽善者ぶるのはやめて。",
-		   NULL, "\"...Tu veux bien arreter de faire l'hypocrite 2 secondes ?", Line_WaitForInput);
+		   NULL, "\"...Tu veux bien arreter de faire l'hypocrite deux secondes ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050238", 128, TRUE);
 	OutputLine(NULL, "……ならあんたは、元の世界へ帰るのは諦めてもいいって言うのね。」",
 		   NULL, " ...Tu préfères qu'on abandonne l'idée de retourner chez nous, c'est ça ?\"", GetGlobalFlag(GLinemodeSp));
