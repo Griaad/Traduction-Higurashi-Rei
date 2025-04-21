@@ -300,7 +300,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…こんな世界でも、授業の進行は私の知る世界とまったく同じだった。",
-		   NULL, "......Mais même dans ce monde, les cours avaient l'air de se dérouler exactement de la même manière que d'habitude.", Line_Normal);
+		   NULL, "......Mais même dans ce monde, les cours avaient l'air de se dérouler comme d'habitude.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1449,7 +1449,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は、あぅあぅと悲しそうな声を出す羽入に言ってやる。",
-		   NULL, "Hanyu avait l'air triste, je lui ai donc exprimé le fond de ma pensée.", Line_Normal);
+		   NULL, "Hanyû avait l'air triste, je lui ai donc exprimé le fond de ma pensée.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/jsa7_01", "effect/up", 0, 0, 500 );
@@ -1466,7 +1466,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070132", 128, TRUE);
 	OutputLine(NULL, "「……あ、……あぅあぅあぅ……。」",
-		   NULL, "\"...Ah... au au au...\"", Line_Normal);
+		   NULL, "\"...Ah... Non non non...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -1502,9 +1502,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入はしばらくの間、何も言い返せず沈黙していた。",
-		   NULL, "For a short while, she remained silent, not saying anything.", Line_WaitForInput);
+		   NULL, "Elle resta muette pendant un petit moment.", Line_WaitForInput);
 	OutputLine(NULL, "…それでも、何かを言いたくて、口篭る息遣いだけが聞こえた。",
-		   NULL, " ...But her breathing made it sound like she wanted to say something, but was hesitating.", Line_Normal);
+		   NULL, " ...Mais ses respirations hésitantes trahissait son envie de prendre la parole.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
