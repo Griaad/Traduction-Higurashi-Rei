@@ -266,7 +266,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私はご馳走様を告げ、食器を流しの洗い桶に沈めると、とっとと登校するのだった。",
-		   NULL, "Je la remercia pour la nourriture, lava mon assiette ainsi que me couverts, et me rendis immédiatement à l'école.", Line_Normal);
+		   NULL, "Je la remercia pour la nourriture, lava mon assiette ainsi que mes couverts, et me rendis immédiatement à l'école.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 300, FALSE );
