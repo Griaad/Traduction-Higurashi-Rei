@@ -1613,32 +1613,32 @@ void main()
 		   NULL, " J'ai pas été sympa avec toi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050253", 128, TRUE);
 	OutputLine(NULL, "……あんたにできることは、ヒント探しと、私が挫折しないよう士気を保つことくらいなのよね。",
-		   NULL, " ...All you can do is look for clues and keep my spirits up so I don't get discouraged. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Tout ce que t'as à faire c'est de chercher des indices et de continuer à garder la tète haute histoire que je ne perde pas le moral.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050254", 128, TRUE);
 	OutputLine(NULL, "…自らの手で鍵を探せないもどかしさを理解してなかったわ。」",
-		   NULL, "...I didn't understand how annoying it must be not to be able to look for the key yourself.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Mais ne pas pouvoir chercher la clé par toi-même doit être frustrant pour toi aussi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070136", 128, TRUE);
 	OutputLine(NULL, "「………梨花よりは辛くありませんのです。",
-		   NULL, "\"......It isn't as hard as it is for you, Rika.", Line_WaitForInput);
+		   NULL, "\"......Ce que tu endure est bien pire, Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070137", 128, TRUE);
 	OutputLine(NULL, "…せめて、…梨花の心が疲れてしまわないよう、僕にはこうしてお話をして労わってあげることしかできませんのです…。」",
-		   NULL, " ...The only thing I can do... is at least be here to care for you, so that your heart doesn't tire out...\"", Line_Normal);
+		   NULL, " ...La seule chose que je puisse faire... est de rester à tes coté pour prendre soin de toi, afin que ton cœur ne se ternisse pas...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050255", 128, TRUE);
 	OutputLine(NULL, "「…ありがと。",
-		   NULL, "\"...Thanks.", Line_WaitForInput);
+		   NULL, "\"...Merci.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050256", 128, TRUE);
 	OutputLine(NULL, "あんたとする与太話が、この世界では一番楽しいわ。",
-		   NULL, " These idle chats with you are the most enjoyable thing about this world.", Line_WaitForInput);
+		   NULL, " "Les discussions avec toi sont les seules réjouissances que j’ai dans ce monde.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050257", 128, TRUE);
 	OutputLine(NULL, "悪夢がその間だけ覚めるような感じ。」",
-		   NULL, " It's like I wake up from the nightmare for a few minutes.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " C'est comme si je me réveillai de ce cauchemar le temps de quelques minutes.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
@@ -1651,9 +1651,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…なるほど。",
-		   NULL, "...I see.", Line_WaitForInput);
+		   NULL, "...Je vois.", Line_WaitForInput);
 	OutputLine(NULL, "羽入が言う、無駄話も大切の意味が少しわかる。",
-		   NULL, " I sort of understood why she said chatting could be important.", Line_Normal);
+		   NULL, " Je commence à comprendre pourquoi elle disait que le dialogue était important.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/down", 0, 0, 500 );
