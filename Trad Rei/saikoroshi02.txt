@@ -1635,7 +1635,7 @@ void main()
 		   NULL, "\"...Merci.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050256", 128, TRUE);
 	OutputLine(NULL, "あんたとする与太話が、この世界では一番楽しいわ。",
-		   NULL, " "Les discussions avec toi sont les seules réjouissances que j’ai dans ce monde.", Line_WaitForInput);
+		   NULL, " Les discussions avec toi sont les seules réjouissances que j’ai dans ce monde.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050257", 128, TRUE);
 	OutputLine(NULL, "悪夢がその間だけ覚めるような感じ。」",
 		   NULL, " C'est comme si je me réveillai de ce cauchemar le temps de quelques minutes.\"", GetGlobalFlag(GLinemodeSp));
