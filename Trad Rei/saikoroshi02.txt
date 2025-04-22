@@ -1526,32 +1526,32 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、その後に圭一が付け加える。",
-		   NULL, "But Keiichi changed that.", Line_Normal);
+		   NULL, "Mais Keiichi changea la donne", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　努力に限界なんてない。",
-		   NULL, "There's no limit to effort.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il n'y a aucun limite à l'acharnement.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…でも、その努力の方向性が正しいかどうか、大勢の人に相談し助言を求めるべきだと。",
-		   NULL, "...But you have to talk to a lot of people to get their advice on whether your efforts are misplaced or not.", Line_Normal);
+		   NULL, "...Mais Il est important de consulter de nombreuses personnes afin de s'assurer que l'on prend la bonne direction.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから私は、現在の状況を唯一共有できる存在である羽入と相談している。",
-		   NULL, "That's why I was talking about it with Hanyuu, the only one who shared my current situation.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "C’est pour cette raison que je me suis tournée vers Hanyû, elle seule peut comprendre ma situation.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……その羽入が、カケラを持つ対象が人だったら殺せというのだ。",
-		   NULL, "......And Hanyuu said that if the object possessing the Fragment was a person, I had to kill them.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Et Hanyu a été claire, si le fragment était dans une personne, je serais contrainte de la tuer.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…他に方法があるなら、もちろんそれは避けたい。",
-		   NULL, "...I would want to avoid that, of course, if there were any other way.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Si possible, j’aimerais éviter d'en arriver là", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1559,12 +1559,12 @@ void main()
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、それしか方法がないと断言するなら、",
-		   NULL, "But if she said that was the only way......", Line_ContinueAfterTyping);
+		   NULL, "Toutefois si elle m'assurait que c'était la seule issue......", Line_ContinueAfterTyping);
 	Wait( 1000 );
 	OutputLine(NULL, "………私は躊躇しない。",
-		   NULL, " then I wouldn't hesitate.", Line_WaitForInput);
+		   NULL, " dans ce cas je n’hésiterai pas", Line_WaitForInput);
 	OutputLine(NULL, "それだけだ。",
-		   NULL, " That was all.", Line_ContinueAfterTyping);
+		   NULL, " Un point c'est tout.", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
@@ -1575,9 +1575,9 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070134", 128, TRUE);
 	OutputLine(NULL, "「……………僕も、",
-		   NULL, "\".........I...", Line_Continue);
+		   NULL, "\".........Moi...", Line_Continue);
 	OutputLine(NULL, "…元の世界に帰りたいのです…。」",
-		   NULL, " I want to go back too...\"", Line_Continue);
+		   NULL, " Moi aussi je veux rentrer...\"", Line_Continue);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 
@@ -1586,31 +1586,31 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050247", 128, TRUE);
 	OutputLine(NULL, "「……そうね。",
-		   NULL, "\"...Yeah.", Line_WaitForInput);
+		   NULL, "\"...Ouais.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050248", 128, TRUE);
 	OutputLine(NULL, "私もよ。」",
-		   NULL, " Me too.\"", Line_Normal);
+		   NULL, " Moi aussi.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070135", 128, TRUE);
 	OutputLine(NULL, "「カケラを持つのが、……人でないことを、…祈ってます。」",
-		   NULL, "\"I'll be praying... that the Fragment... isn't held by a person.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Je prierai... pour que ce fragment... ne soit pas dans une personne\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050249", 128, TRUE);
 	OutputLine(NULL, "「祈ってて。",
-		   NULL, "\"Please, do.", Line_WaitForInput);
+		   NULL, "\"Prie pour moi Hanyû", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050250", 128, TRUE);
 	OutputLine(NULL, "…私も祈ってるわ。",
-		   NULL, " ...I will too.", Line_WaitForInput);
+		   NULL, " ...Je ferai de même..", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050251", 128, TRUE);
 	OutputLine(NULL, "……あと、謝るわ。",
-		   NULL, " ......And I apologize.", Line_WaitForInput);
+		   NULL, " ......Je tiens aussi à m'excuser.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050252", 128, TRUE);
 	OutputLine(NULL, "きついことを言い過ぎた。",
-		   NULL, " I was too hard on you.", Line_WaitForInput);
+		   NULL, " J'ai pas été sympa avec toi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050253", 128, TRUE);
 	OutputLine(NULL, "……あんたにできることは、ヒント探しと、私が挫折しないよう士気を保つことくらいなのよね。",
 		   NULL, " ...All you can do is look for clues and keep my spirits up so I don't get discouraged. ", GetGlobalFlag(GLinemodeSp));
