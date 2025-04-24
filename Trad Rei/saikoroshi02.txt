@@ -760,7 +760,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、家に飛んで帰り、遊びに行くと言ってから祭具殿に忍び込もう。",
-		   NULL, "Ensuite, je m'empresserai de rentrer. Arrivée sur place, je dirai à ma mère que j'irai jouer dehors, pour enfin me rendre en douce dans le temple.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ensuite, je m'empresserai de rentrer. Arrivée sur place, je dirai à ma mère que j'irai jouer dehors, pour enfin filer en douce dans le temple.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
