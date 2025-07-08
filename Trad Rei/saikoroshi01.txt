@@ -5366,7 +5366,7 @@ void main()
 		   NULL, "\"......Je suis vraiment désolée...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070048", 128, TRUE);
 	OutputLine(NULL, "こんなこと初めてなんで、",
-		   NULL, " C'est la toute première fois que cela arrive...", Line_Continue);
+		   NULL, " C'est la toute première fois que ça arrive...", Line_Continue);
 	OutputLine(NULL, "…ぼ、",
 		   NULL, " Je...", Line_Continue);
 	OutputLine(NULL, "…僕にもよくわからないのです……。」",
@@ -5711,7 +5711,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050135", 128, TRUE);
 	OutputLine(NULL, "だから四の五の言わずに死ねばいいものを、……こうしてあなたのお陰で、妙なことにはなりつつも、生き残っている。",
-		   NULL, " J'aurais juste dû mourir comme eux....... mais grâce à toi, bien que certaines choses soient devenues étranges, je suis en vie. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " J'aurais dû mourir comme eux....... mais grâce à toi, bien que certaines choses soient devenues étranges, je suis en vie. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050136", 128, TRUE);
 	OutputLine(NULL, "……そして、とてもとても難しいことには違いないけど、",
