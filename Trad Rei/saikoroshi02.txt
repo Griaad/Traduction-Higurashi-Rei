@@ -1782,26 +1782,26 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古文書の山の何冊かを手に取り、持ってきたナップザックに詰める。",
-		   NULL, "I took a few documents from the pile and packed them into the knapsack I brought with me.", Line_Normal);
+		   NULL, "Je pris quelque documents sur la pile et les rangea dans le sac à dos que j'avais apportée.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　読めるものもあるが、さっぱり理解できないものもある。",
-		   NULL, "I could read some, but couldn't understand any of the others.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Hélas, seule une poignée m'était déchiffrable.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…その、理解できないものの中に重要なものが含まれていたならお手上げだ。",
-		   NULL, "...If something important was in one of the indecipherable ones, I would have no way of knowing.", Line_WaitForInput);
+		   NULL, "...Je croisais les doigts pour qu’il n’y ait rien d’important inscrit dans ceux qui m’étaient incompréhensibles, le cas échéant je n'aurai aucun moyen de le savoir.", Line_WaitForInput);
 	OutputLine(NULL, "でも、今はそれを考えない方がいい。",
-		   NULL, " But I shouldn't think about that right now.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Je devrais peut-être arrêter de trop réfléchir", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は、読める古文書をほんの数冊引き抜き、学校や布団の中でこっそり読むことにする。",
-		   NULL, "I pulled out the few documents I could read and decided to read them in secret at school and in bed.", Line_Normal);
+		   NULL, "Je pris le peu de documents compréhensible afin de les lire discrètement à l'école ainsi que sur mon lit.", Line_Normal);
 	ClearMessage();
 
 	DrawBustshot(5, "effect/waku_b", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 0, FALSE );
