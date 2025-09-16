@@ -47,7 +47,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　殺すことに躊躇はないが、…今この場で殺すことに躊躇がないとは言い切れなかった。",
-		   NULL, "Je n'hésiterai pas à lui ôter la vie s'il le faut, mais... je ne sais pas si je peux prendre la décision de le faire maintenant.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je n'hésiterai pas à lui ôter la vie s'il le faut, mais... je ne sais pas si je peux le faire maintenant.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -56,7 +56,7 @@ void main()
 	OutputLine(NULL, "　だから、……母にその力が宿ってほしくないと思ったし、",
 		   NULL, "D'un côté... j'espérais qu'elle n'ait pas ce pouvoir en elle...", Line_WaitForInput);
 	OutputLine(NULL, "…同時に、母にその力がなかったら、次は何を疑えばいいのかわからないという不安感もあった。",
-		   NULL, " mais d'un autre, le cas échéant, je me retrouverai dans une impasse, sans savoir quoi inspecter ensuite.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " mais d'un autre, si elle n'était pas concernée, je me retrouverai dans une impasse, sans savoir quoi inspecter ensuite.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -71,7 +71,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220010", 128, TRUE);
 	OutputLine(NULL, "「ありがとう、気持ちは十分伝わったからもう許して。",
-		   NULL, "\"Merci. J'ai compris l'idée, s'il te plaît arrête.", Line_WaitForInput);
+		   NULL, "\"Merci. J'ai compris maintenant, s'il te plaît arrête.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220011", 128, TRUE);
 	OutputLine(NULL, "くすぐったくて辛いわ。」",
 		   NULL, " Ça chatouille.\"", GetGlobalFlag(GLinemodeSp));
@@ -106,7 +106,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　オヤシロさま伝説にもっとも縁近い二人でなかった以上、人にカケラが宿っている可能性は低そうだった。",
-		   NULL, "Si ce n'était aucune des deux personnes les plus proches de la déesse Yashiro, alors on pouvait rayer de la liste la possibilité que le Fragment se trouvait pas dans un humain.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Si ce n'était aucune des deux personnes les plus proches de la déesse Yashiro, alors on pouvait rayer de la liste la possibilité que le Fragment se trouvait dans un humain.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -191,7 +191,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　炊き出しを手伝ったり、電話番をさせられたり、子供は子供なりに手伝わされるらしい。",
-		   NULL, "Ils veulent que je les aide sur les tâches faisables par des enfants, comme servir le riz ou répondre au téléphone.", Line_Normal);
+		   NULL, "Ils veulent que je les aide sur les tâches réalisable par un enfant, comme servir le riz ou répondre au téléphone.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/right", 0, 0, 500 );
