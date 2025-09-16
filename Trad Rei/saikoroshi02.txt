@@ -1365,7 +1365,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050232", 128, TRUE);
 	OutputLine(NULL, "「嫌な想像は大抵当たる、",
-		   NULL, "\"Si seulement les mauvaises éventualités s'avèrent vrai,", Line_Continue);
+		   NULL, "\"Si seules les mauvaises éventualités s'avèrent vraies,", Line_Continue);
 	OutputLine(NULL, "を逆手に取って、……先にそれを探るのも手ね。",
 		   NULL, " alors je peux utiliser ça à mon avantage... et commencer à chercher là-bas en premier.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050233", 128, TRUE);
@@ -1809,7 +1809,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　祭具殿への出入りは、両親に見つかるリスクを累積させる。",
-		   NULL, "As I went in and out of the storehouse, the chances of my parents finding out increased.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mes incessants allers-retours dans la réserve accroissaient le risque que mes parents me surprennent.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1819,9 +1819,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………親というのは、子の一番の理解者で、真っ先に助けてくれるべき存在なのだろうが、",
-		   NULL, "......Maybe parents did understand their children best, and would be the first ones to help them...", Line_WaitForInput);
+		   NULL, "......On dit que les parents sont ceux qui comprennent le mieux leurs enfants, et qu'ils sont les premiers à leur tendre la main...", Line_WaitForInput);
 	OutputLine(NULL, "それは私のような魔女ではない、普通の存在の場合だ。",
-		   NULL, " but that was when they were normal, and not a witch like me.", Line_Normal);
+		   NULL, " mais ça ne valait que pour des enfants normaux, une sorcière comme moi n'était pas concernée.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 600 );
@@ -1829,40 +1829,40 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　娘が、自分はこの世界の人間ではない、なんて言い出したら、普通ならふん縛って黄色い救急車を呼ぶところだろう。",
-		   NULL, "If their daughter started babbling about not being from this world, they'd probably tie her down and summon a noisy ambulance.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Si leur fille affirmait venir d’un autre monde, leur première réaction serait de l’attacher illico avant d’appeler une ambulance.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…もう少し私が狡猾なら、両親にも媚を売り、この世界の居心地を少しでもよくする努力をするべきだ。",
-		   NULL, "...If I were a little more cunning, I could flatter my parents and put the work in to make this world a little more bearable.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Si j’étais un peu plus rusé, j’aurais sans doute joué les lèche-bottes auprès de mes parents afin de rendre ce monde un peu plus supportable.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、ここが私の住む世界でないと思えば思うほど、この世界の住人との接点を毛嫌いしてしまう。",
-		   NULL, "But the more I thought about this world not being the one I lived in, the more apathetic I felt towards interacting with those who were here.", Line_Normal);
+		   NULL, "Plus je réalisais que ce monde n’était pas le mien, moins j’avais envie d’interagir avec les gens d’ici.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/gk1", "effect/up", 0, 0, 500 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そのせいか、クラスにおける私の存在は、ますますに孤立しているようだった。",
-		   NULL, "That was probably why it seemed like I was being more and more isolated in class.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "C’était sans doute pour cette raison que je me sentais de plus en plus isolée en classe.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…もっとも、それは私の責任ばかりとは言えないかもしれない。",
-		   NULL, "...Of course, maybe you could say that was my own fault.", Line_WaitForInput);
+		   NULL, "...Évidemment, vous pouvez penser que tout est de ma faute.", Line_WaitForInput);
 	OutputLine(NULL, "「私」が訪れた時点で、そういう世界だったのだから、私の責任にされたらたまらない。",
-		   NULL, " That was the kind of world this was at the moment \"I\" arrived; I won't dare let anyone say that this is my fault.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mais ce n’est pas \"moi\" qui ait changé quoi que ce soit ; ce monde était déjà comme ça à mon arrivée; Je ne laisserai personne m’en tenir pour responsable.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　もっとも、古手梨花と「私」を区別できる人間などひとりもいないだろうが。",
-		   NULL, "Of course, not a single person could tell the difference between Rika Furude and \"me\" anyway.", Line_Normal);
+		   NULL, "Pas une seule personne ne peut faire la différence entre Rika Furude et \"moi\" en fin de compte.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 2000 );
@@ -1883,10 +1883,10 @@ void main()
 		   NULL, "...", Line_Continue);
 	Wait( 200 );
 	OutputLine(NULL, "私って、",
-		   NULL, " Who...", Line_Continue);
+		   NULL, " Qui...", Line_Continue);
 	Wait( 600 );
 	OutputLine(NULL, "…誰？",
-		   NULL, " is \"me\"?", Line_Continue);
+		   NULL, " est \"moi\" ?", Line_Continue);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 
@@ -1894,7 +1894,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　古手梨花じゃない私って、…誰？",
-		   NULL, "The \"me\" that isn't Rika Furude... Who is she?", Line_Normal);
+		   NULL, "Le \"moi\" qui n'est pas Rika Furude... Qui est-elle ?", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1300 );
@@ -1903,38 +1903,38 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　その時、小さい電子音が私を正気に戻す。",
-		   NULL, "I came around to a quiet, electronic beep.", Line_Normal);
+		   NULL, "Soudain, un petit bip électronique retentit, me ramenant à la raison.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　腕時計を見ると、もう夕方だった。",
-		   NULL, "I looked at my watch and noticed it was already evening.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je jetai un coup d’oeil à ma montre et constatai qu’il était déjà l’après-midi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この中にいると時間がわからなくなる。",
-		   NULL, "Being in here made me lose track of time.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rester ici me faisait perdre la notion du temps.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　先日、門限を大きく破って、大いに叱られて以来の予防策だ。",
-		   NULL, "The other day I was out way past curfew, and was scolded for a long time; the alarm on my watch was to prevent that.", Line_Normal);
+		   NULL, "L’autre jour, je m’étais retrouvée dehors bien après le couvre-feu de mes parents. Résultat : j’ai été longuement sermonnée. L'alarme sur ma montre me servait à éviter ce genre de situation.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…親との関係をこれ以上こじれさせると、ますますに面倒になる。",
-		   NULL, "...Letting my relationship with my parents grow any worse would make everything else more troublesome.", Line_WaitForInput);
+		   NULL, "...Laisser ma relation avec mes parents se dégrader davantage ne ferait que rendre les choses plus compliquées qu’elles ne le sont déjà.", Line_WaitForInput);
 	OutputLine(NULL, "…今日はこの辺が潮時だろう。",
-		   NULL, " ...I should call it quits for today.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Je ferais mieux de m’arrêter là pour aujourd’hui.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は慣れた様子で鎖の束を登り、屋根の出入り口を目指すのだった。",
-		   NULL, "With practiced motions, I climbed the bundle of chains and headed through the exit in the roof.", Line_Normal);
+		   NULL, "D’un geste sûr, je gravis le faisceau de chaînes et sortis par le toit avec aisance. À force, j’avais pris le coup.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }

@@ -6253,7 +6253,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そう、ここは三途の川原。",
-		   NULL, "...Oh, c'est ici la rivière Sanzu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Oh, c'est ici la rivière du styx.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
