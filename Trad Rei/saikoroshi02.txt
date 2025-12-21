@@ -1920,7 +1920,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　先日、門限を大きく破って、大いに叱られて以来の予防策だ。",
-		   NULL, "L’autre jour, je m’étais retrouvée dehors bien après le couvre-feu de mes parents. Résultat : j’ai été longuement sermonnée. L'alarme sur ma montre me servait à éviter ce genre de situation.", Line_Normal);
+		   NULL, "L’autre jour, je m’étais retrouvée dehors bien après le couvre-feu établi par mes parents. Résultat : j’ai été longuement sermonnée. L'alarme sur ma montre me servait à éviter ce genre de situation.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1947,51 +1947,51 @@ void main()
 	SetSpeedOfMessage( FALSE, 0 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　すっかり聞き飽きたひぐらしの声に包まれながら本家に戻ると、",
-		   NULL, "When I returned to the main house, surrounded by the cries of higurashi that I'd grown completely tired of,", Line_WaitForInput);
+		   NULL, "À mon retour à la maison principale,", Line_WaitForInput);
 	OutputLine(NULL, "玄関の前にビールをぎっしり詰め込んだケースが１つと、",
-		   NULL, " there was a tightly packed case of beer near the front door...", Line_ContinueAfterTyping);
+		   NULL, " agacée par le chant incessant des cigales...", Line_ContinueAfterTyping);
 	Wait( 500 );
 	OutputLine(NULL, "…ワインの瓶が３つ、置かれていた。",
-		   NULL, " and three bottles of wine.", Line_Normal);
+		   NULL, " une caisse de bière et trois bouteilles de vin m’attendaient devant la porte.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ビールのケースは、神社の集会所で行う飲み会か何かのためだろう。",
-		   NULL, "The beer case was probably for a drinking party at the shrine's assembly hall or something.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La caisse de bière était probablement destinée à l’une des soirées à la salle de réunion du sanctuaire, ou quelque chose du genre.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…父はビールを好んでは飲まないので、集会所用だとすぐわかる。",
-		   NULL, "...My father didn't drink beer because he liked it, so I knew it had to be for the assembly hall.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Mon père ne buvait pas de bière par plaisir, je savais donc que c’était pour la salle de réunion.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを集会所の冷蔵庫で予め冷やしておくため、こうして飲み会前に届けるのだ。",
-		   NULL, "They delivered it here before the party so he could chill it beforehand in the assembly hall refrigerator.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il se l’était fait livrer avant le début de la soirée, afin de pouvoir le mettre au frais dans le frigo de la salle de réunion.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、…ワインの方は父の個人用だろう。",
-		   NULL, "And... The wine probably belonged to my father.", Line_WaitForInput);
+		   NULL, "En revanche, le vin appartenait visiblement à mon père.", Line_WaitForInput);
 	OutputLine(NULL, "父は洋酒党で、特にワインを好むようだった。",
-		   NULL, " My father enjoys Western spirits, and wine most of all.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mon père adorait tout ce qui touchait à la culture occidentale, et encore plus le vin.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そのワインは同時に、私の好むものでもある。",
-		   NULL, "...And wine, at the same time, was something I enjoyed as well.", Line_Normal);
+		   NULL, "...Et le vin faisait aussi partie de mes petits plaisirs coupables.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　かつて私はそれを、昭和５６年以降の両親のいなくなった本家から持ち出すことで得ていたが、この世界では両親が健在なのでそれを出来ずにいた。",
-		   NULL, "Before, after my parents had died in 1981, I'd gotten wine by bringing it from the main house, but my parents were alive in this world, so I couldn't do that.", Line_Normal);
+		   NULL, "Autrefois, après la mort de mes parents en 1981, j’ai récupéré mon vin depuis la maison principale, mais dans ce monde, mes parents étant vivants, je ne pouvais pas le faire.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　物欲しげに眺めながら玄関に入ろうとすると、ガチャリと施錠の手応え。",
-		   NULL, "I stared at the bottles longingly as I tried to open the door, receiving the clack of its lock in response.", Line_Normal);
+		   NULL, "Je fixais les bouteilles avec envie tout en essayant d’ouvrir la porte, jusqu’au claquement qui m’indiqua qu’elle était verrouillée depuis le début...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	PlaySE( 0, "door", 128, 64 );
@@ -2000,57 +2000,57 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ポケットから鍵を取り出して開けると、入ってすぐのところに私宛への置手紙があった。",
-		   NULL, "I took a key from my pocket, unlocked the door, went in, and saw a note addressed to me right upon entering.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je sortis alors une clé de ma poche, déverrouillai la porte, puis rentrai dans la maison.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　内容は母から私に宛てたもの。",
-		   NULL, "It was from my mother.", Line_Normal);
+		   NULL, "La première chose que je vis en entrant fut une note qui m’était adressée. Elle venait de ma mère.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　公由家の方で急に不幸があったらしく、法事の手伝いに出掛けるという。",
-		   NULL, "The note said an accident had suddenly occurred at the Kimiyoshi house, and they'd gone out to help with a memorial service.", Line_WaitForInput);
+		   NULL, "La note disait qu’elle et mon père étaient partis aider pour un service commémoratif suite à un accident survenu à la maison des Kimiyoshi,", Line_WaitForInput);
 	OutputLine(NULL, "帰りは遅くなるので云々、という内容だった。",
-		   NULL, " They'd be late coming back, and so on and so forth.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " qu'ils rentreront en retard, et tout le tralala.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　追伸に、酒屋さんからお酒が届くので、来たら玄関の内側へ運ばせてほしいと書いてある。",
-		   NULL, "Written as a postscript was a notice that the brewer would be bringing alcohol, and to take it inside the front door once I got back for them.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "En post-scriptum, il était inscrit que le brasseur viendrait apporter de l’alcool, et que j’avais pour tâche de le transporter à l’intérieur, jusqu’à la porte d’entrée.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……なるほど、これがそうだということらしい。",
-		   NULL, "...I see. That must have been referring to all of this.", Line_Normal);
+		   NULL, "...Je vois, tout s'explique.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/hu_engawa_01", "effect/left", 0, 0, 500 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私がいる時に来たなら、そこへ置いてくれと指図もできるのだが、…先に来られてこんなところに置かれたのではたまらない。",
-		   NULL, "If the person had come while I was here, I could have told them to put it inside... but I couldn't bear to see them outside like this, put here before I got back.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "S’il était venu pendant que j’étais là, j’aurais pu lui dire de les mettre à l’intérieur... Il me crispait de les voir dehors ainsi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　後で母に気が効かないとごちゃごちゃ言われるのも面倒臭い。",
-		   NULL, "And it would be a pain if my mother started rambling about me being inconsiderate later.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Et ce serait pénible d’entendre ma mère radoter encore une fois sur mon retard.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…私ははばかることなく嫌な顔をしながら、ビールケースを引き摺って玄関の内側へ運び込む。",
-		   NULL, "...I made a sour face, not caring who saw, and pulled the case of beer through the front door.", Line_Normal);
+		   NULL, "...Le visage plein de dégoût, je pris la caisse de bière et la portai à l’intérieur.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/right", 0, 0, 500 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……それから、ワインの瓶を前に、…思考を固まらせる。",
-		   NULL, "...Next, I stood before the wine bottles... and solidified my thoughts.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Je restai figé devant les bouteilles de vin et mis de l’ordre dans mes idées.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
