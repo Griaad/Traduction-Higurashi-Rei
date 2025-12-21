@@ -2055,45 +2055,45 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　伝票に何か手違いがあったことにしてもいいのではないか…。",
-		   NULL, "Couldn't there have been a slip-up with the order?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il se peut qu’il y ait une erreur dans la commande ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………狭い村の酒屋のことだ。",
-		   NULL, "......It was a brewery in a small village.", Line_WaitForInput);
+		   NULL, "......C’était une brasserie dans un tout petit village.", Line_WaitForInput);
 	OutputLine(NULL, "父が、注文のワインが１本足りないと電話すれば、大して疑問にも思わずもう１本を持ってきてくれるだろう。",
-		   NULL, " If my father called to say he'd ordered one more bottle, they'd probably bring over another one without a second thought. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Si mon père les appelait en affirmant qu’il avait commandé une bouteille de plus, ils l’enverraient probablement sans trop y réfléchir. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…だから、今この場から１本が消えたって、………。",
-		   NULL, "...So what would it matter if one of these disappeared......?", Line_Normal);
+		   NULL, "...Est-ce vraiment si grave si une bouteille venait à disparaître......?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ワインが１瓶あれば、薄めて飲む私には充分短くない期間を楽しむことができる。",
-		   NULL, "I always dilute it before drinking, so I'd be able to enjoy one bottle of wine for a pretty long time.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je le dilue toujours avant de le boire, donc je pourrais tenir un sacré moment avec une seule bouteille.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は玄関の中にもかかわらず、今さらのように改めて周りを伺うと、その１本を抱えて自分の部屋に駆け込み、押入れの中の、当分使わない冬物の布団の間にねじ込んだ。",
-		   NULL, "Despite being in the entrance, I belatedly looked around, grabbed a bottle, ran into my room, and then pushed it into the winter futon in my closet that I wouldn't use for a while.", Line_Normal);
+		   NULL, "Bien que je sois déjà devant la porte d’entrée, je pris soin de regarder autour de moi,puis attrapai la bouteille et filai vers ma chambre pour la cacher sous une grosse couverture hivernale, que je ne toucherais plus avant un bon moment.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/hu_rouka_01", "effect/right", 0, 0, 500 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いや、…両親と同居している家なのだから、飲める機会だってそうあるわけじゃない…。",
-		   NULL, "Actually... My parents live here too, so I won't have many chances to drink...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "En fait… comme mes parents vivent ici aussi, je n’ai presque jamais l’occasion de boire...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DrawSceneWithMask( "bg/hu_kittin_01", "effect/right", 0, 0, 500 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は台所へ駆けて行き、グラスと氷、コルク抜き…あと紙パックのオレンジジュースを引っ掴み、自分の部屋へ飛び込む。",
-		   NULL, "I ran to the kitchen, grabbed a glass, ice, a corkscrew... and a carton of orange juice, then ran back into my room.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je courus vers la cuisine, attrapai un verre, quelques glaçons, un tire-bouchon… puis du jus d’orange, avant de regagner ma chambre.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2104,7 +2104,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……コルク抜きをワイン瓶に当てると、もう私は懐かしいあの味で舌を浸さなければ、一分一秒と耐えられない体になっていた。",
-		   NULL, "...I put the corkscrew on the wine bottle, and was overwhelmed by the urge to wet my tongue with the nostalgic flavor as soon as I could.", Line_Normal);
+		   NULL, "...Je plantai le tire-bouchon dans la bouteille, avant d’être submergé par l’envie de goûter à cette saveur nostalgique le plus vite possible.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "white", 600 );
@@ -2113,7 +2113,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こんな世界、好きなワインにでも浸ってなかったらやってられるものか。",
-		   NULL, "How was I supposed to survive in this world without enjoying a good wine?", Line_Normal);
+		   NULL, "Comment étais‑je censé survivre dans ce monde sans goûter à du bon vin ?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
