@@ -418,7 +418,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040012", 128, TRUE);
 	OutputLine(NULL, "「……古手さん、後ろからボールをぶつけてごめんなさいでした！",
-		   NULL, "\"...Je suis désolée de t'avoir fait mal avec la balle !", Line_WaitForInput);
+		   NULL, "\"...Je suis désolée de t'avoir fait mal avec le ballon !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s15/04/ds42040013", 128, TRUE);
 	OutputLine(NULL, "　だって、ぼんやり突っ立ってて邪魔だったんだもん！」",
 		   NULL, " Mais c'est toi qui t'es mise sur sa trajectoire !", Line_Normal);
@@ -440,7 +440,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうも、沙都子には私にボールをぶつけたことに対し謝罪したいという気持ちはないようだった。",
-		   NULL, "Il semblait que Satoko n'ait aucune intention de s'excuser pour m'avoir heurtée avec la balle.", Line_Normal);
+		   NULL, "Il semblait que Satoko n'ait aucune intention de s'excuser pour m'avoir heurtée avec le ballon.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -723,7 +723,7 @@ void main()
 		   NULL, " Tu en as bavé dis-moi !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2004", 128, TRUE);
 	OutputLine(NULL, "　ボールがぶつかったのは後頭部？",
-		   NULL, " Est-ce que la balle a tapé l'arrière de ta tête ?", Line_WaitForInput);
+		   NULL, " Est-ce que le ballon a tapé l'arrière de ta tête ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2005", 128, TRUE);
 	OutputLine(NULL, "　ちょっと見せてもらっていいかい？」",
 		   NULL, " Ça te dérangerait que je guette un peu ?\"", GetGlobalFlag(GLinemodeSp));
@@ -980,7 +980,7 @@ void main()
 		   NULL, " Beaucoup trop lent !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030011", 128, TRUE);
 	OutputLine(NULL, "　ドッジボールの鉄則は弱いヤツ狙い！",
-		   NULL, " La règle la plus importante de la balle aux prisonniers, c'est de viser les plus faibles d'abord !", Line_WaitForInput);
+		   NULL, " La règle la plus importante de la  aux prisonniers, c'est de viser les plus faibles d'abord !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030012", 128, TRUE);
 	OutputLine(NULL, "　私を狙うのは戦略ミスだよ！",
 		   NULL, " Essayer de m'atteindre était une erreur tactique !", Line_WaitForInput);
@@ -1326,7 +1326,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……知っている顔は、待合室でテレビを見ながら歓談する村の老人たちだけだった。",
-		   NULL, "...Les seules personnes que je connaissais étaient des vieux villageois qui discutaient entre eux devant la télé de la salle d'attente.", Line_Normal);
+		   NULL, "...Les seules personnes que je connaissais étaient des vieux du village qui discutaient entre eux devant la télé de la salle d'attente.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Vieillard</color>", NULL, Line_ContinueAfterTyping); }
@@ -1356,7 +1356,7 @@ void main()
 		   NULL, "\"Hm oui, les blessures à la tête ça fait peur !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_elderb2002", 128, TRUE);
 	OutputLine(NULL, "　でも若いんだからボールのひとつやふたつ、平気平気！」",
-		   NULL, " Mais tu es encore jeune, je suis sûr qu'une ou deux balles dans la tête ne te feront pas grand-chose !\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mais tu es encore jeune, c'est pas un ou deux coups de ballon qui te feront  !\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1378,7 +1378,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　若いんだからボールのひとつやふたつ平気、…なんて言い方は普通の子には言われるかもしれないが、",
-		   NULL, "Ils auraient bel et bien dit qu'une ou deux balles ne me feraient pas grand-chose car je suis encore jeune... Si j'étais une enfant normale..", Line_WaitForInput);
+		   NULL, "Ils auraient bel et bien dit qu'un ou deux ballons ne me feraient pas grand-chose car je suis encore jeune... Si j'étais une enfant normale..", Line_WaitForInput);
 	OutputLine(NULL, "私に限っては、この雛見沢では特にありえないことだった。",
 		   NULL, " Cependant, pour moi, c'était impossible, à Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2013,7 +2013,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　飛んできたボールに頭をぶつけて倒れた程度で、脳波を計ろうと言い出す慎重さは、",
-		   NULL, "Me faire un scan de cerveau par précaution juste après m’être fait cogner la tête par une balle...", Line_WaitForInput);
+		   NULL, "Me faire un scan de cerveau par précaution juste après m’être fait cogner la tête par un ballon...", Line_WaitForInput);
 	OutputLine(NULL, "私が女王感染者という特別な存在であることを知っているからなのではないか。",
 		   NULL, " Était-ce parce qu'il savait que j’étais spéciale, que j’étais la reine mère ?", Line_Normal);
 	ClearMessage();
@@ -3413,7 +3413,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020022", 128, TRUE);
 	OutputLine(NULL, "「沙都子ちゃんも、悪気があってボールをぶつけたんじゃないと思うよ。",
-		   NULL, "\"Je suis persuadée que Satoko ne voulait pas être méchante avec toi quand elle t'a touchée avec la balle.", Line_WaitForInput);
+		   NULL, "\"Je suis persuadée que Satoko ne voulait pas être méchante avec toi quand elle t'a touchée avec le ballon.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020023", 128, TRUE);
 	OutputLine(NULL, "許してあげて、ね？」",
 		   NULL, " Pardonne-la, d'accord ?\"", GetGlobalFlag(GLinemodeSp));
