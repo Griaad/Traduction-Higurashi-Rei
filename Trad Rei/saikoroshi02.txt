@@ -312,7 +312,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　普段なら、隣の沙都子をからかって退屈を紛らわすのだが、私の席は沙都子の席から遠く離れていた。",
-		   NULL, "En temps normal je faisais passer le temps en embêtant Satoko, mais son siège est bien loin du mien désormais.", Line_Normal);
+		   NULL, "En temps normal, je faisais passer le temps en embêtant Satoko, mais son siège est bien loin du mien désormais.", Line_Normal);
 	ClearMessage();
 
 	ModSetLayerFilter(1, 256, "none");
@@ -347,7 +347,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、それはふざけ合うというよりは、教えあうという感じで、違和感はあるものの微笑ましい光景だった。",
-		   NULL, "Mais ils ne se taquinaient pas, c’était un étrange spectacle, bien qu’agréable - Ils s'aidaient mutuellement à résoudre leurs exercices.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mais ils ne se taquinaient pas, c’était un étrange spectacle, bien qu’agréable, ils s'aidaient mutuellement à résoudre leurs exercices.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -368,8 +368,13 @@ void main()
 	OutputLine(NULL, "　生徒数の半端の都合で、私の席だけが後ろにはみ出ているのか、",
 		   NULL, "À cause de notre nombre impair, j’étais la seule personne dans la classe à n'avoir aucune personne à côté de moi... ", Line_WaitForInput);
 	OutputLine(NULL, "…それとも、この世界の自分が意図的にこの席を選んだのかはわからないが、……自分の席だけが、教室から切り離されている感じだった。",
-		   NULL, "à moins que ce soit moi qui aie délibérément choisis cette place dans ce monde... néanmoins, j'avais vraiment l'impression d’être séparée du reste de la classe.", Line_Normal);
+		   NULL, "à moins que ce soit moi qui aie délibérément choisis cette place dans ce monde...", Line_Normal);
 	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その疎外感は、お弁当の時間になって、一層はっきりと感じられた。",
+		   NULL, "Néanmoins, j'avais vraiment l'impression d’être séparée du reste de la classe.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その疎外感は、お弁当の時間になって、一層はっきりと感じられた。",
