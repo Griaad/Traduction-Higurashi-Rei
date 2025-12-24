@@ -17,7 +17,7 @@ void main()
 		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220008", 128, TRUE);
 	OutputLine(NULL, "「ど…、どうしたの、急に。",
 		   NULL, "\"Qu... Qu'est-ce qu'il te prend tout d'un coup ?", Line_WaitForInput);
@@ -68,7 +68,7 @@ void main()
 
 	DrawSceneWithMask( "bg/hu_tenjyou", "effect/up", 0, 0, 500 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220010", 128, TRUE);
 	OutputLine(NULL, "「ありがとう、気持ちは十分伝わったからもう許して。",
 		   NULL, "\"Merci. J'ai compris maintenant, s'il te plaît arrête.", Line_WaitForInput);
@@ -1538,7 +1538,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2090", 128, TRUE);
 	OutputLine(NULL, "「……先日、君がボールを頭にぶつけて気絶した一件以来、君がこれまで見せなかった暗い表情を見せているような気がしてね。",
-		   NULL, "\"...Depuis que la balle t'a fait perdre connaissance, j'ai l'impression que tu n'es plus toi-même.", Line_WaitForInput);
+		   NULL, "\"...Depuis que le ballon t'a fait perdre connaissance, j'ai l'impression que tu n'es plus toi-même.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2091", 128, TRUE);
 	OutputLine(NULL, "心配してるんだよ。」",
 		   NULL, " Je suis inquiet pour toi tu sais, je n'aime pas te voir aussi triste.\"", GetGlobalFlag(GLinemodeSp));
@@ -1555,7 +1555,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050296", 128, TRUE);
 	OutputLine(NULL, "「……あのボールが当たった時、多分、古手梨花は死んだと思うんです。」",
-		   NULL, "\"...Quand la balle l'a frappé, je pense que Rika Furude est morte.\"", Line_Normal);
+		   NULL, "\"...Quand le ballon l'a frappé, je pense que Rika Furude est morte.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }

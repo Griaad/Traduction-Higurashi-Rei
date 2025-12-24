@@ -1328,14 +1328,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分がその誓いを破れば、私に運命を賭けている羽入は、永遠にひとりぼっちとなって取り残され、…私だけがひとり、勝手に幸せになる。",
-		   NULL, "If I broke that oath, Hanyuu, gambling on my fate, would be left behind for all eternity, all alone... and I'd be the only one so selfishly happy.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "If I broke that oath, Hanyû, gambling on my fate, would be left behind for all eternity, all alone... and I'd be the only one so selfishly happy.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……羽入を幸せにしなくちゃならない義務なんてないけど、",
-		   NULL, "...While I didn't have any responsibility to make Hanyuu happy......", Line_WaitForInput);
+		   NULL, "...While I didn't have any responsibility to make Hanyû happy......", Line_WaitForInput);
 	OutputLine(NULL, "………でも、羽入とは百年を連れ添った友人で相棒で、",
 		   NULL, " she was my ally and partner who stuck with me for a hundred years...", Line_ContinueAfterTyping);
 	Wait( 1000 );
@@ -1345,7 +1345,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、……その誘惑を選ぶにしても、羽入の許可が要る。",
-		   NULL, "So... even if I wanted to give in to temptation, I'd have to ask Hanyuu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "So... even if I wanted to give in to temptation, I'd have to ask Hanyû.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1559,7 +1559,7 @@ void main()
 		   NULL, "\"...I'm back.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220012", 128, TRUE);
 	OutputLine(NULL, "「おかえりなさい。」",
 		   NULL, "\"Welcome home.\"", GetGlobalFlag(GLinemodeSp));
@@ -1570,7 +1570,7 @@ void main()
 		   NULL, "...My mother always immediately followed that up with a \"do you have homework,\" but not today.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220013", 128, TRUE);
 	OutputLine(NULL, "「梨花ぁ。",
 		   NULL, "\"Rika?", Line_WaitForInput);
@@ -1645,7 +1645,7 @@ void main()
 		   NULL, " When I did, she suggested something I'd never heard even once in these hundred years.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220015", 128, TRUE);
 	OutputLine(NULL, "「お母さんと一緒に、今日はカレーを作りましょうね。",
 		   NULL, "\"Come over here and help me make dinner. We're having curry today.", Line_WaitForInput);
@@ -1716,7 +1716,7 @@ void main()
 
 	DrawSceneWithMask( "bg/hu_kittin", "effect/up", 0, 0, 500 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220017", 128, TRUE);
 	OutputLine(NULL, "「じゃあ、ジャガイモの皮を剥きましょうか。",
 		   NULL, "\"Then you can peel the potatoes.", Line_WaitForInput);
@@ -1831,7 +1831,7 @@ void main()
 	DrawScene( "white", 600 );
 	DrawSceneWithMask( "bg/hu_kittin_01", "effect/up", 0, 0, 500 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220020", 128, TRUE);
 	OutputLine(NULL, "「ね、こうして煮えにくいものから順番にお鍋に入れていくのよ。」",
 		   NULL, "\"So first we put the ones in the pot that take the longest to cook.\"", GetGlobalFlag(GLinemodeSp));
@@ -1846,7 +1846,7 @@ void main()
 		   NULL, " ......When do we put in the onions...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220021", 128, TRUE);
 	OutputLine(NULL, "「玉ねぎは煮過ぎると溶けちゃうから最後でいいのよ。",
 		   NULL, "\"The onions will melt if we cook them too long, so we can leave them for last.", Line_WaitForInput);
@@ -1966,7 +1966,7 @@ void main()
 	OutputLine(NULL, "詩音がいない。",
 		   NULL, " Shion wasn't here.", Line_WaitForInput);
 	OutputLine(NULL, "羽入がいない。",
-		   NULL, " Hanyuu wasn't here.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Hanyû wasn't here.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2000,7 +2000,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………私はその判断を羽入に委ねることにする。",
-		   NULL, "......I decided to leave this decision up to Hanyuu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......I decided to leave this decision up to Hanyû.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2014,26 +2014,26 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…羽入にとっての運命でもある。",
-		   NULL, "...It was Hanyuu's destiny too.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...It was Hanyû's destiny too.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どちらを選ぶにせよ、羽入の相談なくして決めてはならないのだ。",
-		   NULL, "Whichever I chose, I would have to talk to Hanyuu before making my final decision.", Line_Normal);
+		   NULL, "Whichever I chose, I would have to talk to Hanyû before making my final decision.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入が私に力を貸してくれたから、元の世界もこの世界もある。",
-		   NULL, "This multiple world concept was something I only had because Hanyuu had lent me her power.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "This multiple world concept was something I only had because Hanyû had lent me her power.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もし羽入が力を貸してくれなかったら、……一番最初の世界でおしまい。",
-		   NULL, "If Hanyuu had never given it to me... it would have been over from the very start.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "If Hanyû had never given it to me... it would have been over from the very start.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2070,7 +2070,7 @@ void main()
 		   NULL, "...But he wasn't troubled at all at the prospect in this world.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220024", 128, TRUE);
 	OutputLine(NULL, "「梨花はみんなのお皿にごはんを盛り付けてちょうだい。",
 		   NULL, "\"Rika, put the rice on everyone's plates, please.", Line_WaitForInput);
@@ -2123,7 +2123,7 @@ void main()
 		   NULL, " It looks delicious!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220026", 128, TRUE);
 	OutputLine(NULL, "「違うわよー、ねぇ？",
 		   NULL, "\"Oh, that isn't right.", Line_WaitForInput);
@@ -2325,7 +2325,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、…もしわからず、…そして羽入と連絡を取る水晶球の力が消えてしまったら。",
-		   NULL, "But... What if I never knew... and the power of the crystal ball connecting me to Hanyuu disappeared?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "But... What if I never knew... and the power of the crystal ball connecting me to Hanyû disappeared?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2385,7 +2385,7 @@ void main()
 		   NULL, "My father said he had a meeting tonight, and he was about to leave again.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220028", 128, TRUE);
 	OutputLine(NULL, "「梨花、ちょっと洗っててくれる？",
 		   NULL, "\"Rika, could you wash these for me?", Line_WaitForInput);
@@ -2448,7 +2448,7 @@ void main()
 	DrawScene( "scene/412a", 600 );
 	PlayBGM( 1, "yoru", 120, 0 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220030", 128, TRUE);
 	OutputLine(NULL, "「それで、山本先生が市内の大きな病院に相談してくれてるらしいの。",
 		   NULL, "\"Yamamoto-sensei is discussing it with a big hospital in the city.", Line_WaitForInput);
@@ -2505,7 +2505,7 @@ void main()
 		   NULL, "\"...Did you talk to Rika about it?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220033", 128, TRUE);
 	OutputLine(NULL, "「あとで話すつもり…。",
 		   NULL, "\"I will after this...", Line_WaitForInput);
@@ -2525,7 +2525,7 @@ void main()
 	FadeOutBGM( 1, 300, FALSE );
 	PlayBGM( 0, "t2", 120, 0 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220035", 128, TRUE);
 	OutputLine(NULL, "「……でもね、あの子の気持ちを考えるとわかるの。",
 		   NULL, "\"...But, you know, when I think about how she feels, I can understand.", Line_WaitForInput);
@@ -2535,7 +2535,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220037", 128, TRUE);
 	OutputLine(NULL, "…その気持ちを汲み取ってやればよかったのに…。",
 		   NULL, " ...I should have tried to understand her feelings... ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220038", 128, TRUE);
 	OutputLine(NULL, "梨花は最初っから引っ越したくないってずっと言ってた。",
 		   NULL, "Rika's always been saying she didn't want to move.", Line_WaitForInput);
@@ -2550,7 +2550,7 @@ void main()
 		   NULL, "\".........When is Yamamoto-sensei coming tomorrow?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220040", 128, TRUE);
 	OutputLine(NULL, "「夕方って言ってたけど、時間は聞かなかったわ。",
 		   NULL, "\"He said the evening, but he didn't give me an exact time.", Line_WaitForInput);
@@ -2565,7 +2565,7 @@ void main()
 		   NULL, "\"I'll be in the assembly hall tomorrow, so when he gets here, give me a call.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220042", 128, TRUE);
 	OutputLine(NULL, "「わかりました。」",
 		   NULL, "\"All right.\"", Line_Normal);
@@ -2589,7 +2589,7 @@ void main()
 		   NULL, "...I at least want to give her some fun things to look back on when she remembers living in Hinamizawa.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220043", 128, TRUE);
 	OutputLine(NULL, "「…そうですね…。」",
 		   NULL, "\"...You're right...\"", Line_Normal);
@@ -2606,7 +2606,7 @@ void main()
 		   NULL, " Rika to you.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220044", 128, TRUE);
 	OutputLine(NULL, "「はい。",
 		   NULL, "\"All right.", Line_WaitForInput);
@@ -2637,7 +2637,7 @@ void main()
 		   NULL, "When my mother returned to the kitchen, she still didn't sound particularly cheerful.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220046", 128, TRUE);
 	OutputLine(NULL, "「……聞いてたの、梨花。」",
 		   NULL, "\"...Were you listening, Rika?\"", GetGlobalFlag(GLinemodeSp));
@@ -2649,7 +2649,7 @@ void main()
 		   NULL, "\"...............\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220047", 128, TRUE);
 	OutputLine(NULL, "「…今日ね、山本先生から電話をもらったわ。",
 		   NULL, "\"...Yamamoto-sensei called us today.", Line_WaitForInput);
@@ -2667,7 +2667,7 @@ void main()
 		   NULL, " Yamamoto's really mean for talking about it without asking me.\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220049", 128, TRUE);
 	OutputLine(NULL, "「ごめんね、…梨花。",
 		   NULL, "\"Rika... I'm sorry.", Line_WaitForInput);
@@ -2774,7 +2774,7 @@ void main()
 
 	DrawScene( "bg/hu_tenjyou", 1000 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220052", 128, TRUE);
 	OutputLine(NULL, "「それでね、お母さんが子供の頃はすっごく村のお年寄りに大事にしてもらったの。",
 		   NULL, "\"And when your mom was little, all the elderly people in the village treated me like I was really important.", Line_WaitForInput);
@@ -2795,7 +2795,7 @@ void main()
 
 	PlayBGM( 0, "yoru", 120, 0 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220054", 128, TRUE);
 	OutputLine(NULL, "「梨花には話したことがなかったわね。",
 		   NULL, "\"I've never told you, have I?", Line_WaitForInput);
@@ -2805,7 +2805,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220056", 128, TRUE);
 	OutputLine(NULL, "第一子が８代続けて女の子だったら、その子はオヤシロさまの生まれ変わりであるって言い伝えがあるの。",
 		   NULL, " If there are eight first children in a row who are girls, that eighth girl is said to be the reincarnation of Oyashiro-sama. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220057", 128, TRUE);
 	OutputLine(NULL, "それがね、お母さんなの。」",
 		   NULL, "That girl happened to be me.\"", GetGlobalFlag(GLinemodeSp));
@@ -2822,7 +2822,7 @@ void main()
 
 	PlayBGM( 1, "semi_r", 120, 0 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220058", 128, TRUE);
 	OutputLine(NULL, "「梨花も女の子で第１子だけど９人目に当たるわね。",
 		   NULL, "\"You're our first child, and a girl, but you would be the ninth one.", Line_WaitForInput);
@@ -2838,7 +2838,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220062", 128, TRUE);
 	OutputLine(NULL, "……でも、これは内緒よ？",
 		   NULL, " ...But this is a secret, okay? ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220063", 128, TRUE);
 	OutputLine(NULL, "　誰にも言ってはいけないことになってるの。",
 		   NULL, "We have to make sure not to tell anyone about it.", Line_WaitForInput);
@@ -2869,7 +2869,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入は、女子が８代続いた８人目、オヤシロさまの生まれ変わりの前に初めて姿を現すことができた。",
-		   NULL, "Hanyuu was first able to appear before the eighth of eight consecutive generations of girls. Before Oyashiro-sama's reincarnation.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Hanyû was first able to appear before the eighth of eight consecutive generations of girls. Before Oyashiro-sama's reincarnation.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2891,7 +2891,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この世界の古手梨花の前には、羽入は現れられない…。",
-		   NULL, "In this world, Hanyuu couldn't appear before Rika Furude...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "In this world, Hanyû couldn't appear before Rika Furude...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2936,7 +2936,7 @@ void main()
 		   NULL, " the same...", Line_ContinueAfterTyping);
 	Wait( 900 );
 	OutputLine(NULL, "…気配。",
-		   NULL, " as Hanyuu's power.", Line_ContinueAfterTyping);
+		   NULL, " as Hanyû's power.", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
 

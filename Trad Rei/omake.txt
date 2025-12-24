@@ -109,7 +109,7 @@ void main()
 
 	ModDrawCharacterWithFiltering(3, 12, "sprite/ha3a_warai_", "2", "effect/right", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「僕は出番が色々もらえたので嬉しかったのですよ、あぅあぅ☆」",
 		   NULL, "\"I was happy I got to make so many appearances. Au au☆\"", Line_Normal);
 	ClearMessage();
@@ -146,7 +146,7 @@ void main()
 	OutputLine(NULL, "だって、あれは悪夢の世界なんでしょ？",
 		   NULL, " That world was in a nightmare, right?", Line_WaitForInput);
 	OutputLine(NULL, "　最後に羽入が、あれは夢の世界だったーって言ってなかったっけ？",
-		   NULL, " Didn't Hanyuu say that world was a dream at the end?", Line_WaitForInput);
+		   NULL, " Didn't Hanyû say that world was a dream at the end?", Line_WaitForInput);
 	OutputLine(NULL, "　なら、悪い夢を覚ますために努力しなきゃ！」",
 		   NULL, " You'd just have to do your best to wake up from it!\"", Line_Normal);
 	ClearMessage();
@@ -160,7 +160,7 @@ void main()
 	OutputLine(NULL, "「違いますよ、お姉。",
 		   NULL, "\"No, Sis.", Line_WaitForInput);
 	OutputLine(NULL, "あれは、元の世界を選んだ時点で、選ばなかった世界に思いを馳せること自体が人の身には過ぎてたってことで、それで羽入が夢って言い方をしたんじゃないですかぁ！」",
-		   NULL, " I thought that after she chose her original world, it would have been too much for her to think about the world she didn't choose, which is why Hanyuu told her it was a dream!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " I thought that after she chose her original world, it would have been too much for her to think about the world she didn't choose, which is why Hanyû told her it was a dream!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -215,12 +215,12 @@ void main()
 	FadeBustshotWithFiltering( 2, "effect/left", 0, FALSE, 0, 0, 300, TRUE );
 	ModDrawCharacterWithFiltering(4, 12, "sprite/ha3a_def_", "0", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 5, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「それは多分、お話の中で僕が言った、選択肢から逃げるという意味になるのだと思いますです。",
 		   NULL, "\"Like I said during the story, I think that would have meant running away from the choice.", Line_WaitForInput);
 	OutputLine(NULL, "……どんな選択肢も、自らが選んだなら納得も出来るし耐えられる。",
 		   NULL, " ...Whatever choice you make, if you made it yourself, you can be okay with it. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
  	OutputLine(NULL, "でも、自分が選ばなかった選択肢は、それを理由に延々と愚痴り続けるだけ。」",
 		   NULL, "But if you didn't make the choice yourself, you'd have a reason to keep complaining forever.\"", Line_Normal);
 	ClearMessage();
@@ -295,7 +295,7 @@ void main()
 	ModDrawCharacter(3, 12, "sprite/ha3a_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 600, TRUE );
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「僕はどっちも出番がいっぱいでお腹いっぱいなのですよ〜、あぅあぅあぅ☆」",
 		   NULL, "\"I showed up a lot in both of them, so I'm nice and full~ Au au au☆\"", Line_Normal);
 	ClearMessage();
@@ -481,7 +481,7 @@ void main()
 	ModDrawCharacterWithFiltering(2, 12, "sprite/ha3a_def_", "0", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「やはり、サウンドノベルというだけあって、サウンドは大事なのです。",
 		   NULL, "\"Of course—this is a sound novel, so the sound is important.", Line_WaitForInput);
 
@@ -579,7 +579,7 @@ void main()
 	ModDrawCharacterWithFiltering(1, 12, "sprite/ha3a_warai_", "2", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「次回は舞台が島になるらしいのです。",
 		   NULL, "\"It'll apparently take place on an island.", Line_WaitForInput);
 
@@ -686,7 +686,7 @@ void main()
 	ModDrawCharacter(3, 12, "sprite/ha3a_shinken_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 600, TRUE );
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「『ひぐらしのなく頃に』の血脈を受け継ぎ、",
 		   NULL, "\"He said something about it inheriting the blood of Higurashi: When They Cry,", Line_WaitForInput);
 
@@ -698,7 +698,7 @@ void main()
 	ModDrawCharacter(3, 12, "sprite/ha3a_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……何を言ってんのか僕にはよくわかってないのです。",
 		   NULL, " ...I don't really understand what he's talking about.", Line_Continue);
 
@@ -866,14 +866,14 @@ void main()
 
 	ModDrawCharacterWithFiltering(2, 12, "sprite/ha3a_def_", "0", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あぅあぅ。",
 		   NULL, "\"Au au.", Line_WaitForInput);
 
 	OutputLine(NULL, "竜騎士07も、これで『ひぐらし』はもう書くことはないだろうと思っていたのですが、今回のシナリオをとっても楽しく書いたので、少し考え直したそうなのです。",
 		   NULL, " Ryukishi07 was thinking he wouldn't write any more Higurashi from now on, but he had a lot of fun writing these stories, so he might have changed his mind a little. ", GetGlobalFlag(GLinemodeSp));
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "また時間があったら色々書いてみたいとか言っていましたのです。」",
 		   NULL, "He said he'd still like to write a few more things if he has time.\"", Line_Normal);
 	ClearMessage();
@@ -1265,7 +1265,7 @@ void main()
 	ModDrawCharacterWithFiltering(2, 12, "sprite/ha3a_warai_", "2", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あぅあぅ☆",
 		   NULL, "\"Au au☆", Line_WaitForInput);
 
@@ -1393,7 +1393,7 @@ void main()
 	ModDrawCharacterWithFiltering(2, 12, "sprite/ha3a_au_", "2", "effect/right", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あぅあぅあぅ！",
 		   NULL, "\"Au au au!", Line_WaitForInput);
 

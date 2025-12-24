@@ -551,7 +551,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「羽入！",
-		   NULL, "\"Hanyuu!", Line_WaitForInput);
+		   NULL, "\"Hanyû!", Line_WaitForInput);
 	OutputLine(NULL, "　鷹野が勾玉を持ってるのは間違いないのね？！」",
 		   NULL, " Takano definitely has the magatama, right?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -562,7 +562,7 @@ void main()
 	ModSetLayerFilter(23, 256, "none");
 	ModDrawCharacterWithFiltering(23, 12, "sprite/ha1_muhyou_", "0", "effect/maskc", 0, 40, 0, FALSE, 0, 0, 0, 0, 0, 23, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「は、はいなのです！！」",
 		   NULL, "\"Y-Yes, she does!!\"", Line_Normal);
 	ClearMessage();
@@ -1365,7 +1365,7 @@ void main()
 	//print 28
 	ModDrawCharacterWithFiltering(22, 12, "sprite/ha1_yowaki_", "0", "effect/maskc", 0, 40, 0, FALSE, 0, 0, 0, 0, 0, 22, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……でも梨花。",
 		   NULL, "\"...Wait, Rika.", Line_WaitForInput);
 	OutputLine(NULL, "レナを足止めできましたのですが、誰も鷹野の後を追いかけてないから意味がありませんのです。」",
@@ -1568,7 +1568,7 @@ void main()
 	//print 28
 	ModDrawCharacterWithFiltering(22, 12, "sprite/ha1_au_", "2", "effect/maskc", 0, 40, 0, FALSE, 0, 0, 0, 0, 0, 22, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そ、その可能性は高いのです。",
 		   NULL, "\"I-It's highly possible.", Line_WaitForInput);
 	OutputLine(NULL, "レナが元に戻ったということは、白の勾玉が所有者を失ったということなのです。」",
@@ -1587,7 +1587,7 @@ void main()
 	//print 80
 	ModDrawCharacter(22, 12, "sprite/ha1_muhyou_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 500, TRUE);
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そうは行きませんのです！",
 		   NULL, "\"We can't do that!", Line_WaitForInput);
 	OutputLine(NULL, "　もし間違ってアリさんが拾って巣に持ち帰っちゃったらどうするのですか！！」",
@@ -2115,7 +2115,7 @@ void main()
 	//print 28
 	ModDrawCharacterWithFiltering(22, 12, "sprite/ha1_au_", "2", "effect/maskc", 0, 40, 0, FALSE, 0, 0, 0, 0, 0, 22, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あぅあぅあぅあぅあぅ！！」",
 		   NULL, "\"Au au au au au!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

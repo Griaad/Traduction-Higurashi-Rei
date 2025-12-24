@@ -8,7 +8,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入の話によるなら、フワラズの勾玉の効果は少し時間差で現れるらしい。",
-		   NULL, "According to Hanyuu, the Magatama of Fuwarazu wouldn't take effect until after a short period of time.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "According to Hanyû, the Magatama of Fuwarazu wouldn't take effect until after a short period of time.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -483,7 +483,7 @@ void main()
 	ModSetLayerFilter(1, 179, "none");
 	ModDrawCharacter(1, 12, "sprite/ha1_odoroki_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 600, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…あ、あぅあぅあぅ！",
 		   NULL, "\"...A-Au au au!", Line_WaitForInput);
 	OutputLine(NULL, "　聞きましたですか梨花！",
@@ -535,7 +535,7 @@ void main()
 
 	ModDrawCharacter(1, 12, "sprite/ha1_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「鬼ヶ淵村は、…ずっとずっとこの内側だけの狭い世界でしたから。",
 		   NULL, "\"Onigafuchi Village... was always a very small world.", Line_WaitForInput);
 	OutputLine(NULL, "……たまには何か素敵なことも必要だったのですよ。",
@@ -555,7 +555,7 @@ void main()
 
 	ModDrawCharacter(1, 12, "sprite/ha1_odoroki_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そ、それは酷い言い方なのですよ！",
 		   NULL, "\"Th-That's a mean way to say it!", Line_WaitForInput);
 	OutputLine(NULL, "　仮にも神さまの僕にあまりにも不敬なのです！",
@@ -607,7 +607,7 @@ void main()
 
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そんなの相性ダメダメなのですー！！！",
 		   NULL, "\"Those would go terribly together!!!", Line_Continue);
 
@@ -939,7 +939,7 @@ void main()
 	ModSetLayerFilter(2, 179, "none");
 	ModDrawCharacterWithFiltering(2, 12, "sprite/ha1_yowaki_", "0", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あぅあぅあぅあぅあぅあぅあぅー、",
 		   NULL, "\"Au au au au au au au au...", Line_Continue);
 	Wait( 800 );

@@ -991,7 +991,7 @@ void main()
 	DisableWindow();
 	ModDrawCharacterWithFiltering(1, 12, "sprite/ha1_odoroki_", "2", "effect/maskc", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 2, 1300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「駄目です、あぅあぅ！",
 		   NULL, "\"We can't, au au!", Line_WaitForInput);
 	OutputLine(NULL, "　一刻も早く見つけないと駄目なのです！",
@@ -1020,7 +1020,7 @@ void main()
 		   NULL, " I'm tired...\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「梨花はフワラズの勾玉の恐ろしい力を知らないのです。",
 		   NULL, "\"You don't know the terrible power of the Magatama of Fuwarazu.", Line_WaitForInput);
 	OutputLine(NULL, "知ったらそんなのんびりとはしていられないのですよ！」",
@@ -1039,7 +1039,7 @@ void main()
 	DisableWindow();
 	ModDrawCharacter(1, 12, "sprite/ha1_shinken_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「だからこそ危険なのです！",
 		   NULL, "\"That's exactly why it's dangerous!", Line_WaitForInput);
 	OutputLine(NULL, "　それを巡って村中の若者が血みどろの争いを繰り広げてしまうのですよー！！",
@@ -1063,7 +1063,7 @@ void main()
 	DisableWindow();
 	ModDrawCharacter(1, 12, "sprite/ha1_odoroki_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「だーめなのですぅー！！",
 		   NULL, "\"Nooo, you caaan't!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1071,7 +1071,7 @@ void main()
 	DisableWindow();
 	ModDrawCharacter(1, 12, "sprite/ha1_au_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あぅあぅ、近付いてますよ近付いてますよ…！",
 		   NULL, "Au au, we're getting closer, we're getting closer...!", Line_WaitForInput);
 	OutputLine(NULL, "　あぅあぅあぅあぅあぅあぅ……",
@@ -1128,7 +1128,7 @@ void main()
 		   NULL, " What mattered was the inside.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あ！",
 		   NULL, "\"Ah!", Line_WaitForInput);
 	OutputLine(NULL, "　………あぅあぅあぅあぅ…。」",
@@ -1149,7 +1149,7 @@ void main()
 
 	PlayBGM( 1, "yoru", 120, 0 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「こ、この近くに落ちているのかもしれません。",
 		   NULL, "\"I-It might be lying around nearby.", Line_WaitForInput);
 	OutputLine(NULL, "探しましょうなのです！」",
@@ -1163,7 +1163,7 @@ void main()
 		   NULL, " A human can't search for such a little jewel in the dark.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そ…それが……、あぅ。",
 		   NULL, "\"W...Well... Au.", Line_WaitForInput);
 	OutputLine(NULL, "妖気発信機は箱の方に取り付けられてるらしくて…、",
@@ -1226,7 +1226,7 @@ void main()
 		   NULL, " There was a new trash pile, so I think she wanted to go treasure hunting.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「レナが拾っているでしょうか…？」",
 		   NULL, "\"Could Rena have picked them up...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1240,7 +1240,7 @@ void main()
 		   NULL, " Calling her this late would be pretty rude.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……あぅあぅ…。」",
 		   NULL, "\"...Au au...\"", Line_Normal);
 	ClearMessage();
@@ -1254,7 +1254,7 @@ void main()
 		   NULL, " And if I read the scroll a little more closely, it might give us a hint, right?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…あぅあぅあぅあぅ。」",
 		   NULL, "\"...Au au au au.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

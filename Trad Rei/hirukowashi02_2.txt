@@ -944,7 +944,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……羽入、あんたも探しなさいよ！",
-		   NULL, "\"...Hanyuu, you look too!", Line_WaitForInput);
+		   NULL, "\"...Hanyû, you look too!", Line_WaitForInput);
 	OutputLine(NULL, "　レナがこっちに来るまでに見つけないと！」",
 		   NULL, " We have to find it before Rena gets here!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -955,7 +955,7 @@ void main()
 	ModSetLayerFilter(22, 256, "none");
 	ModDrawCharacterWithFiltering(22, 12, "sprite/ha1_odoroki_", "2", "effect/maskc", 0, 40, 0, FALSE, 0, 0, 0, 0, 0, 22, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あ、あぅあぅあぅ、",
 		   NULL, "\"Ah, au au au,", Line_ContinueAfterTyping);
 	Wait( 600 );
@@ -981,7 +981,7 @@ void main()
 	//print 80
 	ModDrawCharacter(22, 12, "sprite/ha1_yowaki_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 500, TRUE);
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あぅあぅ！",
 		   NULL, "\"Au au!", Line_WaitForInput);
 	OutputLine(NULL, "　フワラズの勾玉は脳の恋愛レセプターを刺激して、その結果として恋愛時と同じ脳内物質を分泌させますです。",
