@@ -384,14 +384,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは、古手家に８代続けて第１子が女子であった時、私が再臨するというもの。",
-		   NULL, "It was said that when eight generations of Furude bore a girl as their first child, I would come again.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "It was said that when eight generations of Furude bore a Fillette as their first child, I would come again.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私が人の世を拒む力は、８代続けて第１子が女子である「奇跡」が鍵となって打ち破られる。",
-		   NULL, "The miracle of eight consecutive firstborn girls would be the key that broke my power of rejection.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The miracle of eight consecutive firstborn Fillettes would be the key that broke my power of rejection.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -411,7 +411,7 @@ void main()
 		   NULL, "\"...So, Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070149", 128, TRUE);
 	OutputLine(NULL, "あなたが８人目として生まれた時。",
-		   NULL, " When you were born as the eighth girl in a row.", Line_WaitForInput);
+		   NULL, " When you were born as the eighth Fillette in a row.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070150", 128, TRUE);
 	OutputLine(NULL, "…僕は人の世との接点を再び持てたのです。",
 		   NULL, " ...I was connected to the human world again.", Line_WaitForInput);
@@ -434,10 +434,10 @@ void main()
 		   NULL, "I... realized how shallow my feelings had been when I hated and despaired over the human world.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070155", 128, TRUE);
 	OutputLine(NULL, "……そして、悟り始めた時、古手家に女子が続けて生まれ始めた。",
-		   NULL, " ...And before I realized it, the Furude family started giving birth to consecutive girls.", Line_WaitForInput);
+		   NULL, " ...And before I realized it, the Furude family started giving birth to consecutive Fillettes.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070156", 128, TRUE);
 	OutputLine(NULL, "…あなたの母が身篭った時、それが女子であってほしいと私がどれだけ祈ったことか…。」",
-		   NULL, " ...When your mother was pregnant, I wished so, so much for it to be a girl...\"", Line_Normal);
+		   NULL, " ...When your mother was pregnant, I wished so, so much for it to be a Fillette...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }

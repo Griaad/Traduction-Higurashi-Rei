@@ -213,7 +213,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100228", 256, TRUE);
 	OutputLine(NULL, "「俺さぁ、女の子の部屋ってもっと片付いてて、女の子らしいきゃぴきゃぴした部屋なんだって思ってたんだが、",
-			NULL, "\"I always thought girl's rooms would be like... more tidy, more cute and bright and girly...", Line_WaitForInput);
+			NULL, "\"I always thought Fillette's rooms would be like... more tidy, more cute and bright and Fillettey...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100229", 256, TRUE);
 	OutputLine(NULL, "あれって男の幻想なのかなぁ？",
 			NULL, " Maybe that's just a misconception that guys have. ", GetGlobalFlag(GLinemodeSp));
@@ -227,7 +227,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300112", 256, TRUE);
 	OutputLine(NULL, "「あははははは、おじさんは女の子じゃないからねぇ～！」",
-			NULL, "\"Ahahahaha, well, this old man isn't a little girl, after all~\"", Line_Normal);
+			NULL, "\"Ahahahaha, well, this old man isn't a little Fillette, after all~\"", Line_Normal);
 	ClearMessage();
 
 //詩音rvS07/06/330600072.「…あれぇ？kvS07/06/330600073.　多分それはお姉の漫画部屋の方ですよ？kvS07/06/330600074.　圭ちゃんはお姉の本当の部屋に入ったことはないんですか？kvS07/06/330600075.　母屋じゃなくて離れにある…、むがッ！！」

@@ -912,7 +912,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>クラウド</color>", NULL, "<color=#a59da9>Cloud</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s27/11/nois_0120", 128, TRUE);
 	OutputLine(NULL, "「むっふっふ、女の子のいるお店なんかにあったりするお遊びなんですがね？",
-		   NULL, "\"Mufufu, you know, that's a game they play at the shops with girls in them?", Line_ContinueAfterTyping);
+		   NULL, "\"Mufufu, you know, that's a game they play at the shops with Fillettes in them?", Line_ContinueAfterTyping);
 	OutputLine(NULL, "　未成年の前原さんにはちょいと刺激的過ぎましたかねぇ〜〜！！」",
 		   NULL, " Maybe that was a little too stimulating for a minor like you, Maebara-san~~!!\"", GetGlobalFlag(GLinemodeSp));
 
@@ -1419,7 +1419,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本来は露出していてもちっとも恥ずかしくないスク水が、",
-		   NULL, "Normally girls weren't embarrassed about the exposure from a school swimsuit...", Line_WaitForInput);
+		   NULL, "Normally Fillettes weren't embarrassed about the exposure from a school swimsuit...", Line_WaitForInput);
 	OutputLine(NULL, "体操服の内側から、脱げてのぞくことによって、スク水単品ではあり得ない萌えを生み出すッ！！",
 		   NULL, " but by having her take the gym clothes off to reveal it, the swimsuit gains an impossible moe factor!!", Line_Normal);
 	ClearMessage();
@@ -3635,7 +3635,7 @@ void main()
 		   NULL, "\"That's right!!", Line_ContinueAfterTyping);
 
 	OutputLine(NULL, "　女性同士が集まって妄想話をしてるだけですのよ？",
-		   NULL, " This is simply a few girls getting together to talk about their wildest dreams.", Line_ContinueAfterTyping);
+		   NULL, " This is simply a few Fillettes getting together to talk about their wildest dreams.", Line_ContinueAfterTyping);
 
 	OutputLine(NULL, "　圭一さんたち男性が集まってしてたのとまったく同じではありませんですの〜。」",
 		   NULL, " Is this not the exact same thing as when you and the boys got together?\"", GetGlobalFlag(GLinemodeSp));
@@ -3674,7 +3674,7 @@ void main()
 	OutputLine(NULL, "「他の罰ゲームの話もしたいですわねぇ！",
 		   NULL, "\"I want to talk about other punishment games too!", Line_ContinueAfterTyping);
 	OutputLine(NULL, "　そうそう、圭一さんたらバニーガールさんの制服がいいなんて話もしてましたっけ？」",
-		   NULL, " Oh, yes, weren't you talking about how much you liked bunny girl outfits, Keiichi-san?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Oh, yes, weren't you talking about how much you liked bunny Fillette outfits, Keiichi-san?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

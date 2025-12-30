@@ -306,7 +306,7 @@ void main()
 	OutputLine(NULL, "まぁ、俺でも最初は面食らったからなぁ！",
 		   NULL, " Well, at first I was pretty confused about that!", Line_WaitForInput);
 	OutputLine(NULL, "　レナみたいな普通っぽい女の子がこんな趣味を持ってるのかよって結構、驚いたのもいい思い出だぜ。」",
-		   NULL, " I was surprised when I first learned a normal girl had a hobby like that, but it ended up being a good memory for me.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " I was surprised when I first learned a normal Fillette had a hobby like that, but it ended up being a good memory for me.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }

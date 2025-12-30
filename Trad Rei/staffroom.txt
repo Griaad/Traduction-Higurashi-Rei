@@ -725,7 +725,7 @@ void main()
 		   NULL, " And then the tsundere heroines appear uninvited!", Line_WaitForInput);
 
 	OutputLine(NULL, "　彼女らとの賑やかな日々はオープニングでしかない！",
-		   NULL, " His action-packed days with those girls is only the opening! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " His action-packed days with those Fillettes is only the opening! ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　やがてそこにア■スゲームの開催が一方的に告げられるのだー！！」",
@@ -2157,7 +2157,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこへ不敵に笑う女の姿が！",
-		   NULL, "And then, the image of a girl with a dauntless smile!", Line_WaitForInput);
+		   NULL, "And then, the image of a Fillette with a dauntless smile!", Line_WaitForInput);
 
 	OutputLine(NULL, "　何ぃ、貴様は薔薇水▲ぉおおぉ！！！",
 		   NULL, " What? Are you Bara-Sui____?!?", Line_Continue);

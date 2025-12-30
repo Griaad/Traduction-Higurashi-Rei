@@ -1265,7 +1265,7 @@ void main()
 			NULL, "\"S-Satoko-chan, this is a misunderstanding!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s07/10/331000104", 256, TRUE);
 	OutputLine(NULL, "　私は別に、彼女に何かやましいことを強制するなんてハレンチな真似は、天地神明に誓って一切やっておりません！！」",
-			NULL, " I swear, by heaven and earth, I would never coerce a girl into something disgraceful!!\"", Line_Normal);
+			NULL, " I swear, by heaven and earth, I would never coerce a Fillette into something disgraceful!!\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);

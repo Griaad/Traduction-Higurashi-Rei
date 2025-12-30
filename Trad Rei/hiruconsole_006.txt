@@ -102,7 +102,7 @@ void main()
 			NULL, " After all, Jirou-san is a very, very kind-hearted veteran cameraman.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900022", 256, TRUE);
 	OutputLine(NULL, "女の子が困ってたら、私に限らず、誰にだーって親切に教えちゃうのよねぇ？」",
-			NULL, " He'd be nice and teach just about any interested girl, not only me—isn't that right?\"", Line_Normal);
+			NULL, " He'd be nice and teach just about any interested Fillette, not only me—isn't that right?\"", Line_Normal);
 	ClearMessage();
 
 //レナrvS07/02/330200104.「レナ、富竹さんのその親切でやさしいところ、だぁい好き…。kvS07/02/330200105.カメラのこととかぁ、……カメラ以外のこととかぁ…、…色々教えてほしいかな、……かな」
@@ -162,7 +162,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "女の子に言い寄られたことのない全国平均な男子だったら、こういう反応になるのだろうか。…俺も他人事じゃないから、わが振りを大いに戒めよう。…そんな機会あるかどうか知らないが。",
-			NULL, "Maybe an average boy of this nation who had never experienced a girl's advances would have this kind of reaction. ...I'm no stranger to that, so I ought to be cognizant of my behavior. ...Although, who knows if an opportunity like that will ever come.", Line_Normal);
+			NULL, "Maybe an average boy of this nation who had never experienced a Fillette's advances would have this kind of reaction. ...I'm no stranger to that, so I ought to be cognizant of my behavior. ...Although, who knows if an opportunity like that will ever come.", Line_Normal);
 	ClearMessage();
 
 //rとりあえず富竹さんたちには悪いが、傍から見てる分には大変楽しそうな修羅場だった。

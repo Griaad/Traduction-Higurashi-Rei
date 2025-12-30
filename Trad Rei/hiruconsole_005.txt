@@ -1486,7 +1486,7 @@ void main()
 			NULL, "\"Sis, are you okay?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600029", 256, TRUE);
 	OutputLine(NULL, "女の子に好きな人のことを直接聞くなんて、相変わらずデリカシーがなさすぎですよ」",
-			NULL, " Really, asking a girl who she likes so directly? You have no delicacy at all, like always.\"", Line_Normal);
+			NULL, " Really, asking a Fillette who she likes so directly? You have no delicacy at all, like always.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 3, "sprite/me1a_yowaki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -1495,7 +1495,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300038", 256, TRUE);
 	OutputLine(NULL, "「……ごめんねぇ、おじさん、女の子じゃないもんでわかんなかったわぁ…」",
-			NULL, "\"...I'm sorry—this ol' man isn't a little girl, so he didn't understand...\"", Line_Normal);
+			NULL, "\"...I'm sorry—this ol' man isn't a little Fillette, so he didn't understand...\"", Line_Normal);
 	ClearMessage();
 
 //rあああぁあぁ、もう厄介なことになったなぁぁ…。

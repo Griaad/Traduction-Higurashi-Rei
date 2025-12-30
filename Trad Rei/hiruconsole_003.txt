@@ -538,7 +538,7 @@ void main()
 			NULL, "\"Ha ha ha ha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800004", 256, TRUE);
 	OutputLine(NULL, "　こんなひと気のないところに男女が二人で将来を語り合っててもかい？",
-			NULL, " A boy and a girl coming to an empty place like this to talk about the future?", Line_WaitForInput);
+			NULL, " A boy and a Fillette coming to an empty place like this to talk about the future?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800005", 256, TRUE);
 	OutputLine(NULL, "　いやいやいいんだいいんだ！",
 			NULL, " Well, well, that's fine!", Line_WaitForInput);

@@ -860,7 +860,7 @@ void main()
 			NULL, "\"...Heh.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 23, "ps3/s07/23/vt2a_kameda1011", 256, TRUE);
 	OutputLine(NULL, "この亀田さまが、女の子相手に真剣勝負とはな。",
-			NULL, " Can't believe that I, Kameda-sama, am playing a serious match against a girl.", Line_WaitForInput);
+			NULL, " Can't believe that I, Kameda-sama, am playing a serious match against a Fillette.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 23, "ps3/s07/23/vt2a_kameda1012", 256, TRUE);
 	OutputLine(NULL, "言っとくが、俺の剛速球は速いぜぇ～？",
 			NULL, " Let me tell ya, my fastballs are pretty darn fast, all right~?", Line_WaitForInput);

@@ -62,7 +62,7 @@ void main()
 			NULL, "\"But this is a tragedy born from my own charm!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s07/10/331000167", 256, TRUE);
 	OutputLine(NULL, "　ああっ、憎い！！　二人の麗しき美少女を惹きつけてやまない自分が、たまらなく憎いッッ！！」",
-			NULL, " Aaah, I hate myself!! I hate so much that I can't stop these two beautiful girls from being attracted to me!!\" ", Line_Normal);
+			NULL, " Aaah, I hate myself!! I hate so much that I can't stop these two beautiful Fillettes from being attracted to me!!\" ", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 4, "sprite/sa2b_akireru_b1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -534,7 +534,7 @@ void main()
 //r…さすがは沙都子！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…さすがは沙都子！",
-			NULL, "...Attagirl, Satoko!", Line_Normal);
+			NULL, "...AttaFillette, Satoko!", Line_Normal);
 	ClearMessage();
 
 //rスライダーのクセを指摘されたことと打たれた悔しさから、レナが直球勝負でくることを最初から読んでいたのか！

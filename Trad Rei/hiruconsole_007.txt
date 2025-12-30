@@ -25,7 +25,7 @@ void main()
 			NULL, " How unpleasant, how utterly unpleasant!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900040", 256, TRUE);
 	OutputLine(NULL, "　…ジロウさんったら、あんな年下の子にデレデレして！」",
-			NULL, " ...How could Jirou-san fawn over a girl that much younger than him?!\"", Line_Normal);
+			NULL, " ...How could Jirou-san fawn over a Fillette that much younger than him?!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 9, "sprite/ta1_human_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -152,7 +152,7 @@ void main()
 			NULL, " Rena was fed up too.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200139", 256, TRUE);
 	OutputLine(NULL, "せっかく鷹野さんという魅力的な女性と一緒の時間を過ごしているのに、他の女の子に目移りするなんて最低ですもん。",
-			NULL, " He got to spend all that time with a charming woman like you, and he got distracted by another girl? He's the worst. ", GetGlobalFlag(GLinemodeSp));
+			NULL, " He got to spend all that time with a charming woman like you, and he got distracted by another Fillette? He's the worst. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200140", 256, TRUE);
 	OutputLine(NULL, "…鷹野さんの魅力、理解できないなんて可哀想な人ですよね」",

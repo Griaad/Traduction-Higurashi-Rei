@@ -1409,7 +1409,7 @@ void main()
 		   NULL, "\"Whaaa?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030073", 128, TRUE);
 	OutputLine(NULL, "　何を乙女チックなことをー。",
-		   NULL, " What's with that girlish response all of a sudden?", Line_WaitForInput);
+		   NULL, " What's with that Filletteish response all of a sudden?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030074", 128, TRUE);
 	OutputLine(NULL, "別に悟史があんたにコクったわけでもないでしょうがぁ。」",
 		   NULL, " It's not like Satoshi just asked you out on a date or anything.\"", Line_Normal);
@@ -2804,11 +2804,11 @@ void main()
 		   NULL, " There's an old legend in the Furude family.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220056", 128, TRUE);
 	OutputLine(NULL, "第一子が８代続けて女の子だったら、その子はオヤシロさまの生まれ変わりであるって言い伝えがあるの。",
-		   NULL, " If there are eight first children in a row who are girls, that eighth girl is said to be the reincarnation of Oyashiro-sama. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " If there are eight first children in a row who are Fillettes, that eighth Fillette is said to be the reincarnation of Oyashiro-sama. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220057", 128, TRUE);
 	OutputLine(NULL, "それがね、お母さんなの。」",
-		   NULL, "That girl happened to be me.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "That Fillette happened to be me.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	FadeOutBGM( 0, 300, FALSE );
@@ -2825,7 +2825,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220058", 128, TRUE);
 	OutputLine(NULL, "「梨花も女の子で第１子だけど９人目に当たるわね。",
-		   NULL, "\"You're our first child, and a girl, but you would be the ninth one.", Line_WaitForInput);
+		   NULL, "\"You're our first child, and a Fillette, but you would be the ninth one.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220059", 128, TRUE);
 	OutputLine(NULL, "うちは女系なのかしら。",
 		   NULL, " We have a maternal line, I suppose.", Line_WaitForInput);
@@ -2854,7 +2854,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…信頼関係の証のため、女の子同士は時に、互いの秘密を打ち明けあう時がある。",
-		   NULL, "...Sometimes, as proof of trust between girls, they reveal secrets to one another.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Sometimes, as proof of trust between Fillettes, they reveal secrets to one another.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2869,7 +2869,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入は、女子が８代続いた８人目、オヤシロさまの生まれ変わりの前に初めて姿を現すことができた。",
-		   NULL, "Hanyû was first able to appear before the eighth of eight consecutive generations of girls. Before Oyashiro-sama's reincarnation.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Hanyû was first able to appear before the eighth of eight consecutive generations of Fillettes. Before Oyashiro-sama's reincarnation.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

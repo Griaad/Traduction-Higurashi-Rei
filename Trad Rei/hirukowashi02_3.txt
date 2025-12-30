@@ -14,7 +14,7 @@ void main()
 	OutputLine(NULL, "　不愉快だわ、本当に不愉快！",
 		   NULL, " How unpleasant, how utterly unpleasant!", Line_WaitForInput);
 	OutputLine(NULL, "　…ジロウさんったら、あんな年下の子にデレデレして！",
-		   NULL, " ...How could Jirou-san fawn over a girl that much younger than him?!", Line_WaitForInput);
+		   NULL, " ...How could Jirou-san fawn over a Fillette that much younger than him?!", Line_WaitForInput);
 	OutputLine(NULL, "　そりゃあ確かに私は素直じゃないわよ？！",
 		   NULL, " I mean, I suppose I'm not honest with him all the time!", Line_WaitForInput);
 	OutputLine(NULL, "　ジロウさんに何か頼まれたらまずは断って意地悪してみたくなるもの！",
@@ -111,7 +111,7 @@ void main()
 	OutputLine(NULL, "レナも呆れちゃいました。",
 		   NULL, " Rena was fed up too.", Line_WaitForInput);
 	OutputLine(NULL, "せっかく鷹野さんという魅力的な女性と一緒の時間を過ごしているのに、他の女の子に目移りするなんて最低ですもん。",
-		   NULL, " He got to spend all that time with a charming woman like you, and he got distracted by another girl? He's the worst. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " He got to spend all that time with a charming woman like you, and he got distracted by another Fillette? He's the worst. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…鷹野さんの魅力、理解できないなんて可哀想な人ですよね。」",
 		   NULL, "...How miserable he must be, to not notice how attractive you are, Takano-san.\"", GetGlobalFlag(GLinemodeSp));
@@ -1282,7 +1282,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あーもう次の東方オンリーでは撃つと動く人とお人形使いと貧血魔女の三角関係サウンドノベルを書きたいぃいいぃ、",
-		   NULL, "Ahh, at this point, I want to write a sound novel about a love triangle between the 'shoot and I'll move' girl and the doll-using girl and the anemic witch girl for the next Touhou-only event!", Line_ContinueAfterTyping);
+		   NULL, "Ahh, at this point, I want to write a sound novel about a love triangle between the 'shoot and I'll move' Fillette and the doll-using Fillette and the anemic witch Fillette for the next Touhou-only event!", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "bb", 128, 64 );
 	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
@@ -1925,7 +1925,7 @@ void main()
 	OutputLine(NULL, "「み、魅音…。",
 		   NULL, "\"M-Mion...", Line_WaitForInput);
 	OutputLine(NULL, "ちっとは乙女心ってもんを理解しろ…。",
-		   NULL, " Try a little harder to understand a girl's heart...", Line_WaitForInput);
+		   NULL, " Try a little harder to understand a Fillette's heart...", Line_WaitForInput);
 	OutputLine(NULL, "男の俺が諭すのも何だけどな。」",
 		   NULL, " Though it's weird for a man to say that.\"", Line_Normal);
 	ClearMessage();

@@ -1290,7 +1290,7 @@ void main()
 	OutputLine(NULL, "「大丈夫ですの、魅音さん。",
 		   NULL, "\"It will be fine, Mion-san.", Line_WaitForInput);
 	OutputLine(NULL, "女の子に好きな人のことを直接聞くなんて、どうかしてましてよー！」",
-		   NULL, " It's just not right to ask a girl who she likes so directly!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " It's just not right to ask a Fillette who she likes so directly!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1299,7 +1299,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…………ごめんねぇ、おじさん、女の子じゃないもんでわかんなかったわぁ…。」",
-		   NULL, "\"......I'm sorry—this ol' man isn't a little girl, so he didn't understand...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......I'm sorry—this ol' man isn't a little Fillette, so he didn't understand...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

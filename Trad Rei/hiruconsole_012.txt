@@ -478,7 +478,7 @@ void main()
 			NULL, " Well, at first I was pretty confused about that!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100384", 256, TRUE);
 	OutputLine(NULL, "　レナみたいな普通っぽい女の子がこんな趣味を持ってるのかよって結構、驚いたのもいい思い出だぜ」",
-			NULL, " I was surprised when I first learned a normal girl had a hobby like that, but it ended up being a good memory for me.\"", Line_Normal);
+			NULL, " I was surprised when I first learned a normal Fillette had a hobby like that, but it ended up being a good memory for me.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(5, 2, "sprite/re2a_komaru_a2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );

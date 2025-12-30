@@ -172,7 +172,7 @@ void main()
 			NULL, "\"M-Mion...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100202", 256, TRUE);
 	OutputLine(NULL, "ちっとは乙女心ってもんを理解しろ…。",
-			NULL, " Try a little harder to understand a girl's heart...", Line_WaitForInput);
+			NULL, " Try a little harder to understand a Fillette's heart...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100203", 256, TRUE);
 	OutputLine(NULL, "男の俺が諭すのも何だけどな」",
 			NULL, " Though it's weird for a man to say that.\"", Line_Normal);

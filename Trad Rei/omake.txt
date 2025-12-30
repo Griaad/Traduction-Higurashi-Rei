@@ -1050,7 +1050,7 @@ void main()
 		   NULL, "\"Hee-hee.", Line_WaitForInput);
 
 	OutputLine(NULL, "私たち大人の関係をシナリオに描くには、良い子のみんなには刺激が強すぎるんじゃないかしら？」",
-		   NULL, " Wouldn't a story depicting our adult relationship be a little too stimulating for all the good boys and girls?\"", Line_Normal);
+		   NULL, " Wouldn't a story depicting our adult relationship be a little too stimulating for all the good boys and Fillettes?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;＜鷹野
@@ -1224,7 +1224,7 @@ void main()
 		   NULL, "\"I've had enough of being the villain. A good guy role would be nice for next time.", Line_WaitForInput);
 
 	OutputLine(NULL, "お芝居とは言え、女の子苛めるのは性に合わんっちゅうん。",
-		   NULL, " I know it was just an act, but bullying little girls doesn't suit me.", Line_WaitForInput);
+		   NULL, " I know it was just an act, but bullying little Fillettes doesn't suit me.", Line_WaitForInput);
 
 	OutputLine(NULL, "なー、沙都子ぉ〜！",
 		   NULL, " Right, Satokooo~! ", GetGlobalFlag(GLinemodeSp));

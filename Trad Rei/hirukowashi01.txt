@@ -451,7 +451,7 @@ void main()
 	OutputLine(NULL, "「はっはっはっは！",
 		   NULL, "\"Ha ha ha ha!", Line_WaitForInput);
 	OutputLine(NULL, "　こんなひと気のないところに男女が二人で将来を語り合っててもかい？",
-		   NULL, " A boy and a girl coming to an empty place like this to talk about the future?", Line_WaitForInput);
+		   NULL, " A boy and a Fillette coming to an empty place like this to talk about the future?", Line_WaitForInput);
 	OutputLine(NULL, "　いやいやいいんだいいんだ！",
 		   NULL, " Well, well, that's fine!", Line_WaitForInput);
 	OutputLine(NULL, "　そういう出会いを重ねながら二人の絆を強めていくんだよ。",

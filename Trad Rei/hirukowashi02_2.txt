@@ -110,7 +110,7 @@ void main()
 	OutputLine(NULL, "　だってジロウさんはとーってもやさしいベテランカメラマンなんですもの。",
 		   NULL, " After all, Jirou-san is a very, very kind-hearted veteran cameraman.", Line_WaitForInput);
 	OutputLine(NULL, "女の子が困ってたら、私に限らず、誰にだーって親切に教えちゃうのよねぇ？」",
-		   NULL, " He'd be nice and teach just about any interested girl, not only me—isn't that right?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " He'd be nice and teach just about any interested Fillette, not only me—isn't that right?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -206,7 +206,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　女の子に言い寄られたことのない全国平均な男子だったらこういう反応になるのだろうか。",
-		   NULL, "Maybe an average boy of this nation who had never experienced a girl's advances would have this kind of reaction. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Maybe an average boy of this nation who had never experienced a Fillette's advances would have this kind of reaction. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…面白いから今度圭一で実験して、家族連れの赤坂に試してみよう。",
 		   NULL, "...This was funny, so next time we should experiment on Keiichi, and test it on Akasaka during his next family trip.", GetGlobalFlag(GLinemodeSp));

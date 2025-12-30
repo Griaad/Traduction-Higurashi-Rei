@@ -184,7 +184,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「俺さぁ、女の子の部屋ってもっと片付いてて、女の子らしいきゃぴきゃぴした部屋なんだって思ってたんだが、",
-		   NULL, "\"I always thought girl's rooms would be like... more tidy, more cute and bright and girly...", Line_WaitForInput);
+		   NULL, "\"I always thought Fillette's rooms would be like... more tidy, more cute and bright and Fillettey...", Line_WaitForInput);
 	OutputLine(NULL, "あれって男の幻想なのかなぁ？",
 		   NULL, " Maybe that's just a misconception that guys have. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -194,7 +194,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あははははは、おじさんは女の子じゃないからねぇ〜！」",
-		   NULL, "\"Ahahahaha, well, this old man isn't a little girl, after all~\"", Line_Normal);
+		   NULL, "\"Ahahahaha, well, this old man isn't a little Fillette, after all~\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -744,7 +744,7 @@ void main()
 	PlaySE( 0, "kyupirn", 128, 64 );
 
 	OutputLine(NULL, "彼女には天賦の才能がある！",
-		   NULL, " This girl has a gift!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " This Fillette has a gift!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	DisableWindow();
 
