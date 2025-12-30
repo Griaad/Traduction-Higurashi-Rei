@@ -2018,7 +2018,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 21, "filter_hanyu", "effect/maskc", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 21, 1000, FALSE );
+	DrawBustshotWithFiltering( 21, "filter_Hanyû", "effect/maskc", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 21, 1000, FALSE );
 	ModSetLayerFilter(22, 179, "none");
 	ModDrawCharacterWithFiltering(22, 12, "sprite/ha1_def_", "0", "effect/maskc", 0, 40, 0, FALSE, 0, 0, 0, 0, 0, 22, 1300, TRUE );
 
@@ -2196,7 +2196,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 21, "filter_hanyu", "effect/maskc", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 21, 1000, FALSE );
+	DrawBustshotWithFiltering( 21, "filter_Hanyû", "effect/maskc", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 21, 1000, FALSE );
 	ModDrawCharacterWithFiltering(22, 12, "sprite/ha1_def2_", "0", "effect/maskc", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 22, 1300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
@@ -2264,7 +2264,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 21, "filter_hanyu", "effect/maskc", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 21, 1000, FALSE );
+	DrawBustshotWithFiltering( 21, "filter_Hanyû", "effect/maskc", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 21, 1000, FALSE );
 	ModDrawCharacterWithFiltering(22, 12, "sprite/ha1_odoroki_", "2", "effect/maskc", 0, 40, 0, FALSE, 0, 0, 0, 0, 0, 22, 1300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
@@ -2351,7 +2351,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 21, "filter_hanyu", "effect/maskc", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 21, 300, FALSE );
+	DrawBustshotWithFiltering( 21, "filter_Hanyû", "effect/maskc", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 21, 300, FALSE );
 	ModDrawCharacterWithFiltering(22, 12, "sprite/ha1_def2_", "0", "effect/maskc", 0, 40, 0, FALSE, 0, 0, 0, 0, 0, 22, 600, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }

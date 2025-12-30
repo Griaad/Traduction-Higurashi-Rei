@@ -279,7 +279,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 21, "filter_hanyu", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, FALSE );
+	DrawBustshot( 21, "filter_Hanyû", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, FALSE );
 	//print 22
 	ModSetLayerFilter(22, 256, "none");
 	ModDrawCharacter(22, 12, "sprite/ha1_odoroki_", "2", -120, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 600, TRUE );
@@ -298,7 +298,7 @@ void main()
 
 	//csp %Ha_sp
 	ModDrawCharacter(2, 2, "sprite/re1a_hau_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-	DrawBustshot( 21, "filter_hanyu", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 0, FALSE );
+	DrawBustshot( 21, "filter_Hanyû", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 0, FALSE );
 	DrawSceneWithMask( "bg/gk1", "effect/left", 0, 0, 500 );
 	//print 23
 	ModDrawCharacterWithFiltering(22, 12, "sprite/ha1_muhyou_", "0", "effect/left", 0, -120, 0, FALSE, 0, 0, 0, 0, 0, 22, 300, TRUE );
@@ -476,7 +476,7 @@ void main()
 
 
 	//print 26
-	DrawBustshot( 21, "filter_hanyu", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 0, FALSE );
+	DrawBustshot( 21, "filter_Hanyû", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 0, FALSE );
 	ModDrawCharacter(22, 12, "sprite/ha1_odoroki_", "2", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 0, FALSE );
 	DrawSceneWithMask( "bg/gk3", "effect/up", 0, 0, 500 );
 
@@ -1307,7 +1307,7 @@ void main()
 		   NULL, "Ahhhhh, this is getting really annoying...", Line_Normal);
 	ClearMessage();
 
-	DrawBustshot( 21, "filter_hanyu", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, TRUE );
+	DrawBustshot( 21, "filter_Hanyû", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「よりによってレナ？",
@@ -1775,7 +1775,7 @@ void main()
 
 	DrawSceneWithMask( "black", "effect/right", 1, 0, 500 );
 	DrawSceneWithMask( "bg/g1", "effect/right", 1, 0, 500 );
-	DrawBustshot( 21, "filter_hanyu", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, TRUE );
+	DrawBustshot( 21, "filter_Hanyû", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, TRUE );
 	PlayBGM( 1, "semi", 120, 0 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }

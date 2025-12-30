@@ -547,7 +547,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 21, "filter_hanyu", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, TRUE );
+	DrawBustshot( 21, "filter_Hanyû", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「羽入！",
@@ -1361,7 +1361,7 @@ void main()
 	ClearMessage();
 	DisableWindow();
 
-	DrawBustshot( 21, "filter_hanyu", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, TRUE );
+	DrawBustshot( 21, "filter_Hanyû", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, TRUE );
 	//print 28
 	ModDrawCharacterWithFiltering(22, 12, "sprite/ha1_yowaki_", "0", "effect/maskc", 0, 40, 0, FALSE, 0, 0, 0, 0, 0, 22, 300, TRUE );
 
@@ -1564,7 +1564,7 @@ void main()
 	ClearMessage();
 	DisableWindow();
 
-	DrawBustshot( 21, "filter_hanyu", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, TRUE );
+	DrawBustshot( 21, "filter_Hanyû", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, TRUE );
 	//print 28
 	ModDrawCharacterWithFiltering(22, 12, "sprite/ha1_au_", "2", "effect/maskc", 0, 40, 0, FALSE, 0, 0, 0, 0, 0, 22, 300, TRUE );
 
@@ -2111,7 +2111,7 @@ void main()
 
 	DisableWindow();
 
-	DrawBustshot( 21, "filter_hanyu", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, TRUE );
+	DrawBustshot( 21, "filter_Hanyû", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 21, 600, TRUE );
 	//print 28
 	ModDrawCharacterWithFiltering(22, 12, "sprite/ha1_au_", "2", "effect/maskc", 0, 40, 0, FALSE, 0, 0, 0, 0, 0, 22, 300, TRUE );
 
