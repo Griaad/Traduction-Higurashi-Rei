@@ -1862,7 +1862,7 @@ void main()
 		   NULL, "Iri, you have quite an eye for these things yourself!!", Line_ContinueAfterTyping);
 
 	OutputLine(NULL, "　さぁすが校医〜〜！！」",
-		   NULL, " As expected of the school doctor~~!!\"", Line_Normal);
+		   NULL, " As expected of the school Docteur~~!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;＜大石

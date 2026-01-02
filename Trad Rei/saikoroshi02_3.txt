@@ -2457,7 +2457,7 @@ void main()
 		   NULL, " ...From what he said, it might be her heart more than her brain...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220032", 128, TRUE);
 	OutputLine(NULL, "立派な先生がいらっしゃる病院だそうなの。」",
-		   NULL, " Apparently there's a wonderful doctor there who can help.\"", Line_Normal);
+		   NULL, " Apparently there's a wonderful Docteur there who can help.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "scene/412b", 600 );
@@ -2513,7 +2513,7 @@ void main()
 	OutputLine(NULL, "明日突然、先生が来て、病院へ行きましょうじゃ、",
 		   NULL, " I mean, it feels like we're tricking her...", Line_Continue);
 	OutputLine(NULL, "…騙してるみたいだもの。」",
-		   NULL, " Given that tomorrow, the doctor will be here and we'll suddenly be off to the hospital.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Given that tomorrow, the Docteur will be here and we'll suddenly be off to the hospital.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }

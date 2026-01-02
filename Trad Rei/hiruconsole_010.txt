@@ -49,7 +49,7 @@ void main()
 			NULL, "\"...Anyway, today has been quite a difficult day.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s07/10/331000005", 256, TRUE);
 	OutputLine(NULL, "医師の方も看護師さんも、皆さんご都合があるということでお休みを取られていましたからね」",
-			NULL, " All the other doctors and nurses needed to take time off for personal reasons.\"", Line_Normal);
+			NULL, " All the other Docteurs and nurses needed to take time off for personal reasons.\"", Line_Normal);
 	ClearMessage();
 
 //入江rvS07/10/331000006.「まぁ、それほど患者さんがいらっしゃらなかったのが、せめてもの救いでしたが」
