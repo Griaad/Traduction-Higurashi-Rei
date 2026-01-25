@@ -1374,7 +1374,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2035", 128, TRUE);
 	OutputLine(NULL, "「では沙都子さん、教室に戻りましょう。",
-		   NULL, "\"Satoko, viens nous retournons en classe.", Line_WaitForInput);
+		   NULL, "\"Satoko, nous retournons en classe.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2036", 128, TRUE);
 	OutputLine(NULL, "古手さんも手当てが終わったらすぐに戻ってくるように！」",
 		   NULL, " Furude, reviens dès que tu seras soignée !\"", GetGlobalFlag(GLinemodeSp));
@@ -1470,7 +1470,7 @@ void main()
 		   NULL, " Vous ne vous quittiez jamais, pas vrai ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2086", 128, TRUE);
 	OutputLine(NULL, "君は紅一点でずいぶん可愛がられていたと思うけど。」",
-		   NULL, " Mais on dirait qu’ils te chouchoutaient beaucoup, étant donné que tu étais la seule fille du groupe.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mais on dirait qu’ils te chouchoutaient beaucoup parce que tu étais la seule fille du groupe.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -1497,7 +1497,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2088", 128, TRUE);
 	OutputLine(NULL, "　寂しい気持ちもわかるし、来年までの仲かもしれないけど、クラスの他の子とも友達になって、楽しくやっていった方が、君にとってもいいんじゃないかい。」",
-		   NULL, " Je comprends à quel point tu te sens seule, mais je pense que ça te ferais du bien de devenir amie avec les enfants de la classe et de profiter du temps passé en leur compagnie.\"", Line_Normal);
+		   NULL, " Je comprends ta solitude, mais je pense que tu devrais essayer de te faire de nouveaux amis dans la classe.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -1512,7 +1512,7 @@ void main()
 		   NULL, " Très, très loin.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050293", 128, TRUE);
 	OutputLine(NULL, "……私はそこへ帰りたいだけ。」",
-		   NULL, " ...Tout ce que je souhaite c'est les rejoindre.\"", Line_Normal);
+		   NULL, " ...Tout ce que je veux, c’est les rejoindre.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "bg/sinryou_sinsatu1", 600 );
@@ -1529,7 +1529,7 @@ void main()
 		   NULL, "\"Hm...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050295", 128, TRUE);
 	OutputLine(NULL, "………まぁ、気分です。」",
-		   NULL, " ......J'en ai juste envie.\"", Line_Normal);
+		   NULL, " ......Seulement quand j'en ai envie.\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 300, FALSE );
@@ -1538,7 +1538,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2090", 128, TRUE);
 	OutputLine(NULL, "「……先日、君がボールを頭にぶつけて気絶した一件以来、君がこれまで見せなかった暗い表情を見せているような気がしてね。",
-		   NULL, "\"...Depuis que le ballon t'a fait perdre connaissance, j'ai l'impression que tu n'es plus toi-même.", Line_WaitForInput);
+		   NULL, "\"...Depuis que tu as perdu connaissance, j'ai l'impression que tu n'es plus toi-même.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2091", 128, TRUE);
 	OutputLine(NULL, "心配してるんだよ。」",
 		   NULL, " Je suis inquiet pour toi tu sais, je n'aime pas te voir aussi triste.\"", GetGlobalFlag(GLinemodeSp));
@@ -1572,14 +1572,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　山本は軽く笑ったが、心底馬鹿にした風ではない。",
-		   NULL, "Yamamoto rit un petit peu, mais pas seulement pour me taquiner.", Line_WaitForInput);
+		   NULL, "Yamamoto riait un petit peu, mais pas seulement pour me taquiner.", Line_WaitForInput);
 	OutputLine(NULL, "あくまでも、私にその先を促すためだった。",
 		   NULL, " Il voulait en savoir plus.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……なるほど、山本は保健室の先生であるだけでなく、多感な年頃の生徒たちの心のカウンセラーでもあるつもりらしい。",
-		   NULL, "...Ah, donc Yamamoto n'était pas juste le docteur de l'infirmerie mais aussi un conseiller d'orientation pour les élèves arrivant à un âge délicat.", Line_WaitForInput);
+		   NULL, "...Ah, donc Yamamoto n’était pas seulement le docteur de l’infirmerie, mais aussi le conseiller d’orientation pour les élèves arrivant à cet âge si délicat qu’est l’adolescence.", Line_WaitForInput);
 	OutputLine(NULL, "………入江の代わりにいるのは伊達ではないようだ。",
 		   NULL, " ......On dirait bien qu'il n'est pas le remplaçant d'Irie pour rien.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1670,14 +1670,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050303", 128, TRUE);
 	OutputLine(NULL, "この世界では、ダム計画が決定して村人の立ち退きが決まっているけれど、私の世界は違う。",
-		   NULL, "Dans votre monde, les habitants ont accepté le barrage et les villageois ont décidé de partir, mais le miens c'est différent.", Line_WaitForInput);
+		   NULL, "Dans votre monde, les habitants ont accepté le barrage et les villageois ont décidé de partir, mais le miens est différent.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050304", 128, TRUE);
 	OutputLine(NULL, "ダム計画に村人が結束して立ち上がって、計画を打倒する。",
 		   NULL, " Les villageois ont lutté ensemble pour empêcher le projet d'aboutir.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050305", 128, TRUE);
 	OutputLine(NULL, "そして、ダム計画は無期限に凍結された。",
-		   NULL, "Et grâce à cette lutte, le gouvernement a arrêter la construction du barrage pour une durée indéterminée.", Line_WaitForInput);
+		   NULL, "Et grâce à cette lutte, le gouvernement a suspendu la construction du barrage pour une durée indéterminée.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050306", 128, TRUE);
 	OutputLine(NULL, "……そういう世界から来ました。」",
 		   NULL, " ...C'est le genre de monde duquel je viens.\"", Line_Normal);
@@ -1689,7 +1689,7 @@ void main()
 		   NULL, "\".........Hmm.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2102", 128, TRUE);
 	OutputLine(NULL, "では君の来た雛見沢は、ダム湖には沈まないわけか。」",
-		   NULL, " Dans ce cas, le Hinamizawa duquel tu viens ne finira pas sous l'eau.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Dans ce cas, ton Hinamizawa ne finira pas sous l'eau.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -1707,10 +1707,10 @@ void main()
 		   NULL, "\"...C'est un charmant Hinamizawa dont tu me parles.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2104", 128, TRUE);
 	OutputLine(NULL, "私もこの土地をとても気に入っているから、立ち退きは本当は心苦しい。",
-		   NULL, " J'ai aussi appris à aimer ce village, l'expulsion est vraiment douloureuse pour moi.", Line_WaitForInput);
+		   NULL, " J'ai aussi appris à aimer ce village, l'expulsion est vraiment douloureuse pour moi aussi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2105", 128, TRUE);
 	OutputLine(NULL, "……だから、君の来たという世界の雛見沢に憧れるよ。",
-		   NULL, " ...Je suppose que je suis jaloux du Hinamizawa du monde auquel tu dis appartenir.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Je suis un peu jaloux du Hinamizawa du monde auquel tu dis appartenir.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2106", 128, TRUE);
 	OutputLine(NULL, "…その世界の雛見沢を、もう少しわしに教えてくれんかね。」",
@@ -1728,34 +1728,34 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そういう余計な雑学がなければ、先を促してくれる山本の言葉に感涙さえ浮かべてしまったかもしれない。",
-		   NULL, "...Si je ne connaissais pas cette anecdote, j'aurais sans doute pleuré de joie lorsque Yamamoto m'a dit de continuer.", Line_Normal);
+		   NULL, "...Si je ne connaissais pas ce prince, j'aurais sans doute pleuré de joie en entendant les paroles encourageante de Yamamoto.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、先を続けたい誘惑に打ち勝てない。",
 		   NULL, "Mais je ne pouvais pas résister à la tentation de continuer.", Line_WaitForInput);
 	OutputLine(NULL, "…私は、山本に促されるままに話を続けた。",
-		   NULL, " ...Il m'encouragea et je me remis à parler.", Line_Normal);
+		   NULL, " ...Il m'incita à parler, alors je poursuivis.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "ame", 120, 0 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……その世界では、ダム戦争と呼ばれる大きな抵抗運動があり、数年をかけてダム計画を撤回すること。",
-		   NULL, "...Dans ce monde, il y a eu un grand mouvement de protestation que l'on appelle la guerre du barrage, et cela a pris des années pour retirer le projet.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Dans ce monde, il y a eu un grand mouvement de protestation appelé 'guerre du barrage', qui, après plusieurs années, a conduit à l’annulation du projet de barrage.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、その戦争を通じて村人は結束を強め、",
-		   NULL, "Et pendant la guerre, les villageois se sont alliés...", Line_WaitForInput);
+		   NULL, "Et durant cette bataille, les villageois se sont alliés...", Line_WaitForInput);
 	OutputLine(NULL, "…村人はみんな仲良しで、",
 		   NULL, " tout le monde s'entendait bien,", Line_WaitForInput);
 	OutputLine(NULL, "学校の生徒もみんなみんな仲良しで、",
 		   NULL, " les élèves étaient tous amis...", Line_WaitForInput);
 	OutputLine(NULL, "…そこには外部から転校生たちもやってくる。",
-		   NULL, " et même des élèves qui venaient d'en dehors du village ont été transféré ici.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Et même des élèves extérieurs au village ont été transférés ici.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1791,11 +1791,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050311", 128, TRUE);
 	OutputLine(NULL, "…それに、この世界の沙都子よりは辛い運命をたどるかもしれないけど、……その沙都子は私の一番の友達で、他に比べるものなどない唯一無二の親友。",
-		   NULL, "...Et elle a beau avoir eu un passé plus douloureux que la Satoko de ce monde... c'est une de mes meilleurs amis, une amie irremplaçable.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Et elle a beau avoir eu un passé plus douloureux que la Satoko de ce monde... elle reste une de mes meilleurs amis, une amie irremplaçable.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050312", 128, TRUE);
 	OutputLine(NULL, "………だからこの世界の沙都子の顔が余計に腹が立つの。」",
-		   NULL, "......Alors voir ce qu'est devenue Satoko dans ce monde me rend plus folle que je ne devrais l'être.\"", Line_Normal);
+		   NULL, "......C'est pour ça que  voir ce qu'est devenue Satoko dans ce monde me rend folle.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
