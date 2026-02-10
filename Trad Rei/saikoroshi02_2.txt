@@ -28,7 +28,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　母を労って肩を叩きながら、私はその頭を撫でた。",
-		   NULL, "Je remerciai ma mère et lui tapotai son épaule, tout en lui caressant sur sa tête.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je remerciai ma mère et lui tapotai son épaule, tout en lui caressant la tête.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
