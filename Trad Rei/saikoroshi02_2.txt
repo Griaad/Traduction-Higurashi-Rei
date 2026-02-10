@@ -319,7 +319,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これしか生徒のいない教室なので、授業と関係ない本を出せば、すぐに知恵に没収されてしまう。",
-		   NULL, "Avec si peu d'élèves dans la classe, Si je lisais un livre sans lien avec la leçon, Madame Cie me verrait et le confisquerait immédiatement.", Line_WaitForInput);
+		   NULL, "Avec si peu d'élèves dans la classe, si je lisais un livre sans lien avec la leçon, Madame Cie me verrait et le confisquerait immédiatement.", Line_WaitForInput);
 	OutputLine(NULL, "…授業中に古文書を読むのは無理なようだった。",
 		   NULL, " ...Je ne pourrais sans doute pas lire les vieux parchemins lors des cours.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -492,12 +492,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何人かのクラスメートが、私が追いかける度に他の子へ投げて渡し、私をからかう。",
-		   NULL, "Mes camarades se lançaient le livre entre eux à chaque fois que je m'approchait pour le chercher, me ridiculisant par la même manière.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mes camarades se lançaient le livre entre eux à chaque fois que je m'approchait pour le chercher, me ridiculisant par la même occasion.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その輪にはいつの間にか魅音も加わっていて、クラス全体でのいじめみたいになっていた。",
-		   NULL, "À partir d'un moment Mion se joignit à cette boucle, devenant vite un harcèlement collectif contre moi.", Line_Normal);
+		   NULL, "À partir d'un moment, Mion se joignit à cette boucle, devenant vite un harcèlement collectif contre moi.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 300, FALSE );
@@ -536,7 +536,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何でもふざけたがるクラスメートたちにとって私は、教室内にある唯一のおもちゃだったに違いないのだから、それを昼休みに遊んで何が悪い、とでも言いたいのだろう。",
-		   NULL, "Mes camarades voulaient s'amuser, ils me considérait sans doute comme un jouet, alors pourquoi ne feraient-ils pas un peu joujou avec pendant la pause ?", Line_Normal);
+		   NULL, "Mes camarades voulaient s'amuser, ils me considérait sans doute comme un jouet, alors pourquoi ne feraient-ils pas un peu joujou avec leur jouet ?", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "nageru", 128, 64 );
@@ -626,7 +626,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、元の世界に帰ろうと必死な私の仕事を邪魔するな！",
-		   NULL, "Y'en a qui travaille d'arrache-pied pour trouver la voie vers leur monde ici, alors hors de ma route !", Line_Normal);
+		   NULL, "Y'en a qui travaille d'arrache-pied pour trouver le chemin vers leur monde ici, alors hors de ma route !", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(1, 4, "sprite/sa1b_warai_b1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
@@ -735,7 +735,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その椅子を振り上げ、沙都子の上半身を跨ぐような形で叩き置く。",
-		   NULL, "Je leva la chaise, et la plaqua sur le haut de son corps.", Line_WaitForInput);
+		   NULL, "Je levai la chaise et la plaquai sur le haut de son corps.", Line_WaitForInput);
 	OutputLine(NULL, "それはちょうど、床に転がる沙都子を拘束するかのよう。",
 		   NULL, " Elle était immobilisée au sol.", Line_WaitForInput);
 	OutputLine(NULL, "私はその椅子に足を振り上げて、まるで杭を打ちつけるように踏みつけた。",
@@ -888,7 +888,7 @@ void main()
 		   NULL, "\"Tu n'as rien à voir avec ça, tu devrais t'occuper de tes affaires.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050273", 128, TRUE);
 	OutputLine(NULL, "私はこれを取り戻せて満足よ。」",
-		   NULL, " Je récupère juste ça.\"", Line_Normal);
+		   NULL, " Je récupère juste ce qui m'appartient.\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "down2", 128, 64 );
@@ -1506,7 +1506,7 @@ void main()
 		   NULL, "\"...Je ne veux pas que l'on soit amis.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050291", 128, TRUE);
 	OutputLine(NULL, "……私の本当の友達は、…あなたの言う通り、遠くへ行ってしまったわ。",
-		   NULL, " ...Mes vrais amis... Comme vous le dites, sont très loin.", Line_WaitForInput);
+		   NULL, " ...Mes vrais amis... comme vous le dites, sont très loin.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050292", 128, TRUE);
 	OutputLine(NULL, "とてもとても遠くへね。",
 		   NULL, " Très, très loin.", Line_WaitForInput);
@@ -1529,7 +1529,7 @@ void main()
 		   NULL, "\"Hm...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050295", 128, TRUE);
 	OutputLine(NULL, "………まぁ、気分です。」",
-		   NULL, " ......Seulement quand j'en ai envie.\"", Line_Normal);
+		   NULL, " ......Seulement quand l'envie m'en prend.\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 300, FALSE );
@@ -1728,7 +1728,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そういう余計な雑学がなければ、先を促してくれる山本の言葉に感涙さえ浮かべてしまったかもしれない。",
-		   NULL, "...Si je ne connaissais pas ce prince, j'aurais sans doute pleuré de joie en entendant les paroles encourageante de Yamamoto.", Line_Normal);
+		   NULL, "...Si je ne connaissais pas ce principe, j'aurais sans doute pleuré de joie en entendant les paroles encourageante de Yamamoto.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1795,7 +1795,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050312", 128, TRUE);
 	OutputLine(NULL, "………だからこの世界の沙都子の顔が余計に腹が立つの。」",
-		   NULL, "......C'est pour ça que  voir ce qu'est devenue Satoko dans ce monde me rend folle.\"", Line_Normal);
+		   NULL, "......C'est pour ça que voir ce qu'est devenue Satoko dans ce monde me rend folle.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
@@ -1857,10 +1857,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2113", 128, TRUE);
 	OutputLine(NULL, "「確かに、そんな楽しい雛見沢なら、一刻も早く元の世界に帰りたいよなぁ。",
-		   NULL, "\"Je comprends pourquoi tu veux vite retourner dans un si charmant Hinamizawa.", Line_WaitForInput);
+		   NULL, "\"Je comprends pourquoi tu veux vite retourner dans un Hinamizawa aussi séduisant.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2114", 128, TRUE);
 	OutputLine(NULL, "…………でも、帰る方法はあるのかね？」",
-		   NULL, " .........Mais est-ce qu'il y a ne serait-ce qu'une voie permettant d'y aller ?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " .........Mais est-ce qu'il y a ne serait-ce qu'une voie permettant de t'y rendre ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -1961,11 +1961,11 @@ void main()
 		   NULL, " Alors il doit être rempli de lesdits sentiments.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050331", 128, TRUE);
 	OutputLine(NULL, "…どんな形をしているものに宿っているのかわからないし、…宿っているのが物という保証もない。",
-		   NULL, " ...Je me demande encore dans quel type d'objet il réside... ah et il n'y aucune preuve que c'est un objet d'ailleurs. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Je me demande encore dans quel type d'objet il réside... Ah et il n'y aucune preuve qu'il soit dans un objet d'ailleurs. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050332", 128, TRUE);
 	OutputLine(NULL, "人間に宿っているのかもしれない。",
-		   NULL, " Il peut aussi être à l'intérieur d'une personne'.", Line_WaitForInput);
+		   NULL, " Il peut aussi être à l'intérieur d'une personne.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050333", 128, TRUE);
 	OutputLine(NULL, "何もわからないんです。」",
 		   NULL, " C'est tout ce que je sais pour le moment.\"", Line_Normal);
@@ -2081,7 +2081,7 @@ void main()
 		   NULL, "\"...Aucune idée.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050341", 128, TRUE);
 	OutputLine(NULL, "羽入に干渉する力なのだから、オヤシロさまに縁のある何かにヒントがあるんじゃないかと思って古文書を読んでいるところ。",
-		   NULL, "  Comme il empêche la présence d’Hanyū, j’ai pensé qu’il y aurait un indice dans les objets liés à la déesse Yashiro, c’est pourquoi je lisais ces vieux manuscrits.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Comme il empêche la présence d’Hanyū, j’ai pensé qu’il y aurait un indice dans les objets liés à la déesse Yashiro, c’est pourquoi je lisais ces vieux manuscrits.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050342", 128, TRUE);
 	OutputLine(NULL, "…探し物のヒントを探してる、そんな状態ね…。」",
@@ -2137,7 +2137,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050347", 128, TRUE);
 	OutputLine(NULL, "「…………理屈はわかってるし、私も人殺しなんてせずに帰れるなら、それに越したことはないわ。」",
-		   NULL, "\"......C’est pour ça que je ne demande qu’à pouvoir partir sans avoir à tuer quelqu’un.\"", Line_Normal);
+		   NULL, "\"......C’est pour ça que je ne demande qu’à pouvoir partir sans avoir à tuer.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
@@ -2146,7 +2146,7 @@ void main()
 		   NULL, "\"Revenons-en à nos moutons.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2138", 128, TRUE);
 	OutputLine(NULL, "君に、元の世界への帰り方を教えてくれるその羽入は、どうやって君にそれを伝えるんだい？",
-		   NULL, " Cette Hanyû, qui t'explique comment rentrer dans ton ancien monde. Comment communiques-tu avec elle ?", Line_WaitForInput);
+		   NULL, " Cette Hanyū, qui t’explique comment rentrer dans ton ancien monde… Comment communiques-tu avec elle ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2139", 128, TRUE);
 	OutputLine(NULL, "　お告げみたいなものがあるのかい？",
 		   NULL, " Est-ce que c'est une sorte de révélation divine ?", Line_WaitForInput);
@@ -2506,7 +2506,7 @@ void main()
 		   NULL, " ...Si tu réussis à parler avec Hanyû, tu devras me croire.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050375", 128, TRUE);
 	OutputLine(NULL, "あぅあぅしか言わない、およそ神さまっぽくないヤツだけどね。」",
-		   NULL, " Même si tout ce qu'elle dit ce sont des 'mééé euh' et qu'elle n'agit que très peu comme une déesse.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Même si elle ne dit que des 'mééé euh' et qu'elle n'agit que très peu comme une déesse.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
@@ -2645,7 +2645,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は、異論はないと頷いた。",
-		   NULL, "Je hochai la tête puis ai accepter.", Line_Normal);
+		   NULL, "Je hochai la tête puis ai accepté.", Line_Normal);
 	ClearMessage();
 
 	//;■アイキャッチ
