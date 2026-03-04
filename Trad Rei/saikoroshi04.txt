@@ -858,7 +858,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その表情に胸がきゅっと軋む。",
-		   NULL, "J'eu un petit pincement au coeur en voyant son expression.", Line_WaitForInput);
+		   NULL, "J'eus un petit pincement au coeur en voyant son expression.", Line_WaitForInput);
 	OutputLine(NULL, "……間違いなく、元の世界の沙都子だった。",
 		   NULL, " ...Oui... c’était bien la Satoko que j'aimais tant.", Line_Normal);
 	ClearMessage();
@@ -1047,7 +1047,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……こちらの世界の方が、住み心地がいいから。",
-		   NULL, "...Sûrement parce que c'était celui où je me sentirais le mieux.", Line_Normal);
+		   NULL, "...Sûrement parce que c'était celui qui m'allait le mieux.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1069,7 +1069,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの世界では全員が満たされていた。",
-		   NULL, "Ils étaient tous heureux dans ce monde.", Line_WaitForInput);
+		   NULL, "Ils étaient tous heureux dans là-bas.", Line_WaitForInput);
 	OutputLine(NULL, "私だけが満たされていなかった。",
 		   NULL, " J'étais la seule à ne pas l'être.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1181,7 +1181,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030086", 128, TRUE);
 	OutputLine(NULL, "「………人生の試練や、あるいは挫折が人を成長させるってのは、確かにあるね。」",
-		   NULL, "\"...Il est vrai que les épreuves et les échecs de la vie aident les gens à mûrir.\"", Line_Normal);
+		   NULL, "\"...Il est vrai que les épreuves et les échecs aident les gens à mûrir.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1197,30 +1197,30 @@ void main()
 		   NULL, " Je suis d'accord avec Rena.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s15/01/ds42010019", 128, TRUE);
 	OutputLine(NULL, "……その世界の俺は雛見沢に来てねぇが、…多分、ロクでもないヤツだったと思うぜ。",
-		   NULL, " ...Dans le monde que tu nous parles, je ne suis pas venu à Hinamizawa, mais... je pense que je n'étais probablement pas une bonne personne. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Dans le monde que tu nous parles, je ne suis pas venu à Hinamizawa, mais... je n'étais à l'évidence pas une bonne personne. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s15/01/ds42010020", 128, TRUE);
 	OutputLine(NULL, "……あの事件は確かに、俺にとって生涯忘れちゃいけない痛恨の極みだ。",
-		   NULL, "...Je regrette au plus au point les horreurs que j'ai commis, et je me souviendrai de ce que j'ai fait toute ma vie.", Line_WaitForInput);
+		   NULL, "...Je regrette au plus haut point les horreurs que j’ai commises, et je me souviendrai de ces atrocités toute ma vie.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s15/01/ds42010021", 128, TRUE);
 	OutputLine(NULL, "俺は死ぬまで反省していかなきゃならないと思う。",
-		   NULL, " Je pense que je réfléchirai aux conséquences de mes actes jusqu'à ma mort. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Pour être franc, je pense même que je porterai le poids de mes actes jusqu’à ma mort. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s15/01/ds42010022", 128, TRUE);
 	OutputLine(NULL, "…でも、あの事件を切っ掛けに、レナが言うように、俺もたくさんの大切なことを学んだ。",
-		   NULL, "...Mais comme l'a dit Rena, j'ai appris beaucoup de choses importantes de cet incident.", Line_WaitForInput);
+		   NULL, "...Mais comme l'a dit Rena, j'ai appris beaucoup de choses importantes à la suite de cet incident.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s15/01/ds42010023", 128, TRUE);
 	OutputLine(NULL, "過去のあの事件をなかったことにできる世界があったらってのは、",
-		   NULL, " S'il existait un monde dans lequel les évènements que l'on regrette ne se soient jamais produits...", Line_Continue);
+		   NULL, " S’il existait un monde dans lequel les événements que l’on regrette ne s’étaient jamais produits...", Line_Continue);
 	OutputLine(NULL, "……確かに魅力的ではあるかもしれない。",
-		   NULL, " cela pourrait être attrayant. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " j'avoue que ça pourrait être attrayant. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s15/01/ds42010024", 128, TRUE);
 	OutputLine(NULL, "……でも、俺はそんなこと思いはしないぜ。",
-		   NULL, "...Mais je ne pense pas à ce genre de choses.", Line_WaitForInput);
+		   NULL, "...Mais moi je ne pense pas de cette façon.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s15/01/ds42010025", 128, TRUE);
 	OutputLine(NULL, "今日という日の前原圭一を積み上げてきた、大切な礎のひとつだと思ってる。」",
-		   NULL, " Je pense que c'est une des fondations du Maebara Keiichi que je suis devenu.\"", Line_Normal);
+		   NULL, " C'est tout ce que j’ai traversé qui m’a permis de devenir le Keiichi Maebara d’aujourd’hui.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

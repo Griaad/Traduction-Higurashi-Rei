@@ -417,7 +417,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、それが日常の当り前な光景なのだと言わんばかりの自然さで、楽しそうに食事をしていた。",
-		   NULL, "Ils mangeaient joyeusement tous ensemble, cela semblait tellement naturel, comme si ce n’était qu'une simple journée parmi tant d'autres.", Line_Normal);
+		   NULL, "Ils mangeaient joyeusement tous ensemble, tout semblait tellement naturel, comme si ce n’était qu'une simple journée parmi tant d'autres.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1972,7 +1972,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを集会所の冷蔵庫で予め冷やしておくため、こうして飲み会前に届けるのだ。",
-		   NULL, "Il se l’était fait livrer avant le début de la soirée, afin de pouvoir le mettre au frais dans le frigo de la salle de réunion.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il s'était fait livrer avant le début de la soirée, afin de pouvoir la mettre au frais dans le frigo de la salle de réunion.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1996,7 +1996,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　物欲しげに眺めながら玄関に入ろうとすると、ガチャリと施錠の手応え。",
-		   NULL, "Je fixais les bouteilles avec envie tout en essayant d’ouvrir la porte, jusqu’au claquement qui m’indiqua qu’elle était verrouillée depuis le début...", Line_Normal);
+		   NULL, "Je fixais les bouteilles avec envie tout en essayant d’ouvrir la porte, jusqu’au claquement qui m’indiqua qu’elle était en fait verrouillée depuis le début...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	PlaySE( 0, "door", 128, 64 );
