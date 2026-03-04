@@ -1892,7 +1892,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………私は、…魔女など、もうやめてしまわなくてはならない。",
-		   NULL, "......Je dois cesser d'être une sorcière...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Je dois cesser d'être cette sorcière...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
