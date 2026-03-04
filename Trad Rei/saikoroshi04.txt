@@ -371,10 +371,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070286", 128, TRUE);
 	OutputLine(NULL, "「そんなこと、今までに一度だってありましたですか？",
-		   NULL, "\"Est-ce que c'est déjà arrivé ?", Line_WaitForInput);
+		   NULL, "\"De quoi est-ce que tu parles ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070287", 128, TRUE);
 	OutputLine(NULL, "　いつだって、梨花が目を覚ました時には、一番最初に目に入るのはこの僕なのですよ。」",
-		   NULL, " À chaque fois que tu te réveillais, j’étais la première personne que tu voyais, Rika.\"", Line_Normal);
+		   NULL, " J'ai toujours été la première personne que tu voyais en te réveillant, Rika.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
