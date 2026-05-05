@@ -9,17 +9,17 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　日中、山本と試した時はまだ羽入と話せるほどの力は回復していなかった。",
-		   NULL, "When I tried using the crystal ball with Yamamoto today, it still hadn't recovered enough for him to talk to Hanyû.", Line_Normal);
+		   NULL, "La boule de cristal n’avait pas encore recouvré suffisamment d’énergie pour permettre à Yamamoto de parler avec Hanyû aujourd’hui.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あれから半日しか経っていないけど、…祭具殿の中なら、ひょっとすると…通じるかもしれない。",
-		   NULL, "Only half a day had passed... but maybe if I went to the storehouse... I'd get through.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Bien qu’il ne se soit écoulé qu’une demi-journée, je me disais que je pourrais peut-être parler à Hanyû si j’essayais dans le temple.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入はかつて、祭具殿の中には昔の古い空気が残っていて居心地がいいというようなことを言っていた。",
-		   NULL, "Hanyû once told me the old air from the past had remained in the storehouse, and that she felt comfortable there.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Elle m’avait confié un jour que le temple portait encore l’atmosphère de son époque, et qu’elle s’y sentait bien.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
