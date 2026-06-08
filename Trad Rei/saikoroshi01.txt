@@ -210,7 +210,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　知恵が廊下に振り返りながら大声を上げると、不貞腐れた雰囲気の沙都子がひょっこり顔を出す。",
-		   NULL, "Cie éleva sa voix et se dirigea vers le couloir avant que Satoko ne sorte de sa cachette, pensant qu'elle faisait la moue.", Line_Normal);
+		   NULL, "Cie éleva sa voix et se dirigea vers le couloir avant que Satoko ne sorte de sa cachette en faisant la moue.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -273,7 +273,7 @@ void main()
 	OutputLine(NULL, "　……知恵が沙都子のことを、沙都子さんと呼ぶのは、悟史が失踪する前。",
 		   NULL, "...Elle l'appelait par son prénom seulement avant que Satoshi ne disparaisse.", Line_WaitForInput);
 	OutputLine(NULL, "北条の名を持つ２人、沙都子と悟史が一緒に存在した時代だけだ。",
-		   NULL, " La seule fois où il y avait deux personnes du nom de Hôjô.", Line_WaitForInput);
+		   NULL, " La seule fois où il y avait deux personnes du nom de Hôjô au même endroit.", Line_WaitForInput);
 	OutputLine(NULL, "つまり、昭和５７年６月以前。",
 		   NULL, " Autrement dit, avant Juin 1982.", Line_Normal);
 	ClearMessage();
@@ -303,7 +303,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…ぞっとした感情が込み上げて来る。",
-		   NULL, "...Je sentis un frisson me parcourir tout le long du corps.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...J'ai senti un frisson me parcourir tout le long du corps.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -396,7 +396,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…まだ私は、…今起こっていることがどれだけ恐ろしいことか、全てを理解できずにいた……。",
-		   NULL, "...Je n'arrive toujours pas à prendre conscience de l'horreur de la situation.", Line_Normal);
+		   NULL, "...Je n'arrivais toujours pas à prendre conscience de l'horreur de la situation.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -595,7 +595,7 @@ void main()
 	OutputLine(NULL, "　悟史は、沙都子の兄として代わりに謝罪する。",
 		   NULL, "En tant que frère aîné de Satoko, Satoshi s'excusa à sa place...", Line_WaitForInput);
 	OutputLine(NULL, "……その雰囲気は、私がよく知る悟史の印象と変わらない。",
-		   NULL, " ...Il est toujours le Satoshi que je connais.", Line_Normal);
+		   NULL, " ...Lui, par contre, n'avait pas l'air d'avoir changé.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -642,7 +642,7 @@ void main()
 	OutputLine(NULL, "　歩幅や音の感じが子供のそれでない。",
 		   NULL, "À en juger par leur rythme et leur son, ce n'était clairement pas un enfant qui arrivait...", Line_WaitForInput);
 	OutputLine(NULL, "…多分、知恵が呼んだ監督だろう。",
-		   NULL, " ...C'était probablement le chef, Cie a dû l'appeler.", Line_Normal);
+		   NULL, " ...Ça devait probablement être le chef, Cie a dû l'appeler.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
@@ -669,7 +669,7 @@ void main()
 	OutputLine(NULL, "　野太い声。",
 		   NULL, "C'était une grosse voix...", Line_WaitForInput);
 	OutputLine(NULL, "…入江ではない…？",
-		   NULL, " ...C'était quelqu'un d'autre qu'Irie...?", Line_Normal);
+		   NULL, " ...Ce serait quelqu'un d'autre qu'Irie...?", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -690,9 +690,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　無精ヒゲを生やした野性味あるその印象的な顔つきは、一度でも会ったなら忘れないくらいのものだった。",
-		   NULL, "Sa barbe le faisait paraître plus robuste; il était si différent que je n'aurais jamais pu l'oublier, même si je ne l'avais rencontré qu'une fois.", Line_WaitForInput);
+		   NULL, "Sa barbe et ses traits du visage le faisait paraître plus robuste. Jamais je n'aurais pu oublier un type pareil, même en ne l'ayant rencontré qu'une fois.", Line_WaitForInput);
 	OutputLine(NULL, "…にもかかわらず、私はその顔に覚えがない。",
-		   NULL, " ...Mais je n'ai aucun souvenir de lui.", Line_Normal);
+		   NULL, " ...Pourtant je n'ai aucun souvenir de lui.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -711,7 +711,7 @@ void main()
 	OutputLine(NULL, "　…なら、入江診療所の医師なのだろう。",
 		   NULL, "...Il ne peut qu'être l'un des docteurs de cette dernière.", Line_WaitForInput);
 	OutputLine(NULL, "……だが、こんな男は会ったことがなかった。",
-		   NULL, " ......Pourtant, je ne l'ai jamais rencontré avant.", Line_Normal);
+		   NULL, " ......Cependant, je ne l'ai jamais rencontré avant.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
@@ -765,7 +765,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050013", 128, TRUE);
 	OutputLine(NULL, "「……ないのです。」",
-		   NULL, "\"...Non.\"", Line_Normal);
+		   NULL, "\"...Non, rien du tout.\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/sinryou_sinsatu1", "effect/up", 0, 0, 500 );
@@ -773,7 +773,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2010", 128, TRUE);
 	OutputLine(NULL, "「ふーむ！",
-		   NULL, "\"Hmmm oui !", Line_WaitForInput);
+		   NULL, "\"Hmmm !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2011", 128, TRUE);
 	OutputLine(NULL, "　多分、大丈夫とは思いますけどね。",
 		   NULL, " Je pense que tout va bien alors !", Line_WaitForInput);
