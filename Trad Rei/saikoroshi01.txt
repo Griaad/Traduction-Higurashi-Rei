@@ -826,7 +826,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　嫌に馴れ馴れしい大男の医師に背中を押され、私は違和感を拭えないまま、保健室から連れ出される。",
-		   NULL, "Cet imposant docteur se comportait un peu trop familièrement à mon goût. Il me tira hors de la pièce, et, avant même de pouvoir exprimer mon malaise, je me suis retrouvée hors de l'infirmerie.", Line_Normal);
+		   NULL, "Ce massif docteur se comportait un peu trop familièrement à mon goût. Il me tira hors de la pièce, et avant même de pouvoir exprimer mon malaise, je me suis retrouvée hors de l'infirmerie.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -849,7 +849,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、…こんなにも強い違和感を感じさせる世界は初めてだ。",
-		   NULL, "Cependant... c'était la première fois qu'un monde me donnait un si mauvais pressentiment.", Line_Normal);
+		   NULL, "Mais c'était bien la première fois qu'un monde me donnait un si mauvais pressentiment.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -861,14 +861,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　百年以上この世界を繰り返し、ほとんどの事象を知り尽くしたと思っていた私に、ここまで強い違和感を感じさせるなんて。",
-		   NULL, "Après avoir passé plus de cent ans à parcourir les mondes, je pense avoir compris à peu près tout ce qu'il s'y passait, en revanche... c'est le premier monde qui me parait aussi singulier.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Après avoir passé plus de cent ans à parcourir les mondes, je pensais avoir compris à peu près comment ça fonctionnait. C'était la première fois qu'un monde me paraissait aussi singulier.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…………私は、その異常さに何か計り知れないものを感じ、強い不安を抱かずにはいられなかった…。",
-		   NULL, "......Cet univers était très curieux, et je ne pouvais m'empêcher de me sentir anxieuse...", Line_Normal);
+		   NULL, "......Cet endroit était très curieux, et je ne pouvais m'empêcher de me sentir anxieuse...", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "white", 600 );
