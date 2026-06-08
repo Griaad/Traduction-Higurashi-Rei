@@ -89,7 +89,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一見、ささやかな夢に思えるが、それを得るための旅が百年にも及んだことを、ここでもう一度振り返る必要はない。",
-		   NULL, "Ce rêve pouvait sembler léger au premier abord, mais c'était l'aboutissement d'un voyage de plus de cent ans.", Line_Normal);
+		   NULL, "Ce rêve pouvait sembler léger au premier abord, mais c'était l'aboutissement d'un voyage long de cent ans.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -99,7 +99,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　多くの人々にとって何気ない一日であっても、その一日を得るために放浪した気の遠くなるような日々。",
-		   NULL, "Pour beaucoup, c’était un jour comme un autre, mais pour moi, il avait fallu tant d’années pour en arriver jusqu’ici que je me sentais incapable d’y croire.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pour beaucoup, c’était un jour comme un autre, mais, pour moi, il a fallu d'innombrables années pour en arriver jusqu’ici.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -216,7 +216,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030006", 128, TRUE);
 	OutputLine(NULL, "やっぱりこのメンバーじゃ、何も起こらないって方が不思議だもんねぇ！」",
-		   NULL, "Même si, avec ce groupe ce serait bizarre que rien ne se passe !", Line_Normal);
+		   NULL, "Même si c'est vrai qu'avec ce groupe ce serait bizarre que rien ne se passe !", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
