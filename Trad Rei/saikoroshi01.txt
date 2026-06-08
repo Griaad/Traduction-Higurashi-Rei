@@ -2506,7 +2506,7 @@ void main()
 		   NULL, " Bien, écoutez-moi tous !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2020", 128, TRUE);
 	OutputLine(NULL, "　授業中ですよ、ドリルに集中して！」",
-		   NULL, " Les cours reprennent, concentrez-vous donc sur vos exercices !\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Les cours reprennent, concentrez-vous sur vos exercices !\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2558,7 +2558,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこは、教室の忘れられた場所のような一角。",
-		   NULL, "Il se situait dans le coin, comme si la classe l'avait oublié.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il se situait dans le coin, comme mis à l'écart du le reste de la classe.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2658,7 +2658,7 @@ void main()
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	OutputLine(NULL, "普通の兄妹に見える関係は、…沙都子には不謹慎だが、違和感を感じるものだった。",
-		   NULL, "...En revanche, même en sachant cela, je ne pouvais pas m’empêcher de me sentir mal.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Même en sachant cela, je ne pouvais pas m’empêcher de me sentir mal.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2680,7 +2680,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………………何度も教室内を探したが、",
-		   NULL, "....... Je le cherchais partout dans la salle un nombre incalculable de fois....", Line_ContinueAfterTyping);
+		   NULL, "....... Je l'ai cherché dans les moindres recoins de la salle un nombre incalculable de fois....", Line_ContinueAfterTyping);
 	Wait( 1000 );
 	OutputLine(NULL, "…姿がない。",
 		   NULL, " mais il était introuvable.", Line_Normal);
@@ -2702,7 +2702,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、壁に貼ってあるお当番表を見ても、圭一の名はない。",
-		   NULL, "Cependant, Le nom de Keiichi était complètement absent de la liste des élèves assignés aux tâches ménagères.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Cependant, le nom de Keiichi était complètement absent de la liste des élèves assignés aux tâches ménagères.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
