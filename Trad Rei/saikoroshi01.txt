@@ -1176,7 +1176,7 @@ void main()
 	OutputLine(NULL, "　沙都子と悟史の、兄妹として当然の関係。",
 		   NULL, "Et à leur relation fraternelle habituelle...", Line_WaitForInput);
 	OutputLine(NULL, "…それが、多分あと数日か数週間で当然ではなくなる。",
-		   NULL, " ...De toute manière, cela ne sera plus habituel d'ici quelques jours, ou semaines.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " De toute manière, cela ne sera plus habituel d'ici quelques jours, ou semaines.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1188,7 +1188,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……沙都子。",
-		   NULL, "...Satoko.", Line_WaitForInput);
+		   NULL, "... Satoko.", Line_WaitForInput);
 	OutputLine(NULL, "せめて今の時間を大切に。",
 		   NULL, " S'il te plaît, profite de ces moments pendant qu'il en est encore temps.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1226,7 +1226,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いつ見ても、雛見沢には勿体無いくらいの立派な診療所だ。",
-		NULL, "À chaque fois que je la vois, je suis subjuguée par sa beauté, j'ai toujours trouvé que c'était un peu trop tape à l'oeil pour Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		NULL, "À chaque fois que je la vois, je suis subjuguée par sa beauté, j'ai toujours trouvé que c'était un peu trop tape-à-l'oeil pour Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
