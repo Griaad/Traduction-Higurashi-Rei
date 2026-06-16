@@ -469,7 +469,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうも、私の身に訪れている事態は、悟史がいるほどの過去に巻き戻ってしまったというだけではなさそうだった…。",
-		   NULL, "Ce qu'il venait de se passer ne ressemblait en rien à ce qu'il se serait passé si j'avais voyagé si loin dans le passé au point que Satoshi soit encore là...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ce qu'il venait d'arriver ne ressemblait en rien à ce qu'il se serait passé si j'avais voyagé si loin dans le passé au point que Satoshi soit encore là...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -950,7 +950,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　帰って、ワインの瓶でも開ければすっ飛んでくるに違いない。",
-		   NULL, "Si je rentre à la maison et m'ouvre une bouteille de vin, je suis sûre qu'elle arrivera en courant.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Si je rentre à la maison et m'ouvre une bouteille de vin, je suis sûre qu'elle rappliquera en quatrième vitesse.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1174,9 +1174,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子と悟史の、兄妹として当然の関係。",
-		   NULL, "Et à leur relation fraternelle habituelle...", Line_WaitForInput);
+		   NULL, "Une relation fraternelle ordinaire...", Line_WaitForInput);
 	OutputLine(NULL, "…それが、多分あと数日か数週間で当然ではなくなる。",
-		   NULL, " De toute manière, cela ne sera plus habituel d'ici quelques jours, ou semaines.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mais qui se fissurera d'ici quelques jours, ou semaines.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1195,7 +1195,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あなたと悟史の関係は、…有限。",
-		   NULL, "Ta relation avec Satoshi est... limitée.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ta relation avec Satoshi est... éphémère.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
