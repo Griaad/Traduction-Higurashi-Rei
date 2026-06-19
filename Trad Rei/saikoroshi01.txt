@@ -4048,7 +4048,7 @@ void main()
 	OutputLine(NULL, "　礼奈がレナでない理由。",
 		   NULL, "La raison pour laquelle Reina n’était pas Rena.", Line_WaitForInput);
 	OutputLine(NULL, "……それは、一番最初の時点から違っていた。",
-		   NULL, " ...Était différente depuis le début.", Line_Normal);
+		   NULL, " Était différente depuis le début.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 600 );
@@ -4056,12 +4056,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まず、竜宮家は茨城に引っ越さなかった。",
-		   NULL, "Premièrement, la famille Ryûgû n'a pas déménagé à Ibaraki.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Premièrement, la famille Ryûgû n'avait pas déménagé à Ibaraki.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　竜宮家は今日までずっと雛見沢に住み続けていた。",
-		   NULL, "Ils ont toujours vécu à Hinamizawa.", Line_Normal);
+		   NULL, "Ils avaient toujours vécu à Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4071,38 +4071,38 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　父親は営業に転向し、妻がデザインしたものを売り込む役割だった。",
-		   NULL, "Son père changea de métier, il vendait dorénavant les designs de sa femme.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Son père avait changé de métier, il vendait dorénavant les designs de sa femme.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……デザインと売り込みのふたつの役割が夫婦なら、息も合うに違いない。",
-		   NULL, "...Le couple s'entendait sûrement très bien, l'une travaillant sur ses designs et l'autre vendant ces derniers.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... Le couple s'entendait sûrement très bien, l'une travaillant sur ses designs et l'autre vendant ces derniers.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　相変わらず、立場は母親の方が強いようだが両親の仲はとりあえず平凡で、…少なくとも離婚なんてことだけはありえないらしかった。",
-		   NULL, "Comme toujours, la position de sa mère semblait plus haute, mais leur relation avait l'air d’être correcte...et le divorce, au moins, paraissait impossible.", Line_Normal);
+		   NULL, "Comme toujours, la position de sa mère semblait plus haute, mais leur relation avait l'air d’être correcte... Le divorce ne semblait même pas être envisageable.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "bg/sora2", 600 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　礼奈にとってそれは、円満な家庭。",
-		   NULL, "Cela signifiait une belle et heureuse famille pour Reina.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "C'était une famille heureuse, au yeux de Reina.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…礼奈はそれを、十分に満たされていて、多分、これが幸せな生活なのだと思うと言い切った。",
-		   NULL, "...Ça avait l'air de totalement la satisfaire, elle-même disait qu'elle avait vécu une heureuse vie.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Cela avait l'air de totalement la satisfaire, elle-même disait que sa vie était remplie de bonheur.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………辛い経験を経ずしてそれを理解するとは、レナはやっぱりレナだった。",
-		   NULL, "....Le fait est qu'elle ait eu une famille stable, sans avoir à traverser chacune de ces épreuves difficiles, tout en restant Rena.", Line_Normal);
+		   NULL, "Le fait est qu'elle ait eu une famille stable, sans avoir à traverser chacune de ces épreuves difficiles, tout en restant Rena.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4119,7 +4119,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　タカノクリニックは、かつては高野診療所と呼ばれていたという。",
-		   NULL, "Le Takano de la clinique Takano était bien le grand père adoptif de Miyo Takano.", Line_Normal);
+		   NULL, "Le Takano de la clinique Takano était bien le grand-père adoptif de Miyo Takano.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4129,7 +4129,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　戦後すぐに、無医村だった雛見沢に驚くほど立派な診療所を立てて、村人から名士と称えられた。",
-		   NULL, "Juste après la guerre, il construisit une clinique étonnement grande à Hinamizawa, qui n’en possédait aucune avant cela. Grâce à ça, il est devenu célèbre auprès des villageois.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Juste après la guerre, il construisit une clinique étonnament grande à Hinamizawa, qui n’en possédait aucune avant cela. Grâce à ça, il devint célèbre auprès des villageois.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4177,7 +4177,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここまで来て、私は何となく理解する。",
-		   NULL, "À ce moment-là, j’eus une vague idée à propos d'une chose.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "À ce moment-là, un semblant de réponse à mes questions traversa mon esprit.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4187,14 +4187,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人自体は何も変わっていない。",
-		   NULL, "Les personnes en elles-mêmes n'ont pas changé d'un poil,", Line_WaitForInput);
+		   NULL, "Les personnes en elles-mêmes n'avaient pas changé d'un poil,", Line_WaitForInput);
 	OutputLine(NULL, "でも、その人のために振られる神のサイコロの目が、全て逆なのだ。",
-		   NULL, " mais les dés lancés pour eux étaient tous différents.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " mais leurs dés avaient obtenus des résultats différents.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……なるほど、それはこういう奇妙な世界となって表されるのか。",
-		   NULL, "...Voilà pourquoi ce monde me semblait si étrange..", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Voilà pourquoi ce monde me semblait si étrange.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4208,21 +4208,21 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…この世界における私には友達がいなくて、…ひとりぼっちだということだった。",
-		   NULL, "...Dans ce monde, je n'avais aucun ami. J’étais seule.", Line_Normal);
+		   NULL, "... Dans ce monde, je n'avais aucun ami. J’étais seule.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　圭一が転校してこなくて、部活もなく、沙都子も私に関心がないとなれば、",
 		   NULL, "Keiichi n'avait jamais été transféré dans notre école, il n'y avait plus de club et Satoko n'avait aucune affinité avec moi...", Line_WaitForInput);
 	OutputLine(NULL, "……それは当然のことなのかもしれない。",
-		   NULL, " peut-être que c’était tout naturel....", GetGlobalFlag(GLinemodeSp));
+		   NULL, " peut-être que c’était tout naturel...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこまで至ってようやく私は、礼奈が私のひとりぼっちの下校を憐れんで一緒に「帰宅部の部活動」に付き合ってくれたことの意味を理解する。",
-		   NULL, "Finalement, je saisis pourquoi Reina avait sympathisé avec moi.", Line_Normal);
+		   NULL, " Finalement, je saisis pourquoi Reina avait sympathisé avec moi.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(1, 2, "sprite/re1a_def_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
@@ -4239,17 +4239,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050058", 128, TRUE);
 	OutputLine(NULL, "「…え？",
-		   NULL, "\"....Hein ?", Line_WaitForInput);
+		   NULL, "\"Quoi... ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050059", 128, TRUE);
 	OutputLine(NULL, "　……………あ、…そうか。」",
-		   NULL, " ............Ah.... c'est vrai.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ah... oui.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　神社の前でないところで、礼奈にまた明日と告げられ一瞬だけ混乱したが、…すぐに理解した。",
-		   NULL, "Pendant un moment, j’étais confuse d'être salué avant d'arriver devant le temple... mais j'ai vite compris.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pendant un instant, j’étais confuse que Reina me souhaite une bonne soirée avant même d'arriver devant le temple... mais je compris vite.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4259,16 +4259,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鷹野が現れない以上、入江機関もなく、雛見沢症候群の研究もないならば、………私の両親が死ぬこともない。",
-		   NULL, "Puisque Takano n’est jamais apparue, l’institut Irie n’existe pas, aucune recherche n’a été faite sur le syndrome d’Hinamizawa... et enfin mes parents ne sont jamais morts.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Puisque Takano n’était jamais apparue, l’institut Irie n’existait pas, aucune recherche n’avait été faite sur le syndrome d’Hinamizawa... et enfin, mes parents n'étaient pas morts.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…私の両親は初め、研究に協力的だったが、",
-		   NULL, "....Au départ, mes parents coopérèrent avec les chercheurs de l'insitut Irie...", Line_WaitForInput);
+		   NULL, "... Au départ, mes parents coopérèrent avec les chercheurs de l'insitut Irie.", Line_WaitForInput);
 	OutputLine(NULL, "私が高熱で寝込んだのを境に、非協力的になり、…何らかのトラブルを経て暗殺される。",
-		   NULL, " mais stoppèrent le jour ou j'ai attrapé une forte fièvre... Peu à peu, ils s’attirèrent des ennuis, jusqu’à se faire assassiner.", Line_Normal);
+		   NULL, " Mais ils avaient arrêté le jour où j'avais attrapé une forte fièvre... Peu à peu, ils s’attirèrent des ennuis, jusqu’à se faire assassiner.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4278,7 +4278,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それが騒ぎ出すのだから、隠密に研究を進めたい入江機関にとって口封じをしたくなるのは当然だ。",
-		   NULL, "Et parce qu'elle en faisant tout un plat, l'institut Irie, qui voulait continuer ses recherches secrètement, a naturellement voulu faire en sorte qu'elle arrête de jacasser.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Et parce qu'elle en faisant tout un plat, l'institut Irie, qui voulait continuer ses recherches secrètement, avait naturellement voulu faire en sorte qu'elle arrête de jacasser.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4287,33 +4287,33 @@ void main()
 	OutputLine(NULL, "　入江機関がまともな存在じゃないことを知っていてなおそういう態度を取ったのだから、",
 		   NULL, "Elle gardait sa mauvaise attitude tout en sachant que l'institut était louche...", Line_WaitForInput);
 	OutputLine(NULL, "ある意味、自業自得と言えないこともない。",
-		   NULL, " dans un sens, ce n'était qu'un simple retour de bâton bien mérité.", Line_Normal);
+		   NULL, " Dans un sens, ce n'était qu'un simple retour de bâton bien mérité.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何しろ、何度やり直しても、何度忠告しても覆せなかったから、私はもう両親を、昭和５６年にリタイアする存在だと諦めてしまっていたのだ。",
-		   NULL, "Dans tout les cas, peu importe le nombre de fois où je l'ai mise en garde, cela n'a jamais fonctionné et j'ai dû me résigner à vivre sans parent à partir de 1981.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Dans tout les cas, j'avais beau la mettre en garde, cela n'avait jamais fonctionné et j'avais dû me résigner à vivre sans parent à partir de 1981.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……それに、何度も繰り返している。",
-		   NULL, "...J'ai pourtant tout essayé mais rien n'y faisait.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "J'avais pourtant tout essayé mais rien n'y faisait.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　両親の顔は、トータルで何十年分も見ているのだから、愛想も尽きる。",
-		   NULL, "J'ai vu mes parents pendant des dizaines d'années au total, j'en ai eu assez d'eux avec le temps.", Line_WaitForInput);
+		   NULL, "J'avais cotôyé mes parents pendant des dizaines d'années tout cumulés, j'avais donc fini par me lasser d'eux.", Line_WaitForInput);
 	OutputLine(NULL, "…元々、仲もよくなかったし。",
-		   NULL, " ..Nous étions comme chat et chien de toute manière.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nous étions comme chien et chat de toutes manières.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その両親が、昭和５８年６月の世界に、いる…。",
-		   NULL, "Et maintenant, en juin de l'année 1983, ils sont de retour...", Line_Normal);
+		   NULL, "Et voilà qu'ils étaient de retour parmi nous, en juin 1983.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
