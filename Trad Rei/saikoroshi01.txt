@@ -2650,22 +2650,22 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　悟史と一緒にいる時の沙都子は、家族問題や叔母のいじめなどで暗そうにしていることが少なくなかったから、",
-		   NULL, "Lorsqu'ils' étaient ensemble, Satoko était souvent d'humeur maussade à cause de ses problèmes familiaux, alors...", Line_WaitForInput);
+		   NULL, "Lorsqu'ils étaient ensemble, Satoko était souvent d'humeur maussade à cause de ses problèmes familiaux, alors...", Line_WaitForInput);
 	OutputLine(NULL, "普通の兄妹に見える関係は、…沙都子には不謹慎だが、違和感を感じるものだった。",
-		   NULL, " ils devaient faire semblant d’être comme des frère et sœur lambda...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Les voir feindre une relation de frère et sœur normaux me faisait tiquer.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	OutputLine(NULL, "普通の兄妹に見える関係は、…沙都子には不謹慎だが、違和感を感じるものだった。",
-		   NULL, "Même en sachant cela, je ne pouvais pas m’empêcher de me sentir mal.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mais, si ça se trouve, Satoko menait une vie ordinaire ici.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、沙都子が普通に生活しているならそれでいい。",
-		   NULL, "Toutefois, tant mieux si Satoko avait une vie ordinaire.", Line_Normal);
+		   NULL, "Tant mieux si c'était le cas.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/gk1", "effect/right", 0, 0, 500 );
@@ -2695,7 +2695,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何かの見間違い、もしくはたまたま欠席で…などと自分に対する言い訳を何度も考えた。",
-		   NULL, "Je m'étais fait tout un tas d'excuses, comme me dire que je ne voyais pas bien, ou qu'il était absent aujourd'hui.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je me suis cherché tout un tas d'excuses, comme me dire que j'avais mal lu ou qu'il était absent aujourd'hui.w", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2717,7 +2717,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この教室には、前原圭一の存在がないのだ。",
-		   NULL, "Keiichi Maebara n'existait pas dans cette classe.", Line_WaitForInput);
+		   NULL, "Keiichi Maebara n'était pas dans cette classe.", Line_WaitForInput);
 	OutputLine(NULL, "…昭和５８年６月の世界なのに。",
 		   NULL, " Alors que nous étions en juin 1983.", Line_Normal);
 	ClearMessage();
@@ -2750,7 +2750,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……だが、そもそもこれはゲームになっているのか。",
-		   NULL, "Mais était-ce vraiment un jeu... ?", Line_Normal);
+		   NULL, "Mais, maintenant que j'y pense, était-ce vraiment un jeu... ?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2808,7 +2808,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここは、……一体、どこなの…。",
-		   NULL, "Où ... ai-je atterri ?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Où... ai-je atterri ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2855,7 +2855,7 @@ void main()
 	OutputLine(NULL, "　委員長は魅音でいてくれた。",
 		   NULL, "Heureusement, Mion était toujours la déléguée.", Line_WaitForInput);
 	OutputLine(NULL, "…そんな程度のことになぜか安堵する。",
-		   NULL, "  Pour une mystérieuse raison, ce fut un soulagement.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "  Ce n'était qu'un détail, mais bizarrement, ce fut un soulagement.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2966,14 +2966,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私はこの世界で初めて笑みを浮かべた。",
-		   NULL, "Pour la première fois depuis que j'étais' dans ce monde, je souris.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pour la première fois depuis mon arrivée dans ce monde, je souris.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この何が何だかわからない世界で、自分の期待が当たるのは、今やそれだけでとてもうれしいものだったから…。",
-		   NULL, "Je n'avais vraiment aucune idée de ce qu'il se tramait ici. De ce fait, voir l’une de mes espérances devenir réalité m’a sincèrement remplie de joie, pour le moment...", Line_Normal);
+		   NULL, "Je n'avais vraiment aucune idée de ce qui se tramait ici. De ce fait, voir l’un de mes désirs devenir réalité m’a sincèrement rendue heureuse.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
