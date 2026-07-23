@@ -2180,10 +2180,10 @@ void main()
 		   NULL, "\"Si tu te sens bien, tu peux retourner à l'école.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2066", 128, TRUE);
 	OutputLine(NULL, "もうすぐ午後の診療が始まっちゃうから送ってあげられないけど、大丈夫かな？",
-		   NULL, " Les cours de l'aprèm' commencent bientôt, je peux t'y emmener si tu en as besoin.", Line_WaitForInput);
+		   NULL, " Je vais bientôt reprendre le travail, je ne pourrai pas t'y emmener.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2067", 128, TRUE);
 	OutputLine(NULL, "　ひとりで学校まで行けるかい？」",
-		   NULL, " À moins que tu préfères y aller toute seule ?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu penses pouvoir y aller toute seule ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2323,7 +2323,7 @@ void main()
 		   NULL, "En 1983...", Line_ContinueAfterTyping);
 	Wait( 540 );
 	OutputLine(NULL, "……悟史がいる？",
-		   NULL, " Satoshi est là ?", Line_Normal);
+		   NULL, " Satoshi est présent ?", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 600 );
@@ -2370,7 +2370,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…その寂れ具合はまるで、元旦や大晦日を思わせる。",
-		   NULL, "En général, c’était ainsi pendant le nouvel an.", Line_WaitForInput);
+		   NULL, "En général, c’était le cas pendant le nouvel an.", Line_WaitForInput);
 	OutputLine(NULL, "……セミの声が聞こえる季節の景色としてはおかしい。",
 		   NULL, " Mais c’était louche que ça le soit durant une saison où l'on pouvait entendre les cigales chanter.", Line_Normal);
 	ClearMessage();
@@ -2500,7 +2500,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2018", 128, TRUE);
 	OutputLine(NULL, "「古手さん、着席してください。",
-		   NULL, "\"Furude, tu peux aller t'asseoir à ta place.", Line_WaitForInput);
+		   NULL, "\"Furude, tu peux aller t'installer à ta place.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s15/22/vt4c_chie2019", 128, TRUE);
 	OutputLine(NULL, "ハイハイ、皆さん！",
 		   NULL, " Bien, écoutez-moi tous !", Line_WaitForInput);
@@ -2549,7 +2549,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　防災頭巾の入った座布団の柄でわかる。",
-		   NULL, "Ma cagoule d'évacuation si distinctive s'y trouvait.", Line_WaitForInput);
+		   NULL, "Ma cagoule de protection si distinctive s'y trouvait.", Line_WaitForInput);
 	OutputLine(NULL, "そこが、この世界の古手梨花の席らしかった。",
 		   NULL, " Tout portait à croire que c’était véritablement le siège de Rika Furude dans ce monde.", Line_Normal);
 	ClearMessage();
@@ -2558,7 +2558,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこは、教室の忘れられた場所のような一角。",
-		   NULL, "Il se situait dans le coin, comme mis à l'écart du le reste de la classe.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il se situait dans le coin, comme mis à l'écart du reste de la classe.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
