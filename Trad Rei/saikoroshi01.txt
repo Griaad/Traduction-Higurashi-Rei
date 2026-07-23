@@ -3038,7 +3038,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020009", 128, TRUE);
 	OutputLine(NULL, "「魅ぃちゃん、おっかしい。",
-		   NULL, "\"T'es gênante Mii.", Line_WaitForInput);
+		   NULL, "\"T'es pénible Mii.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020010", 128, TRUE);
 	OutputLine(NULL, "あっははははははは。」",
 		   NULL, " Ah ha ha ha ha ha ha.\"", GetGlobalFlag(GLinemodeSp));
@@ -3245,7 +3245,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030032", 128, TRUE);
 	OutputLine(NULL, "「寄らば大樹、長いものにはぐーるぐるってとこさね。",
-		   NULL, "\"Comme on dit , c'est dans les vieux pots qu'on fait la meilleure soupe.", Line_WaitForInput);
+		   NULL, "\"Comme on dit, il faut savoir aller selon le vent.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030033", 128, TRUE);
 	OutputLine(NULL, "そんじゃ悪いけど、私はこのまま失礼させてもらうわ。",
 		   NULL, " Bref, désolée pour tout ça, mais je dois m'en aller.", GetGlobalFlag(GLinemodeSp));
@@ -3354,7 +3354,7 @@ void main()
 	OutputLine(NULL, "　そして、今の会話でわかったのはそれだけではない。",
 		   NULL, "Ce n’est d’ailleurs pas la seule chose que j’ai découverte au cours de cette conversation.", Line_WaitForInput);
 	OutputLine(NULL, "クラスの人数についてだ。",
-		   NULL, " En prêtant attention au nombre d'élèves...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " C'est à propos du nombre d'élèves...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
