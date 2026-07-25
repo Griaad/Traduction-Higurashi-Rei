@@ -3454,7 +3454,7 @@ void main()
 		   NULL, "\"Mais non, dis pas ça.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020025", 128, TRUE);
 	OutputLine(NULL, "ちゃんと同じクラスの友達だよ。」",
-		   NULL, " Vous êtes dans la même classe après tout.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Vous êtes camarades de classe, après tout.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -3474,7 +3474,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……もうこれで、あの保健室の沙都子の素っ気無い素振りが理解できる。",
-		   NULL, "Je connaissais désormais la raison derrière le comportement de Satoko à l'infirmerie.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je connaissais désormais la raison derrière le comportement bizarre de Satoko à l'infirmerie.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3486,12 +3486,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは、……そうかもしれない。",
-		   NULL, "Il se pourrait... que ce soit cohérent.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il se pourrait bien... que ce soit cohérent.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だって、悟史が健在なら、沙都子はずっと悟史と共に過ごす。",
-		   NULL, "Tout bien réfléchi, si Satoshi était vivant et en bonne santé, alors, Satoko passerait tout son temps avec lui.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "En y réfléchissant, si Satoshi était vivant et en bonne santé, alors, Satoko passerait tout son temps avec lui.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3503,7 +3503,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…もちろん、それ以前にも友達ではあったが、昭和５８年の関係に比べたらずっと希薄だ。",
-		   NULL, "Assurément, nous étions amies avant cela, mais pas aussi complices qu'en 1983.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nous étions évidemment amies avant cela, mais pas aussi complices qu'en 1983.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3515,7 +3515,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを思えば、……この昭和５８年６月に悟史がいるというＩＦを考えれば、…至極当然の未来なのかもしれない…。",
-		   NULL, "Lorsque je me suis demandé ce qu'il se passerait si Satoshi était présent en juin 1983... ce futur me semblait être le plus logique...", Line_Normal);
+		   NULL, "Plus je me demandais ce qu'il se passerait si Satoshi était présent en juin 1983, plus ce futur me semblait être le plus logique...", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/gr2", "effect/down", 0, 0, 500 );
@@ -3613,7 +3613,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020030", 128, TRUE);
 	OutputLine(NULL, "「仕方ないよ。立ち退きだし。」",
-		   NULL, "\"Il n'y a rien de bizarre à ce que certains mettent définitivement la clé sous la porte avant la date limite.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Il n'y a rien de bizarre à ce que certains mettent définitivement la clé sous la porte avant la date butoir.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -3628,7 +3628,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020031", 128, TRUE);
 	OutputLine(NULL, "「仕方ないよ。立ち退きだし。」",
-		   NULL, "\"Ils n'ont pas le choix, sinon ils se feront expulser.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Passée cette date, ils se feront expulser.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -3721,7 +3721,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020039", 128, TRUE);
 	OutputLine(NULL, "…よくは知らないけど、国の人も、親身になって相談に乗ってくれたらしいよ。」",
-		   NULL, " ... Je comprends pas vraiment tout, mais à ce qu'il paraît les gens du gouvernement ont été très gentils et nous ont donné pas mal d'infos à son sujet.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... Je comprends pas vraiment tout, mais à ce qu'il paraît les gens du gouvernement ont été très gentils et nous ont donné pas mal d'infos au sujet du barrage.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3730,7 +3730,7 @@ void main()
 	OutputLine(NULL, "　礼奈から聞かされるダム戦争、…いや、この世界では戦争にすらなっていない。",
 		   NULL, "Le conflit lié au barrage que Reina me racontait... était à peine un conflit dans ce monde.", Line_WaitForInput);
 	OutputLine(NULL, "…ダムに関わるやり取りは私が知る世界のそれとはまったく違っていた。",
-		   NULL, " Tout, au sujet du barrage, était différent de ce que je connaissais.", Line_Normal);
+		   NULL, " Tout, à son sujet, était différent de ce que je connaissais.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/down", 0, 0, 500 );
@@ -3751,7 +3751,7 @@ void main()
 
     if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "泥沼のダム戦争へと雪崩れ込んでいく。",
-		   NULL, " je sais pas quoi  mettre ici dsl mais ça répétait le "avant d'exploser" et c'est pas censé.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " je sais pas quoi mettre ici dsl mais ça répétait le avant d'exploser et c'est pas censé.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
