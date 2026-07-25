@@ -3728,7 +3728,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　礼奈から聞かされるダム戦争、…いや、この世界では戦争にすらなっていない。",
-		   NULL, "Le conflit lié au barrage que Reina me racontait... était à peine un conflit dans ce monde.", Line_WaitForInput);
+		   NULL, "La guerre du barrage que Reina me racontait... était à peine un conflit dans ce monde.", Line_WaitForInput);
 	OutputLine(NULL, "…ダムに関わるやり取りは私が知る世界のそれとはまったく違っていた。",
 		   NULL, " Tout, à son sujet, était différent de ce que je connaissais.", Line_Normal);
 	ClearMessage();
@@ -3751,14 +3751,14 @@ void main()
 
     if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "泥沼のダム戦争へと雪崩れ込んでいく。",
-		   NULL, " je sais pas quoi mettre ici dsl mais ça répétait le avant d'exploser et c'est pas censé.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ainsi, de fil en aiguille, le conflit s'était intensifié au point de pouvoir être considéré comme une guerre.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だが、この世界ではもう最初から事情が違っていた。",
-		   NULL, "Ensuite, de fil en aiguille, la situation dégénéra en un grave conflit autour du barrage. Cela dit, ici, tout était différent du début à la fin.", Line_Normal);
+		   NULL, " Cela dit, ici, tout était différent du début à la fin.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/down", 0, 0, 500 );
