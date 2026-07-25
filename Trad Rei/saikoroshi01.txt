@@ -3361,7 +3361,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私が、クラスの人数が少ないことを口にしたら、それには理由があるような素振りだった。",
-		   NULL, "Lorsque j'ai mentionné l'absence de personnes dans la classe, elles ont agi comme s'il y avait une raison.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sa réaction, lorsque j'ai mentionné le manque d'élèves dans la classe, l'a trahie : elle était au courant de quelque chose.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
