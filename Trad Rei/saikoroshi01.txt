@@ -3747,18 +3747,18 @@ void main()
  
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　立ち退きを求める国と、それを拒否する住人の関係が次第に険悪になっていき、……やがて破綻。",
-           NULL, "La relation entre l’État, déterminé à nous expulser, et les habitants, qui s’y opposaient, devint peu à peu conflictuelle… avant d’exploser.", Line_WaitForInput);
+           NULL, "La relation entre l’État, déterminé à nous expulser, et les habitants, qui s’y opposaient, devint peu à peu conflictuelle…", Line_WaitForInput);
 
     if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "泥沼のダム戦争へと雪崩れ込んでいく。",
-		   NULL, " Ainsi, de fil en aiguille, le conflit s'était intensifié au point de pouvoir être considéré comme une guerre.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " avant d’exploser.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だが、この世界ではもう最初から事情が違っていた。",
-		   NULL, " Cela dit, ici, tout était différent du début à la fin.", Line_Normal);
+		   NULL, " Ainsi, de fil en aiguille, le conflit s'était intensifié au point de pouvoir être considéré comme une guerre. Cela dit, ici, tout était différent du début à la fin.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/down", 0, 0, 500 );
