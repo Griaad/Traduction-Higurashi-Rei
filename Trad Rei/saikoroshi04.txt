@@ -104,7 +104,7 @@ void main()
 		   NULL, "\"......Miii... Oui...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050534", 128, TRUE);
 	OutputLine(NULL, "………ここは…？」",
-		   NULL, " ......Où suis-je...?\"", Line_Continue);
+		   NULL, " ......Où est-ce que je suis...?\"", Line_Continue);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
 
@@ -174,7 +174,7 @@ void main()
 		   NULL, "\"Oui.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s15/10/ds42100004", 128, TRUE);
 	OutputLine(NULL, "あなたはお友達と雛見沢へ帰る途中、事故に遭って頭部を強打し、ずっと意識が戻らなかったのです。",
-		   NULL, " Alors que tu rentrais à Hinamizawa avec tes amis, tu as eu un accident et tu es restée inconsciente.", Line_WaitForInput);
+		   NULL, " Alors que tu rentrais à Hinamizawa avec tes amis, tu as eu un accident qui t'as rendue inconsciente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s15/10/ds42100005", 128, TRUE);
 	OutputLine(NULL, "……このままもう、意識が帰ってこないのではないかと危ぶまれていました。",
 		   NULL, " ...Nous redoutions que tu ne reviennes jamais à toi.", GetGlobalFlag(GLinemodeSp));
@@ -402,13 +402,13 @@ void main()
 	OutputLine(NULL, "…あの世界は、",
 		   NULL, " ...Ce monde...", Line_Continue);
 	OutputLine(NULL, "……夢だったの…？",
-		   NULL, " n'était qu'un rêve...?", Line_WaitForInput);
+		   NULL, " n'était qu'un rêve...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050546", 128, TRUE);
 	OutputLine(NULL, "　それとも、",
 		   NULL, " ou...", Line_Continue);
 	Wait( 1800 );
 	OutputLine(NULL, "…現実…？」",
-		   NULL, " était-ce la réalité...?\"", Line_Normal);
+		   NULL, " la réalité...?\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1069,7 +1069,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの世界では全員が満たされていた。",
-		   NULL, "Ils étaient tous heureux dans là-bas.", Line_WaitForInput);
+		   NULL, "Ils étaient tous heureux là-bas.", Line_WaitForInput);
 	OutputLine(NULL, "私だけが満たされていなかった。",
 		   NULL, " J'étais la seule à ne pas l'être.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
