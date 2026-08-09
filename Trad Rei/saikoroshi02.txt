@@ -2431,7 +2431,7 @@ void main()
 	OutputLine(NULL, "　私の名前は、古手梨花、",
 		   NULL, "Mon nom est Furude Rika...", Line_WaitForInput);
 	OutputLine(NULL, "……あぁ、じゃなくて…、Bernkastel。",
-		   NULL, " non, pas ça... mais plûtot : \"Bernkastel.\"", Line_WaitForInput);
+		   NULL, " non, pas ce nom là... mais plutôt celui-ci : \"Bernkastel.\"", Line_WaitForInput);
 	OutputLine(NULL, "…読めないや。",
 		   NULL, " ...Je ne sais pas ce que ça veut dire.", Line_WaitForInput);
 	OutputLine(NULL, "今度、父に読み方を聞いてみよう。",
