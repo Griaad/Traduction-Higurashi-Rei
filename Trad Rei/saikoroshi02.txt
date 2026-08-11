@@ -1266,7 +1266,7 @@ void main()
 		   NULL, " Je dois donc le brûler, peu importe où il s'est logé.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050221", 128, TRUE);
 	OutputLine(NULL, "…その何かが、簡単に燃やせるものであることを祈るわ。",
-		   NULL, " ...Il a intérêt à brûler facilement.", Line_WaitForInput);
+		   NULL, " ...Il a intérêt à cramer facilement.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050222", 128, TRUE);
 	OutputLine(NULL, "岩だった日には、溶鉱炉にでも放り込まなきゃならなくなるわね…。」",
 		   NULL, " Si c'est une grosse roche, je vais devoir le mettre dans un haut fourneau ou quelque chose du genre...\"", Line_Normal);
@@ -1280,7 +1280,7 @@ void main()
 		   NULL, "\".....En fait, Rika...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070123", 128, TRUE);
 	OutputLine(NULL, "そのカケラが宿るのが、物ではなく、",
-		   NULL, " Le fragment peut ne pas être dans un objet...", Line_Continue);
+		   NULL, " Il est possible que le fragment ne soit pas dans un objet...", Line_Continue);
 	OutputLine(NULL, "…人である可能性もありますのです。」",
 		   NULL, " mais dans une personne.\"", Line_Normal);
 	ClearMessage();
@@ -1390,7 +1390,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050234", 128, TRUE);
 	OutputLine(NULL, "「……それが私自身、という可能性は？」",
-		   NULL, "\"...C'est possible que ce soit moi ?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Il y a des chances que ce soit moi ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyû</color>", NULL, Line_ContinueAfterTyping); }
@@ -2422,7 +2422,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…ワインのラベルに書かれている、何と発音していいのかわからないその横文字の銘柄を見ながら、",
-		   NULL, "...Je fregardais les lettres occidentales écrites sur l’étiquette de la bouteille de vin, que je n’arrivais pas à prononcer…...", Line_WaitForInput);
+		   NULL, "...Je regardais les lettres occidentales écrites sur l’étiquette de la bouteille de vin, que je n’arrivais pas à prononcer…...", Line_WaitForInput);
 	OutputLine(NULL, "……それが「私」の名前だと、そう思った。",
 		   NULL, " Et si c’était ça, \"mon\" nom ?", Line_Normal);
 	ClearMessage();
@@ -2431,7 +2431,7 @@ void main()
 	OutputLine(NULL, "　私の名前は、古手梨花、",
 		   NULL, "Mon nom est Furude Rika...", Line_WaitForInput);
 	OutputLine(NULL, "……あぁ、じゃなくて…、Bernkastel。",
-		   NULL, " non, pas ce nom là... mais plutôt celui-ci : \"Bernkastel.\"", Line_WaitForInput);
+		   NULL, " non, pas ce nom là... mais celui-ci : \"Bernkastel.\"", Line_WaitForInput);
 	OutputLine(NULL, "…読めないや。",
 		   NULL, " ...Je ne sais pas ce que ça veut dire.", Line_WaitForInput);
 	OutputLine(NULL, "今度、父に読み方を聞いてみよう。",
