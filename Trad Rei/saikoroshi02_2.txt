@@ -2523,7 +2523,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まさかそう返されるとは思わず、私は困惑する。",
-		   NULL, "Je ne pensais pas qu'il me répondrait ça, c'est déroutant.", Line_Normal);
+		   NULL, "Je ne m'attendais pas à une réponse de ce genre, ça m'a prise de court.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2538,10 +2538,10 @@ void main()
 		   NULL, "\"J'ai promis que je croirais en ton histoire si tu gagnes le pari.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2164", 128, TRUE);
 	OutputLine(NULL, "じゃあ、わしが勝ったら、君がわしの話を信じるという約束にしないかな？",
-		   NULL, " Alors pourquoi pas promettre que si je gagnes le pari, tu croiras en mon histoire ?", Line_WaitForInput);
+		   NULL, " En revanche, si c'est moi qui gagne, tu veux bien promettre de croire en mon histoire ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2165", 128, TRUE);
 	OutputLine(NULL, "　どうだね、公平だろう？」",
-		   NULL, " Ça paraît honnête, pas vrai ?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ça paraît honnête comme accord, qu'en penses-tu ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2552,12 +2552,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まぁ、聞かずとも想像はつく。",
-		   NULL, "En vérité, je pense la connaître, sans qu'il me réponde.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "En vérité, je pouvais facilement imaginer ce que c'était, sans qu'il me réponde.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ちょっと大き目の病院に入院して、頭を精密検査させてくれとでも言うのだろう。",
-		   NULL, "Il me dira sans doute d'aller dans un très grand hôpital pour qu'on y examine ma tête.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il me dira probablement de me rendre dans un très grand hôpital pour qu'on y examine ma cervelle.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2569,7 +2569,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　となると、心のケアが必要とかいって、向精神薬でも与えられるか。",
-		   NULL, "Si ça arrive, peut-être qu'ils diront que j'ai besoin de laisser reposer mon cerveau et me donneront des médicaments psychotropes ou quelque chose dans le genre.", Line_Normal);
+		   NULL, "Si ça venait à arriver, peut-être qu'ils diront que j'ai besoin de laisser reposer mon cerveau et me donneront des médicaments psychotropes ou quelque chose dans le genre.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2621,7 +2621,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　山本が私の味方になってくれるというわずかな可能性を、試す前から捨てることもない…。",
-		   NULL, "Je ne peux pas abandonner la possibilité d'avoir un allié aussi précieux que Yamamoto...", Line_Normal);
+		   NULL, "Je ne pouvais pas abandonner la possibilité d'avoir un allié aussi précieux que Yamamoto...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
@@ -2645,7 +2645,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は、異論はないと頷いた。",
-		   NULL, "Je hochai la tête puis ai accepté.", Line_Normal);
+		   NULL, "J'acquiesçai en signe d'acceptation.", Line_Normal);
 	ClearMessage();
 
 	//;■アイキャッチ
