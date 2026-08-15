@@ -1406,7 +1406,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030072", 128, TRUE);
 	OutputLine(NULL, "「はぁー？",
-		   NULL, "\"Whaaa?", Line_WaitForInput);
+		   NULL, "\"Qwaa ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030073", 128, TRUE);
 	OutputLine(NULL, "　何を乙女チックなことをー。",
 		   NULL, " What's with that Filletteish response all of a sudden?", Line_WaitForInput);
@@ -1473,12 +1473,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…みんなで帰ろうという申し出を断って、私はひとり下校した。",
-		   NULL, "...After refusing their suggestion that we all go home together, I left on my own.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Après avoir refusé de rentrer de l'école en leur compagnie, je pris la route vers chez moi en solitaire.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　みんなで楽しく下校するのは古手梨花の権利だと思ったからだ。",
-		   NULL, "It was Rika Furude's right, not mine, to enjoy going home with them.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Seule Rika Furude avait le droit de passer du bon temps avec eux, pas moi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
