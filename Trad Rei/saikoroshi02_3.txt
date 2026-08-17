@@ -1485,14 +1485,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この「私」、フルデリカ・ベルンカステルが享受すべきものではない…。",
-		   NULL, "It wasn't something \"I,\" Frederica Bernkastel, could accept...", Line_Normal);
+		   NULL, " \"Moi,\" Frederica Bernkastel, n'avais pas le droit d'en profiter...", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/sora5", "effect/up", 0, 0, 1300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「私」は何なんだろう…。",
-		   NULL, "What was \"I,\" anyway...?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mais au fait, qu'était exactement \"Moi\"... ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
