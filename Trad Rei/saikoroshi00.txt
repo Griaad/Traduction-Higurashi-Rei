@@ -198,7 +198,7 @@ void main()
 		   NULL, "Héhéhé !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030004", 128, TRUE);
 	OutputLine(NULL, "　いやいや、実に愉快だったよ。",
-		   NULL, " Tu nous en as mis plein les mirettes.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu nous en as mis plein les mirettes p'tit gars.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
