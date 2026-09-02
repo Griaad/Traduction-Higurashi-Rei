@@ -2128,7 +2128,7 @@ void main()
 		   NULL, " Mais attends une petite minute.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2135", 128, TRUE);
 	OutputLine(NULL, "君にとってこの世界は夢の中なのかもしれないが、わしにとってはここは自分の世界でね。",
-		   NULL, " Ce monde n'est peut-être qu'un rêve pour toi, mais pour moi c'est bien le véritable monde.", Line_WaitForInput);
+		   NULL, " Ce monde n'est peut-être qu'un rêve pour toi, mais pour moi, c'est mon véritable monde.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2136", 128, TRUE);
 	OutputLine(NULL, "例え誰であっても殺されちゃ困る。」",
 		   NULL, " Ce serait embêtant si quelqu'un se faisait assassiner, peu importe qui il est.\"", GetGlobalFlag(GLinemodeSp));
@@ -2187,9 +2187,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただ、不安もある。",
-		   NULL, "Mais je me sentis inquiète.", Line_WaitForInput);
+		   NULL, "Mais je me sentais inquiète.", Line_WaitForInput);
 	OutputLine(NULL, "私と羽入は話せても、山本には話せない可能性もある。",
-		   NULL, " Même si je pouvais parler avec elle, Yamamoto ne pourrait possiblement pas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Même si je pouvais parler avec elle, Yamamoto ne pourrait peut-être pas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2230,7 +2230,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……明かりは細くなる一方で、最近はその回復も遅い。",
-		   NULL, "...Puisqu'elle devenait plus sombre, elle prenait aussi plus de temps à se recharger.", Line_WaitForInput);
+		   NULL, "...La lumière ne cessait de s'affaiblir, elle prenait aussi plus de temps à se recharger.", Line_WaitForInput);
 	OutputLine(NULL, "数日前に会話して光が衰えて以来、なかなか回復せずにいる。",
 		   NULL, " Après lui avoir parlé il y a de cela quelques jours la lueur s'est encore affaiblie, la boule avait du mal à se rétablir.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2239,9 +2239,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…この程度の光り方ではまだ少し足りない。",
-		   NULL, "...Il n'y avait pas assez de lumière.", Line_WaitForInput);
+		   NULL, "...Elle n'était pas assez lumineuse.", Line_WaitForInput);
 	OutputLine(NULL, "…もうちょっとだけ回復に時間が必要そうだった。",
-		   NULL, " ...On dirait bien qu’il lui faudra un peu plus de temps pour qu’elle retrouve assez d’énergie.", Line_Normal);
+		   NULL, " ...On dirait bien qu’il lui faudra un peu plus de temps pour qu’elle retrouve l'énergie nécessaire.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2253,13 +2253,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2144", 128, TRUE);
 	OutputLine(NULL, "「んんん…、どうだろう。",
-		   NULL, "\"Hmmm... Je me demande.", Line_WaitForInput);
+		   NULL, "\"Hmmm... Je ne sais pas trop.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2145", 128, TRUE);
 	OutputLine(NULL, "光の反射じゃないかい？",
 		   NULL, " Peut-être qu'elle ne fait que réfléchir la lumière ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2146", 128, TRUE);
 	OutputLine(NULL, "　…でも、綺麗なビー玉だね。",
-		   NULL, " ...Mais elle est vraiment belle.", Line_WaitForInput);
+		   NULL, " ...Quelle jolie bille, quand même.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2147", 128, TRUE);
 	OutputLine(NULL, "ラムネ瓶の玉かい？」",
 		   NULL, " Est-ce que ça vient d'une bouteille de ramune ?\"", GetGlobalFlag(GLinemodeSp));
@@ -2292,7 +2292,7 @@ void main()
 		   NULL, "\"Je la place sur mon front.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050358", 128, TRUE);
 	OutputLine(NULL, "すると声が聞こえるの。」",
-		   NULL, " Et là, je peux entendre sa voix.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Et c'est à ce moment que je peux entendre sa voix.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
