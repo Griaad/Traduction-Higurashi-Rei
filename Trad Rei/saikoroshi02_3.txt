@@ -20,15 +20,15 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210015", 128, TRUE);
 	OutputLine(NULL, "「梨花ちゃん。",
-		   NULL, "\"Rika-chan.", Line_WaitForInput);
+		   NULL, "\"Rika", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210016", 128, TRUE);
 	OutputLine(NULL, "ちょっといいかい。」",
-		   NULL, " Do you have a moment?\"", Line_Normal);
+		   NULL, " T'as une minute ?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　放課後、止んだ雨が再び降り出さない内に早く帰ろうと思った時、悟史に声を掛けられた。",
-		   NULL, "After school, as I was about to head home before the rain started up again, Satoshi called out to me.", Line_Normal);
+		   NULL, "Les cours venaient de se terminer et, alors que je m'apprêtais à vite m'en aller avant que la pluie ne retombe, Satoshi m'interpella.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -39,7 +39,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　見れば、魅音と礼奈も一緒だった。",
-		   NULL, "I looked up and saw Mion and Reina with him.", Line_WaitForInput);
+		   NULL, "En me retournant, je vis que Reina et Mion étaient avec lui.", Line_WaitForInput);
 	OutputLine(NULL, "……クラスの上級生軍団に呼び止められたことになる。",
 		   NULL, " ...I'd been stopped by the upperclassmen brigade.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
