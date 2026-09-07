@@ -120,7 +120,7 @@ void main()
 		   NULL, "\"Bon, je vais aller droit au but.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030037", 128, TRUE);
 	OutputLine(NULL, "みんなで仲良くなるために、どうしたらいいだろうねって相談だよ。」",
-		   NULL, " Il faut que l'on trouve un moyen pour instaurer une meilleure entente entre nous.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Il faut que l'on trouve un moyen d'instaurer une meilleure entente entre nous.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;＜魅音
@@ -142,13 +142,13 @@ void main()
 		   NULL, " J'aimerais que tu comprennes une chose.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030040", 128, TRUE);
 	OutputLine(NULL, "今の現状を招いたのは、梨花ちゃんにも多少の責任があるってこと。」",
-		   NULL, " Some of the responsibility for things ending up this way belongs to you, Rika-chan.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu as ta part de responsabilité dans ta situation actuelle, Rika.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210020", 128, TRUE);
 	OutputLine(NULL, "「…魅音、そんなこと今わざわざ言わなくても…。」",
-		   NULL, "\"...Mion, you didn't have to say that...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...T'as pas besoin d'être aussi crue, Mion...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -158,10 +158,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030041", 128, TRUE);
 	OutputLine(NULL, "「こういうのを教えてあげるのも上級生の役割だと思うけどな。",
-		   NULL, "\"I think it's an upperclassman's duty to explain these things.", Line_WaitForInput);
+		   NULL, "\"C'est notre rôle, en tant qu'aînés, d'expliquer ce genre de choses.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030042", 128, TRUE);
 	OutputLine(NULL, "…違う？」",
-		   NULL, " ...Isn't it?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Vous n'êtes pas d'accord ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -171,7 +171,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210021", 128, TRUE);
 	OutputLine(NULL, "「……むぅ。」",
-		   NULL, "\"...Mmph.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Hmm.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DrawSceneWithMask( "black", "effect/left", 0, 0, 500 );
@@ -179,17 +179,17 @@ void main()
 	//;＜悟史
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何やら面倒臭そうな話になりそうだった。",
-		   NULL, "This conversation didn't look like it would be a fun one.", Line_Normal);
+		   NULL, "La conversation avait l'air de prendre une tournure des plus déplaisantes.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あしらったりすると、かえって厄介になりそうなので、上辺だけでも聞いてるふりをしてやることにする。",
-		   NULL, "If I blew them off, it would probably only get worse, so I decided to just pretend I was listening.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Si je les envoyais chier, la situation ne ferait que se compliquer. Alors, autant faire mine d'écouter.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私のその沈黙を萎縮と受け取ったのか、礼奈は一層、明るそうに振る舞いながら話しかけてきた。",
-		   NULL, "Reina took my silence for me being dispirited, and she started speaking in a much more lighthearted tone.", Line_Normal);
+		   NULL, "Reina interprétait mon silence comme une perte de motivation de ma part, elle prit, en conséquence, un ton plus enjoué.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(1, 2, "sprite/re1a_def_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
@@ -198,7 +198,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020066", 128, TRUE);
 	OutputLine(NULL, "「梨花ちゃんだって、みんなとお友達で、楽しく楽しく遊べたら素敵だって思うでしょ？」",
-		   NULL, "\"Rika-chan, don't you think it'd be great if you could make friends with everyone and have lots of fun playing with them?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Rika, tu ne penses pas que ce serait génial si tu pouvais t'amuser avec tout le monde ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;＜レナ
