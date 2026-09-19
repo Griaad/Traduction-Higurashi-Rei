@@ -214,19 +214,19 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020067", 128, TRUE);
 	OutputLine(NULL, "「それでね。",
-		   NULL, "\"So we were thinking...", Line_WaitForInput);
+		   NULL, "\"Alors, voilà.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020068", 128, TRUE);
 	OutputLine(NULL, "みんなでね、仲良く遊べるようにどうすればいいのか、私たち考えたの。",
-		   NULL, " We were thinking about what we could do so you could get along with everybody.", Line_WaitForInput);
+		   NULL, " On s'est creusé la tête et on a trouvé un moyen de s'amuser tous ensemble.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020069", 128, TRUE);
 	OutputLine(NULL, "あははは、何だと思うかな、かな！」",
-		   NULL, " Ahahaha, what do you think about that? What do you?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ahahaha, devine ce que c'est, devine !\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050384", 128, TRUE);
 	OutputLine(NULL, "「……わかりませんです。」",
-		   NULL, "\"......I don't know.\"", Line_Normal);
+		   NULL, "\"......Je ne sais pas.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -236,13 +236,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210022", 128, TRUE);
 	OutputLine(NULL, "「梨花ちゃんは知らないと思うけど、魅音ってね。",
-		   NULL, "\"You may not know this, Rika-chan, but Mion...", Line_WaitForInput);
+		   NULL, "\"Tu ne le sais sûrement pas, Rika, mais Mion...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210023", 128, TRUE);
 	OutputLine(NULL, "色んなゲームを持ってるんだよ。",
-		   NULL, " She collects a lot of games.", Line_WaitForInput);
+		   NULL, " Elle adore collectionner les jeux de société, elle en a un tas chez elle.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210024", 128, TRUE);
 	OutputLine(NULL, "ね！」",
-		   NULL, " Right?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Pas vrai ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -253,14 +253,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030043", 128, TRUE);
 	OutputLine(NULL, "「まぁ、昔の趣味だけどね。",
-		   NULL, "\"Well, it's an old hobby of mine.", Line_WaitForInput);
+		   NULL, "\"Ouais, enfin ça remonte à quand j'étais petite.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030044", 128, TRUE);
 	OutputLine(NULL, "小さい頃に、どういうわけかボードゲームとかカードゲームをすごく集めてた時期があってね。",
-		   NULL, " When I was little, I collected a ton of board games and card games for some reason. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Pour je ne sais quelle raison, j'avais une obsession pour les jeux de cartes et de plateau, j'en ai donc accumulé beaucoup. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030045", 128, TRUE);
 	OutputLine(NULL, "最近は全然興味ないんだけど、まぁ、捨てるわけじゃなし、大量に在庫があったりするわけよ。」",
-		   NULL, "I haven't bothered with them at all recently, but I couldn't just get rid of them, so I have the whole lot piled up in storage.\"", Line_Normal);
+		   NULL, "Aujourd'hui, je vais te dire, je m'en fous un peu, mais bon, ce n'est pas une raison pour les jeter, j'en ai quand même un stock énorme.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -270,7 +270,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020070", 128, TRUE);
 	OutputLine(NULL, "「楽しそうなゲームがいっぱいあるのに、全然遊んでなくて埃を被ってるなんて、もったいないよね！",
-		   NULL, "\"She has all these fun games, but she won't play them with anyone, so they're just collecting dust. What a waste, right?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Elle a plein de jeux super amusants qui ne font que prendre la poussière. Quel gâchis...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -279,7 +279,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020071", 128, TRUE);
 	OutputLine(NULL, "私、あの泥棒役がサングラス掛けて遊ぶ、イギリスの泥棒ゲームやってみたいなぁ！」",
-		   NULL, "I want to play that British burglar game where the thief puts on sunglasses!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "J'ai toujours eu envie de jouer à ce jeu avec le voleur aux lunettes de soleil !\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -289,7 +289,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210025", 128, TRUE);
 	OutputLine(NULL, "「僕は、木の枝をどんどん繋げていく、あの積み木みたいなゲームをやってみたいよ。」",
-		   NULL, "\"I want to try the game where you connect tree branches like building blocks.\"", Line_Normal);
+		   NULL, "\"Et moi, j'ai bien envie d'essayer ce jeu où tu dois empiler des bâtons de bois comme des blocs.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -299,13 +299,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030046", 128, TRUE);
 	OutputLine(NULL, "「どのマニュアルも英語なんだけどなぁ！",
-		   NULL, "\"But all the manuals are in English!", Line_WaitForInput);
+		   NULL, "\"Par contre, les manuels ne sont qu'en anglais !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030047", 128, TRUE);
 	OutputLine(NULL, "　詩音の野郎がそういうののマニュアルを読むのだけは得意だったっけ。",
-		   NULL, " That Shion—reading those manuals was the only thing she was good at.", Line_WaitForInput);
+		   NULL, " Si seulement Shion était là ! Il n'y avait qu'elle qui savait lire ce genre de truc.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030048", 128, TRUE);
 	OutputLine(NULL, "…詩音に聞けば早いけど、学園行っちゃったからなぁ。」",
-		   NULL, " ...We could just ask her, but she goes to another school far away.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...J'pourrais lui demander, mais elle étudie bien trop loin d'ici maintenant.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
