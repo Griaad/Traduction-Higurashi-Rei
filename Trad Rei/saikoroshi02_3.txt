@@ -462,19 +462,19 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030051", 128, TRUE);
 	OutputLine(NULL, "「まだみんなが引っ越してっちゃう前さ。",
-		   NULL, "\"Before everyone moved away...", Line_WaitForInput);
+		   NULL, "\"Avant que tout le monde ne déménage...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030052", 128, TRUE);
 	OutputLine(NULL, "……梨花ちゃんってさ、お姫様だったよね？」",
-		   NULL, " Rika-chan, you were kinda like a princess, weren't you?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Rika, tu étais traitée comme une princesse, je me trompe ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;＜魅音
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050389", 128, TRUE);
 	OutputLine(NULL, "「……お姫様、",
-		   NULL, "\"......I was...", Line_Continue);
+		   NULL, "\"......J'étais...", Line_Continue);
 	OutputLine(NULL, "………ですか。」",
-		   NULL, " a princess?\"", Line_Normal);
+		   NULL, " une princesse ?\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -483,46 +483,46 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030053", 128, TRUE);
 	OutputLine(NULL, "「そう。",
-		   NULL, "\"Yep.", Line_WaitForInput);
+		   NULL, "\"Ouais.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030054", 128, TRUE);
 	OutputLine(NULL, "お姫様。",
-		   NULL, " A princess.", Line_WaitForInput);
+		   NULL, " Une vraie petite princesse.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030055", 128, TRUE);
 	OutputLine(NULL, "…梨花ちゃんは、男の子たちのグループの中で、何でもちやほやしてもらえるお姫様だったよね。",
-		   NULL, " ...Rika-chan, you were like a princess to that group of boys. You had them wrapped around your little finger.", Line_WaitForInput);
+		   NULL, " ...Tu étais la princesse d'un groupe de garçons. Tu les menais tous à la baguette.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030056", 128, TRUE);
 	OutputLine(NULL, "自分からは何もせず、常に彼らに何かをさせる。",
-		   NULL, " You didn't even need to do anything, you just let them act for you. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu ne faisais plus rien de toi-même, les garçons se chargeaient de tout. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030057", 128, TRUE);
 	OutputLine(NULL, "……富田くんや岡村くん、覚えてる？",
-		   NULL, "...Do you remember Tomita-kun and Okamura-kun?", Line_WaitForInput);
+		   NULL, "...Tu te souviens de Tomita et d'Okamura ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030058", 128, TRUE);
 	OutputLine(NULL, "　あの２人なんかは特にあんたが好きだったみたいだったから、あんたが言うことは何でもしたよね。",
-		   NULL, " They seemed to like you a lot, so they'd do whatever you told them to.", Line_WaitForInput);
+		   NULL, " Ces deux-là en particulier semblaient t'adorer. Ils obéissaient au moindre de tes ordres.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030059", 128, TRUE);
 	OutputLine(NULL, "あんたはその上にあぐらをかいて涼しそうにしてるだけだった。",
-		   NULL, " You just sat on your reputation, unconcerned. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu te la coulais douce, sans trop t'en soucier. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030060", 128, TRUE);
 	OutputLine(NULL, "そして、あんたに好意のある男の子たちを競わせるようなことをして、いっつも漁夫の利のような感じでちゃっかり得をしている。",
-		   NULL, "And you'd do things like make the boys who liked you compete, so you could always get the best deal, like a war profiteer.", Line_WaitForInput);
+		   NULL, "Tu faisais en sorte que les garçons qui t'appréciaient se battent entre eux, histoire de t'en tirer avec le plus d'avantage possible, tel un profiteur de guerre.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030061", 128, TRUE);
 	OutputLine(NULL, "そんなのを不愉快に思ってる子も、少なくなかったんだよ。",
-		   NULL, " A lot of kids didn't think that was very fair. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ça agaçait beaucoup d'élèves ici, tu piges ? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030062", 128, TRUE);
 	OutputLine(NULL, "だから、そういう男の子たちが偶然にもみんな引っ越しちゃってアンタだけが取り残された時、ざまーみろって言ってる子もいたんだよ。」",
-		   NULL, "So when those boys all moved out at the same time, by coincidence, and only you were left behind, some of those kids thought you got what you deserved.\"", Line_Normal);
+		   NULL, "Ensuite, par coïncidence, tous les garçons ont déménagé en même temps, te laissant ainsi pour compte derrière eux. Tu te doutes bien que beaucoup de ces mêmes élèves aient pensé que c'était amplement mérité.\"", Line_Normal);
 	ClearMessage();
 	//;＜魅音
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………そんなの、",
-		   NULL, "......None of that...", Line_ContinueAfterTyping);
+		   NULL, "......Tout ça...", Line_ContinueAfterTyping);
 	Wait( 1000 );
 	OutputLine(NULL, "「私」の話じゃない。",
-		   NULL, " was about \"me.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " n'avait rien à voir avec \"moi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
@@ -536,20 +536,20 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020076", 128, TRUE);
 	OutputLine(NULL, "「…梨花ちゃん。",
-		   NULL, "\"...Rika-chan.", Line_WaitForInput);
+		   NULL, "\"...Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020077", 128, TRUE);
 	OutputLine(NULL, "君にしてる話だよ。",
-		   NULL, " We're talking about you.", Line_WaitForInput);
+		   NULL, " C'est bien de toi qu'on parle.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020078", 128, TRUE);
 	OutputLine(NULL, "魅ぃちゃんの話、聞いてあげて。」",
-		   NULL, " Please listen to what Mii-chan is saying.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Écoute ce que Mii a à te dire s'il te plaît.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;＜レナ
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050390", 128, TRUE);
 	OutputLine(NULL, "「……………………聞いてますですよ。」",
-		   NULL, "\"............I am.\"", Line_Normal);
+		   NULL, "\"............J'écoute..\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -558,7 +558,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020079", 128, TRUE);
 	OutputLine(NULL, "「聞いてないよ。",
-		   NULL, "\"No, you're not.", Line_WaitForInput);
+		   NULL, "\"Non, tu n'écoutes pas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020080", 128, TRUE);
 	OutputLine(NULL, "…梨花ちゃんは、自分とは関係ない話だと思ってる。",
 		   NULL, " ...Rika-chan, you think it doesn't have anything to do with you.", Line_WaitForInput);
