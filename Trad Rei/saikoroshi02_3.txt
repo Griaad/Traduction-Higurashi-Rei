@@ -363,7 +363,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210028", 128, TRUE);
 	OutputLine(NULL, "「クラスの誰もが参加できるんだよ。",
-		   NULL, "\"Tout le monde dans la classe pourra jouer.", Line_WaitForInput);
+		   NULL, "\"Tout le monde dans la classe pourra participer.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210029", 128, TRUE);
 	OutputLine(NULL, "そこでみんなで遊んでいる内に、きっと梨花ちゃんもいつの間にかみんなの輪に溶け込んでると思うんだ。」",
 		   NULL, " Je suis sûr que, sans même t'en rendre compte, tu t'intégreras au reste de la classe pendant que tu joueras.\"", GetGlobalFlag(GLinemodeSp));
