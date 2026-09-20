@@ -561,10 +561,10 @@ void main()
 		   NULL, "\"Non, tu n'écoutes pas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020080", 128, TRUE);
 	OutputLine(NULL, "…梨花ちゃんは、自分とは関係ない話だと思ってる。",
-		   NULL, " ...Rika-chan, you think it doesn't have anything to do with you.", Line_WaitForInput);
+		   NULL, " ...Tu penses que tout ce qu'on te raconte ne te concerne pas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020081", 128, TRUE);
 	OutputLine(NULL, "……そうでしょ？」",
-		   NULL, " ...Am I right?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...N'est-ce pas ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;＜レナ
