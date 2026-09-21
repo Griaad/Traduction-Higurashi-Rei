@@ -678,43 +678,44 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これまでの自分がそうでないという保証はなかった。",
-		   NULL, "There was no guarantee I wasn't one until now.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rien ne garantissait que je n'en étais pas une jusqu'ici.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…部活メンバーで一番可愛がられていて、…レナやクラスの男子にちやほやされて、沙都子や圭一の失敗を嘲笑って涼やかに漁夫の利を得る。",
-		   NULL, "...Loved the most of all the club members... Rena and the boys in the class pampering me, laughing at Satoko and Keiichi's failures as I coolly profited from their conflict.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Une fille chouchoute du club... Choyée par Rena et les garçons de la classe tandis qu'elle se moquait des bourdes de Satoko et de Keiichi. N'hésitant pas à tourner la situation à son avantage quand ils se disputaient. 
+", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分からは何もせず、人から与えられる好意を貪り食うことしかしない。",
-		   NULL, "Without giving anything myself, I just greedily devoured the good will people poured upon me.", Line_Normal);
+		   NULL, "Elle ne faisait rien d'elle même et restait les bras croisés à profiter égoïstement de tout l'amour dont on la gavait.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……それは確かに、「私」のことだった。",
-		   NULL, "...They were right. That was \"me.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Ils avaient raison. Cette fille, c'était bien \"moi\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…この悲しくて寂しい世界を受け入れたくなくて乖離した「私」のこと。",
-		   NULL, "...\"I\" hadn't wanted to accept this sad, lonely world, and set myself apart.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...\"Moi,\"qui me suis isolée, ne voulant pas accepter de vivre dans ce monde triste et solitaire.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、彼らが「私」に言っているわけはない。",
-		   NULL, "But, of course, they couldn't have actually been talking about \"me.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mais ils ne s'adressaient pas vraiment à \"moi,\"c'était impossible.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、…なぜかわけもわからず、不愉快だった。",
-		   NULL, "So... though I didn't know the reason, I was still upset.", Line_Normal);
+		   NULL, "C'est pourquoi la raison de mon agacement demeurait inconnue.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(1, 7, "sprite/sato1_def2_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
@@ -723,10 +724,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210037", 128, TRUE);
 	OutputLine(NULL, "「部活にはね、沙都子も加えようと思うんだ。",
-		   NULL, "\"We were thinking of having Satoko join the club too.", Line_WaitForInput);
+		   NULL, "\"On a aussi l'intention d'inviter Satoko à rejoindre le club.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210038", 128, TRUE);
 	OutputLine(NULL, "…沙都子だって、意地っ張りだから直接はなかなか言えないけど、梨花ちゃんと仲直りしたいって思ってるんだよ。」",
-		   NULL, " ...She's really stubborn, so she won't say it, but she wants to get along with you, Rika-chan.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...C'est une fille très têtue, elle ne te le dira pas en face, mais elle aimerait beaucoup se réconcilier avec toi Rika.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -736,13 +737,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020082", 128, TRUE);
 	OutputLine(NULL, "「どう？",
-		   NULL, "\"How does that sound?", Line_WaitForInput);
+		   NULL, "\"Alors, t'en penses quoi ? ", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020083", 128, TRUE);
 	OutputLine(NULL, "　ゲーム部の部活に梨花ちゃんも参加してみない？",
-		   NULL, " Do you want to try being in our game club, Rika-chan?", Line_WaitForInput);
+		   NULL, " Tu veux bien rejoindre notre club de jeux, Rika ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020084", 128, TRUE);
 	OutputLine(NULL, "　きっと楽しいと思うよ〜！」",
-		   NULL, " I'm sure it will be a lot of fun~!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu verras, ce sera rigolo~!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -752,13 +753,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030066", 128, TRUE);
 	OutputLine(NULL, "「…こんな辺りからでもさ。",
-		   NULL, "\"...Or, think of it this way.", Line_WaitForInput);
+		   NULL, "\"...Ou sinon, autrement dit.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030067", 128, TRUE);
 	OutputLine(NULL, "自分を変えようと小さな努力を始めてみない？",
-		   NULL, " Do you want to...", Line_WaitForInput);
+		   NULL, " Tu veux bien...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030068", 128, TRUE);
 	OutputLine(NULL, "　ってこと。」",
-		   NULL, " start putting in a little bit of effort to change yourself?\"", Line_Normal);
+		   NULL, " mettre du tiens pour commencer à changer ?\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -768,7 +769,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020085", 128, TRUE);
 	OutputLine(NULL, "「最初はぎくしゃくすることもあるかもしれない。",
-		   NULL, "\"Some things might be awkward at first.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Tu seras peut-être un peu gênée au début.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -777,14 +778,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020086", 128, TRUE);
 	OutputLine(NULL, "…でもね、きっとその内、仲良しになれると思うの。",
-		   NULL, "...But I'm sure you'll get along with everyone sooner or later.", Line_WaitForInput);
+		   NULL, "...Mais je suis convaincue que, tôt ou tard, tu te lieras d'amitié avec tout le monde.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020087", 128, TRUE);
 	OutputLine(NULL, "だって、みんなだって梨花ちゃんとお友達になりたいと思ってるし、",
-		   NULL, " After all, everyone wants to be your friend, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Après tout, la classe entière souhaite devenir ton ami, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020088", 128, TRUE);
 	OutputLine(NULL, "梨花ちゃんもみんなとお友達になりたいと思ってるなら、…双方が手を伸ばしあってるんだもん。",
-		   NULL, "and if you want to be their friend too... then you're both reaching out your hands.", Line_WaitForInput);
+		   NULL, "Et si c'est ton cas à toi aussi, alors tu n'as qu'à attraper la main qu'ils te tendent.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020089", 128, TRUE);
 	OutputLine(NULL, "届かないわけない。」",
 		   NULL, " I'm sure you'll meet in the middle.\"", GetGlobalFlag(GLinemodeSp));
