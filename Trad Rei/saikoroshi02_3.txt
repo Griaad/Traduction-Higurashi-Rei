@@ -857,7 +857,7 @@ void main()
 		   NULL, "\"...Nous te devons aussi des excuses, Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020091", 128, TRUE);
 	OutputLine(NULL, "……実はさっき、",
-		   NULL, " ...Mais je dois t'avouer quelque chose...", Line_Continue);
+		   NULL, " ...Je dois t'avouer quelque chose...", Line_Continue);
 	Wait( 1600 );
 	OutputLine(NULL, "…お手洗いに行く時、保健室で山本先生としてる話、",
 		   NULL, " when we went to wash our hands, and you were talking with Yamamoto-sensei in the nurse's office...", Line_Continue);
