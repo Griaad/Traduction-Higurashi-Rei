@@ -513,7 +513,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030062", 128, TRUE);
 	OutputLine(NULL, "だから、そういう男の子たちが偶然にもみんな引っ越しちゃってアンタだけが取り残された時、ざまーみろって言ってる子もいたんだよ。」",
-		   NULL, "Ensuite, par coïncidence, tous les garçons ont déménagé en même temps, te laissant ainsi pour compte derrière eux. Tu te doutes bien que beaucoup de ces mêmes élèves aient pensé que tu l'avais amplement mérité.\"", Line_Normal);
+		   NULL, "Ensuite, par coïncidence, tous les garçons ont déménagé en même temps, te laissant ainsi pour compte derrière eux. Tu te doutes bien que beaucoup ici aient pensé que tu l'avais amplement mérité.\"", Line_Normal);
 	ClearMessage();
 	//;＜魅音
 
@@ -758,7 +758,7 @@ void main()
 		   NULL, " Tu veux bien...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030068", 128, TRUE);
 	OutputLine(NULL, "　ってこと。」",
-		   NULL, " mettre du tiens pour commencer à changer ?\"", Line_Normal);
+		   NULL, " faire des efforts pour commencer à changer ?\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -800,7 +800,7 @@ void main()
 		   NULL, "\"Et puis, regarde, nous aussi, on te tend la main.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210040", 128, TRUE);
 	OutputLine(NULL, "あとは梨花ちゃんが掴むだけ。」",
-		   NULL, " Tout ce qu'il te reste à faire, c'est la saisir., Rika.\"", Line_Normal);
+		   NULL, " Tout ce qu'il te reste à faire, c'est la saisir, Rika.\"", Line_Normal);
 	ClearMessage();
 	//;＜悟史
 
@@ -860,15 +860,15 @@ void main()
 		   NULL, " ...Je dois t'avouer quelque chose...", Line_Continue);
 	Wait( 1600 );
 	OutputLine(NULL, "…お手洗いに行く時、保健室で山本先生としてる話、",
-		   NULL, " when we went to wash our hands, and you were talking with Yamamoto-sensei in the nurse's office...", Line_Continue);
+		   NULL, " En allant nous laver les mains aux toilettes, nous sommes passés devant l'infirmerie pendant que tu y étais et...", Line_Continue);
 	OutputLine(NULL, "……ちょっとだけ聞いちゃったの。」",
-		   NULL, " we might have overheard you a tiny bit.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " on a quelque peu écouté votre conversation.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;＜レナ
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　礼奈が申し訳なさそうな表情を浮かべる。",
-		   NULL, "Reina gave me an apologetic look.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Reina m'a regardé avec un air désolé.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
