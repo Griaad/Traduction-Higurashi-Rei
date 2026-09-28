@@ -570,7 +570,7 @@ void main()
 	//;＜レナ
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…礼奈であっても、妙なところで勘が鋭いのは同じようだ。",
-		   NULL, "...Qu'il s'agisse de Rena ou de Reina, son intuition pour ce genre de choses demeurait la même.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Qu'il s'agisse de Rena ou de Reina, son intuition pour ce genre de choses était toujours aussi terrifiante.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -868,22 +868,22 @@ void main()
 	//;＜レナ
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　礼奈が申し訳なさそうな表情を浮かべる。",
-		   NULL, "Reina m'a regardé avec un air désolé.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Reina me regarda avec un air désolé.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…この世界の人間が聞いたなら、電波塗れだと思うに違いないあの会話を、他にも聞いていた人間がいたとは…。",
-		   NULL, "...I never thought others would be listening to that conversation, which must have sounded like garbled nonsense to anyone from this world...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Je n'aurais jamais pensé que d'autres personnes écouteraient cette conversation qui, de toute façon, était du charabia pour les personnes de ce monde...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それで私のことを気持ち悪がって近寄らなくなるなら理解もできるが、",
-		   NULL, "I'd understand if it weirded them out and they didn't want to come near me...", Line_ContinueAfterTyping);
+		   NULL, "J'aurais compris si cette histoire les avait gênés au point de vouloir garder leurs distances...", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "……その結果がなぜこれになるのか、少し理解できなかった。",
-		   NULL, " but I couldn't quite understand why it had resulted in this.", Line_Normal);
+		   NULL, " mais alors, pourquoi cela a-t-il donné ce résultat-là ?", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -892,10 +892,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020092", 128, TRUE);
 	OutputLine(NULL, "「……梨花ちゃんが言ってた世界って、…みんなが仲良しでとっても楽しい世界なんだよね。",
-		   NULL, "\"...The world you were talking about, Rika-chan... It sounds like a really fun world, where everyone gets along together.", Line_WaitForInput);
+		   NULL, "\"...Le monde dont tu parlais, Rika... c'est un endroit où tout le monde s'entend et s'amuse ensemble.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020093", 128, TRUE);
 	OutputLine(NULL, "…梨花ちゃんはそこへ帰りたいって、言ってたよね。」",
-		   NULL, " ...You said you wanted to go back there, right, Rika-chan?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Tu disais vouloir y retourner, c'est ça, Rika ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;＜レナ
@@ -911,7 +911,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020094", 128, TRUE);
 	OutputLine(NULL, "「だからね、私たち話し合って、…梨花ちゃんがその世界へ戻れる方法を考えたの。」",
-		   NULL, "\"So we talked, and... thought about how we could bring you back there.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Alors, on a discuté et... on s'est demandé comment faire pour que tu puisses retrouver ton ancien monde.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -922,7 +922,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210041", 128, TRUE);
 	OutputLine(NULL, "「…といっても、もちろん引っ越しちゃった富田くんや岡村くんたちを呼び戻すわけじゃないけどね。」",
-		   NULL, "\"...Still, it's not like we can call back Tomita-kun and Okamura-kun now that they moved.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Bien sûr, on ne pourra pas faire revenir Okamura et Tomita maintenant qu'ils sont partis. \"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -932,29 +932,29 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020095", 128, TRUE);
 	OutputLine(NULL, "「うん。",
-		   NULL, "\"Yep.", Line_WaitForInput);
+		   NULL, "\"Oui.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020096", 128, TRUE);
 	OutputLine(NULL, "元の世界へ戻ることって、誰もが望むことだと思うけど、…それって、ゼッタイデキナイコトだと思うの。」",
-		   NULL, " I think everyone wants to go back to that old world... but I think that's definitely impossible.\"", Line_Normal);
+		   NULL, " Je pense que tout le monde souhaite retourner dans cet ancien monde... mais je crois que c'est tout bonnement impossible.\"", Line_Normal);
 	ClearMessage();
 	//;＜レナ
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050393", 128, TRUE);
 	OutputLine(NULL, "「………え？」",
-		   NULL, "\"......Huh?\"", Line_Normal);
+		   NULL, "\"......Hein ?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ぎょっとする。",
-		   NULL, "That startled me.", Line_WaitForInput);
+		   NULL, "Ses derniers mots me surprirent.", Line_WaitForInput);
 	OutputLine(NULL, "……礼奈が「私」の「元の世界」のことを理解できるわけがない。",
-		   NULL, " ...There was no way Reina knew about \"me\" and my \"old world.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Il est impossible que Reina soit au courant pour  \"moi\" et mon \"ancien monde.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　にもかかわらず…、礼奈の言った言葉が、意味深に感じられ私の胸に突き刺さる…。",
-		   NULL, "Even still... her words felt full of meaning, and they echoed in my heart...", Line_Normal);
+		   NULL, "Et pourtant... ses paroles étaient pleines de sens et me touchèrent en plein cœur....", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -963,10 +963,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020097", 128, TRUE);
 	OutputLine(NULL, "「…壊れたコップのカケラをどう未練がましく拾おうとしてもね、カケラはカケラ。",
-		   NULL, "\"...You can gather all the fragments of the cup together, but they're just fragments.", Line_WaitForInput);
+		   NULL, "\"...Tu peux t'acharner à rassembler tous les fragments d'un verre brisé, ils ne resteront que des fragments.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020098", 128, TRUE);
 	OutputLine(NULL, "一度砕けちゃったものは、もう戻らないの。」",
-		   NULL, " Once it breaks, it can't go back to the way it was.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Une fois qu'il a été détruit, il ne pourra plus retrouver sa forme d'origine.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;＜レナ
@@ -982,13 +982,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020099", 128, TRUE);
 	OutputLine(NULL, "「でもね、コップはひとつじゃない。",
-		   NULL, "\"But there's more than one cup.", Line_WaitForInput);
+		   NULL, "\"Mais, heureusement, il n'existe pas qu'un seul verre.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020100", 128, TRUE);
 	OutputLine(NULL, "壊れたコップは惜しいだろうけど、また探せばいいんだよ。",
-		   NULL, " It's a shame the cup broke, but you can always look for another one.", Line_WaitForInput);
+		   NULL, " C'est dommage qu'il soit cassé, c'est vrai, mais il te suffit d'en chercher un autre.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020101", 128, TRUE);
 	OutputLine(NULL, "でも、砕けたコップのカケラを見つめてうな垂れている内はゼッタイに見つけられない。」",
-		   NULL, " But if you look down at the broken cup forever, you'll never, ever find it.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Si tu te lamentes sur le verre brisé toute ta vie, tu ne pourras jamais en trouver d'autres.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -998,13 +998,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210042", 128, TRUE);
 	OutputLine(NULL, "「……つまりね、梨花ちゃん。",
-		   NULL, "\"...Here's what we mean, Rika-chan.", Line_WaitForInput);
+		   NULL, "\"...Ce qu'on essaie de te dire, Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210043", 128, TRUE);
 	OutputLine(NULL, "引っ越してしまった梨花ちゃんの親しかった友達はもう呼び戻せないけど、",
-		   NULL, " You can't get your good friends who moved away to come back here...", Line_WaitForInput);
+		   NULL, " C'est que tu ne peux plus faire revenir tes anciens amis proches...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210044", 128, TRUE);
 	OutputLine(NULL, "…なら、それに負けないくらいの友達をまた作ればいいんだよ。」",
-		   NULL, " so you just have to make new friends who are just as good as they were.\"", Line_Normal);
+		   NULL, " alors autant t'en faire de nouveaux qui seront tout aussi formidables.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1014,7 +1014,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020102", 128, TRUE);
 	OutputLine(NULL, "「きっとそうして作った世界は、梨花ちゃんの元の世界に限りなく近い世界になると思うの。",
-		   NULL, "\"I think a world like that would be really close to the one you came from, Rika-chan.", Line_WaitForInput);
+		   NULL, "\"Et je pense que, de cette manière, on pourra recréer un monde vraiment proche du tien, Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020103", 128, TRUE);
 	OutputLine(NULL, "…もちろんまったく同じにはならない。",
 		   NULL, " ...It wouldn't be exactly the same, of course.", Line_WaitForInput);
