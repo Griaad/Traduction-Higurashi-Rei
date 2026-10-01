@@ -1020,7 +1020,7 @@ void main()
 		   NULL, " ...Bien sûr, ce ne sera pas exactement pareil.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020104", 128, TRUE);
 	OutputLine(NULL, "でもね、それが一番、元の世界に近付ける方法だと思うな。」",
-		   NULL, " Mais on ne peut rien avoir de plus proche.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mais c'est ce qu'on peut avoir de plus proche.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1030,13 +1030,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030069", 128, TRUE);
 	OutputLine(NULL, "「そうすることでさ。",
-		   NULL, "\"And by doing that...", Line_WaitForInput);
+		   NULL, "\"Et de cette manière...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030070", 128, TRUE);
 	OutputLine(NULL, "前よりも素敵な関係を築けるってことはあるよね。",
-		   NULL, " you can make even stronger relationships than you had before.", Line_WaitForInput);
+		   NULL, " tu pourras tisser des liens encore plus forts qu'avant.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030071", 128, TRUE);
 	OutputLine(NULL, "雨降って地面が何とやらって言うでしょ。」",
-		   NULL, " You know what they say—when it rains, the ground gets harder. Or something like that, anyway.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu sais ce qu'on dit, après la pluie vient le beau temps.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1046,16 +1046,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210045", 128, TRUE);
 	OutputLine(NULL, "「どう？",
-		   NULL, "\"What do you think,", Line_WaitForInput);
+		   NULL, "\"T'en dis quoi,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210046", 128, TRUE);
 	OutputLine(NULL, "　梨花ちゃん。",
-		   NULL, " Rika-chan?", Line_WaitForInput);
+		   NULL, " Rika ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210047", 128, TRUE);
 	OutputLine(NULL, "僕たちも梨花ちゃんがみんなに早く馴染めるよう応援する。",
-		   NULL, " We'll help out, so you can make new friends quickly.", Line_WaitForInput);
+		   NULL, " On sera là pour t'aider à te faire de nouveaux amis rapidement", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210048", 128, TRUE);
 	OutputLine(NULL, "だから、僕たちと一緒にがんばってみないかな。」",
-		   NULL, " Would you like to give it a try?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Alors, ça te dirait d'essayer ?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;＜悟史
@@ -1069,24 +1069,24 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その言葉は、この世界の古手梨花が言われたなら涙すべきやさしい言葉だろう。",
-		   NULL, "Those gentle words would have been tearworthy if they'd been said to this world's Rika Furude.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Une telle bienveillance aurait sûrement fait pleurer la Rika Furude de ce monde.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だが、「私」が乗っ取ってしまった以上、古手梨花はもういない。",
-		   NULL, "...But now that \"I\" had possessed her, she was gone.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Or elle n'existait plus, puisque c'était \"moi\" qui avais le contrôle de son corps.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……彼らが声を掛けている古手梨花はすでにこの世界の住人ではないのだ。",
-		   NULL, "...The Rika Furude they were talking to was no longer of this world.", Line_Normal);
+		   NULL, "...Ils s'adressaient tous à une Rika Furude qui n'était plus de ce monde.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………この体を、いっそ古手梨花に返してやりたいとも思う。",
-		   NULL, "......I thought to myself that I should just give this body back to her.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Peut-être que je devrais rendre son corps à cette Rika.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
