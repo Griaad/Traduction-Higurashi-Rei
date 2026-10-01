@@ -1017,10 +1017,10 @@ void main()
 		   NULL, "\"Et je pense que, de cette manière, on pourra recréer un monde vraiment proche du tien, Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020103", 128, TRUE);
 	OutputLine(NULL, "…もちろんまったく同じにはならない。",
-		   NULL, " ...It wouldn't be exactly the same, of course.", Line_WaitForInput);
+		   NULL, " ...Bien sûr, ce ne sera pas exactement pareil.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020104", 128, TRUE);
 	OutputLine(NULL, "でもね、それが一番、元の世界に近付ける方法だと思うな。」",
-		   NULL, " But I think it's as close as you're going to get.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mais on ne peut rien avoir de plus proche.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
