@@ -1069,7 +1069,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その言葉は、この世界の古手梨花が言われたなら涙すべきやさしい言葉だろう。",
-		   NULL, "Une telle bienveillance aurait sûrement fait pleurer la Rika Furude de ce monde.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Une telle bienveillance aurait à coup sûr fait pleurer la Rika Furude de ce monde.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1093,46 +1093,46 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そうすれば、平行世界の辺境に住む１人の私は、少しずつ幸せな世界へ運命を変えていく切っ掛けを得られるだろう。",
-		   NULL, "If I did, the me living in this remote parallel universe would have the chance to change her fate and make this world a happy one, if only little by little.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Elle aura ainsi la chance de changer son destin, petit à petit, afin de bâtir un monde heureux ici.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…「私」は元の世界へ帰り、残されたこの体を古手梨花に返せたなら。",
-		   NULL, "...If I went back to my old world, and gave this leftover body back to Rika Furude...", Line_Normal);
+		   NULL, "...Si seulement je pouvais retourner dans mon ancien monde et laisser ce corps désuet à Rika Furude....", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、それはできない。",
-		   NULL, "But I couldn't do that.", Line_Normal);
+		   NULL, "Malheureusement, c'était impossible.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なぜなら、「私」がこの世界を出る、というのは、……カケラをこの世界から神の世界へ戻すのと同じ方法が必要になるからだ。",
-		   NULL, "Because for \"me\" to leave this world... would require the same method as returning the Fragment from this world to the world of the gods.", Line_Normal);
+		   NULL, "Car pour \"moi\"... quitter ce monde reviendrait à employer la même méthode que celle utilisée pour envoyer un fragment de ce monde vers celui des dieux.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、「私」の死。",
-		   NULL, "In other words, \"my\" death.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "En d'autres termes, \"je\" devais mourir.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「私」が死ぬことでしか、「私」はいなくならない。",
-		   NULL, "Only \"my\" death could make \"me\" go away.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Seule \"ma\" mort pourra \"me\" faire partir.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……ということは、「私」が古手梨花を乗っ取った時点で、古手梨花はすでに死んでいるのと同じことなのだ。",
-		   NULL, "...Which meant at the point \"I\" took over for Rika Furude, she was the same as dead.", Line_Normal);
+		   NULL, "...De ce fait, à compter de l'instant où \"je\" me suis emparé de son corps, Rika Furude était comme morte.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………でも、ひょっとしたらひとつだけ、この体を古手梨花に返す方法があるかもしれない。",
-		   NULL, "......But, maybe, just maybe, there was one way to return this body to Rika Furude.", Line_Normal);
+		   NULL, "......Mais il se pouvait bien que, peut-être, il y eût encore un moyen de rendre ce corps à Rika Furude.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "white", 600 );
