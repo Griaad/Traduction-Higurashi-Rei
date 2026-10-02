@@ -1140,7 +1140,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは、別の形で「私」が死ぬことだ。",
-		   NULL, "That would be for \"me\" to die a different way.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pour ce faire, il fallait que \"je\" meure différemment.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
