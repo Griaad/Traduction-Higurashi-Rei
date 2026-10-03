@@ -1122,7 +1122,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「私」が死ぬことでしか、「私」はいなくならない。",
-		   NULL, "Seule \"ma\" mort pourra \"me\" faire partir.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Seule \"mon\" décès pourra \"me\" faire partir.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1145,37 +1145,37 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…「私」は、別に寄生虫でもなんでもない。",
-		   NULL, "...\"I\" wasn't a parasite or anything.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Ce n'était pas comme si \"j'\"étais un parasite non plus", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…難しく言えば、別の世界を自覚した人格。",
-		   NULL, "...In difficult-to-understand terms, I was an individual personality aware of other universes.", Line_WaitForInput);
+		   NULL, "...En des termes plus savants, j'étais une entité à part entière, consciente de la pluralité des univers.", Line_WaitForInput);
 	OutputLine(NULL, "いや、別の世界を自覚した記憶とでも言えるかもしれない。",
-		   NULL, " Or maybe I should call myself a memory aware of other universes.", Line_Normal);
+		   NULL, " Ou peut-être devrais-je plutôt me considérer comme une réminiscence consciente de l'existence d'autres mondes.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だからつまり、",
-		   NULL, "And that meant...", Line_WaitForInput);
+		   NULL, "Dans ce cas...", Line_WaitForInput);
 	OutputLine(NULL, "……別の世界のことを忘れられたなら、それは「私」の死と同じことを示す。",
-		   NULL, " that if I could forget about the other worlds, that would represent the same thing as \"me\" dying.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " si je venais à oublier l'existence même des autres mondes, cela équivaudrait pour \"moi\" à mourir.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花にはこの世界しかないのだから、この世界を精一杯生きる。",
-		   NULL, "This world was the only world for Rika Furude, and she would live the best she could in it.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pour Rika Furude, il s'agissait de son seul et unique monde, elle vivrait alors chaque instant de sa vie à fond.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そうすれば、「私」は次第に忘れられ、",
-		   NULL, "...If so, \"I\" would gradually forget...", Line_WaitForInput);
+		   NULL, "...Ainsi, \"je\" serais petit à petit oubliée...", Line_WaitForInput);
 	OutputLine(NULL, "自分がどこの世界に住んでいたのかも曖昧になり、",
-		   NULL, " eventually losing my grasp on which world I had lived in...", Line_WaitForInput);
+		   NULL, " incapable de me souvenir des mondes dans lequels j'ai vécu...", Line_WaitForInput);
 	OutputLine(NULL, "…今生きているこの世界を生きるのに一生懸命になる。",
-		   NULL, " and try my hardest to live in the world I was in now.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " tout en m'efforçant de vivre dans le monde où je me trouvais.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1183,16 +1183,16 @@ void main()
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……つまりそれは、",
-		   NULL, "...Which meant...", Line_ContinueAfterTyping);
+		   NULL, "...Cela signifiait donc...", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "…元の世界を諦め、",
-		   NULL, " that giving up on my previous world,", Line_ContinueAfterTyping);
+		   NULL, " que seule \"moi\ " ,", Line_ContinueAfterTyping);
 	Wait( 900 );
 	OutputLine(NULL, "この世界で生きることを、",
-		   NULL, " and living in this one,", Line_ContinueAfterTyping);
+		   NULL, " pouvait prendre la décision d'abandonner mon ancien monde,", Line_ContinueAfterTyping);
 	Wait( 1000 );
 	OutputLine(NULL, "「私」が決意するだけで可能なのだ。",
-		   NULL, " was possible simply if \"I\" decided to do it.", Line_Continue);
+		   NULL, " au profit de celui-ci.", Line_Continue);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
