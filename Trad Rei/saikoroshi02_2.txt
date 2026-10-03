@@ -512,7 +512,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いや、ひょっとすると、「私」が訪れる前からずっとそうだった。",
-		   NULL, "En fait, peut-être même que les choses ont toujours été ainsi avant que \"moi\" n'arrive.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "En fait, peut-être que les choses ont toujours été ainsi avant que \"je\" n'arrive.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
