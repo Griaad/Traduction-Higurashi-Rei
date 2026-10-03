@@ -1186,7 +1186,7 @@ void main()
 		   NULL, "...Cela signifiait donc...", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "…元の世界を諦め、",
-		   NULL, " que seule \"moi\ " ,", Line_ContinueAfterTyping);
+		   NULL, " que seule \"moi\" ,", Line_ContinueAfterTyping);
 	Wait( 900 );
 	OutputLine(NULL, "この世界で生きることを、",
 		   NULL, " pouvait prendre la décision d'abandonner mon ancien monde,", Line_ContinueAfterTyping);
