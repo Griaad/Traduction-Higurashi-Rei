@@ -983,7 +983,7 @@ void main()
 		   NULL, " La règle la plus importante de la balle aux prisonniers, c'est de viser les plus faibles d'abord !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030012", 128, TRUE);
 	OutputLine(NULL, "　私を狙うのは戦略ミスだよ！",
-		   NULL, " Essayer de m'atteindre était une erreur tactique !", Line_WaitForInput);
+		   NULL, " Essayer de m'atteindre en premier était une erreur tactique !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030013", 128, TRUE);
 	OutputLine(NULL, "　そぉれ次にトロいヤツはお前さ！！」",
 		   NULL, " Et le prochain... c'est toi !!!\"", GetGlobalFlag(GLinemodeSp));
@@ -1610,7 +1610,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2028", 128, TRUE);
 	OutputLine(NULL, "「何でもないかは医者が決める。",
-		   NULL, "\"C'est le travail du docteur de décider si ce n'est rien ou pas.", Line_WaitForInput);
+		   NULL, "\"C'est le travail du docteur de décider si c'est graave ou pas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/vt4c_docm2029", 128, TRUE);
 	OutputLine(NULL, "ワシがいいというまでそこに横になっていなさい。",
 		   NULL, " Allonge-toi pour le moment, je te ferai signe quand tu pourras y aller.", Line_WaitForInput);
@@ -1629,7 +1629,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　言い返せば言い返すほどにややこしくなるような気がして、私はこの場をやり過ごすためだけに、取り合えず素直に従うことにする…。",
-		   NULL, "J'avais l'impression que plus j'essaierais d'en dire, plus la situation deviendrait compliquée, donc pour le moment, je décidai de jouer le jeu afin d'enfin pouvoir m'en aller...", Line_Normal);
+		   NULL, "J'avais l'impression que plus j'essaierais d'en dire, plus la situation deviendrait compliquée, donc pour le moment, je décidai de jouer le jeu afin de pouvoir m'en aller...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -4801,7 +4801,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　すると、いつの間にか自分は御神体の前の祭壇のところへ来ていた。",
-		   NULL, "Sans m'en rendre compte, je me suis approchée de l'autel, juste en face de l'objet sacré.", Line_Normal);
+		   NULL, "Sans m'en rendre compte, je me suis approchée de l'autel, juste en face de la statue de la déesse.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -6300,7 +6300,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…あぁ、そうか、禁足の祭具殿に私が踏み入っているからか。",
-		   NULL, ".....Orrrh c’était vrai, j'avais illégalement pénétré dans le temple des reliques sacrées.", GetGlobalFlag(GLinemodeSp));
+		   NULL, ".....Orrrh c’est vrai, j'avais illégalement pénétré dans le temple des reliques sacrées.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -6352,7 +6352,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、だいぶ長いこと忘れていた折檻を受けるはめになるのだった。",
-		   NULL, "Dès lors, je fus sermonnée, je n'y avais pas goûté depuis bien longtemps.", Line_Normal);
+		   NULL, "Dès lors, je fus sermonnée, je n'y avais pas goûté depuis belle lurette.", Line_Normal);
 	ClearMessage();
 
 
@@ -6364,14 +6364,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５６年を、この世界では運良く潜り抜けられたと思ったら、私が元の世界へ帰るのを邪魔までするなんて…！",
-		   NULL, "Alors que je pensais que c’était une bonne chose qu’ils aient survécu après l’an 1981, voilà qu’ils se mettent en travers de ma route !", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Moi qui pensais que c’était une bonne chose qu’ils aient survécu après l’an 1981, voilà qu’ils se mettent en travers de ma route !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　祭具殿の中で、羽入の名をあれだけ大声で呼んでいたから、気配を悟られてしまったのだろう。",
-		   NULL, "Faut dire que j'avais crié le nom d'Hanyû d'une très forte voix, il m'a sûrement entendue.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Faut dire que j'avais crié le nom d'Hanyû d'une très forte voix, il m'avait sûrement entendue.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
