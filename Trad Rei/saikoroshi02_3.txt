@@ -1014,13 +1014,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020102", 128, TRUE);
 	OutputLine(NULL, "「きっとそうして作った世界は、梨花ちゃんの元の世界に限りなく近い世界になると思うの。",
-		   NULL, "\"Et je pense que, de cette manière, on pourra recréer un monde vraiment proche du tien, Rika.", Line_WaitForInput);
+		   NULL, "\"Et je pense que, de cette manière, on pourra recréer un monde vraiment semblable au tien, Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020103", 128, TRUE);
 	OutputLine(NULL, "…もちろんまったく同じにはならない。",
 		   NULL, " ...Bien sûr, ce ne sera pas exactement pareil.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020104", 128, TRUE);
 	OutputLine(NULL, "でもね、それが一番、元の世界に近付ける方法だと思うな。」",
-		   NULL, " Mais c'est ce qu'on peut avoir de plus proche.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mais c'est tout ce qu'on peut avoir de plus proche.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1030,7 +1030,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030069", 128, TRUE);
 	OutputLine(NULL, "「そうすることでさ。",
-		   NULL, "\"Et de cette manière...", Line_WaitForInput);
+		   NULL, "\"Et comme ça...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030070", 128, TRUE);
 	OutputLine(NULL, "前よりも素敵な関係を築けるってことはあるよね。",
 		   NULL, " tu pourras tisser des liens encore plus forts qu'avant.", Line_WaitForInput);
@@ -1052,7 +1052,7 @@ void main()
 		   NULL, " Rika ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210047", 128, TRUE);
 	OutputLine(NULL, "僕たちも梨花ちゃんがみんなに早く馴染めるよう応援する。",
-		   NULL, " On sera là pour t'aider à te faire de nouveaux amis rapidement", Line_WaitForInput);
+		   NULL, " On sera là pour t'aider à te faire de nouveaux amis rapidement.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210048", 128, TRUE);
 	OutputLine(NULL, "だから、僕たちと一緒にがんばってみないかな。」",
 		   NULL, " Alors, ça te dirait d'essayer ?\"", GetGlobalFlag(GLinemodeSp));
@@ -1201,7 +1201,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　それは、礼奈が言うように、元の世界とは違うかもしれないけれど、…元の世界に一番近付ける方法。",
-		   NULL, "Like Reina said, it might be a different world than my old one... but it was the closest I could ever get.", Line_Normal);
+		   NULL, "Et puis, comme l'a dit Reina, ce ne sera pas exactement pareil... mais c'était tout ce qu'on pouvait avoir de plus proche.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
