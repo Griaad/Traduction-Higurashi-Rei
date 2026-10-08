@@ -1206,21 +1206,21 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　元の世界とは少し違うかもしれないけど、部活が結成される。",
-		   NULL, "It might be a little different from my old world, but the club would still form.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Même s'il sera légèrement différent de l'ancien, un club sera créé.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　クラスメートは半分で、圭一がいない代わりに悟史がいる。",
-		   NULL, "In exchange for Keiichi and half our classmates, Satoshi was here.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "En échange de Keiichi et de la moitié de la classe, on récupérait Satoshi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　沙都子は親友ではないけれど、これからの付き合い方次第では、そこまで至らなくとも友達の関係には戻れるかもしれない。",
-		   NULL, "I wasn't best friends with Satoko, but depending on how we interacted in the future, we could at least become regular friends.", Line_Normal);
+		   NULL, "Satoko n'était plus ma meilleure amie, mais notre relation pourrait au moins évoluer en une simple amitié.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
