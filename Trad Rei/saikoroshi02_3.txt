@@ -1225,7 +1225,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　雛見沢はあと半年で沈むそうだけど、…新しい引越し先で、また新しい友達を作る努力をできるだろう。",
-		   NULL, "Hinamizawa would sink underwater in another six months... but I could work hard to make new friends in my new home.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Hinamizawa disparaîtra sous les eaux dans un peu moins de six mois... après ça, avec un peu d'effort, je pourrais me faire de nouveaux amis là où j'aurai emménagé.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1237,7 +1237,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　「私」だけが、特例でその運命をひょいひょいと乗り換えて贅沢を言っている…。",
-		   NULL, "Only \"I\" had the luxury of being a special case and jumping between destinies at a whim...", Line_Normal);
+		   NULL, "Seul \"moi\" avait le luxe de pouvoir changer mon destin comme bon me semblait....", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/down", 0, 0, 500 );
@@ -1245,15 +1245,15 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　………「私」は、",
-		   NULL, "......\"I\"...", Line_Continue);
+		   NULL, "......\"Je\"...", Line_Continue);
 	Wait( 800 );
 	OutputLine(NULL, "…わからない。",
-		   NULL, " didn't know.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ne sais pas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　どちらの世界に、精一杯になるべきなのか……。",
-		   NULL, "Which world should I devote myself to...?", Line_Normal);
+		   NULL, "Quel monde choisir...?", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 50 );
