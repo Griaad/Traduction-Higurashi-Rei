@@ -1409,10 +1409,10 @@ void main()
 		   NULL, "\"Hein ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030073", 128, TRUE);
 	OutputLine(NULL, "　何を乙女チックなことをー。",
-		   NULL, " What's with that Filletteish response all of a sudden?", Line_WaitForInput);
+		   NULL, " C'est quoi cette réponse de chochotte ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030074", 128, TRUE);
 	OutputLine(NULL, "別に悟史があんたにコクったわけでもないでしょうがぁ。」",
-		   NULL, " It's not like Satoshi just asked you out on a date or anything.\"", Line_Normal);
+		   NULL, " Ce n'est pas comme si Satoshi t'avait fait une demande en mariage, hein.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1423,39 +1423,39 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020105", 128, TRUE);
 	OutputLine(NULL, "「魅ぃちゃん、余計なことは言わないの。",
-		   NULL, "\"Mii-chan, that wasn't necessary.", Line_WaitForInput);
+		   NULL, "\"Ne dis pas de bêtise Mii.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020106", 128, TRUE);
 	OutputLine(NULL, "…私は梨花ちゃんの気持ち、ちょっぴりだけわかるよ。",
-		   NULL, " ...I can understand how she feels, just a little.", Line_WaitForInput);
+		   NULL, " ...Moi, je comprends un peu ce qu'elle ressent.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020107", 128, TRUE);
 	OutputLine(NULL, "だから梨花ちゃんが心の整理を付けるの、待ってるからね。」",
-		   NULL, " So we'll wait for you to prepare your feelings, Rika-chan.\"", Line_Normal);
+		   NULL, " Laissons-la un peu de temps pour mettre de l’ordre dans ses émotions.\"", Line_Normal);
 	ClearMessage();
 	//;＜レナ
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050400", 128, TRUE);
 	OutputLine(NULL, "「……ありがとうです。",
-		   NULL, "\"...Thank you.", Line_WaitForInput);
+		   NULL, "\"...Merci beaucoup.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050401", 128, TRUE);
 	OutputLine(NULL, "………もし、",
-		   NULL, " ......If...", Line_Continue);
+		   NULL, " ......Si...", Line_Continue);
 	OutputLine(NULL, "…お願いする時はどうか、",
-		   NULL, " If I do accept...", Line_Continue);
+		   NULL, " Si jamais j'accepte...", Line_Continue);
 	OutputLine(NULL, "…この古手梨花を、みんなの仲間に加えてやってくださいです…。」",
-		   NULL, " then please, let this Rika Furude be one of your friends...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " alors je vous en prie, laissez cette Rika Furude devenir votre amie...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　申し訳なく頭を下げる…。",
-		   NULL, "I bowed apologetically...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je fis une courbette en signe d'excuse...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それが今この場でできる私の精一杯だった…。",
-		   NULL, "Here and now, that was the most I could do...", Line_Normal);
+		   NULL, "À ce moment précis, je ne pouvais rien faire de plus...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
