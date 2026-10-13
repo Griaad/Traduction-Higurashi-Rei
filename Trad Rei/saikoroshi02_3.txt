@@ -1648,10 +1648,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220015", 128, TRUE);
 	OutputLine(NULL, "「お母さんと一緒に、今日はカレーを作りましょうね。",
-		   NULL, "\"Come over here and help me make dinner. We're having curry today.", Line_WaitForInput);
+		   NULL, "\"Cuisinons le repas ensemble. Ce sera du curry au menu pour ce soir ! ", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220016", 128, TRUE);
 	OutputLine(NULL, "立派なのを作って、お父さんを驚かせちゃおう。」",
-		   NULL, " Let's make something wonderful and surprise your father with it.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " On surprendra ton père avec un plat dont il nous dira des nouvelles.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	SetSpeedOfMessage( TRUE, 128 );
