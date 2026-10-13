@@ -1248,12 +1248,12 @@ void main()
 		   NULL, "......\"Je\"...", Line_Continue);
 	Wait( 800 );
 	OutputLine(NULL, "…わからない。",
-		   NULL, " ne sais pas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ne sais pas quoi faire.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　どちらの世界に、精一杯になるべきなのか……。",
-		   NULL, "Quel monde choisir...?", Line_Normal);
+		   NULL, "Quel monde je devais choisir...?", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 50 );
@@ -1264,95 +1264,95 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　礼奈の言葉が蘇る。",
-		   NULL, "Reina's words came back to me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Les mots de Reina me revinrent en tête.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　割れたコップは二度と元通りにならない。",
-		   NULL, "A broken cup never went back to normal.", Line_WaitForInput);
+		   NULL, "Un verre brisé ne pourra jamais être remis en état.", Line_WaitForInput);
 	OutputLine(NULL, "そしてそれを悔やんでいる間は新しいコップを見つけることなどできないと。",
-		   NULL, " And I couldn't find another one as long as I was lamenting the first.", Line_Normal);
+		   NULL, " Et que je ne pourrais jamais trouver d'autre verre si je me lamentais sur celui que j'avais cassé.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……コップとは何の例えだろう。",
-		   NULL, "......What did the cup represent?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Il représentait quoi, ce verre ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…コップは水を満たすためにある。",
-		   NULL, "...Cups were for filling with water.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...En règle générale, un verre, c'est fait pour contenir de l'eau.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　多分、その水は幸せと呼ばれるものだろう。",
-		   NULL, "The water could probably be called happiness.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Cette eau-là portait sans doute le nom de bonheur.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　コップが砕けて、中身の幸せが飛び散って。",
-		   NULL, "The cup broke, and the happiness inside was scattered everywhere.", Line_WaitForInput);
+		   NULL, "Le verre a volé en éclats, laissant s'échapper tout le bonheur qu'il contenait.", Line_WaitForInput);
 	OutputLine(NULL, "……コップが壊れたのだから、もう二度と幸せを溜めることができず途方に暮れる…。",
-		   NULL, " ...The cup was broken, and I was at a loss, unable to fill it with happiness again...", Line_Normal);
+		   NULL, " ...Le verre était brisé et, malgré toute ma bonne volonté, je ne pouvais plus le remplir de bonheur une nouvelle fois...", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 600 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、いつまでも壊れたコップに執着せず、新しいコップに新しい幸せを満たそうと心を入れ替えられるなら、",
-		   NULL, "But if I could change the way I thought, and rather than be attached to the broken cup forever, fill a new cup with new happiness...", Line_WaitForInput);
+		   NULL, "Mais si je changeais ma façon de penser et que, au lieu de rester attaché à un verre cassé, j'allais en remplir un autre avec un nouveau bonheur...", Line_WaitForInput);
 	OutputLine(NULL, "……新しい世界が開けるかもしれないのだ。",
-		   NULL, " it could open the door to a new world.", Line_Normal);
+		   NULL, " La porte d'un nouveau monde pourrait bien s'ouvrir.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、その世界は似つつも元の世界とは異なる。",
-		   NULL, "Still, while that world might be similar, it wouldn't be the same.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ce monde, bien que similaire, ne sera pas exactement le même.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…これは、元の世界へ戻るための鍵探しがあまりに困難で、…挫折してしまいたい弱い心が唆す誘惑ではないのか。",
-		   NULL, "...My heart had weakened, and I'd been discouraged... Wasn't this only so tempting because my search for the key to go back was so difficult?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "..Mon cœur s'était affaibli et ma motivation, par la même occasion.... Peut-être que cette solution était aussi séduisante, car ma recherche du fragment s'était révélée plus difficile que prévu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　かつて私は、元の世界に戻るためにはどんな努力でもすると誓ったのではないか。",
-		   NULL, "Before, didn't I swear I'd put in any effort I needed to return to my old world?", Line_Normal);
+		   NULL, "Ce n'était pas moi qui avais juré de tout faire pour retourner dans mon ancien monde ?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分がその誓いを破れば、私に運命を賭けている羽入は、永遠にひとりぼっちとなって取り残され、…私だけがひとり、勝手に幸せになる。",
-		   NULL, "If I broke that oath, Hanyû, gambling on my fate, would be left behind for all eternity, all alone... and I'd be the only one so selfishly happy.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Briser ce serment signifierait abandonner Hanyu... Elle, qui avait misé son destin sur moi, se retrouverait seule pour l'éternité, tandis que je profiterais d'un bonheur égoïste.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……羽入を幸せにしなくちゃならない義務なんてないけど、",
-		   NULL, "...While I didn't have any responsibility to make Hanyû happy......", Line_WaitForInput);
+		   NULL, "...Bien sûr, je n'avais aucune obligation de rendre Hanyu heureuse.......", Line_WaitForInput);
 	OutputLine(NULL, "………でも、羽入とは百年を連れ添った友人で相棒で、",
-		   NULL, " she was my ally and partner who stuck with me for a hundred years...", Line_ContinueAfterTyping);
+		   NULL, " mais elle était une alliée et une partenaire avec qui j'avais partagé un siècle de ma vie...", Line_ContinueAfterTyping);
 	Wait( 1000 );
 	OutputLine(NULL, "…仲間だった。",
-		   NULL, " and my friend.", Line_Normal);
+		   NULL, " Et surtout, mon amie.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、……その誘惑を選ぶにしても、羽入の許可が要る。",
-		   NULL, "So... even if I wanted to give in to temptation, I'd have to ask Hanyû.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "C'est pourquoi... quoi que je choisisse, je devais d'abord demander à Hanyū.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり…、今の「私」には、彼らの申し出を即答する資格はなかった。",
-		   NULL, "Which meant... right now, \"I\" had no right to answer their proposal.", Line_Normal);
+		   NULL, "Ce qui veut dire qu'en l'état, \"je\" n'avais pas le droit de répondre à leur proposition.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "bg/gk1", 1000 );
@@ -1360,13 +1360,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050396", 128, TRUE);
 	OutputLine(NULL, "「……本当に、",
-		   NULL, "\"...Really......", Line_Continue);
+		   NULL, "\"...De tout mon coeur......", Line_Continue);
 	Wait( 2100 );
 	OutputLine(NULL, "………ありがとうです。",
-		   NULL, " thank you.", Line_WaitForInput);
+		   NULL, " merci.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050397", 128, TRUE);
 	OutputLine(NULL, "……とてもうれしく思いますのです…。」",
-		   NULL, " ...I'm very happy...\"", Line_Normal);
+		   NULL, " ...Votre gentilesse me touche beaucoup...\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1376,28 +1376,28 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210049", 128, TRUE);
 	OutputLine(NULL, "「大丈夫。",
-		   NULL, "\"It's all right.", Line_WaitForInput);
+		   NULL, "\"Tout ira bien.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210050", 128, TRUE);
 	OutputLine(NULL, "僕たちがきっと守ってあげるから。",
-		   NULL, " We'll protect you.", Line_WaitForInput);
+		   NULL, " On assurera tes arrières.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210051", 128, TRUE);
 	OutputLine(NULL, "だから、この学校が廃校になっちゃうまでの時間、いっぱい楽しい思い出作りをしようよ。」",
-		   NULL, " So let's make lots of good memories before we have to leave.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Alors, profitons du peu de temps qu'il nous reste pour nous créer le plus de souvenirs possible.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;＜悟史
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050398", 128, TRUE);
 	OutputLine(NULL, "「いえ、",
-		   NULL, "\"No, I...", Line_Continue);
+		   NULL, "\"Non, je...", Line_Continue);
 	Wait( 2500 );
 	OutputLine(NULL, "……あの、",
-		   NULL, " well...", Line_Continue);
+		   NULL, " comment dire...", Line_Continue);
 	OutputLine(NULL, "……。",
 		   NULL, " ...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050399", 128, TRUE);
 	OutputLine(NULL, "………少しだけ、心の整理をしたいのです。」",
-		   NULL, " ...Could you give me time to prepare my feelings?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...J'ai besoin d'un peu de temps pour remettre mes idées en place.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1406,7 +1406,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030072", 128, TRUE);
 	OutputLine(NULL, "「はぁー？",
-		   NULL, "\"Qwaa ?", Line_WaitForInput);
+		   NULL, "\"Hein ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030073", 128, TRUE);
 	OutputLine(NULL, "　何を乙女チックなことをー。",
 		   NULL, " What's with that Filletteish response all of a sudden?", Line_WaitForInput);
