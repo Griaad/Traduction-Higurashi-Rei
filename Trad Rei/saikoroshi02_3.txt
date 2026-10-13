@@ -305,7 +305,7 @@ void main()
 		   NULL, " Si seulement Shion était là ! Il n'y avait qu'elle qui savait lire ce genre de truc.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s15/03/ds42030048", 128, TRUE);
 	OutputLine(NULL, "…詩音に聞けば早いけど、学園行っちゃったからなぁ。」",
-		   NULL, " ...J'pourrais lui demander, mais elle étudie bien trop loin d'ici maintenant.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...J'pourrais lui demander, mais elle étudie trop loin d'ici maintenant.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -366,7 +366,7 @@ void main()
 		   NULL, "\"Tout le monde dans la classe pourra participer.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 7, "ps3/s15/07/ds42210029", 128, TRUE);
 	OutputLine(NULL, "そこでみんなで遊んでいる内に、きっと梨花ちゃんもいつの間にかみんなの輪に溶け込んでると思うんだ。」",
-		   NULL, " Je suis sûr que, sans même que tu t'en rendes compte, tu t'intégreras au reste de la classe pendant que tu joueras.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Je suis sûr que, sans même que tu t'en rendes compte, tu t'intégreras au reste de la classe entre deux parties.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -862,13 +862,13 @@ void main()
 	OutputLine(NULL, "…お手洗いに行く時、保健室で山本先生としてる話、",
 		   NULL, " En allant nous laver les mains aux toilettes, nous sommes passés devant l'infirmerie pendant que tu y étais et...", Line_Continue);
 	OutputLine(NULL, "……ちょっとだけ聞いちゃったの。」",
-		   NULL, " on a quelque peu écouté votre conversation.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " on a quelque peu écouté ta conversation avec le docteur Yamamoto.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;＜レナ
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　礼奈が申し訳なさそうな表情を浮かべる。",
-		   NULL, "Reina me regarda avec un air désolé.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Reina me regarda d'un air désolé.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -988,7 +988,7 @@ void main()
 		   NULL, " C'est dommage qu'il soit cassé, c'est vrai, mais il te suffit d'en chercher un autre.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s15/02/ds42020101", 128, TRUE);
 	OutputLine(NULL, "でも、砕けたコップのカケラを見つめてうな垂れている内はゼッタイに見つけられない。」",
-		   NULL, " Si tu te lamentes sur le verre brisé toute ta vie, tu ne pourras jamais en trouver d'autres.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Si tu te lamentes sur le verre brisé toute ta vie, tu ne pourras jamais en trouver d'autres tout neufs.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1509,7 +1509,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なら、もう一度ぶつかることで、「私」が消え、この世界に生きる純粋な古手梨花に戻ってくれないだろうか…。",
-		   NULL, "Alors, si je me faisais toucher à nouveau, peut-être que \"Moi\" disparaîtrait et que la vraie Rika Furude regagnerait son corps...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Alors, si je me faisais toucher à nouveau, peut-être que \"je\" disparaîtrais et que la vraie Rika Furude regagnerait son corps...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1618,31 +1618,31 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　行ってみると、まだそんな時間でもないだろうに母は夕食の支度を始めていた。",
-		   NULL, "When I entered, my mother had already started on dinner, despite it being so early.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "À mon arrivée, je vis ma mère se mettre à préparer le dîner. D'habitude, elle commençait à cuisiner bien plus tard, il était encore tôt.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何かいいことでもあったのだろうか、母は上機嫌だった。",
-		   NULL, "She was in a good mood; I wonder if something nice happened.", Line_Normal);
+		   NULL, "Elle était de bonne humeur. Peut-être qu'elle avait reçu une bonne nouvelle ?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…例年のこの時期は、綿流しが近付き、色々な準備や手配で気が短くなっていることが多い。",
-		   NULL, "...Every year at this time, with the Watanagashi Festival approaching, she usually got more and more impatient with all the preparations and setup.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Normalement, chaque année à cette période, elle était à bout de nerfs à cause des préparatifs pour la fête de la purification du coton.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを知り尽くしているだけに、母の上機嫌の原因がわからず困惑した。",
-		   NULL, "Knowing all that, my mother's good mood baffled and confused me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sachant cela, sa bonne humeur ne pouvait que me laisser perplexe.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何の用かと尋ねる。",
-		   NULL, "I asked if she needed something.", Line_WaitForInput);
+		   NULL, "Je lui demandais si elle avait besoin d'un coup de main.", Line_WaitForInput);
 	OutputLine(NULL, "すると、百年の間でも一度も聞いたことがない提案をした。",
-		   NULL, " When I did, she suggested something I'd never heard even once in these hundred years.", Line_Normal);
+		   NULL, " À ma demande, elle me fit une suggestion que je n'avais jamais entendue de toute mon existence centenaire.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
