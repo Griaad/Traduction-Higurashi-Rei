@@ -1174,7 +1174,7 @@ void main()
 	OutputLine(NULL, "いい傾向かもしれない。",
 		   NULL, " C'est peut-être mieux ainsi.", Line_WaitForInput);
 	OutputLine(NULL, "舐められるよりは、適当に怖がられてた方が気楽でいい。",
-		   NULL, " Je préfère être vue comme un tyran plutôt que comme une cible.", Line_Normal);
+		   NULL, " Je préfère être vue comme un tyran plutôt que comme un souffre-douleur.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/right", 0, 0, 500 );
@@ -2443,7 +2443,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　猫の手も借りたい私にとって、とてもうれしいことだった。",
-		   NULL, "J'aurais même accepté l'aide d'un chat au point où j'en suis.", Line_Normal);
+		   NULL, "J'aurais même accepté l'aide d'un chat au point où j'en étais.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
