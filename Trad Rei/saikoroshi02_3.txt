@@ -1658,10 +1658,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050403", 128, TRUE);
 	OutputLine(NULL, "「………………ぇ、",
-		   NULL, "\"..................I...", Line_Continue);
+		   NULL, "\".................Qu...", Line_Continue);
 	Wait( 2600 );
 	OutputLine(NULL, "…………ぅん。」",
-		   NULL, " ......uh-huh.\"", Line_Continue);
+		   NULL, " .......Quoi ?\"", Line_Continue);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
 
@@ -1669,18 +1669,18 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　カレーはそれほど好きではない。",
-		   NULL, "I didn't like curry that much.", Line_WaitForInput);
+		   NULL, "Je n'étais pas une grande fan de curry.", Line_WaitForInput);
 	OutputLine(NULL, "……でも、",
-		   NULL, " ...But,", Line_ContinueAfterTyping);
+		   NULL, " ...Enfin,", Line_ContinueAfterTyping);
 	Wait( 400 );
 	OutputLine(NULL, "百年前の自分、",
-		   NULL, " before these hundred years...", Line_ContinueAfterTyping);
+		   NULL, " peut-être qu'il y a cent ans de cela..", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "…つまり、「私」じゃなくて古手梨花は、",
-		   NULL, " meaning not \"me,\" but Rika Furude...", Line_ContinueAfterTyping);
+		   NULL, " donc pas \"moi,\" mais Rika Furude...", Line_ContinueAfterTyping);
 	Wait( 700 );
 	OutputLine(NULL, "…好きだった気がする。",
-		   NULL, " I think she might have liked it.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " en était une grande adepte.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
