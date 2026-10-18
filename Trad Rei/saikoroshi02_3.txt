@@ -1687,14 +1687,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、今の「私」にではなく、古手梨花にカレーを作ろうと告げる母が、娘を喜ばせたくてそう言っていることだけは理解できた。",
-		   NULL, "I knew, at least, that my mother was trying to make her daughter happy in suggesting she and Rika Furude, not \"I,\" make dinner together.", Line_Normal);
+		   NULL, "En me demandant de cuisiner du curry avec elle, ma mère essayait de faire plaisir à sa fille, Rika Furude, et non à \"moi\".", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/down", 0, 0, 500 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……私は、母があまり好きではない。",
-		   NULL, "...I didn't like my mother that much.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Je n'avais pas une grande affection pour ma mère.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
