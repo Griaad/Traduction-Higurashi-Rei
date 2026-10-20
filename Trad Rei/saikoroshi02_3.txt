@@ -1699,19 +1699,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ヒステリックで、人を追い詰めるような言い方をするのが嫌いだった。",
-		   NULL, "She was prone to hysterics, and I hated how she always sounded like she was hunting you down when she talked.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "En plus de son tempérament hystérique, elle donnait la fâcheuse impression de vouloir te mettre au pied du mur à chaque discussion.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だからこう、やさしく接されたら無理に嫌う理由もなくなってしまう。",
-		   NULL, "...When she treated me so nicely, my reason for disliking her felt irrational.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Mais lorsqu'elle se montrait aimable avec moi, comme c'est le cas aujourd'hui, mes raisons de la détester semblaient absurdes.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は、母の心変わりの理由が何なのか探りながら、とりあえず機嫌を損ねぬよう調子を合わせることにする。",
-		   NULL, "Wondering why my mother had had a change of heart, I decided to go along with it so as not to hurt her feelings.", Line_Normal);
+		   NULL, "Pour éviter de la froisser, je me prêtais à son jeu tout en m'interrogeant sur les raisons de ce changement de comportement.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "bg/hu_kittin", "effect/up", 0, 0, 500 );
@@ -1719,31 +1719,31 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220017", 128, TRUE);
 	OutputLine(NULL, "「じゃあ、ジャガイモの皮を剥きましょうか。",
-		   NULL, "\"Then you can peel the potatoes.", Line_WaitForInput);
+		   NULL, "\"Tu te charges d'éplucher les pommes de terre, d'accord ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220018", 128, TRUE);
 	OutputLine(NULL, "…包丁でできる？",
-		   NULL, " ...Can you do it with a knife?", Line_WaitForInput);
+		   NULL, " ...Tu sais te servir d'un couteau ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220019", 128, TRUE);
 	OutputLine(NULL, "　危ないから皮剥き器を使いなさい。」",
-		   NULL, " Actually, that's dangerous, so use the peeler instead.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Quoique, c'est peut-être trop dangereux, utilises un éplucheur à la place.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050404", 128, TRUE);
 	OutputLine(NULL, "「…うん。」",
-		   NULL, "\"...Okay.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...D'accord.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本当は包丁でできる。",
-		   NULL, "I was actually rather good with a knife.", Line_WaitForInput);
+		   NULL, "En réalité, je savais manier le couteau comme personne.", Line_WaitForInput);
 	OutputLine(NULL, "大根をかつら剥きにして長い帯が作れるくらいには使いこなせる。",
-		   NULL, " I was so good that when I peeled daikon radishes, I could make a long strip of skin at the same time I sliced them.", Line_Normal);
+		   NULL, " J'avais une telle dextérité que je pouvais, d'un même geste, éplucher le radis blanc en longs rubans continus tout en le coupant en tranches.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…でも、娘が母より包丁を自在に扱えることを示して、母の面目を潰すことはない。",
-		   NULL, "...But there was no reason to damage my mother's pride by showing that her daughter could use knives better than her.", Line_WaitForInput);
+		   NULL, "...Mais je n'avais aucune raison d'abîmer l'amour-propre de ma mère en lui montrant ma maîtrise du couteau.", Line_WaitForInput);
 	OutputLine(NULL, "…ここは母の顔を立てることにする。",
 		   NULL, " ...I decided to make her look good for now.", Line_Normal);
 	ClearMessage();
