@@ -1745,23 +1745,23 @@ void main()
 	OutputLine(NULL, "　…でも、娘が母より包丁を自在に扱えることを示して、母の面目を潰すことはない。",
 		   NULL, "...Mais je n'avais aucune raison d'abîmer l'amour-propre de ma mère en lui montrant ma maîtrise du couteau.", Line_WaitForInput);
 	OutputLine(NULL, "…ここは母の顔を立てることにする。",
-		   NULL, " ...I decided to make her look good for now.", Line_Normal);
+		   NULL, " ...Je décidai de préserver sa dignité pour le moment.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　母は包丁を使い始めてせいぜい十数年だろうが、…私は包丁を使って数十年だ。",
-		   NULL, "My mother had probably been using knives for a decade now... but I'd been using them for many decades.", Line_WaitForInput);
+		   NULL, "Ça devait faire quoi, dix ans tout au plus qu'elle cuisinait avec des couteaux, alors que moi, ça faisait plusieurs dizaines d'années.", Line_WaitForInput);
 	OutputLine(NULL, "十と数が逆になったら全然違う。",
-		   NULL, " There was an order of magnitude's difference between us.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " La différence d'années de pratique était trop grande, nous ne jouions pas dans la même cour. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だからこそ、母より包丁をうまく使えることが誇らしくて。",
-		   NULL, "So I wanted to be proud of using a knife better than my mother.", Line_WaitForInput);
+		   NULL, "C'était justement pour cette raison que j'étais si fière de savoir mieux manier le couteau que ma mère.", Line_WaitForInput);
 	OutputLine(NULL, "母に自慢したくて。",
-		   NULL, " I wanted to brag about it.", Line_WaitForInput);
+		   NULL, " J'avais envie de m'en vanter.", Line_WaitForInput);
 	OutputLine(NULL, "…娘に包丁の使い方を教えたいという、母の気持ちを踏みにじってしまったのかもしれない。",
 		   NULL, " ...But that might have trampled over her feelings, her want to teach her daughter how to use a knife.", Line_Normal);
 	ClearMessage();
@@ -1773,7 +1773,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………子より親の方が長く生きていることになっている。",
-		   NULL, "......Parents are supposed to live longer than their children.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Les parents sont supposés vivre plus longtemps que leur enfant.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1783,19 +1783,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、…私のような魔女の場合、親より子の方が長く生きてしまい、多くを学んでしまうこともある。",
-		   NULL, "But... witches like me live longer than their parents and learn many more things.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sauf que... une sorcière comme moi vit plus longtemps que ses parents, apprenant de facto plus de chose qu'eux.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…でも、多分、私は本当に学ぶべきことを学ばなかったと思うのだ。",
-		   NULL, "...Still, I think I probably never learned what I really needed to.", Line_Normal);
+		   NULL, "...Mais, j'ai l'impression de ne pas avoir appris les bonnes choses.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だって、…こうして素直に母の言うことを聞いている分には、母は全然ヒステリックにならないのだから。",
-		   NULL, "I mean... As long as I genuinely listened to my mother, she'd never get hysterical.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je veux dire... Si j'obéissais sagement à ma mère, elle ne piquerait jamais de crise d'hystérie.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1809,7 +1809,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……最後に残ったのは、冷め切った気持ち悪い親子関係だけだった。",
-		   NULL, "...In the end, all that was left was a cold, uncomfortable relationship between parent and child.", Line_Normal);
+		   NULL, "...Au bout du compte, cela n'a engendré qu'une relation mère-fille froide et conflictuelle.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
