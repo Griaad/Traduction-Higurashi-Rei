@@ -1821,9 +1821,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…つまり、母は古手梨花の母だということだ。",
-		   NULL, "...Basically, she was Rika Furude's mother.", Line_WaitForInput);
+		   NULL, "...Quoi qu'il arrive, elle était la mère de Rika Furude.", Line_WaitForInput);
 	OutputLine(NULL, "百年を生きた魔女の母ではない。",
-		   NULL, " Not the mother of the witch who'd lived for a hundred years.", Line_WaitForInput);
+		   NULL, " Non celle d'une sorcière centenaire.", Line_WaitForInput);
 	OutputLine(NULL, "「私」に冷たいのは、考えれば当然のことだったのだ。",
 		   NULL, " Thinking about it made it seem obvious she'd be cold to \"me.\"", Line_Normal);
 	ClearMessage();
@@ -1840,22 +1840,22 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050405", 128, TRUE);
 	OutputLine(NULL, "「うん。",
-		   NULL, "\"Okay.", Line_WaitForInput);
+		   NULL, "\"D'accord.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050406", 128, TRUE);
 	OutputLine(NULL, "…………玉ねぎはいつ入れるの…？」",
-		   NULL, " ......When do we put in the onions...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ......C'est quand qu'on ajoute les onions...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mère de Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220021", 128, TRUE);
 	OutputLine(NULL, "「玉ねぎは煮過ぎると溶けちゃうから最後でいいのよ。",
-		   NULL, "\"The onions will melt if we cook them too long, so we can leave them for last.", Line_WaitForInput);
+		   NULL, "\"Il vaut mieux mettre les oignons à la fin, ils risquent de fondre si on les cuit trop longtemps.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220022", 128, TRUE);
 	OutputLine(NULL, "梨花ががんばって切った玉ねぎだもんね。",
-		   NULL, " You worked so hard on cutting the onions, too.", Line_WaitForInput);
+		   NULL, " C'est quand même l'oignon que t'as coupé avec amour.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s15/00/ds42220023", 128, TRUE);
 	OutputLine(NULL, "きっとおいしくなるわよ。」",
-		   NULL, " I'm sure they'll taste delicious.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Je suis sûre qu'il sera délicieux.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -1864,17 +1864,17 @@ void main()
 		   NULL, "\".....................", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050408", 128, TRUE);
 	OutputLine(NULL, "……うん。」",
-		   NULL, " ...Okay.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...D'accord.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　母はとてもうれしそうに微笑む。",
-		   NULL, "My mother smiled. She seemed very happy.", Line_Normal);
+		   NULL, "Ma mère sourit jusqu'aux oreilles. Elle semblait aux anges.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その微笑は、……とても温かなもの。",
-		   NULL, "Her smile... was warm.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Son sourire... était chaleureux.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1884,9 +1884,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…両親は必ず昭和５６年に死ぬ。",
-		   NULL, "...My parents had to die in 1981.", Line_WaitForInput);
+		   NULL, "...Mes parents devaient mourir en 1981.", Line_WaitForInput);
 	OutputLine(NULL, "その運命はどうせ覆せない。",
-		   NULL, " That fate was unchangeable.", Line_WaitForInput);
+		   NULL, " Leur mort était inéluctable.", Line_WaitForInput);
 	OutputLine(NULL, "それに元々反りが合わないなら、いなくなってもどうでもいいや…。",
 		   NULL, " And besides, we could never get along in the first place, so it didn't matter if they died...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
